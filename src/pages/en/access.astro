@@ -1,0 +1,73 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+
+const lang = 'en';
+---
+
+<Layout title="Access | Osaka University Lab" lang={lang}>
+    <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PageHeader title="Access" subtitle="How to find our laboratory" />
+
+        <div class="space-y-8 text-gray-300">
+            <section>
+                <h2 class="text-xl font-bold text-white mb-2">Address</h2>
+                <p>
+                    Graduate School of Information Science and Technology,<br />
+                    Osaka University (Information Science and Technology)<br />
+                    A Building, 1-5 Yamadaoka, Suita, Osaka 565-0871, Japan<br />
+                    （〒565-0871 大阪府吹田市山田丘1-5 情報科学研究科 A棟）
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-white mb-2">By train</h2>
+                <p>
+                    The nearest major stations are listed below. From each station, follow local signs or take a short taxi/bus ride to the campus entrance.
+                </p>
+                <ul class="list-disc ml-6 mt-3 text-gray-400">
+                    <li>From Osaka / Umeda: take JR or Metro and transfer as needed.</li>
+                    <li>From Shin-Osaka: take the JR line and transfer at [transfer station].</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-white mb-2">By car</h2>
+                <p>
+                    Visitor parking is limited. If you plan to come by car, please contact us in advance for parking instructions. Campus security may restrict vehicle access on certain days.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-white mb-2">From the airport</h2>
+                <p>
+                    From Kansai International Airport (KIX), take the airport express to Osaka and transfer to local JR/metro lines toward the university. A taxi from major stations typically takes 15–30 minutes depending on traffic.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-white mb-2">Map & further details</h2>
+                <p class="text-gray-400">Below is a Google Map showing the Graduate School of Information Science and Technology (A Building). Use the map controls to zoom and get directions.</p>
+
+                <div class="mt-4" style="width:100%;height:420px;">
+                    <iframe
+                        width="100%"
+                        height="100%"
+                        frameborder="0"
+                        style="border:0"
+                        src="https://www.google.com/maps?q=〒565-0871+大阪府吹田市山田丘1-5+情報科学研究科+A棟&output=embed"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <p class="mt-4 text-sm text-gray-400">For step-by-step directions (station exits, campus gates), you may also refer to the neighbouring lab's access page: <a class="text-lab-accent underline" href="https://mc.net.ist.osaka-u.ac.jp/en/access/" target="_blank" rel="noopener">mc.net.ist.osaka-u.ac.jp — Access</a>.</p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-white mb-2">Contact</h2>
+                <p class="text-gray-400">For questions about visiting the lab, email: <a class="text-lab-accent underline" href="mailto:info@example.com">info@example.com</a></p>
+            </section>
+        </div>
+    </main>
+</Layout>
