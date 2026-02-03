@@ -1,0 +1,13 @@
+[
+  {
+    "id": "professor-tanaka",
+    "name_ja": "田中 太郎",
+    "name_en": "Taro Tanaka",
+    "role_ja": "教授",
+    "role_en": "Professor",
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/..."
+    }
+  }
+]

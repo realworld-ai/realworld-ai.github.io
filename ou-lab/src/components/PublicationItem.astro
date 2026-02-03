@@ -1,0 +1,28 @@
+---
+// src/components/PublicationItem.astro
+import type { Publication } from '../utils/bibtex';
+
+interface Props {
+    pub: Publication;
+}
+
+const { pub } = Astro.props;
+
+const authors = pub.author.map(a => `${a.given} ${a.family}`).join(', ');
+const year = pub.issued['date-parts'][0][0];
+---
+
+<div class="py-4 border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors rounded-lg px-4 -mx-4">
+    <div class="flex items-start justify-between gap-4">
+        <div>
+            <h4 class="text-lg font-medium text-white mb-1 leading-snug">{pub.title}</h4>
+            <p class="text-sm text-gray-400 mb-1">{authors}</p>
+            <p class="text-xs text-lab-accent italic">{pub.containerTitle} ({year})</p>
+        </div>
+        {pub.doi && (
+            <a href={`https://doi.org/${pub.doi}`} target="_blank" class="flex-shrink-0 text-xs border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors">
+                DOI
+            </a>
+        )}
+    </div>
+</div>

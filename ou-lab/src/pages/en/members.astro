@@ -1,0 +1,25 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import MemberCard from '../../components/MemberCard.astro';
+import membersData from '../../data/members.json';
+
+const lang = 'en';
+---
+
+<Layout title="Members | Osaka University Lab" lang={lang}>
+    <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PageHeader title="Members" subtitle="The team innovating the future." />
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {membersData.map(member => (
+                <MemberCard 
+                    name={member.name_en}
+                    role={member.role_en}
+                    image={member.image}
+                    links={member.links}
+                />
+            ))}
+        </div>
+    </main>
+</Layout>

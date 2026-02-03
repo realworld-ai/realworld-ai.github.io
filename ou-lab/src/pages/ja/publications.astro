@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import PublicationItem from '../../components/PublicationItem.astro';
+import { getPublications } from '../../utils/bibtex';
+
+const lang = 'ja';
+const publications = await getPublications();
+
+// Group by year
+const pubsByYear = publications.reduce((acc, pub) => {
+    const year = pub.issued['date-parts'][0][0];
+    if (!acc[year]) acc[year] = [];
+    acc[year].push(pub);
+    return acc;
+}, {} as Record<number, typeof publications>);
+
+const sortedYears = Object.keys(pubsByYear).map(Number).sort((a, b) => b - a);
+---
+
+<Layout title="業績リスト | Osaka University Lab" lang={lang}>
+    <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PageHeader title="Publications" subtitle="研究成果一覧" />
+        
+        <div class="space-y-12">
+            {sortedYears.map(year => (
+                <section>
+                    <h2 class="text-2xl font-bold text-white mb-6 border-b border-white/10 pb-2 flex items-center">
+                        <span class="text-lab-accent mr-2">#</span> {year}
+                    </h2>
+                    <div class="space-y-2">
+                        {pubsByYear[year].map(pub => (
+                            <PublicationItem pub={pub} />
+                        ))}
+                    </div>
+                </section>
+            ))}
+        </div>
+    </main>
+</Layout>
