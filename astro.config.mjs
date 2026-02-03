@@ -5,7 +5,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mc.net.ist.osaka-u.ac.jp', // Update this with your actual domain later
+  site: 'https://realworld-ai.github.io', // Update this with your actual domain later
   base: '/', 
   integrations: [
     react(), 
