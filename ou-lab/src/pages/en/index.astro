@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { ui } from '../../utils/ui';
+
+const lang = 'en';
+const t = ui[lang];
+---
+
+<Layout title="Home | Osaka University Lab" lang={lang}>
+	<main>
+        <!-- Hero Section -->
+        <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="max-w-3xl">
+                    <h1 class="text-5xl lg:text-7xl font-heading font-bold tracking-tight text-white mb-6 leading-tight">
+                        {t['hero.title']}
+                    </h1>
+                    <p class="text-xl text-gray-400 mb-10 max-w-2xl">
+                        {t['hero.subtitle']}
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href={`/${lang}/research`} class="px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all">
+                            {t['btn.learnMore']}
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Background Gradient -->
+            <div class="absolute top-0 right-0 -translate-y-12 translate-x-1/4 w-[600px] h-[600px] bg-lab-accent/20 rounded-full blur-[120px] pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 translate-y-12 -translate-x-1/4 w-[500px] h-[500px] bg-lab-secondary/20 rounded-full blur-[100px] pointer-events-none"></div>
+        </section>
+
+        <!-- Bento Grid Preview -->
+        <section class="py-20 bg-lab-bg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-heading font-bold mb-12 border-l-4 border-lab-accent pl-4">{t['news.latest']}</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[300px]">
+                    <!-- Large Card -->
+                    <div class="md:col-span-2 row-span-1 bg-lab-card rounded-2xl p-8 border border-white/5 hover:border-lab-accent/50 transition-colors group relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                        <div class="relative z-20 h-full flex flex-col justify-end">
+                            <span class="text-lab-accent font-mono text-sm mb-2">2024.04.01</span>
+                            <h3 class="text-2xl font-bold text-white group-hover:text-lab-accent transition-colors">Welcome Party for New Students</h3>
+                        </div>
+                    </div>
+
+                    <!-- Small Card -->
+                    <div class="bg-lab-card rounded-2xl p-8 border border-white/5 hover:border-lab-accent/50 transition-colors">
+                         <div class="h-full flex flex-col justify-between">
+                            <div class="w-12 h-12 bg-lab-secondary/20 rounded-lg flex items-center justify-center text-lab-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white mb-2">New Paper Accepted</h3>
+                                <p class="text-sm text-gray-400">ICRA 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</main>
+</Layout>

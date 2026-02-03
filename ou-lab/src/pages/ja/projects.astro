@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { getCollection } from 'astro:content';
+
+const lang = 'ja';
+const projects = await getCollection('projects', ({ id }) => {
+  return id.startsWith('ja/');
+});
+---
+
+<Layout title="プロジェクト | Osaka University Lab" lang={lang}>
+    <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PageHeader title="Projects" subtitle="進行中のプロジェクト" />
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projects.map(project => (
+                <div class="bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-lab-accent/40 transition-colors">
+                    {project.data.image && (
+                        <div class="h-48 overflow-hidden">
+                            <img src={project.data.image} alt={project.data.title} class="w-full h-full object-cover" />
+                        </div>
+                    )}
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class={`px-2 py-0.5 text-xs rounded border ${project.data.status === 'ongoing' ? 'border-green-500/50 text-green-400' : 'border-gray-500 text-gray-400'}`}>
+                                {project.data.status === 'ongoing' ? 'Ongoing' : 'Completed'}
+                            </span>
+                            {project.data.tags?.map(tag => (
+                                <span class="px-2 py-0.5 text-xs rounded bg-white/5 text-gray-300">
+                                    {tag}
+                                </span>
+                            ))}
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">{project.data.title}</h3>
+                        <p class="text-gray-400 text-sm">{project.body}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    </main>
+</Layout>
