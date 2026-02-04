@@ -3,23 +3,90 @@ import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../../components/PageHeader.astro';
 import MemberCard from '../../components/MemberCard.astro';
 import membersData from '../../data/members.json';
+import { Users, GraduationCap, History } from 'lucide-react';
+import alumniData from '../../data/alumni.json';
 
 const lang = 'ja';
+
+// Define Role Groups (Japanese)
+const facultyRoles = [
+    '教授', '招聘教授', '准教授', '講師', 
+    '特任助教', '特任研究員',
+    '技術補佐員', '事務補佐員'
+];
+
+const faculty = membersData.filter(m => facultyRoles.includes(m.role_ja));
+const students = membersData.filter(m => !facultyRoles.includes(m.role_ja));
 ---
 
 <Layout title="メンバー | Osaka University Lab" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title="Members" subtitle="共に未来を創るチームメンバー" />
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {membersData.map(member => (
-                <MemberCard 
-                    name={member.name_ja}
-                    role={member.role_ja}
-                    image={member.image}
-                    links={member.links}
-                />
-            ))}
-        </div>
+        {/* Faculty Section */}
+        <section class="mb-20">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <Users className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">教職員 (Faculty & Staff)</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {faculty.map(member => (
+                    <MemberCard 
+                        name={member.name_ja}
+                        role={member.role_ja}
+                        image={member.image}
+                        links={member.links}
+                    />
+                ))}
+            </div>
+        </section>
+
+        {/* Students Section */}
+        <section class="mb-24">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <GraduationCap className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">学生 (Students)</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {students.map(member => (
+                    <MemberCard 
+                        name={member.name_ja}
+                        role={member.role_ja}
+                        image={member.image}
+                        links={member.links}
+                    />
+                ))}
+            </div>
+        </section>
+
+        {/* Alumni & Visitors Section */}
+        <section class="mb-20">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <History className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">卒業生・来訪者 (Alumni & Visitors)</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-white/10 text-gray-400 text-sm">
+                            <th class="py-3 px-4 font-medium">年度</th>
+                            <th class="py-3 px-4 font-medium">氏名</th>
+                            <th class="py-3 px-4 font-medium">身分</th>
+                            <th class="py-3 px-4 font-medium">進路・所属</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        {alumniData.map((person) => (
+                            <tr class="border-b border-white/5 hover:bg-white/5 transition-colors">
+                                <td class="py-3 px-4">{person.year}</td>
+                                <td class="py-3 px-4 font-medium text-white">{person.name_ja}</td>
+                                <td class="py-3 px-4">{person.role_ja}</td>
+                                <td class="py-3 px-4 text-gray-400">{person.next_career || person.affiliation || '-'}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 </Layout>
