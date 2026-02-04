@@ -3,6 +3,7 @@ import '@fontsource/inter';
 import '@fontsource/space-grotesk';
 import '@fontsource/noto-sans-jp';
 import { languages, ui } from '../utils/ui';
+import { Navigation } from '../components/react/Navigation';
 
 interface Props {
 	title: string;
@@ -43,22 +44,8 @@ const navItems = [
                     <div class="flex-shrink-0 font-heading font-bold text-xl tracking-tighter">
                         <a href={`/${lang}`} class="text-white">OU<span class="text-lab-accent">LAB</span>.</a>
                     </div>
-                    <nav class="hidden md:block">
-                        <ul class="flex space-x-8">
-                            {navItems.map(item => (
-                                <li>
-                                    <a href={item.href} class="text-sm font-medium text-gray-300 hover:text-white transition-colors">
-                                        {item.label}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </nav>
-                    <div class="flex items-center space-x-4">
-                        <a href={lang === 'ja' ? '/en' : '/ja'} class="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors">
-                            {lang === 'ja' ? 'EN' : 'JP'}
-                        </a>
-                    </div>
+                    
+                    <Navigation client:load navItems={navItems} lang={lang} />
                 </div>
             </div>
         </header>
