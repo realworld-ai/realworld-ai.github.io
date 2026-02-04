@@ -3,23 +3,91 @@ import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../../components/PageHeader.astro';
 import MemberCard from '../../components/MemberCard.astro';
 import membersData from '../../data/members.json';
+import { Users, GraduationCap, History } from 'lucide-react';
+import alumniData from '../../data/alumni.json';
 
 const lang = 'en';
+
+// Define Role Groups
+const facultyRoles = [
+    'Professor', 'Invited Professor', 'Associate Professor', 'Lecturer', 
+    'Specially Appointed Assistant Professor', 'Specially Appointed Researcher',
+    'Technical Assistant', 'Administrative Assistant'
+];
+
+// Group Members
+const faculty = membersData.filter(m => facultyRoles.includes(m.role_en));
+const students = membersData.filter(m => !facultyRoles.includes(m.role_en));
 ---
 
 <Layout title="Members | Osaka University Lab" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <PageHeader title="Members" subtitle="The team innovating the future." />
+        <PageHeader title="Members" subtitle="Meet our team of researchers and students." />
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {membersData.map(member => (
-                <MemberCard 
-                    name={member.name_en}
-                    role={member.role_en}
-                    image={member.image}
-                    links={member.links}
-                />
-            ))}
-        </div>
+        {/* Faculty Section */}
+        <section class="mb-20">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <Users className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">Faculty & Staff</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {faculty.map(member => (
+                    <MemberCard 
+                        name={member.name_en}
+                        role={member.role_en}
+                        image={member.image}
+                        links={member.links}
+                    />
+                ))}
+            </div>
+        </section>
+
+        {/* Students Section */}
+        <section class="mb-24">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <GraduationCap className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">Students</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {students.map(member => (
+                    <MemberCard 
+                        name={member.name_en}
+                        role={member.role_en}
+                        image={member.image}
+                        links={member.links}
+                    />
+                ))}
+            </div>
+        </section>
+
+        {/* Alumni & Visitors Section */}
+        <section class="mb-20">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <History className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">Alumni & Visitors</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-white/10 text-gray-400 text-sm">
+                            <th class="py-3 px-4 font-medium">Year</th>
+                            <th class="py-3 px-4 font-medium">Name</th>
+                            <th class="py-3 px-4 font-medium">Role</th>
+                            <th class="py-3 px-4 font-medium">Next Career / Affiliation</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        {alumniData.map((person) => (
+                            <tr class="border-b border-white/5 hover:bg-white/5 transition-colors">
+                                <td class="py-3 px-4">{person.year}</td>
+                                <td class="py-3 px-4 font-medium text-white">{person.name_en}</td>
+                                <td class="py-3 px-4">{person.role_en}</td>
+                                <td class="py-3 px-4 text-gray-400">{person.next_career || person.affiliation || '-'}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 </Layout>

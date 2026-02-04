@@ -1,0 +1,26 @@
+[
+  {
+    "year": "2024",
+    "name_en": "Taro Yamada",
+    "name_ja": "山田 太郎",
+    "role_en": "Master",
+    "role_ja": "修士",
+    "next_career": "Tech Corp."
+  },
+  {
+    "year": "2024",
+    "name_en": "Hanako Suzuki",
+    "name_ja": "鈴木 花子",
+    "role_en": "Bachelor",
+    "role_ja": "学部",
+    "next_career": "Graduate School"
+  },
+  {
+    "year": "2023",
+    "name_en": "John Doe",
+    "name_ja": "ジョン ドゥ",
+    "role_en": "Visiting Researcher",
+    "role_ja": "客員研究員",
+    "affiliation": "University of X"
+  }
+]
