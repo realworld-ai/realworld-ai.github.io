@@ -1,101 +1,16 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../../components/PageHeader.astro';
-import PublicationItem from '../../components/PublicationItem.astro';
+import { PublicationList } from '../../components/react/PublicationList';
 import { getPublications } from '../../utils/bibtex';
 
 const lang = 'ja';
 const publications = await getPublications();
-
-// Group by year
-const pubsByYear = publications.reduce((acc, pub) => {
-    const year = pub.year;
-    if (!acc[year]) acc[year] = [];
-    acc[year].push(pub);
-    return acc;
-}, {} as Record<number, typeof publications>);
-
-const sortedYears = Object.keys(pubsByYear).map(Number).sort((a, b) => b - a);
 ---
 
 <Layout title="業績リスト | Osaka University Lab" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title="業績リスト" subtitle="研究成果一覧" />
-        
-        <div class="space-y-16">
-            {sortedYears.map(year => {
-                const yearPubs = pubsByYear[year];
-                const international = yearPubs.filter(p => p.category === 'International');
-                const domestic = yearPubs.filter(p => p.category === 'Domestic');
-                
-                const intJournals = international.filter(p => p.subCategory === 'Journal');
-                const intConfs = international.filter(p => p.subCategory === 'Conference');
-                const intOthers = international.filter(p => p.subCategory !== 'Journal' && p.subCategory !== 'Conference');
-
-                return (
-                <section>
-                    <h2 class="text-3xl font-bold text-white mb-8 border-b border-white/10 pb-2 flex items-center">
-                        <span class="text-lab-accent mr-3">#</span> {year}
-                    </h2>
-                    
-                    <div class="space-y-10 pl-4 lg:pl-8">
-                        {/* International Section */}
-                        {(international.length > 0) && (
-                            <div class="space-y-8">
-                                <h3 class="text-xl font-bold text-white/90 uppercase tracking-wider">国際発表</h3>
-                                
-                                {/* International Journals */}
-                                {intJournals.length > 0 && (
-                                    <div class="space-y-4">
-                                        <h4 class="text-lg font-semibold text-lab-accent">学術論文</h4>
-                                        <div class="space-y-2">
-                                            {intJournals.map(pub => (
-                                                <PublicationItem pub={pub} />
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-
-                                {/* International Conferences */}
-                                {intConfs.length > 0 && (
-                                    <div class="space-y-4">
-                                        <h4 class="text-lg font-semibold text-lab-accent">国際会議</h4>
-                                        <div class="space-y-2">
-                                            {intConfs.map(pub => (
-                                                <PublicationItem pub={pub} />
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                                
-                                {/* International Others */}
-                                {intOthers.length > 0 && (
-                                    <div class="space-y-4">
-                                        <h4 class="text-lg font-semibold text-lab-accent">その他</h4>
-                                        <div class="space-y-2">
-                                            {intOthers.map(pub => (
-                                                <PublicationItem pub={pub} />
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                            </div>
-                        )}
-
-                        {/* Domestic Section */}
-                        {domestic.length > 0 && (
-                            <div class="space-y-4">
-                                <h3 class="text-xl font-bold text-white/90 uppercase tracking-wider pt-4">国内発表</h3>
-                                <div class="space-y-2">
-                                    {domestic.map(pub => (
-                                        <PublicationItem pub={pub} />
-                                    ))}
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </section>
-            )})}
-        </div>
+        <PublicationList client:only="react" publications={publications} lang="ja" />
     </main>
 </Layout>
