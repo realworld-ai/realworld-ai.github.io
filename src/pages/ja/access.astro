@@ -1,72 +1,134 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../../components/PageHeader.astro';
+import { MapPin, Train, Car, Plane, Mail } from 'lucide-react';
 
 const lang = 'ja';
 ---
 
 <Layout title="アクセス | Osaka University Lab" lang={lang}>
-    <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title="アクセス" subtitle="研究室への行き方" />
 
-        <div class="space-y-8 text-gray-300">
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">住所</h2>
-                <p>
-                    大阪大学 大学院 情報科学研究科<br />
-                    A棟（情報科学研究科）<br />
-                    〒565-0871 大阪府吹田市山田丘1-5
-                </p>
-            </section>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+            {/* Left Column: Information */}
+            <div class="space-y-12">
+                {/* Address Section */}
+                <section>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-2 bg-lab-accent/10 rounded-lg text-lab-accent">
+                            <MapPin className="w-6 h-6" />
+                        </div>
+                        <h2 class="text-2xl font-bold text-white">住所</h2>
+                    </div>
+                    <div class="pl-2 lg:pl-14 border-l-2 border-white/10 ml-5 lg:ml-5">
+                        <div class="pl-6">
+                            <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                                大阪大学 大学院 情報科学研究科<br />
+                                A棟（情報科学研究科）
+                            </p>
+                            <p class="text-gray-400 mt-2">
+                                〒565-0871 大阪府吹田市山田丘1-5
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">電車での行き方</h2>
-                <p>
-                    最寄りの主要駅からのルートは以下の通りです。駅からは徒歩またはバス・タクシーでキャンパスへお越しください。
-                </p>
-                <ul class="list-disc ml-6 mt-3 text-gray-400">
-                    <li>大阪・梅田方面から：JRや地下鉄で乗り継ぎの上お越しください。</li>
-                    <li>新大阪から：JRで乗り換え、最寄り駅からお越しください。</li>
-                </ul>
-            </section>
+                {/* Transportation Grid */}
+                <div class="grid grid-cols-1 gap-6">
+                    {/* Train */}
+                    <section class="bg-gray-900/50 p-6 rounded-xl border border-white/10 hover:border-lab-accent/30 transition-all hover:bg-gray-900/80">
+                        <div class="flex items-center gap-3 mb-4">
+                            <Train className="w-5 h-5 text-lab-accent" />
+                            <h3 class="text-xl font-semibold text-white">電車でのアクセス</h3>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                                <span class="text-white font-medium min-w-[140px]">大阪・梅田方面から</span>
+                                <span class="text-gray-400 text-sm">JRまたは地下鉄で千里中央駅へ、モノレールに乗り換え</span>
+                            </li>
+                            <li class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                                <span class="text-white font-medium min-w-[140px]">新大阪から</span>
+                                <span class="text-gray-400 text-sm">御堂筋線で千里中央駅へ、モノレールに乗り換え</span>
+                            </li>
+                            <li class="pt-2 border-t border-white/5 mt-2">
+                                <span class="text-lab-accent text-sm font-medium">最寄り駅:</span> 
+                                <span class="text-gray-300 text-sm ml-2">大阪モノレール「阪大病院前」駅 — 徒歩10分</span>
+                            </li>
+                        </ul>
+                    </section>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">車での来訪</h2>
-                <p>
-                    来訪者用の駐車スペースは限られています。車でお越しの際は事前にご連絡いただき、駐車場所の指示を受けてください。キャンパス内の通行制限がある場合があります。
-                </p>
-            </section>
+                    {/* Air & Car */}
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                         <section class="bg-gray-900/50 p-6 rounded-xl border border-white/10 hover:border-lab-accent/30 transition-all hover:bg-gray-900/80">
+                            <div class="flex items-center gap-3 mb-3">
+                                <Plane className="w-5 h-5 text-lab-accent" />
+                                <h3 class="text-lg font-semibold text-white">空港から</h3>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                関西国際空港 (KIX) または伊丹空港 (ITM) からは、リムジンバスで大阪/梅田または千里中央駅へ向かってください。
+                            </p>
+                        </section>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">空港から</h2>
-                <p>
-                    関西国際空港（KIX）からは空港リムジンや特急で大阪方面へ向かい、JR/地下鉄に乗り換えて大学へ向かうのが一般的です。主要駅からタクシーで約15〜30分ほどです（交通状況による）。
-                </p>
-            </section>
+                         <section class="bg-gray-900/50 p-6 rounded-xl border border-white/10 hover:border-lab-accent/30 transition-all hover:bg-gray-900/80">
+                            <div class="flex items-center gap-3 mb-3">
+                                <Car className="w-5 h-5 text-lab-accent" />
+                                <h3 class="text-lg font-semibold text-white">車での来訪</h3>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                来客用駐車場は数に限りがあります。入構許可が必要な場合は事前にご連絡ください。
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                
+                {/* Contact */}
+                <section>
+                     <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2 bg-lab-accent/10 rounded-lg text-lab-accent">
+                            <Mail className="w-6 h-6" />
+                        </div>
+                        <h2 class="text-2xl font-bold text-white">お問い合わせ</h2>
+                    </div>
+                     <div class="pl-2 lg:pl-14 ml-5">
+                        <p class="text-gray-400">
+                            見学や共同研究に関するお問い合わせはこちら：<br/>
+                            <a class="text-lab-accent hover:text-white transition-colors underline decoration-lab-accent/30 hover:decoration-white mt-1 inline-block text-lg" href="mailto:info@example.com">info@example.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">地図・詳細</h2>
-                <p class="text-gray-400">以下は情報科学研究科（A棟）の位置を示すGoogleマップです。地図の操作で拡大・経路検索が可能です。</p>
-
-                <div class="mt-4" style="width:100%;height:420px;">
+            {/* Right Column: Map */}
+            <div class="flex flex-col gap-4">
+                <div class="h-[400px] lg:h-[600px] w-full relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-gray-900">
                     <iframe
                         width="100%"
                         height="100%"
                         frameborder="0"
-                        style="border:0"
+                        style="border:0; filter: grayscale(100%) invert(92%) contrast(83%); opacity: 0.8;"
                         src="https://www.google.com/maps?q=〒565-0871+大阪府吹田市山田丘1-5+情報科学研究科+A棟&output=embed"
                         allowfullscreen
-                        loading="lazy">
+                        loading="lazy"
+                        class="absolute inset-0 w-full h-full hover:opacity-100 transition-opacity duration-500"
+                    >
                     </iframe>
+                    {/* Overlay Label */}
+                    <div class="absolute bottom-6 left-6 bg-gray-900/95 backdrop-blur-md px-4 py-3 rounded-lg border border-white/10 shadow-xl max-w-[240px]">
+                        <div class="flex items-start gap-3">
+                            <MapPin className="w-5 h-5 text-lab-accent flex-shrink-0 mt-0.5" />
+                            <div>
+                                <span class="block font-bold text-white text-sm mb-0.5">情報科学研究科 A棟</span>
+                                <span class="block text-xs text-gray-400 leading-snug">大阪大学 吹田キャンパス</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <p class="mt-4 text-sm text-gray-400">詳しい経路（駅の出口、キャンパスゲート等）は、隣接研究室のアクセスページも参考にしてください：<a class="text-lab-accent underline" href="https://mc.net.ist.osaka-u.ac.jp/en/access/" target="_blank" rel="noopener">mc.net.ist.osaka-u.ac.jp — Access</a></p>
-            </section>
-
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">お問い合わせ</h2>
-                <p class="text-gray-400">来訪に関する問い合わせはメールでお願いします：<a class="text-lab-accent underline" href="mailto:info@example.com">info@example.com</a></p>
-            </section>
+                <p class="text-center text-gray-500 text-sm italic">
+                    地図を拡大・縮小して場所を確認できます。
+                </p>
+            </div>
         </div>
     </main>
 </Layout>
+

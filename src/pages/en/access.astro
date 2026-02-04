@@ -1,73 +1,137 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import PageHeader from '../../components/PageHeader.astro';
+import { MapPin, Train, Car, Plane, Mail } from 'lucide-react';
 
 const lang = 'en';
 ---
 
 <Layout title="Access | Osaka University Lab" lang={lang}>
-    <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title="Access" subtitle="How to find our laboratory" />
 
-        <div class="space-y-8 text-gray-300">
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">Address</h2>
-                <p>
-                    Graduate School of Information Science and Technology,<br />
-                    Osaka University (Information Science and Technology)<br />
-                    A Building, 1-5 Yamadaoka, Suita, Osaka 565-0871, Japan<br />
-                    （〒565-0871 大阪府吹田市山田丘1-5 情報科学研究科 A棟）
-                </p>
-            </section>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+            {/* Left Column: Information */}
+            <div class="space-y-12">
+                {/* Address Section */}
+                <section>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-2 bg-lab-accent/10 rounded-lg text-lab-accent">
+                            <MapPin className="w-6 h-6" />
+                        </div>
+                        <h2 class="text-2xl font-bold text-white">Address</h2>
+                    </div>
+                    <div class="pl-2 lg:pl-14 border-l-2 border-white/10 ml-5 lg:ml-5">
+                        <div class="pl-6">
+                            <p class="text-lg text-gray-300 leading-relaxed font-medium">
+                                Graduate School of Information Science and Technology,<br />
+                                Osaka University
+                            </p>
+                            <p class="text-gray-400 mt-2">
+                                Building A, 1-5 Yamadaoka, Suita,<br />
+                                Osaka 565-0871, Japan
+                            </p>
+                            <p class="mt-4 text-sm text-gray-500 bg-white/5 inline-block px-3 py-1 rounded">
+                                〒565-0871 大阪府吹田市山田丘1-5 情報科学研究科 A棟
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">By train</h2>
-                <p>
-                    The nearest major stations are listed below. From each station, follow local signs or take a short taxi/bus ride to the campus entrance.
-                </p>
-                <ul class="list-disc ml-6 mt-3 text-gray-400">
-                    <li>From Osaka / Umeda: take JR or Metro and transfer as needed.</li>
-                    <li>From Shin-Osaka: take the JR line and transfer at [transfer station].</li>
-                </ul>
-            </section>
+                {/* Transportation Grid */}
+                <div class="grid grid-cols-1 gap-6">
+                    {/* Train */}
+                    <section class="bg-gray-900/50 p-6 rounded-xl border border-white/10 hover:border-lab-accent/30 transition-all hover:bg-gray-900/80">
+                        <div class="flex items-center gap-3 mb-4">
+                            <Train className="w-5 h-5 text-lab-accent" />
+                            <h3 class="text-xl font-semibold text-white">By Train</h3>
+                        </div>
+                        <ul class="space-y-4">
+                            <li class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                                <span class="text-white font-medium min-w-[140px]">From Osaka/Umeda</span>
+                                <span class="text-gray-400 text-sm">Take JR/Metro, transfer to Monorail at Senri-Chuo.</span>
+                            </li>
+                            <li class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                                <span class="text-white font-medium min-w-[140px]">From Shin-Osaka</span>
+                                <span class="text-gray-400 text-sm">Take Midosuji Line to Senri-Chuo, then Monorail.</span>
+                            </li>
+                            <li class="pt-2 border-t border-white/5 mt-2">
+                                <span class="text-lab-accent text-sm font-medium">Nearest Station:</span> 
+                                <span class="text-gray-300 text-sm ml-2">Handai-byoin-mae (Monorail) — 10 min walk</span>
+                            </li>
+                        </ul>
+                    </section>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">By car</h2>
-                <p>
-                    Visitor parking is limited. If you plan to come by car, please contact us in advance for parking instructions. Campus security may restrict vehicle access on certain days.
-                </p>
-            </section>
+                    {/* Air & Car */}
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                         <section class="bg-gray-900/50 p-6 rounded-xl border border-white/10 hover:border-lab-accent/30 transition-all hover:bg-gray-900/80">
+                            <div class="flex items-center gap-3 mb-3">
+                                <Plane className="w-5 h-5 text-lab-accent" />
+                                <h3 class="text-lg font-semibold text-white">From Airport</h3>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                From <strong>KIX (Kansai Intl.)</strong> or <strong>ITM (Itami)</strong>, take the Airport Limousine Bus to Osaka/Umeda or Senri-Chuo.
+                            </p>
+                        </section>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">From the airport</h2>
-                <p>
-                    From Kansai International Airport (KIX), take the airport express to Osaka and transfer to local JR/metro lines toward the university. A taxi from major stations typically takes 15–30 minutes depending on traffic.
-                </p>
-            </section>
+                         <section class="bg-gray-900/50 p-6 rounded-xl border border-white/10 hover:border-lab-accent/30 transition-all hover:bg-gray-900/80">
+                            <div class="flex items-center gap-3 mb-3">
+                                <Car className="w-5 h-5 text-lab-accent" />
+                                <h3 class="text-lg font-semibold text-white">By Car</h3>
+                            </div>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                Visitor parking is limited. Please contact us in advance to arrange gate entry permission if necessary.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                
+                {/* Contact */}
+                <section>
+                     <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2 bg-lab-accent/10 rounded-lg text-lab-accent">
+                            <Mail className="w-6 h-6" />
+                        </div>
+                        <h2 class="text-2xl font-bold text-white">Contact</h2>
+                    </div>
+                     <div class="pl-2 lg:pl-14 ml-5">
+                        <p class="text-gray-400">
+                            For visits and inquiries, please email us at:<br/>
+                            <a class="text-lab-accent hover:text-white transition-colors underline decoration-lab-accent/30 hover:decoration-white mt-1 inline-block text-lg" href="mailto:info@example.com">info@example.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
 
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">Map & further details</h2>
-                <p class="text-gray-400">Below is a Google Map showing the Graduate School of Information Science and Technology (A Building). Use the map controls to zoom and get directions.</p>
-
-                <div class="mt-4" style="width:100%;height:420px;">
+            {/* Right Column: Map */}
+            <div class="flex flex-col gap-4">
+                <div class="h-[400px] lg:h-[600px] w-full relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-gray-900">
                     <iframe
                         width="100%"
                         height="100%"
                         frameborder="0"
-                        style="border:0"
+                        style="border:0; filter: grayscale(100%) invert(92%) contrast(83%); opacity: 0.8;"
                         src="https://www.google.com/maps?q=〒565-0871+大阪府吹田市山田丘1-5+情報科学研究科+A棟&output=embed"
                         allowfullscreen
-                        loading="lazy">
+                        loading="lazy"
+                        class="absolute inset-0 w-full h-full hover:opacity-100 transition-opacity duration-500"
+                    >
                     </iframe>
+                    {/* Overlay Label */}
+                    <div class="absolute bottom-6 left-6 bg-gray-900/95 backdrop-blur-md px-4 py-3 rounded-lg border border-white/10 shadow-xl max-w-[240px]">
+                        <div class="flex items-start gap-3">
+                            <MapPin className="w-5 h-5 text-lab-accent flex-shrink-0 mt-0.5" />
+                            <div>
+                                <span class="block font-bold text-white text-sm mb-0.5">IST Building A</span>
+                                <span class="block text-xs text-gray-400 leading-snug">Osaka University, Suita Campus</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <p class="mt-4 text-sm text-gray-400">For step-by-step directions (station exits, campus gates), you may also refer to the neighbouring lab's access page: <a class="text-lab-accent underline" href="https://mc.net.ist.osaka-u.ac.jp/en/access/" target="_blank" rel="noopener">mc.net.ist.osaka-u.ac.jp — Access</a>.</p>
-            </section>
-
-            <section>
-                <h2 class="text-xl font-bold text-white mb-2">Contact</h2>
-                <p class="text-gray-400">For questions about visiting the lab, email: <a class="text-lab-accent underline" href="mailto:info@example.com">info@example.com</a></p>
-            </section>
+                <p class="text-center text-gray-500 text-sm italic">
+                    Use the map to find the best route to Building A.
+                </p>
+            </div>
         </div>
     </main>
 </Layout>
