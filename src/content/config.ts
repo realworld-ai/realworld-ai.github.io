@@ -1,13 +1,20 @@
 import { defineCollection, z } from 'astro:content';
 
 const newsCollection = defineCollection({
-  type: 'content', // v2.5+; 'content' for markdown/mdx
+  type: 'content',
   schema: z.object({
     title: z.string(),
     date: z.date(),
-    tags: z.array(z.string()).optional(),
-    lang: z.enum(['ja', 'en']).default('ja'),
-    image: z.string().optional(),
+    type: z.enum(['award', 'activity', 'talk', 'media', 'workshop']).default('activity'),
+    members: z.array(z.string()).optional(),
+    summary: z.string().optional(),
+    links: z.array(z.object({
+        label: z.string(),
+        url: z.string()
+    })).optional(),
+    coverImage: z.string().optional(),
+    tags: z.array(z.string()).optional(), // Keep for backward compatibility if needed
+    lang: z.enum(['ja', 'en']).optional(), // Optional, content can be bilingual or specific
   }),
 });
 

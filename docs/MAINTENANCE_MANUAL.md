@@ -10,22 +10,31 @@ This document outlines how to update content, add new members, and sync publicat
 
 ## 1. How to Add News / Activity
 
-Regular updates (Awards, Parties, Conferences) are stored as Markdown files.
+Regular updates (Awards, Activities, etc.) are stored as Markdown files in `src/content/news/`.
 
 1.  Navigate to `src/content/news/`.
-2.  Create a new file named `YYYY-MM-DD-title.md` (e.g., `2024-04-01-welcome-party.md`).
-3.  Add the frontmatter and content:
+2.  Create a new file named `YYYY-MM-DD-title.md` (e.g., `2026-03-20-best-paper.md`).
+3.  Use the following template for the content:
+
     ```markdown
     ---
-    title: "Welcome Party for New Students"
-    date: 2024-04-01
-    tags: ["Event", "Life"]
-    lang: "ja"
+    title: "Received Best Paper Award at PerCom 2026"
+    date: 2026-03-20
+    type: "award"  # or "activity", "talk", "media"
+    members: ["Takuya Maekawa", "Ryoma Otsuka"] # Optional
+    summary: "Our paper on animal behavior received the Best Paper Award."
+    links: # Optional
+      - label: "Conference Website"
+        url: "https://percom.org"
     ---
-    We held a welcome party for the new B4 students...
-    (You can paste images here if configured)
+    
+    (Optional: You can write longer details here using standard Markdown.)
     ```
-4.  Commit and push the file.
+
+    *   **type**: Critical field. Set to `"award"` to make it appear on the homepage "Awards" section. Set to `"activity"` for general news.
+    *   **date**: Used for sorting (newest first).
+
+4.  Commit and push the file. The website will automatically update.
 
 ---
 

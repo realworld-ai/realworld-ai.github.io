@@ -1,9 +1,18 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { ui } from '../../utils/ui';
+import { getCollection } from 'astro:content';
+import { Award, ArrowRight } from 'lucide-react';
 
 const lang = 'ja';
 const t = ui[lang];
+
+// Fetch and filter awards
+const allNews = await getCollection('news');
+const awards = allNews
+    .filter(item => item.data.type === 'award')
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+    .slice(0, 3);
 ---
 
 <Layout title="Home | Osaka University Lab" lang={lang}>
@@ -31,32 +40,45 @@ const t = ui[lang];
             <div class="absolute bottom-0 left-0 translate-y-12 -translate-x-1/4 w-[500px] h-[500px] bg-lab-secondary/20 rounded-full blur-[100px] pointer-events-none"></div>
         </section>
 
-        <!-- Bento Grid Preview -->
+        <!-- Awards Section -->
         <section class="py-20 bg-lab-bg">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-heading font-bold mb-12 border-l-4 border-lab-accent pl-4">{t['news.latest']}</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[300px]">
-                    <!-- Large Card -->
-                    <div class="md:col-span-2 row-span-1 bg-lab-card rounded-2xl p-8 border border-white/5 hover:border-lab-accent/50 transition-colors group relative overflow-hidden">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                        <div class="relative z-20 h-full flex flex-col justify-end">
-                            <span class="text-lab-accent font-mono text-sm mb-2">2024.04.01</span>
-                            <h3 class="text-2xl font-bold text-white group-hover:text-lab-accent transition-colors">新入生歓迎会を行いました</h3>
-                        </div>
-                    </div>
-
-                    <!-- Small Card -->
-                    <div class="bg-lab-card rounded-2xl p-8 border border-white/5 hover:border-lab-accent/50 transition-colors">
-                         <div class="h-full flex flex-col justify-between">
-                            <div class="w-12 h-12 bg-lab-secondary/20 rounded-lg flex items-center justify-center text-lab-secondary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <div class="flex items-center justify-between mb-12">
+                    <h2 class="text-3xl font-heading font-bold border-l-4 border-lab-accent pl-4">最新の受賞 (Latest Awards)</h2>
+                    <a href={`/${lang}/news`} class="flex items-center text-lab-accent hover:text-white transition-colors group">
+                        すべて見る <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </a>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {awards.map(award => (
+                        <div class="bg-lab-card rounded-2xl p-6 border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-lab-accent/10 flex flex-col h-full">
+                            <div class="flex items-center gap-3 mb-4 text-lab-accent">
+                                <div class="p-2 bg-lab-accent/10 rounded-lg">
+                                    <Award className="w-6 h-6" />
+                                </div>
+                                <time class="text-sm font-mono text-gray-400">
+                                    {award.data.date.toISOString().split('T')[0]}
+                                </time>
                             </div>
-                            <div>
-                                <h3 class="text-lg font-bold text-white mb-2">New Paper Accepted</h3>
-                                <p class="text-sm text-gray-400">ICRA 2024</p>
+                            
+                            <h3 class="text-lg font-bold text-white mb-3 line-clamp-2">
+                                {award.data.title}
+                            </h3>
+                            
+                            {award.data.summary && (
+                                <p class="text-sm text-gray-400 line-clamp-3 mb-4 flex-grow">
+                                    {award.data.summary}
+                                </p>
+                            )}
+                            
+                            <div class="mt-auto pt-4 border-t border-white/5">
+                                <a href={`/${lang}/news`} class="text-xs text-gray-500 hover:text-white transition-colors uppercase tracking-wider font-medium">
+                                    詳細を読む
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </section>
