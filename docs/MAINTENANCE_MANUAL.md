@@ -31,26 +31,35 @@ Regular updates (Awards, Parties, Conferences) are stored as Markdown files.
 
 ## 2. How to Update Publications (Researchmap Sync)
 
-Since we do not use the Researchmap API directly, you need to manually export and replace the data file. **Perform this update once a semester or after major publication acceptance.**
+We now use an automated script to fetch data directly from the **Researchmap Public API**, ensuring the website is always synchronized with your official records.
 
-### Step 1: Export from Researchmap
-1.  Log in to your **Researchmap** dashboard.
-2.  Go to the **Published Papers** (業績リスト / 論文) section.
-3.  Look for the **Export** (出力) button.
-4.  Select **BibTeX** format.
-5.  Download the file (usually named `export.bib` or similar).
+### Automatic Method (Recommended)
+When the website is built (e.g., via `npm run build` or CI/CD pipeline), the system automatically fetches the latest data.
 
-### Step 2: Update the Website
-1.  Rename the downloaded file to `publications.bib`.
-2.  Replace the existing file in the repository at:
-    `src/data/publications.bib`
-3.  Commit and push the change.
+### Manual Update (Local Development)
+If you want to force an update locally or inspect the data:
+
+1.  Open your terminal in the project root.
+2.  Run the fetch command:
     ```bash
-    git add src/data/publications.bib
-    git commit -m "chore: update publications from researchmap"
-    git push origin main
+    npm run fetch-pubs
     ```
-4.  The website will automatically rebuild, and the new papers will appear in the "Publications" section.
+    This script (`src/scripts/fetch_researchmap.js`) downloads your latest publications to `src/data/publications.json`.
+3.  (Optional) Commit the updated JSON file if you want to snapshot the data in Git:
+    ```bash
+    git add src/data/publications.json
+    git commit -m "chore: update publications data"
+    ```
+
+### Data Categorization
+The system automatically organizes papers based on Researchmap data:
+- **International**: Entries with English language or "International Conference" type.
+  - **Journals**: `scientific_journal` type.
+  - **Conferences**: `international_conference_proceedings` type.
+- **Domestic**: Entries with Japanese language (`jpn`).
+
+No manual sorting is required. Just ensure your Researchmap entries have the correct "Language" and "Paper Type" set.
+
 
 ---
 

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "fetch-pubs": "node src/scripts/fetch_researchmap.js",
+    "build": "npm run fetch-pubs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
