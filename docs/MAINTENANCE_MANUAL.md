@@ -8,33 +8,33 @@ This document outlines how to update content, add new members, and sync publicat
 
 ---
 
-## 1. How to Add News / Activity
+## 1. How to Add News / Highlights (Activity & Awards)
 
-Regular updates (Awards, Activities, etc.) are stored as Markdown files in `src/content/news/`.
+All news updates, including research achievements (Awards) and lab events (Activities), are managed as Markdown files in `src/content/news/`.
 
 1.  Navigate to `src/content/news/`.
-2.  Create a new file named `YYYY-MM-DD-title.md` (e.g., `2026-03-20-best-paper.md`).
-3.  Use the following template for the content:
+2.  Create a new file with the naming convention `YYYY-MM-DD-short-title.md` (e.g., `2024-08-05-open-campus.md`).
+3.  Add the frontmatter content:
 
     ```markdown
     ---
-    title: "Received Best Paper Award at PerCom 2026"
-    date: 2026-03-20
-    type: "award"  # or "activity", "talk", "media"
-    members: ["Takuya Maekawa", "Ryoma Otsuka"] # Optional
-    summary: "Our paper on animal behavior received the Best Paper Award."
-    links: # Optional
-      - label: "Conference Website"
-        url: "https://percom.org"
+    title: "Open Campus 2024"
+    date: 2024-08-05
+    type: "activity"  # Options: "award", "activity"
+    summary: "We exhibited our latest research demos at Osaka University Open Campus..."
     ---
-    
-    (Optional: You can write longer details here using standard Markdown.)
     ```
 
-    *   **type**: Critical field. Set to `"award"` to make it appear on the homepage "Awards" section. Set to `"activity"` for general news.
-    *   **date**: Used for sorting (newest first).
+    **Key Fields:**
+    *   **type**:
+        *   `"award"`: Research awards. Will be featured on the homepage "Latest Awards" section.
+        *   `"activity"`: Lab events, trips, parties, etc. Shown in the "News / Highlights" list.
+    *   **date**: Used for sorting the timeline.
+    *   **members** (Optional): List of members involved (mostly for awards).
+    *   **links** (Optional): External links (e.g., conference page).
 
-4.  Commit and push the file. The website will automatically update.
+4.  Commit and push to publish.
+
 
 ---
 
