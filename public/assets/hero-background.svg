@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" width="2560" height="1440">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#1a1f3a;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#0b1220;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#051125;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="accent1" cx="15%" cy="10%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="accent2" cx="85%" cy="85%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Base gradient background -->
+  <rect width="2560" height="1440" fill="url(#heroBg)"/>
+  
+  <!-- Accent blobs for visual interest - enhanced visibility -->
+  <circle cx="300" cy="200" r="600" fill="url(#accent1)" opacity="0.35"/>
+  <circle cx="2260" cy="1240" r="700" fill="url(#accent2)" opacity="0.28"/>
+  
+  <!-- Subtle grid pattern for depth -->
+  <g stroke="#3b82f6" stroke-width="0.5" opacity="0.12">
+    <line x1="0" y1="0" x2="2560" y2="0"/>
+    <line x1="0" y1="180" x2="2560" y2="180"/>
+    <line x1="0" y1="360" x2="2560" y2="360"/>
+    <line x1="0" y1="540" x2="2560" y2="540"/>
+    <line x1="0" y1="720" x2="2560" y2="720"/>
+    <line x1="0" y1="900" x2="2560" y2="900"/>
+    <line x1="0" y1="1080" x2="2560" y2="1080"/>
+    <line x1="0" y1="1260" x2="2560" y2="1260"/>
+    <line x1="0" y1="1440" x2="2560" y2="1440"/>
+    
+    <line x1="0" y1="0" x2="0" y2="1440"/>
+    <line x1="320" y1="0" x2="320" y2="1440"/>
+    <line x1="640" y1="0" x2="640" y2="1440"/>
+    <line x1="960" y1="0" x2="960" y2="1440"/>
+    <line x1="1280" y1="0" x2="1280" y2="1440"/>
+    <line x1="1600" y1="0" x2="1600" y2="1440"/>
+    <line x1="1920" y1="0" x2="1920" y2="1440"/>
+    <line x1="2240" y1="0" x2="2240" y2="1440"/>
+    <line x1="2560" y1="0" x2="2560" y2="1440"/>
+  </g>
+  
+  <!-- TEXT-SAFE ZONE MARKER (left side, for design reference) -->
+  <!-- This indicates where text and logo should be placed -->
+  <g opacity="0.12">
+    <rect x="100" y="300" width="1200" height="800" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="15,10"/>
+    <text x="120" y="330" font-family="Arial, sans-serif" font-size="20" fill="#3b82f6" opacity="0.4">TEXT SAFE ZONE (100-1300px left, 300-1100px top)</text>
+  </g>
+  
+  <!-- RIGHT SIDE SAFE ZONE (for accent elements/graphics) -->
+  <g opacity="0.08">
+    <rect x="1400" y="100" width="1060" height="1240" fill="none" stroke="#1e40af" stroke-width="2" stroke-dasharray="15,10"/>
+    <text x="1420" y="130" font-family="Arial, sans-serif" font-size="18" fill="#1e40af" opacity="0.3">ACCENT/GRAPHICS ZONE</text>
+  </g>
+  
+  <!-- Decorative circles (accent elements for right safe zone) -->
+  <g fill="none" stroke="#3b82f6" stroke-width="1" opacity="0.08">
+    <circle cx="1800" cy="400" r="250"/>
+    <circle cx="2100" cy="800" r="300"/>
+    <circle cx="1900" cy="1100" r="200"/>
+  </g>
+  
+  <!-- Subtle corner accents -->
+  <g stroke="#3b82f6" stroke-width="2" fill="none" opacity="0.15">
+    <!-- Top-left corner -->
+    <path d="M 50 50 L 50 150 M 50 50 L 150 50"/>
+    <!-- Bottom-right corner -->
+    <path d="M 2510 1390 L 2510 1290 M 2510 1390 L 2410 1390"/>
+  </g>
+</svg>
