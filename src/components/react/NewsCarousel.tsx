@@ -59,7 +59,9 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
         <div className="relative group">
             <div className="overflow-hidden" ref={emblaRef}>
                 <div className="flex touch-pan-y gap-6 -ml-6 py-4">
-                    {items.map((item) => (
+                    {items.map((item) => {
+                        const slug = (item as any).slug ?? item.id;
+                        return (
                         <div className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.33%] pl-6" key={item.id}>
                             <div className="bg-lab-card rounded-2xl p-6 border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-lab-accent/10 flex flex-col h-full h-[320px]">
                                 <div className="flex items-center gap-3 mb-4">
@@ -92,14 +94,15 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
                                     </p>
                                 )}
                                 
-                                <div className="mt-auto pt-4 border-t border-white/5 flex justify-end">
-                                    <a href={`/${lang}/news`} className="text-xs text-gray-500 hover:text-white transition-colors uppercase tracking-wider font-medium flex items-center group/link">
+                                    <div className="mt-auto pt-4 border-t border-white/5 flex justify-end">
+                                    <a href={`/${lang}/news/${slug}`} className="text-xs text-gray-500 hover:text-white transition-colors uppercase tracking-wider font-medium flex items-center group/link">
                                         Read Details <ArrowRight className="w-3 h-3 ml-1 group-hover/link:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
 

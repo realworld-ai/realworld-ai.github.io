@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <style>
+      .title { fill: #e5e7eb; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; font-weight:700 }
+      .sub { fill: #9ca3af; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial }
+    </style>
+  </defs>
+  <rect width="1200" height="600" fill="url(#g)"/>
+  <g transform="translate(60,100)">
+    <rect x="0" y="0" width="1080" height="400" rx="18" fill="#0b1220" opacity="0.25"/>
+    <rect x="24" y="24" width="1032" height="352" rx="12" fill="#0b1220" opacity="0.4"/>
+    <text x="60" y="140" class="title" font-size="44">Image placeholder</text>
+    <text x="60" y="200" class="sub" font-size="20">This news item has no cover image yet — replace with an actual photo.</text>
+  </g>
+</svg>
