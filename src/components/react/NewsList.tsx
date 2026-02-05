@@ -97,64 +97,69 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                         </div>
                         
                         <div className="space-y-6 relative z-20 pl-4 lg:pl-8 border-l border-white/10 ml-4">
-                            {itemsByYear[year].map(item => (
-                                <article key={item.id} className="group relative bg-gray-900/40 border border-white/5 rounded-xl p-6 hover:border-lab-accent/30 transition-all hover:bg-gray-900/60">
-                                    <div className="flex flex-col md:flex-row gap-6">
-                                        <div className="flex-1">
-                                            <div className="flex items-center gap-3 text-sm text-gray-400 mb-2">
-                                                <div className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium border ${
-                                                    item.data.type === 'award' 
-                                                        ? 'border-yellow-500/30 text-yellow-400 bg-yellow-500/10' 
-                                                        : 'border-blue-500/30 text-blue-400 bg-blue-500/10'
-                                                }`}>
-                                                    {item.data.type === 'award' ? <Award className="w-3 h-3" /> : <Activity className="w-3 h-3" />}
-                                                    <span className="capitalize">{item.data.type}</span>
+                            {itemsByYear[year].map(item => {
+                                const slug = (item as any).slug ?? item.id;
+                                return (
+                                    <article key={item.id} className="group relative bg-gray-900/40 border border-white/5 rounded-xl p-6 hover:border-lab-accent/30 transition-all hover:bg-gray-900/60">
+                                        <div className="flex flex-col md:flex-row gap-6">
+                                            <div className="flex-1">
+                                                <div className="flex items-center gap-3 text-sm text-gray-400 mb-2">
+                                                    <div className={`flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium border ${
+                                                        item.data.type === 'award' 
+                                                            ? 'border-yellow-500/30 text-yellow-400 bg-yellow-500/10' 
+                                                            : 'border-blue-500/30 text-blue-400 bg-blue-500/10'
+                                                    }`}>
+                                                        {item.data.type === 'award' ? <Award className="w-3 h-3" /> : <Activity className="w-3 h-3" />}
+                                                        <span className="capitalize">{item.data.type}</span>
+                                                    </div>
+                                                    <time className="flex items-center gap-1.5">
+                                                        <Calendar className="w-3.5 h-3.5" />
+                                                        {formatDate(item.data.date)}
+                                                    </time>
                                                 </div>
-                                                <time className="flex items-center gap-1.5">
-                                                    <Calendar className="w-3.5 h-3.5" />
-                                                    {formatDate(item.data.date)}
-                                                </time>
-                                            </div>
 
-                                            <h3 className="text-xl font-bold text-white mb-3 group-hover:text-lab-accent transition-colors">
-                                                {item.data.title}
-                                            </h3>
+                                                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-lab-accent transition-colors">
+                                                    <a href={`/${lang}/news/${slug}`} className="inline-block">
+                                                        {item.data.title}
+                                                    </a>
+                                                </h3>
 
-                                            {item.data.summary && (
-                                                <p className="text-gray-400 mb-4 leading-relaxed text-sm">
-                                                    {item.data.summary}
-                                                </p>
-                                            )}
-
-                                            <div className="space-y-2">
-                                                {item.data.members && item.data.members.length > 0 && (
-                                                    <div className="flex items-start gap-2 text-sm text-gray-500">
-                                                        <Users className="w-4 h-4 mt-0.5 shrink-0" />
-                                                        <span>{item.data.members.join(', ')}</span>
-                                                    </div>
+                                                {item.data.summary && (
+                                                    <p className="text-gray-400 mb-4 leading-relaxed text-sm">
+                                                        {item.data.summary}
+                                                    </p>
                                                 )}
-                                                
-                                                {item.data.links && item.data.links.length > 0 && (
-                                                    <div className="flex flex-wrap gap-3 mt-4 pt-4 border-t border-white/5">
-                                                        {item.data.links.map((link, i) => (
-                                                            <a 
-                                                                key={i}
-                                                                href={link.url}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                                className="flex items-center gap-1.5 text-xs text-lab-accent hover:text-white transition-colors hover:underline"
-                                                            >
-                                                                <LinkIcon className="w-3 h-3" />
-                                                                {link.label}
-                                                            </a>
-                                                        ))}
-                                                    </div>
-                                                )}
+
+                                                <div className="space-y-2">
+                                                    {item.data.members && item.data.members.length > 0 && (
+                                                        <div className="flex items-start gap-2 text-sm text-gray-500">
+                                                            <Users className="w-4 h-4 mt-0.5 shrink-0" />
+                                                            <span>{item.data.members.join(', ')}</span>
+                                                        </div>
+                                                    )}
+                                                    
+                                                    {item.data.links && item.data.links.length > 0 && (
+                                                        <div className="flex flex-wrap gap-3 mt-4 pt-4 border-t border-white/5">
+                                                            {item.data.links.map((link, i) => (
+                                                                <a 
+                                                                    key={i}
+                                                                    href={link.url}
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    className="flex items-center gap-1.5 text-xs text-lab-accent hover:text-white transition-colors hover:underline"
+                                                                >
+                                                                    <LinkIcon className="w-3 h-3" />
+                                                                    {link.label}
+                                                                </a>
+                                                            ))}
+                                                        </div>
+                                                    )}
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </article>
-                            ))}
+                                    </article>
+                                );
+                            })}
                         </div>
                     </div>
                 ))}

@@ -1,0 +1,51 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import PageHeader from '../../../components/PageHeader.astro';
+import { getCollection, getEntryBySlug } from 'astro:content';
+
+export async function getStaticPaths() {
+    const news = await getCollection('news');
+    return news.map(n => ({ params: { slug: (n.slug ?? n.id) } }));
+}
+
+const lang = 'en';
+const slug = Astro.params.slug as string;
+const entry = await getEntryBySlug('news', slug);
+if (!entry) {
+    throw new Error(`News entry not found: ${slug}`);
+}
+
+const rendered = await entry.render();
+const data = entry.data;
+const cover = data.coverImage ?? '/images/news/placeholder.svg';
+const hasBody = Boolean(entry.body && entry.body.trim().length > 0);
+const description = data.summary ?? (hasBody ? null : 'Details coming soon.');
+---
+
+<Layout title={`${data.title} | News`} lang={lang}>
+    <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <PageHeader title={data.title} subtitle={data.type === 'award' ? 'Award / Highlight' : 'Activity / Update'} />
+
+        <article class="prose prose-invert max-w-none mt-8">
+            <img src={cover} alt={data.title} class="w-full rounded-lg mb-6 object-cover" />
+
+            <div class="text-sm text-gray-400 mb-4">
+                <time>{new Date(data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</time>
+                {data.members && data.members.length > 0 && (
+                    <div class="mt-2">{data.members.join(', ')}</div>
+                )}
+            </div>
+
+            {hasBody ? (
+                <div>
+                    <rendered.Content />
+                </div>
+            ) : (
+                <div class="rounded-lg border border-white/5 bg-gray-900/40 p-6">
+                    <h4 class="text-lg font-bold text-white mb-2">{data.title}</h4>
+                    <p class="text-gray-400">{description}</p>
+                </div>
+            )}
+        </article>
+    </main>
+</Layout>
