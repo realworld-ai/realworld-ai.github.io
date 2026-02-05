@@ -10,14 +10,28 @@ const lang = 'en';
 
 // Define Role Groups
 const facultyRoles = [
-    'Professor', 'Invited Professor', 'Associate Professor', 'Lecturer', 
-    'Specially Appointed Assistant Professor', 'Specially Appointed Researcher',
+    'Professor', 'Invited Professor', 'Associate Professor', 'Lecturer',
+    'Specially Appointed Assistant Professor', 'Specially Appointed Researcher'
+];
+const staffRoles = [
     'Technical Assistant', 'Administrative Assistant'
 ];
+const studentGrades = ['D3', 'D2', 'D1', 'M2', 'M1', 'B4'];
 
 // Group Members
 const faculty = membersData.filter(m => facultyRoles.includes(m.role_en));
-const students = membersData.filter(m => !facultyRoles.includes(m.role_en));
+const staff = membersData.filter(m => staffRoles.includes(m.role_en));
+const students = membersData.filter(m => studentGrades.includes(m.role_en));
+
+// Group students by grade
+const studentsByGrade: Record<string, typeof membersData> = {};
+studentGrades.forEach(grade => {
+    studentsByGrade[grade] = students.filter(s => s.role_en === grade);
+});
+
+// Filter alumni: only graduates (Bachelor/Master/Doctorate), exclude visitors
+const graduateRoles = ['Master', 'Bachelor', 'Doctorate'];
+const alumni = alumniData.filter(a => graduateRoles.includes(a.role_en));
 ---
 
 <Layout title="Members | Osaka University Lab" lang={lang}>
@@ -28,7 +42,7 @@ const students = membersData.filter(m => !facultyRoles.includes(m.role_en));
         <section class="mb-20">
             <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
                 <Users className="w-6 h-6 text-lab-accent" />
-                <h2 class="text-2xl font-bold text-white">Faculty & Staff</h2>
+                <h2 class="text-2xl font-bold text-white">Faculty</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {faculty.map(member => (
@@ -42,14 +56,14 @@ const students = membersData.filter(m => !facultyRoles.includes(m.role_en));
             </div>
         </section>
 
-        {/* Students Section */}
-        <section class="mb-24">
+        {/* Staff Section */}
+        <section class="mb-20">
             <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
-                <GraduationCap className="w-6 h-6 text-lab-accent" />
-                <h2 class="text-2xl font-bold text-white">Students</h2>
+                <Users className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">Staff</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {students.map(member => (
+                {staff.map(member => (
                     <MemberCard 
                         name={member.name_en}
                         role={member.role_en}
@@ -60,11 +74,118 @@ const students = membersData.filter(m => !facultyRoles.includes(m.role_en));
             </div>
         </section>
 
-        {/* Alumni & Visitors Section */}
+        {/* Students Section - Grouped by Grade */}
+        <section class="mb-24">
+            <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                <GraduationCap className="w-6 h-6 text-lab-accent" />
+                <h2 class="text-2xl font-bold text-white">Students</h2>
+            </div>
+            
+            {/* Doctorate Students */}
+            {studentsByGrade.D3?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">Doctorate Students (D3)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.D3.map(member => (
+                            <MemberCard 
+                                name={member.name_en}
+                                role={member.role_en}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {studentsByGrade.D2?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">Doctorate Students (D2)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.D2.map(member => (
+                            <MemberCard 
+                                name={member.name_en}
+                                role={member.role_en}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {studentsByGrade.D1?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">Doctorate Students (D1)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.D1.map(member => (
+                            <MemberCard 
+                                name={member.name_en}
+                                role={member.role_en}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {/* Master Students */}
+            {studentsByGrade.M2?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">Master Students (M2)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.M2.map(member => (
+                            <MemberCard 
+                                name={member.name_en}
+                                role={member.role_en}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {studentsByGrade.M1?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">Master Students (M1)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.M1.map(member => (
+                            <MemberCard 
+                                name={member.name_en}
+                                role={member.role_en}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {/* Bachelor Students */}
+            {studentsByGrade.B4?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">Bachelor Students (B4)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.B4.map(member => (
+                            <MemberCard 
+                                name={member.name_en}
+                                role={member.role_en}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+        </section>
+
+        {/* Alumni Section */}
         <section class="mb-20">
             <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
                 <History className="w-6 h-6 text-lab-accent" />
-                <h2 class="text-2xl font-bold text-white">Alumni & Visitors</h2>
+                <h2 class="text-2xl font-bold text-white">Alumni</h2>
             </div>
             <div class="overflow-x-auto">
                 <table class="w-full text-left border-collapse">
@@ -73,16 +194,16 @@ const students = membersData.filter(m => !facultyRoles.includes(m.role_en));
                             <th class="py-3 px-4 font-medium">Year</th>
                             <th class="py-3 px-4 font-medium">Name</th>
                             <th class="py-3 px-4 font-medium">Role</th>
-                            <th class="py-3 px-4 font-medium">Next Career / Affiliation</th>
+                            <th class="py-3 px-4 font-medium">Next Career</th>
                         </tr>
                     </thead>
                     <tbody class="text-gray-300">
-                        {alumniData.map((person) => (
+                        {alumni.map((person) => (
                             <tr class="border-b border-white/5 hover:bg-white/5 transition-colors">
                                 <td class="py-3 px-4">{person.year}</td>
                                 <td class="py-3 px-4 font-medium text-white">{person.name_en}</td>
                                 <td class="py-3 px-4">{person.role_en}</td>
-                                <td class="py-3 px-4 text-gray-400">{person.next_career || person.affiliation || '-'}</td>
+                                <td class="py-3 px-4 text-gray-400">{person.next_career || '-'}</td>
                             </tr>
                         ))}
                     </tbody>
