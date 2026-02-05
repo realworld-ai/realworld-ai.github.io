@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 import { getPublications } from '../../utils/bibtex';
 import { ArrowRight } from 'lucide-react';
 import { NewsCarousel } from '../../components/react/NewsCarousel';
+import Hero from '../../components/Hero.astro';
 
 const lang = 'ja';
 const t = ui[lang];
@@ -25,71 +26,59 @@ const recentTalks = allNews.filter(n => n.data.type === 'activity').slice(0, 3);
 
 <Layout title="Home | Osaka University Lab" lang={lang}>
 	<main>
-        {/* ... Hero Section ... */}
-        <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <div class="max-w-3xl">
-                    <h1 class="text-5xl lg:text-7xl font-heading font-bold tracking-tight text-white mb-6 leading-tight">
-                        {t['hero.title'].split('\n').map((line, i) => (
-                            <span key={i} class={i === 0 ? '' : 'block'}>{line}</span>
+        <Hero lang={lang}>
+            <h1 class="text-5xl lg:text-7xl font-heading font-bold tracking-tight text-white mb-6 leading-tight">
+                {t['hero.title'].split('\n').map((line, i) => (
+                    <span key={i} class={i === 0 ? '' : 'block'}>{line}</span>
+                ))}
+            </h1>
+            <p class="text-xl text-gray-400 mb-10 max-w-2xl">{t['hero.subtitle']}</p>
+            <div class="flex flex-wrap gap-4">
+                <a href={`/${lang}/research`} class="px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all">{t['btn.learnMore']}</a>
+            </div>
+        </Hero>
+
+        <!-- About + Announcement: two equal-height columns -->
+        <div class="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+                <div class="rounded-2xl bg-gray-900/40 border border-white/5 p-6 flex flex-col">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-4">{t['about.title']}</h3>
+                        {t['about.text'].split('\n').map((line, i) => (
+                            <p key={i} class="text-gray-400 mb-2">{line}</p>
                         ))}
-                    </h1>
-                    <p class="text-xl text-gray-400 mb-10 max-w-2xl">
-                        {t['hero.subtitle']}
-                    </p>
-                    <div class="flex flex-wrap gap-4">
-                        <a href={`/${lang}/research`} class="px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all">
-                            {t['btn.learnMore']}
-                        </a>
+                    </div>
+                    <div class="mt-auto text-center">
+                        <a href={`/${lang}/research`} class="inline-block px-6 py-2 bg-lab-accent text-white rounded-lg">{t['btn.learnMore']}</a>
                     </div>
                 </div>
-            </div>
-            
-            <!-- About + Announcement: two equal-height columns -->
-            <div class="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-                    <div class="rounded-2xl bg-gray-900/40 border border-white/5 p-6 flex flex-col">
-                        <div>
-                            <h3 class="text-2xl font-bold text-white mb-4">{t['about.title']}</h3>
-                            {t['about.text'].split('\n').map((line, i) => (
-                                <p key={i} class="text-gray-400 mb-2">{line}</p>
+
+                <div class="rounded-2xl bg-gray-900/30 border border-white/5 p-6 flex flex-col">
+                    <div>
+                        <h4 class="text-lg font-semibold text-white mb-4">{t['announcement.title']}</h4>
+                        <h5 class="text-sm text-gray-300 font-medium mb-2">{t['announcement.pubs']}</h5>
+                        <ul class="space-y-2 text-sm text-gray-300 mb-4">
+                            {topPubs.map(pub => (
+                                <li key={pub.id}>
+                                    <a href={pub.url} target="_blank" rel="noopener" class="hover:underline text-gray-200">{pub.title}</a>
+                                    <div class="text-xs text-gray-400">{pub.authors} — {pub.dateDisplay}</div>
+                                </li>
                             ))}
-                        </div>
-                        <div class="mt-auto text-center">
-                            <a href={`/${lang}/research`} class="inline-block px-6 py-2 bg-lab-accent text-white rounded-lg">{t['btn.learnMore']}</a>
-                        </div>
-                    </div>
+                        </ul>
 
-                    <div class="rounded-2xl bg-gray-900/30 border border-white/5 p-6 flex flex-col">
-                        <div>
-                            <h4 class="text-lg font-semibold text-white mb-4">{t['announcement.title']}</h4>
-                            <h5 class="text-sm text-gray-300 font-medium mb-2">{t['announcement.pubs']}</h5>
-                            <ul class="space-y-2 text-sm text-gray-300 mb-4">
-                                {topPubs.map(pub => (
-                                    <li key={pub.id}>
-                                        <a href={pub.url} target="_blank" rel="noopener" class="hover:underline text-gray-200">{pub.title}</a>
-                                        <div class="text-xs text-gray-400">{pub.authors} — {pub.dateDisplay}</div>
-                                    </li>
-                                ))}
-                            </ul>
-
-                            <h5 class="text-sm text-gray-300 font-medium mb-2">{t['announcement.talks']}</h5>
-                            <ul class="space-y-2 text-sm text-gray-300">
-                                {recentTalks.map(n => (
-                                    <li key={n.id}>
-                                        <a href={`/${lang}/news/${(n as any).slug ?? n.id}`} class="hover:underline text-gray-200">{n.data.title}</a>
-                                        <div class="text-xs text-gray-400">{new Date(n.data.date).toLocaleDateString('ja-JP')}</div>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
+                        <h5 class="text-sm text-gray-300 font-medium mb-2">{t['announcement.talks']}</h5>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            {recentTalks.map(n => (
+                                <li key={n.id}>
+                                    <a href={`/${lang}/news/${(n as any).slug ?? n.id}`} class="hover:underline text-gray-200">{n.data.title}</a>
+                                    <div class="text-xs text-gray-400">{new Date(n.data.date).toLocaleDateString('ja-JP')}</div>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </div>
-
-            <div class="absolute top-0 right-0 -translate-y-12 translate-x-1/4 w-[600px] h-[600px] bg-lab-accent/20 rounded-full blur-[120px] pointer-events-none"></div>
-            <div class="absolute bottom-0 left-0 translate-y-12 -translate-x-1/4 w-[500px] h-[500px] bg-lab-secondary/20 rounded-full blur-[100px] pointer-events-none"></div>
-        </section>
+        </div>
 
         <!-- News Carousel Section -->
         <section class="py-20 bg-lab-bg">
