@@ -27,7 +27,7 @@ const recentTalks = allNews.filter(n => n.data.type === 'activity').slice(0, 3);
 <Layout title="Home | Osaka University Lab" lang={lang}>
 	<main>
         <Hero lang={lang}>
-            <h1 class="text-5xl lg:text-7xl font-heading font-bold tracking-tight text-white mb-6 leading-tight">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold tracking-tight text-white mb-6 leading-tight max-w-4xl">
                 {t['hero.title'].split('\n').map((line, i) => (
                     <span key={i} class={i === 0 ? '' : 'block'}>{line}</span>
                 ))}
