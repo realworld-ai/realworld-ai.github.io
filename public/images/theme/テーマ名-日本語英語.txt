@@ -1,0 +1,15 @@
+biologging: 
+AIバイオロギング
+AI Biologging
+
+har:
+行動認識
+Activity Recognition
+
+positoining:
+屋内位置測位
+Indoor Positoining
+
+mining:
+実世界データマイニング
+Real-world Data Mining

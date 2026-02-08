@@ -63,7 +63,17 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
                         const slug = (item as any).slug ?? item.id;
                         return (
                         <div className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.33%] pl-6" key={item.id}>
-                            <div className="bg-lab-card rounded-2xl p-6 border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-lab-accent/10 flex flex-col h-full h-[320px]">
+                            <div className="bg-lab-card rounded-2xl p-6 border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-lab-accent/10 flex flex-col h-full">
+                                {item.data.coverImage && (
+                                    <div className="w-full aspect-video mb-4 overflow-hidden rounded-lg bg-gray-800">
+                                        <img 
+                                            src={item.data.coverImage} 
+                                            alt={item.data.summary || item.data.title} 
+                                            className="w-full h-full object-cover"
+                                            loading="lazy"
+                                        />
+                                    </div>
+                                )}
                                 <div className="flex items-center gap-3 mb-4">
                                     <div className={`p-2 rounded-lg ${
                                         item.data.type === 'award' 

@@ -1,0 +1,11 @@
+hnavi:
+階層的生物ナビ学（学術変革A）
+Hierarchical Bio-navigation
+
+kibanABehav: 
+動物行動変容（基盤A）
+Animal Behavior Change
+
+kproHuman:
+熟練作業伝達（Kプロ）
+Skilled Work Transfer
