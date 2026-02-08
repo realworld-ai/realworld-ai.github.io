@@ -22,56 +22,90 @@ const topPubs = (publications as any[])
     .sort((a, b) => (b.year || 0) - (a.year || 0))
     .slice(0, 3);
 const recentTalks = allNews.filter(n => n.data.type === 'activity').slice(0, 3);
+
+const research = await getCollection('research', ({ id }) => id.startsWith('en/'));
+const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'));
 ---
 
 <Layout title="Home | Osaka University Lab" lang={lang}>
 	<main>
         <Hero lang={lang}>
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold tracking-tight text-white mb-6 leading-tight max-w-4xl">
-                {t['hero.title'].split('\n').map((line, i) => (
-                    <span key={i} class={i === 0 ? '' : 'block'}>{line}</span>
-                ))}
-            </h1>
-            <p class="text-xl text-gray-400 mb-10 max-w-2xl">{t['hero.subtitle']}</p>
-            <div class="flex flex-wrap gap-4">
-                <a href={`/${lang}/research`} class="px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all">{t['btn.learnMore']}</a>
+            <div class="relative p-12 rounded-2xl mb-10 overflow-hidden border border-white/10 shadow-2xl">
+                <img src="/assets/brand/logo_background.png" aria-hidden="true" class="absolute inset-0 w-full h-full object-contain object-center opacity-30 -z-10 pointer-events-none" />
+                <div class="absolute inset-0 bg-black/50 -z-10 pointer-events-none"></div>
+                <h1 class="text-3xl md:text-5xl lg:text-5xl font-heading font-bold tracking-tight text-white leading-tight">
+                    {t['hero.title'].split('\n').map((line, i) => (
+                        <span key={i} class={i === 0 ? '' : 'block'}>{line}</span>
+                    ))}
+                </h1>
+            </div>
+            <p class="text-xl text-gray-400 mb-10">{t['hero.subtitle']}</p>
+            <div class="">
+                <a href={`/${lang}/research`} class="inline-block px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all">{t['btn.learnMore']}</a>
             </div>
         </Hero>
 
-        <!-- About + Announcement: two equal-height columns -->
-        <div class="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-                <div class="rounded-2xl bg-gray-900/40 border border-white/5 p-6 flex flex-col">
+        <!-- About Section (Top) -->
+        <div class="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8 mb-10">
+             <div class="rounded-2xl bg-gray-900/40 border border-white/5 p-8">
+                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                     <div>
-                        <h3 class="text-2xl font-bold text-white mb-4">{t['about.title']}</h3>
-                        {t['about.text'].split('\n').map((line, i) => (
-                            <p key={i} class="text-gray-400 mb-2">{line}</p>
-                        ))}
+                        <h3 class="text-3xl font-heading font-bold text-white mb-6">{t['about.welcome']}</h3>
+                        <div class="prose prose-invert prose-lg text-gray-400 mb-6">
+                            {t['about.description'].split('\n').map((line, i) => (
+                                <p key={i} class="leading-relaxed">{line}</p>
+                            ))}
+                        </div>
+                        <a href={`/${lang}/research`} class="inline-flex items-center text-lab-accent font-medium hover:text-white transition-colors group">
+                            {t['btn.learnMore']} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                        </a>
                     </div>
-                    <div class="mt-auto text-center">
-                        <a href={`/${lang}/research`} class="inline-block px-6 py-2 bg-lab-accent text-white rounded-lg">{t['btn.learnMore']}</a>
+                    <div class="rounded-xl overflow-hidden shadow-2xl border border-white/10">
+                        <video controls playsinline class="w-full aspect-video bg-black object-cover">
+                            <source src="/assets/video/maelab_research.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="rounded-2xl bg-gray-900/30 border border-white/5 p-6 flex flex-col">
+        <!-- Announcement Section (Bottom) -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+            <div class="rounded-2xl bg-gray-900/30 border border-white/5 p-8">
+                <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                   <span class="w-1 h-8 bg-lab-accent rounded-full display-block"></span>
+                   {t['announcement.title']}
+                </h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                        <h4 class="text-lg font-semibold text-white mb-4">{t['announcement.title']}</h4>
-                        <h5 class="text-sm text-gray-300 font-medium mb-2">{t['announcement.pubs']}</h5>
-                        <ul class="space-y-2 text-sm text-gray-300 mb-4">
+                        <h5 class="text-lg text-white font-semibold mb-4 border-b border-white/10 pb-2">{t['announcement.pubs']}</h5>
+                        <ul class="space-y-4">
                             {topPubs.map(pub => (
-                                <li key={pub.id}>
-                                    <a href={pub.url} target="_blank" rel="noopener" class="hover:underline text-gray-200">{pub.title}</a>
-                                    <div class="text-xs text-gray-400">{pub.authors} — {pub.dateDisplay}</div>
+                                <li key={pub.id} class="group">
+                                    <a href={pub.url} target="_blank" rel="noopener" class="block">
+                                        <div class="text-base text-gray-200 group-hover:text-lab-accent transition-colors font-medium mb-1">{pub.title}</div>
+                                        <div class="text-sm text-gray-400">{pub.authors}</div>
+                                        <div class="text-xs text-gray-500 mt-1">{pub.dateDisplay}</div>
+                                    </a>
                                 </li>
                             ))}
                         </ul>
-
-                        <h5 class="text-sm text-gray-300 font-medium mb-2">{t['announcement.talks']}</h5>
-                        <ul class="space-y-2 text-sm text-gray-300">
+                    </div>
+                    
+                    <div>
+                        <h5 class="text-lg text-white font-semibold mb-4 border-b border-white/10 pb-2">{t['announcement.talks']}</h5>
+                        <ul class="space-y-4">
                             {recentTalks.map(n => (
-                                <li key={n.id}>
-                                    <a href={`/${lang}/news/${(n as any).slug ?? n.id}`} class="hover:underline text-gray-200">{n.data.title}</a>
-                                    <div class="text-xs text-gray-400">{new Date(n.data.date).toLocaleDateString('en-US')}</div>
+                                <li key={n.id} class="group">
+                                    <a href={`/${lang}/news/${(n as any).slug ?? n.id}`} class="block">
+                                        <div class="text-base text-gray-200 group-hover:text-lab-accent transition-colors font-medium mb-1">{n.data.title}</div>
+                                        <div class="text-sm text-gray-400 flex items-center gap-2">
+                                            <span class="inline-block w-2 h-2 rounded-full bg-blue-500"></span>
+                                            {new Date(n.data.date).toLocaleDateString('en-US')}
+                                        </div>
+                                    </a>
                                 </li>
                             ))}
                         </ul>
@@ -79,6 +113,58 @@ const recentTalks = allNews.filter(n => n.data.type === 'activity').slice(0, 3);
                 </div>
             </div>
         </div>
+
+        <!-- Themes & Projects Section -->
+        <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16">
+                 <div class="flex items-center justify-between mb-8">
+                    <h2 class="text-3xl font-heading font-bold border-l-4 border-lab-accent pl-4">{t['research.themes']}</h2>
+                    <a href={`/${lang}/research`} class="flex items-center text-lab-accent hover:text-white transition-colors group">
+                        {t['btn.learnMore']} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {research.sort((a,b) => a.data.order - b.data.order).map(item => (
+                        <a href={`/${lang}/research`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1">
+                             <div class="aspect-video overflow-hidden">
+                                {item.data.image ? (
+                                    <img src={item.data.image} alt={item.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                ) : (
+                                    <div class="w-full h-full bg-gray-800 flex items-center justify-center text-gray-600">No Image</div>
+                                )}
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-bold text-white mb-2 group-hover:text-lab-accent transition-colors">{item.data.title}</h3>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center justify-between mb-8">
+                    <h2 class="text-3xl font-heading font-bold border-l-4 border-purple-500 pl-4">{t['research.projects']}</h2>
+                    <a href={`/${lang}/projects`} class="flex items-center text-purple-400 hover:text-white transition-colors group">
+                         {t['btn.learnMore']} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {projects.map(project => (
+                        <a href={`/${lang}/projects`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-purple-500/50 transition-all hover:-translate-y-1">
+                             <div class="aspect-video overflow-hidden">
+                                {project.data.image && (
+                                    <img src={project.data.image} alt={project.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                )}
+                            </div>
+                            <div class="p-4">
+                                <h3 class="text-lg font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">{project.data.title}</h3>
+                                {project.data.funding && <p class="text-xs text-gray-400">{project.data.funding}</p>}
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            </div>
+        </section>
 
         <!-- News Carousel Section -->
         <section class="py-20 bg-lab-bg">

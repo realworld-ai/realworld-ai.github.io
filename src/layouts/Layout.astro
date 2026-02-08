@@ -18,12 +18,12 @@ function t(key: keyof typeof ui[typeof lang]) {
 }
 
 const navItems = [
-    { label: t('nav.home'), href: `/${lang}` },
-    { label: t('nav.research'), href: `/${lang}/research` },
-    { label: t('nav.publications'), href: `/${lang}/publications` },
-    { label: t('nav.members'), href: `/${lang}/members` },
-    { label: t('nav.news'), href: `/${lang}/news` },
-    { label: t('nav.access'), href: `/${lang}/access` },
+    { label: t('nav.home'), href: `/${lang}`, icon: 'Home' },
+    { label: t('nav.research'), href: `/${lang}/research`, icon: 'Search' },
+    { label: t('nav.publications'), href: `/${lang}/publications`, icon: 'BookOpen' },
+    { label: t('nav.members'), href: `/${lang}/members`, icon: 'Users' },
+    { label: t('nav.news'), href: `/${lang}/news`, icon: 'Newspaper' },
+    { label: t('nav.access'), href: `/${lang}/access`, icon: 'MapPin' },
 ];
 ---
 
@@ -44,12 +44,11 @@ const navItems = [
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center gap-3">
                         <a href={`/${lang}`} class="flex items-center gap-3" aria-label="Home">
-                            <img src="/assets/brand/A_logo_icon.svg" alt="Lab logo" style="height:clamp(28px,3.5vw,40px); width:auto;" class="block" />
-                            <span class="hidden sm:inline-block font-heading font-bold text-lg tracking-tighter text-white">OU<span class="text-lab-accent">LAB</span></span>
+                            <img src="/assets/brand/logo.png" alt="Lab logo" style="height:clamp(28px,3.5vw,36px); width:auto;" class="block" />
                         </a>
                     </div>
 
-                    <Navigation client:load navItems={navItems} lang={lang} />
+                    <Navigation client:load navItems={navItems} lang={lang} currentPath={Astro.url.pathname} />
                 </div>
             </div>
         </header>
@@ -58,7 +57,7 @@ const navItems = [
 
         <footer class="bg-lab-card py-12 mt-20 border-t border-white/5">
             <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
-                &copy; {new Date().getFullYear()} Osaka University Lab. All rights reserved.
+                &copy; {new Date().getFullYear()} {ui[lang]['hero.title']}
             </div>
         </footer>
 	</body>

@@ -70,8 +70,6 @@ Real-World Intelligence Infrastructure Lab
 ### Specifications
 
 #### Web-optimized assets
-- **Primary**: WebP (`/public/assets/hero/C_hero_background.webp`) — 2560×1440 px.
-- **Fallback**: JPG (`/public/assets/hero/C_hero_background.jpg`) — same dimensions.
 - **Usage**: Site homepage hero background; should be provided at the specified dimensions and optimized for web delivery.
 
 **Important**: Do not bake any dark overlays into the image. Overlays (e.g., a semi-transparent black layer to improve text contrast) must be implemented in CSS so the display can be tuned for accessibility and A/B testing.

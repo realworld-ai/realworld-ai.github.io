@@ -25,6 +25,7 @@ const researchCollection = defineCollection({
     description: z.string(),
     order: z.number().default(0),
     icon: z.string().optional(), // Lucide icon name or image path
+    image: z.string().optional(),
   }),
 });
 
@@ -35,6 +36,8 @@ const projectsCollection = defineCollection({
       status: z.enum(['ongoing', 'completed']).default('ongoing'),
       tags: z.array(z.string()).optional(),
       image: z.string().optional(),
+      funding: z.string().optional(),
+      period: z.string().optional(),
     }),
 });
 
