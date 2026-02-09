@@ -36,7 +36,7 @@ export const ui = {
     'nav.members': 'Members',
     'nav.access': 'Access',
     'nav.news': 'News / Highlights',
-    'hero.title': 'Real-world Intelligence Laboratory\nGraduate School of Information Science and Technology, The University of Osaka',
+    'hero.title': 'Real-world Intelligence Laboratory\nGraduate School of Information Science and Technology\nThe University of Osaka',
     'hero.subtitle': 'Innovating Future Intelligence.',
     'btn.learnMore': 'Learn More',
     'news.latest': 'Latest News',
