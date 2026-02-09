@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import { ui } from '../../utils/ui';
 import { getCollection } from 'astro:content';
 import { getPublications } from '../../utils/bibtex';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Trophy, Calendar, Megaphone } from 'lucide-react';
 import Hero from '../../components/Hero.astro';
 import { NewsCarousel } from '../../components/react/NewsCarousel';
 
@@ -16,12 +16,7 @@ const latestNews = allNews
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
     .slice(0, 10); // Take latest 10 items for the carousel
 
-// announcement data (use the same publication fetch as publications page)
-const publications = await getPublications();
-const topPubs = (publications as any[])
-    .sort((a, b) => (b.year || 0) - (a.year || 0))
-    .slice(0, 3);
-const recentTalks = allNews.filter(n => n.data.type === 'activity').slice(0, 3);
+const recentAnnouncements = allNews.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 5);
 
 const research = await getCollection('research', ({ id }) => id.startsWith('en/'));
 const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'));
@@ -33,10 +28,8 @@ const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'
             <div class="relative p-12 rounded-2xl mb-10 overflow-hidden border border-white/10 shadow-2xl">
                 <img src="/assets/brand/logo_background.png" aria-hidden="true" class="absolute inset-0 w-full h-full object-contain object-center opacity-30 -z-10 pointer-events-none" />
                 <div class="absolute inset-0 bg-black/50 -z-10 pointer-events-none"></div>
-
                 <h1 class="font-heading font-bold tracking-tight text-white leading-normal">
                     {t['hero.title'].split('\n').map((line, i) => (
-
                         <span class={
                             i === 0
                                 ? 'block text-3xl md:text-4xl lg:text-4xl'
@@ -84,39 +77,56 @@ const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'
                    {t['announcement.title']}
                 </h3>
                 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h5 class="text-lg text-white font-semibold mb-4 border-b border-white/10 pb-2">{t['announcement.pubs']}</h5>
-                        <ul class="space-y-4">
-                            {topPubs.map(pub => (
-                                <li key={pub.id} class="group">
-                                    <a href={pub.url} target="_blank" rel="noopener" class="block">
-                                        <div class="text-base text-gray-200 group-hover:text-lab-accent transition-colors font-medium mb-1">{pub.title}</div>
-                                        <div class="text-sm text-gray-400">{pub.authors}</div>
-                                        <div class="text-xs text-gray-500 mt-1">{pub.dateDisplay}</div>
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    
-                    <div>
-                        <h5 class="text-lg text-white font-semibold mb-4 border-b border-white/10 pb-2">{t['announcement.talks']}</h5>
-                        <ul class="space-y-4">
-                            {recentTalks.map(n => (
-                                <li key={n.id} class="group">
-                                    <a href={`/${lang}/news/${(n as any).slug ?? n.id}`} class="block">
-                                        <div class="text-base text-gray-200 group-hover:text-lab-accent transition-colors font-medium mb-1">{n.data.title}</div>
-                                        <div class="text-sm text-gray-400 flex items-center gap-2">
-                                            <span class="inline-block w-2 h-2 rounded-full bg-blue-500"></span>
-                                            {new Date(n.data.date).toLocaleDateString('en-US')}
-                                        </div>
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
+                                <ul class="space-y-6">
+                    {recentAnnouncements.map(item => {
+                        const date = new Date(item.data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+                        let icon;
+                        let content;
+
+                        // Default English translations (can be improved with a proper i18n library)
+                        const awardTitle = item.data.title.replace('情報処理学会ユビキタスコンピューティングシステム研究会 優秀論文賞', 'IPSJ Ubiquitous Computing System Study Group Excellent Paper Award');
+                        
+                        switch (item.data.type) {
+                            case 'award':
+                                icon = <Trophy className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" />;
+                                content = (
+                                    <div>
+                                        <p class="text-gray-200 leading-relaxed">
+                                            <span class="font-semibold">{item.data.members.join(', ')}</span> received the <a href={`/${lang}/news/${item.slug}`} class="font-semibold text-white hover:text-lab-accent transition-colors">"{awardTitle}"</a> for their research on "{item.data.summary}".
+                                        </p>
+                                    </div>
+                                );
+                                break;
+                            case 'activity':
+                                icon = <Calendar className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />;
+                                content = (
+                                    <div>
+                                        <a href={`/${lang}/news/${item.slug}`} class="font-semibold text-white hover:text-lab-accent transition-colors">{item.data.title}</a>
+                                        <p class="text-gray-400 text-sm mt-1 leading-relaxed">{item.data.summary}</p>
+                                    </div>
+                                );
+                                break;
+                            default:
+                                icon = <Megaphone className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />;
+                                content = (
+                                     <div>
+                                        <a href={`/${lang}/news/${item.slug}`} class="font-semibold text-white hover:text-lab-accent transition-colors">{item.data.title}</a>
+                                        {item.data.summary && <p class="text-gray-400 text-sm mt-1 leading-relaxed">{item.data.summary}</p>}
+                                    </div>
+                                )
+                        }
+
+                        return (
+                            <li class="flex items-start gap-4">
+                                {icon}
+                                <div class="flex-grow">
+                                    <time class="text-sm text-gray-500 mb-1 block">{date}</time>
+                                    {content}
+                                </div>
+                            </li>
+                        )
+                    })}
+                </ul>
             </div>
         </div>
 
