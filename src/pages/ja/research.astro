@@ -11,7 +11,7 @@ const allResearch = await getCollection('research', ({ id }) => {
 
 <Layout title="研究内容 | Osaka University Lab" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <PageHeader title="Research" subtitle="主な研究テーマ" />
+        <PageHeader title="研究内容" subtitle="主な研究テーマ" />
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             {allResearch.map(entry => (

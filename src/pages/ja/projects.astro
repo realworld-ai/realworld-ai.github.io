@@ -11,7 +11,7 @@ const projects = await getCollection('projects', ({ id }) => {
 
 <Layout title="プロジェクト | Osaka University Lab" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <PageHeader title="Projects" subtitle="進行中のプロジェクト" />
+        <PageHeader title="プロジェクト" subtitle="進行中のプロジェクト" />
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map(project => (
