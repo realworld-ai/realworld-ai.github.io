@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Menu, X, Home, Search, BookOpen, Users, Newspaper, MapPin } from 'lucide-react';
+import { Menu, X, Home, Search, Briefcase, FileText, Users, Newspaper, MapPin } from 'lucide-react';
 
 const iconMap = {
     Home,
     Search,
-    BookOpen,
+    Briefcase,
+    FileText,
     Users,
     Newspaper,
     MapPin
