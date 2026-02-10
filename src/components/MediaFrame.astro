@@ -1,0 +1,35 @@
+---
+interface Props {
+  class?: string;
+  fit?: "contain" | "cover";
+  padding?: "sm" | "md" | "lg";
+}
+
+const { class: className, fit = "contain", padding = "md" } = Astro.props;
+
+const paddingClasses = {
+  sm: "p-2",
+  md: "p-4",
+  lg: "p-6",
+};
+---
+
+<div
+  class:list={[
+    "media-frame bg-white rounded-lg border border-gray-200/80 shadow-md overflow-hidden",
+    paddingClasses[padding],
+    className,
+  ]}
+>
+  <slot />
+</div>
+
+<style define:vars={{ objectFit: fit }}>
+  .media-frame :global(img),
+  .media-frame :global(video) {
+    width: 100%;
+    height: 100%;
+    object-fit: var(--objectFit);
+    border-radius: 0.25rem; /* slightly smaller than parent */
+  }
+</style>
