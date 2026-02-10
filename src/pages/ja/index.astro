@@ -141,7 +141,7 @@ const projects = await getCollection('projects', ({ id }) => id.startsWith('ja/'
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {research.sort((a,b) => a.data.order - b.data.order).map(item => (
-                        <a href={`/${lang}/research`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1">
+                        <a href={`/${lang}/research/${item.slug.split('/')[1]}`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1">
                             <div class="aspect-video bg-white rounded-lg border border-gray-200 shadow-inner p-2.5 overflow-hidden">
                                 {item.data.image ? (
                                     <img 
