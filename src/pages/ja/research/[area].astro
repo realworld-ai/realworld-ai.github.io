@@ -7,14 +7,14 @@ import { papers as paperDetails } from '../../../data/papers';
 import allPublications from '../../../data/publications.json';
 import { getCollection } from 'astro:content';
 
-const lang = 'en';
+const lang = 'ja';
 
-const pageDescription = "Our laboratory focuses on four main areas: Human Activity Recognition, Bio-logging, Indoor Positioning, and Data Mining, exploring new possibilities in real-world information technology.";
+const pageDescription = "当研究室では、人間行動認識、バイオロギング、屋内測位、データマイニングの4つの主要な領域に焦点を当て、実世界の情報技術における新たな可能性を探求しています。";
 
 export async function getStaticPaths() {
   // Get content collection for research areas to fetch images
   const allResearchContent = await getCollection('research', ({ id }) => {
-    return id.startsWith('en/');
+    return id.startsWith('ja/');
   });
 
   // Merge publication data with paper details
@@ -64,11 +64,11 @@ const { areaData } = Astro.props;
 
 ---
 
-<Layout title={`${areaData.titleEn} | Research | Osaka University Lab`} lang={lang}>
+<Layout title={`${areaData.titleJa} | 研究内容 | 大阪大学 前田研究室`} lang={lang}>
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <PageHeader title={areaData.titleEn} subtitle="Research Area" />
+    <PageHeader title={areaData.titleJa} subtitle="研究領域" />
     <div class="mb-12">
-      <a href="/en/research" class="text-accent hover:underline">&larr; Back to Research Areas</a>
+      <a href="/ja/research" class="text-accent hover:underline">&larr; 研究領域一覧へ戻る</a>
     </div>
 
     <div class="space-y-12">
@@ -86,7 +86,7 @@ const { areaData } = Astro.props;
               <br />
               <em class="text-gray-500">{paper.journal}, {paper.year}</em>
             </p>
-            <p class="text-gray-300 mb-4 text-sm leading-relaxed">{paper.abstractShortEn}</p>
+            <p class="text-gray-300 mb-4 text-sm leading-relaxed">{paper.abstractShort}</p>
             
             {paper.keywords && paper.keywords.length > 0 && (
               <div class="flex flex-wrap gap-2">
@@ -99,7 +99,7 @@ const { areaData } = Astro.props;
         </article>
       ))}
       {areaData.papers.length === 0 && (
-        <p class="text-center text-gray-500">Papers for this area are currently being prepared.</p>
+        <p class="text-center text-gray-500">この領域の論文は現在準備中です。</p>
       )}
     </div>
   </main>
