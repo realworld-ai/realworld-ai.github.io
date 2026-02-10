@@ -142,11 +142,15 @@ const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {research.sort((a,b) => a.data.order - b.data.order).map(item => (
                         <a href={`/${lang}/research`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1">
-                             <div class="aspect-video overflow-hidden">
+                            <div class="aspect-video bg-white rounded-lg border border-gray-200 shadow-inner p-2.5 overflow-hidden">
                                 {item.data.image ? (
-                                    <img src={item.data.image} alt={item.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <img 
+                                        src={item.data.image} 
+                                        alt={item.data.title} 
+                                        class={`w-full h-full transition-transform duration-500 group-hover:scale-105 ${item.data.fit === 'cover' ? 'object-cover rounded-md' : 'object-contain'}`} 
+                                    />
                                 ) : (
-                                    <div class="w-full h-full bg-gray-800 flex items-center justify-center text-gray-600">No Image</div>
+                                    <div class="w-full h-full bg-gray-100 rounded-md flex items-center justify-center text-gray-400">No Image</div>
                                 )}
                             </div>
                             <div class="p-4">
@@ -167,9 +171,15 @@ const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {projects.map(project => (
                         <a href={`/${lang}/projects`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-purple-500/50 transition-all hover:-translate-y-1">
-                             <div class="aspect-video overflow-hidden">
-                                {project.data.image && (
-                                    <img src={project.data.image} alt={project.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div class="aspect-video bg-white rounded-lg border border-gray-200 shadow-inner p-2.5 overflow-hidden">
+                                {project.data.image ? (
+                                    <img 
+                                        src={project.data.image} 
+                                        alt={project.data.title} 
+                                        class={`w-full h-full transition-transform duration-500 group-hover:scale-105 ${project.data.fit === 'cover' ? 'object-cover rounded-md' : 'object-contain'}`}
+                                    />
+                                ) : (
+                                     <div class="w-full h-full bg-gray-100 rounded-md flex items-center justify-center text-gray-400">No Image</div>
                                 )}
                             </div>
                             <div class="p-4">

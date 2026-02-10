@@ -26,6 +26,7 @@ const researchCollection = defineCollection({
     order: z.number().default(0),
     icon: z.string().optional(), // Lucide icon name or image path
     image: z.string().optional(),
+    fit: z.enum(['contain', 'cover']).default('contain').optional(),
   }),
 });
 
@@ -38,6 +39,7 @@ const projectsCollection = defineCollection({
       image: z.string().optional(),
       funding: z.string().optional(),
       period: z.string().optional(),
+      fit: z.enum(['contain', 'cover']).default('contain').optional(),
     }),
 });
 
