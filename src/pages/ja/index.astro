@@ -20,14 +20,21 @@ const recentAnnouncements = allNews.sort((a, b) => b.data.date.valueOf() - a.dat
 
 const research = await getCollection('research', ({ id }) => id.startsWith('ja/'));
 const projects = await getCollection('projects', ({ id }) => id.startsWith('ja/'));
+
+const heroImages = [
+    '/assets/brand/logo_background.png',
+    '/images/theme/biologging/AIonAnimals1.png',
+    '/images/theme/har/openpack.png',
+    '/images/theme/mining/behaviormining.png',
+    '/images/theme/positioning/indoorpos.png'
+];
 ---
 
 <Layout title="Home | 実世界知能基盤講座" lang={lang}>
 	<main>
-        <Hero lang={lang}>
-            <div class="relative p-12 rounded-2xl mb-10 overflow-hidden border border-white/10 shadow-2xl">
-                <img src="/assets/brand/logo_background.png" aria-hidden="true" class="absolute inset-0 w-full h-full object-contain object-center opacity-30 -z-10 pointer-events-none" />
-                <div class="absolute inset-0 bg-black/50 -z-10 pointer-events-none"></div>
+        <Hero lang={lang} images={heroImages}>
+            <div class="relative p-12 rounded-2xl mb-10 overflow-hidden shadow-2xl backdrop-blur-sm bg-black/20">
+                <img src="/assets/brand/logo_background.png" aria-hidden="true" class="absolute inset-0 w-full h-full object-contain object-center opacity-20 -z-10 pointer-events-none" />
                 <h1 class="font-heading font-bold tracking-tight text-white leading-normal">
                     {t['hero.title'].split('\n').map((line, i) => (
                         <span class={
@@ -38,9 +45,9 @@ const projects = await getCollection('projects', ({ id }) => id.startsWith('ja/'
                     ))}
                 </h1>
             </div>
-            <p class="text-xl text-gray-400 mb-10">{t['hero.subtitle']}</p>
+            <p class="text-xl text-gray-400 mb-10 drop-shadow-md">{t['hero.subtitle']}</p>
             <div class="">
-                <a href={`/${lang}/research`} class="inline-block px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all">{t['btn.learnMore']}</a>
+                <a href={`/${lang}/research`} class="inline-block px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all shadow-lg">{t['btn.learnMore']}</a>
             </div>
         </Hero>
 
