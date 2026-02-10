@@ -1,7 +1,7 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import PageHeader from '../../../components/PageHeader.astro';
-import { getCollection, getEntryBySlug } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 
 export async function getStaticPaths() {
     const news = await getCollection('news');
@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 
 const lang = 'ja';
 const slug = Astro.params.slug as string;
-const entry = await getEntryBySlug('news', slug);
+const entry = await getEntry('news', slug);
 if (!entry) {
     throw new Error(`News entry not found: ${slug}`);
 }
