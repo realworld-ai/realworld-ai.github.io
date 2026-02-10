@@ -1,26 +1,30 @@
 ---
 import { ui } from '../utils/ui';
-const { lang } = Astro.props as { lang?: string } || { lang: 'en' };
+import { HeroSlider } from './react/HeroSlider';
+
+const { lang, images = [] } = Astro.props as { lang?: string, images?: string[] } || { lang: 'en', images: [] };
 const t = ui[lang ?? 'en'];
 ---
 
-<section class="relative">
-  <div class="hero-bg relative">
+<section class="relative w-full overflow-hidden bg-gray-900 min-h-[56vh]">
+  <!-- Slider Background -->
+  <div class="absolute inset-0 z-0">
+    {images.length > 0 ? (
+      <HeroSlider client:load images={images} />
+    ) : (
+      <div class="absolute inset-0 bg-gray-900"></div>
+    )}
+  </div>
+
+  <div class="hero-bg relative z-10 flex items-center justify-center min-h-[56vh] pointer-events-none">
     <!-- Overlay (CSS-based, can be tuned) -->
-    <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+    {images.length === 0 && <div class="absolute inset-0 pointer-events-none bg-black/50" aria-hidden="true"></div>}
 
     <!-- Content (logo lockup + slot for title/buttons) -->
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 lg:py-40">
-      <div class="max-w-4xl text-center mx-auto">
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 lg:py-40 w-full">
+      <div class="max-w-4xl text-center mx-auto pointer-events-auto">
          <slot />
       </div>
     </div>
-
-    <style>
-      .hero-bg { min-height: 56vh; }
-      .hero-bg picture, .hero-bg img { position: absolute; inset: 0; width: 100%; height: 100%; }
-      .hero-bg > div[aria-hidden] { background: rgba(0,0,0,0.55); }
-      @media (max-width: 640px) { .hero-bg { min-height: 48vh; } }
-    </style>
   </div>
 </section>
