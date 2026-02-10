@@ -22,7 +22,7 @@ const hasBody = Boolean(entry.body && entry.body.trim().length > 0);
 const description = data.summary ?? (hasBody ? null : 'Details coming soon.');
 ---
 
-<Layout title={`${data.title} | News`} lang={lang}>
+<Layout title={`${data.title} | News | RealWorldAI Lab`} lang={lang}>
     <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title={data.title} subtitle={data.type === 'award' ? 'Award / Highlight' : 'Activity / Update'} />
 

@@ -9,7 +9,7 @@ const news = await getCollection('news');
 const sortedNews = news.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<Layout title="ニュース | Osaka University Lab" lang={lang}>
+<Layout title="ニュース | 実世界知能基盤講座" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title="News / Highlights" subtitle="最新の受賞、活動、ニュース" />
         <NewsList client:only="react" items={sortedNews} lang={lang} />

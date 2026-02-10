@@ -22,7 +22,7 @@ const hasBody = Boolean(entry.body && entry.body.trim().length > 0);
 const description = data.summary ?? (hasBody ? null : '詳細は後日掲載します。');
 ---
 
-<Layout title={`${data.title} | ニュース`} lang={lang}>
+<Layout title={`${data.title} | ニュース | 実世界知能基盤講座`} lang={lang}>
     <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title={data.title} subtitle={data.type === 'award' ? '受賞 / ハイライト' : '活動 / 更新'} />
 
