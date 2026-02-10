@@ -88,7 +88,7 @@ const pageDescription = "Our laboratory focuses on four main areas: Human Activi
                 </div>
               )}
 
-              <a href={`#area-${area.id}`} class="mt-auto inline-block text-center bg-accent/80 hover:bg-accent text-white font-bold py-2 px-4 rounded-lg transition-colors">
+              <a href={`/en/research/${area.id}`} class="mt-auto inline-block text-center bg-accent/80 hover:bg-accent text-white font-bold py-2 px-4 rounded-lg transition-colors">
                 View Details
               </a>
             </div>
@@ -97,50 +97,6 @@ const pageDescription = "Our laboratory focuses on four main areas: Human Activi
       </div>
     </section>
 
-    <!-- C. Paper Details Section -->
-    {areasWithData.map(area => (
-      <section id={`area-${area.id}`} class="mb-20 scroll-mt-24">
-        <div class="relative text-center mb-12">
-            <div class="absolute inset-0 flex items-center" aria-hidden="true">
-                <div class="w-full border-t border-white/20"></div>
-            </div>
-            <div class="relative flex justify-center">
-                <h2 class="bg-lab-bg px-4 text-3xl font-bold text-white">{area.titleEn}</h2>
-            </div>
-        </div>
 
-        <div class="space-y-12">
-          {area.papers.map(paper => (
-            <article class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-              <div class="md-col-span-1">
-                <MediaFrame fit={paper.fit ?? 'contain'}>
-                  <img src={paper.figure} alt={`Figure for ${paper.title}`} />
-                </MediaFrame>
-              </div>
-              <div class="md-col-span-2">
-                <h3 class="text-xl font-bold text-white mb-2">{paper.title}</h3>
-                <p class="text-sm text-gray-400 mb-3">
-                  {paper.authors}
-                  <br />
-                  <em class="text-gray-500">{paper.journal}, {paper.year}</em>
-                </p>
-                <p class="text-gray-300 mb-4 text-sm leading-relaxed">{paper.abstractShortEn}</p>
-                
-                {paper.keywords && paper.keywords.length > 0 && (
-                  <div class="flex flex-wrap gap-2">
-                    {paper.keywords.map(keyword => (
-                      <span class="bg-accent/20 text-accent-light text-xs font-medium px-3 py-1.5 rounded-full">{keyword}</span>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </article>
-          ))}
-          {area.papers.length === 0 && (
-            <p class="text-center text-gray-500">Papers for this area are currently being prepared.</p>
-          )}
-        </div>
-      </section>
-    ))}
   </main>
 </Layout>

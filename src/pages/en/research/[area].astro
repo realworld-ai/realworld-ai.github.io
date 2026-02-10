@@ -1,0 +1,106 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import PageHeader from '../../../components/PageHeader.astro';
+import MediaFrame from '../../../components/MediaFrame.astro';
+import { researchAreas } from '../../../data/researchAreas';
+import { papers as paperDetails } from '../../../data/papers';
+import allPublications from '../../../data/publications.json';
+import { getCollection } from 'astro:content';
+
+const lang = 'en';
+
+const pageDescription = "Our laboratory focuses on four main areas: Human Activity Recognition, Bio-logging, Indoor Positioning, and Data Mining, exploring new possibilities in real-world information technology.";
+
+export async function getStaticPaths() {
+  // Get content collection for research areas to fetch images
+  const allResearchContent = await getCollection('research', ({ id }) => {
+    return id.startsWith('en/');
+  });
+
+  // Merge publication data with paper details
+  const detailedPapers = allPublications
+    .map(pub => {
+      const detail = paperDetails.find(p => p.id === pub.id);
+      if (!detail) return null;
+      return { ...pub, ...detail };
+    })
+    .filter(p => p !== null);
+
+  // Augment research areas with papers, keywords, and images
+  const areasWithData = researchAreas.map(area => {
+    const papersInArea = detailedPapers.filter(p => p.area === area.id);
+    const allKeywords = papersInArea.flatMap(p => p.keywords);
+    
+    const keywordCounts = allKeywords.reduce((acc, keyword) => {
+      acc[keyword] = (acc[keyword] || 0) + 1;
+      return acc;
+    }, {} as Record<string, number>);
+
+    const sortedKeywords = Object.entries(keywordCounts)
+      .sort(([, a], [, b]) => b - a)
+      .map(([keyword]) => keyword)
+      .slice(0, 12);
+
+    const content = allResearchContent.find(c => c.slug.endsWith(area.id));
+
+    return {
+      ...area,
+      papers: papersInArea.sort((a, b) => b.year - a.year),
+      keywords: sortedKeywords,
+      image: content?.data.image,
+      fit: content?.data.fit,
+    };
+  });
+
+  return areasWithData.map(areaData => {
+    return {
+      params: { area: areaData.id },
+      props: { areaData },
+    };
+  });
+}
+
+const { areaData } = Astro.props;
+
+---
+
+<Layout title={`${areaData.titleEn} | Research | Osaka University Lab`} lang={lang}>
+  <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <PageHeader title={areaData.titleEn} subtitle="Research Area" />
+    <div class="mb-12">
+      <a href="/en/research" class="text-accent hover:underline">&larr; Back to Research Areas</a>
+    </div>
+
+    <div class="space-y-12">
+      {areaData.papers.map(paper => (
+        <article class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+          <div class="md-col-span-1">
+            <MediaFrame fit={paper.fit ?? 'contain'}>
+              <img src={paper.figure} alt={`Figure for ${paper.title}`} />
+            </MediaFrame>
+          </div>
+          <div class="md-col-span-2">
+            <h3 class="text-xl font-bold text-white mb-2">{paper.title}</h3>
+            <p class="text-sm text-gray-400 mb-3">
+              {paper.authors}
+              <br />
+              <em class="text-gray-500">{paper.journal}, {paper.year}</em>
+            </p>
+            <p class="text-gray-300 mb-4 text-sm leading-relaxed">{paper.abstractShortEn}</p>
+            
+            {paper.keywords && paper.keywords.length > 0 && (
+              <div class="flex flex-wrap gap-2">
+                {paper.keywords.map(keyword => (
+                  <span class="bg-accent/20 text-accent-light text-xs font-medium px-3 py-1.5 rounded-full">{keyword}</span>
+                ))}
+              </div>
+            )}
+          </div>
+        </article>
+      ))}
+      {areaData.papers.length === 0 && (
+        <p class="text-center text-gray-500">Papers for this area are currently being prepared.</p>
+      )}
+    </div>
+  </main>
+</Layout>
