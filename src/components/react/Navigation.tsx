@@ -43,6 +43,33 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
         return normalizedPath.startsWith(normalizedHref);
     };
 
+    const getAlternateUrl = () => {
+        if (lang === 'ja') {
+            // Current lang is JA (default, no prefix). Switching to EN.
+            // Astro.url.pathname might include /ja if linked explicitly, so we must remove it.
+            let basePath = currentPath;
+            if (basePath.startsWith('/ja/')) {
+                basePath = basePath.slice(3); // e.g., /ja/projects -> /projects
+            } else if (basePath === '/ja') {
+                basePath = '/'; // e.g., /ja -> /
+            }
+            // Prepend /en for the English version.
+            return `/en${basePath === '/' ? '' : basePath}`;
+        } else {
+            // Current lang is EN. Switching to JA.
+            // EN paths are prefixed with /en. We need to remove it.
+            let basePath = currentPath;
+            if (basePath.startsWith('/en/')) {
+                basePath = basePath.slice(3); // e.g., /en/projects -> /projects
+            } else if (basePath === '/en') {
+                basePath = '/'; // e.g., /en -> /
+            }
+            // Prepend /ja for the Japanese version.
+            return `/ja${basePath === '/' ? '' : basePath}`;
+        }
+    };
+    const alternateUrl = getAlternateUrl();
+
     return (
         <>
             {/* Desktop Navigation */}
@@ -70,7 +97,7 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
 
             {/* Mobile Menu Button */}
             <div className="flex items-center gap-4 md:hidden">
-                <a href={lang === 'ja' ? '/en' : '/ja'} className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white">
+                <a href={alternateUrl} className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white">
                     {lang === 'ja' ? 'EN' : 'JP'}
                 </a>
                 <button 
@@ -84,7 +111,7 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
 
             {/* Desktop Language Switcher (kept outside of mobile menu for desktop layout consistency in parent) */}
             <div className="hidden md:flex items-center space-x-4">
-                <a href={lang === 'ja' ? '/en' : '/ja'} className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white">
+                <a href={alternateUrl} className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white">
                     {lang === 'ja' ? 'EN' : 'JP'}
                 </a>
             </div>
