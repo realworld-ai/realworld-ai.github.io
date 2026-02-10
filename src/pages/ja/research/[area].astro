@@ -73,7 +73,7 @@ const { areaData } = Astro.props;
 
     <div class="space-y-12">
       {areaData.papers.map(paper => (
-        <article class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        <article class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div class="md-col-span-1">
             <MediaFrame fit={paper.fit ?? 'contain'}>
               <img src={paper.figure} alt={`Figure for ${paper.title}`} />
