@@ -12,6 +12,6 @@ const sortedNews = news.sort((a, b) => b.data.date.valueOf() - a.data.date.value
 <Layout title="ニュース | 実世界知能基盤講座" lang={lang}>
     <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <PageHeader title="News / Highlights" subtitle="最新の受賞、活動、ニュース" />
-        <NewsList client:only="react" items={sortedNews} lang={lang} />
+        <NewsList client:load items={sortedNews} lang={lang} />
     </main>
 </Layout>

@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import PageHeader from '../../../components/PageHeader.astro';
 import { getCollection, getEntry } from 'astro:content';
+import { ArrowLeft } from 'lucide-react';
 
 export async function getStaticPaths() {
     const news = await getCollection('news');
@@ -24,7 +25,23 @@ const description = data.summary ?? (hasBody ? null : 'Details coming soon.');
 
 <Layout title={`${data.title} | News | RealWorldAI Lab`} lang={lang}>
     <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <a href={`/${lang}/news`} id="back-link" class="inline-flex items-center text-sm font-medium text-gray-400 hover:text-white transition-colors mb-8 group">
+            <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
+            Back to News
+        </a>
         <PageHeader title={data.title} subtitle={data.type === 'award' ? 'Award / Highlight' : 'Activity / Update'} />
+
+        <script>
+            const backLink = document.getElementById('back-link');
+            if (backLink) {
+                backLink.addEventListener('click', (e) => {
+                    if (document.referrer && document.referrer.includes('/news')) {
+                        e.preventDefault();
+                        history.back();
+                    }
+                });
+            }
+        </script>
 
         <article class="prose prose-invert max-w-none mt-8">
             <img src={cover} alt={data.title} class="w-full rounded-lg mb-6 object-cover" />
