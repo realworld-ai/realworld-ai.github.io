@@ -3,8 +3,8 @@ AIバイオロギング
 AI Biologging
 
 har:
-行動認識
-Activity Recognition
+人間行動認識
+Human Activity Recognition
 
 positoining:
 屋内位置測位

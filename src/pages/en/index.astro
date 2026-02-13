@@ -58,7 +58,7 @@ const heroImages = [
                         <h3 class="text-3xl font-heading font-bold text-white mb-6">{t['about.welcome']}</h3>
                         <div class="prose prose-invert prose-lg text-gray-400 mb-6">
                             {t['about.description'].split('\n').map((line, i) => (
-                                <p key={i} class="leading-relaxed">{line}</p>
+                                <p key={i} class="leading-relaxed text-justify">{line}</p>
                             ))}
                         </div>
                         <a href={`/${lang}/research`} class="inline-flex items-center text-lab-accent font-medium hover:text-white transition-colors group">
@@ -70,7 +70,7 @@ const heroImages = [
                             <source src="/assets/video/maelab_research.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                    </div>ß
+                    </div>
                 </div>
             </div>
         </div>
