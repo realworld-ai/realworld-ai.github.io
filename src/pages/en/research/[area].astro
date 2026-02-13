@@ -71,6 +71,31 @@ const { areaData } = Astro.props;
       <a href="/en/research" class="text-accent hover:underline">&larr; Back to Research Areas</a>
     </div>
 
+    <!-- About Section (Top) -->
+    <section class="mb-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl font-bold uppercase tracking-wider text-accent mb-6">{areaData.titleEn}</h2>
+          <div class="max-h-96 overflow-y-auto pr-2">
+            <p class="text-gray-400 leading-relaxed text-1xl text-justify">{areaData.descriptionEn}</p>
+          </div>
+        </div>
+        <div class="flex items-center justify-center">
+          <MediaFrame>
+            <video src="/assets/video/realworldAI.mp4" autoplay loop muted playsinline></video>
+          </MediaFrame>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="my-20 text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-4">
+        Related Publications
+      </h2>
+      <div class="inline-block w-24 h-1 bg-accent rounded"></div>
+    </div>
+
     <div class="space-y-12">
       {areaData.papers.map(paper => (
         <article class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
