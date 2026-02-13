@@ -8,9 +8,10 @@ import { Navigation } from '../components/react/Navigation';
 interface Props {
 	title: string;
     lang: keyof typeof languages;
+    description?: string;
 }
 
-const { title, lang } = Astro.props;
+const { title, lang, description } = Astro.props;
 
 // Helper for translations
 function t(key: keyof typeof ui[typeof lang]) {
@@ -32,7 +33,7 @@ const navItems = [
 <html lang={lang} class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Osaka University Real-World AI Laboratory Portal" />
+		<meta name="description" content={description ?? "Osaka University Real-World AI Laboratory Portal"} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/logo.png" />
 		<meta name="generator" content={Astro.generator} />
