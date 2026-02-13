@@ -80,10 +80,11 @@ const { areaData } = Astro.props;
             <p class="text-gray-400 leading-relaxed text-1xl text-justify">{areaData.descriptionEn}</p>
           </div>
         </div>
-        <div class="flex items-center justify-center">
-          <MediaFrame>
-            <video src="/assets/video/realworldAI.mp4" autoplay loop muted playsinline></video>
-          </MediaFrame>
+        <div class="rounded-xl overflow-hidden shadow-2xl border border-white/10">
+          <video controls playsinline class="w-full aspect-video bg-black object-cover">
+            <source src="/assets/video/maelab_research.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </section>
