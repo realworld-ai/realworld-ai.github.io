@@ -99,18 +99,26 @@ const { areaData } = Astro.props;
 
     <div class="space-y-12">
       {areaData.papers.map(paper => (
-        <article class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-          <div class="md-col-span-1">
+        <article class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+          <div class="md:col-span-1">
             <MediaFrame fit={paper.fit ?? 'contain'}>
-              <img src={paper.figure} alt={`Figure for ${paper.title}`} />
+              <img src={paper.figure} alt={`Figure for ${paper.title}`} class="w-full h-auto object-contain aspect-[16/9]" />
             </MediaFrame>
           </div>
-          <div class="md-col-span-2">
-            <h3 class="text-xl font-bold text-white mb-2">{paper.title}</h3>
+          <div class="md:col-span-2">
+            <h3 class="text-xl font-bold text-white mb-2">
+              {paper.url ? (
+                <a href={paper.url} target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors">
+                  {paper.title}
+                </a>
+              ) : (
+                paper.title
+              )}
+            </h3>
             <p class="text-sm text-gray-400 mb-3">
               {paper.authors}
               <br />
-              <em class="text-gray-500">{paper.journal}, {paper.year}</em>
+              <em class="text-gray-500">{paper.journal}, {paper.dateDisplay}</em>
             </p>
             <p class="text-gray-300 mb-4 text-sm leading-relaxed">{paper.abstractShortEn}</p>
             
