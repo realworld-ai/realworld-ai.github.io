@@ -75,7 +75,8 @@ const pageDescription = "Our laboratory focuses on four main areas: Human Activi
             
             <div class="p-6 flex flex-col flex-grow">
               <h3 class="text-2xl font-bold text-accent mb-2">{area.titleEn}</h3>
-              <p class="text-gray-300 mb-6 flex-grow">{area.descriptionEn}</p>
+              {/* <p class="text-gray-300 mb-6 flex-grow">{area.descriptionEn}</p> */}
+              <p class="text-gray-300 mb-6 flex-grow h-24 overflow-y-auto text-justify">{area.descriptionEn}</p>
               
               {area.keywords.length > 0 && (
                 <div class="mb-6">
