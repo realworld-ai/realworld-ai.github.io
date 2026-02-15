@@ -68,7 +68,7 @@ const { areaData } = Astro.props;
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <PageHeader title={areaData.titleJa} subtitle="研究領域" />
     <div class="mb-12">
-      <a href="/ja/research" class="text-accent hover:underline">&larr; 研究領域一覧へ戻る</a>
+      <a href="/ja/research" class="text-accent hover:underline">&larr; 研究内容一覧へ戻る</a>
     </div>
 
     <!-- About Section (Top) -->
@@ -76,11 +76,11 @@ const { areaData } = Astro.props;
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         <div>
           <h2 class="text-4xl font-bold uppercase tracking-wider text-accent mb-6">{areaData.titleJa}</h2>
-          <p class="text-gray-400 leading-relaxed text-1xl">{areaData.description}</p>
+          <p class="text-gray-400 leading-relaxed text-1xl text-white whitespace-pre-line">{areaData.description}</p>
         </div>
         <div class="rounded-xl overflow-hidden shadow-2xl border border-white/10">
-          <video controls playsinline class="w-full aspect-video bg-black object-cover">
-            <source src="/assets/video/realworldAIonlyHuman.mp4" type="video/mp4" />
+          <video controls playsinline class="w-full h-auto bg-black" style="max-height: 500px;">
+            <source src={areaData.video || "/assets/video/realworldAIonlyHuman.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

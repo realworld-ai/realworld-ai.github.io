@@ -64,15 +64,6 @@ export const papers: Paper[] = [
     fit: "contain",
   },
   {
-    id: "23318443",
-    area: "har",
-    abstractShort: "本研究では、手に巻いたワイヤーコイルを用いて、携帯型電気機器の使用を認識する手法を提案します。",
-    abstractShortEn: "This paper proposes a method for recognizing the usage of handheld electrical devices with a hand-worn coil of wire.",
-    keywords: ["Activity Recognition", "Wearable Sensors", "Electromagnetic Sensing"],
-    figure: "/assets/images/papers/har/Handheld Electrical Device.png",
-    fit: "contain",
-  },
-  {
     id: "47526256",
     area: "positioning",
     abstractShort: "GNSSフィンガープリンティングに基づき、事前のサイトサーベイなしで屋内でのGNSS衛星からの信号受信情報を予測する手法を提案します。",
@@ -80,23 +71,14 @@ export const papers: Paper[] = [
     keywords: ["Indoor Positioning", "GNSS", "Fingerprinting", "Site Survey"],
     figure: "/assets/images/papers/47526256.png",
   },
-
   {
-    id: "33800208",
-    area: "biologging",
+    id: "33800208", // Moved to mining
+    area: "mining",
     abstractShort: "アテンションベースのドメイン敵対的深層ニューラルネットワークを用いて、異種間の行動分析を行う手法を開発しました。",
     abstractShortEn: "We have developed a method for cross-species behavior analysis using attention-based domain-adversarial deep neural networks.",
     keywords: ["Cross-species Analysis", "Deep Learning", "Behavior Analysis", "Domain Adaptation"],
     figure: "/assets/images/papers/33800208.png",
     fit: "cover",
-  },
-  {
-    id: "47328633",
-    area: "biologging",
-    abstractShort: "シイラが海鳥の採餌行動に与える負の影響、すなわち「隠れたライバル」としての役割を明らかにしました。",
-    abstractShortEn: "We clarified the negative impact of dolphinfish on seabird foraging behavior, revealing their role as 'hidden rivals'.",
-    keywords: ["Animal Behavior", "Bio-logging", "Interspecific Competition", "Foraging"],
-    figure: "/assets/images/papers/47328633.png",
   },
   {
     id: "42604202",
@@ -114,5 +96,31 @@ export const papers: Paper[] = [
     keywords: ["Recommendation System", "POI Recommendation", "Self-Attention", "Mobility Data"],
     figure: "/assets/images/papers/placeholder.png",
   },
-
+  {
+    id: "31940752",
+    area: "biologging",
+    abstractShort: "機械学習を用いることで、海鳥に装着するバイオロガーの動作時間と精度を向上させることができることを示しました。",
+    abstractShortEn: "We showed that machine learning enables improved runtime and precision for bio-loggers on seabirds.",
+    keywords: ["Bio-logging", "Machine Learning", "Seabirds", "Energy Efficiency"],
+    figure: "/assets/images/papers/placeholder.png", // No image available yet
+    fit: "cover",
+  },
+  {
+    id: "44467792",
+    area: "biologging",
+    abstractShort: "軽量な異常検知器を搭載したビデオバイオロガーを用いて、野生動物の稀な行動を自動的に記録する手法を開発しました。",
+    abstractShortEn: "We developed a method to automatically record rare behaviors of wild animals using video bio-loggers with on-board light-weight outlier detector.",
+    keywords: ["Bio-logging", "Outlier Detection", "Video Recording", "Wild Animals"],
+    figure: "/assets/images/papers/placeholder.png", // No image available yet
+    fit: "cover",
+  },
+  {
+    id: "31940751",
+    area: "mining",
+    abstractShort: "DeepHLを用いた深層学習支援による動物の軌跡の比較分析手法を提案します。",
+    abstractShortEn: "We propose a deep learning-assisted comparative analysis method of animal trajectories using DeepHL.",
+    keywords: ["Trajectory Analysis", "Deep Learning", "DeepHL", "Animal Behavior"],
+    figure: "/assets/images/papers/placeholder.png", // No image available yet
+    fit: "cover",
+  },
 ];
