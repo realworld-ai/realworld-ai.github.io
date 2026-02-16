@@ -58,6 +58,7 @@ const heroImages = [
                         <h3 class="text-3xl font-heading font-bold text-white mb-6">{t['about.welcome']}</h3>
                         <div class="prose prose-invert prose-lg text-gray-400 mb-6">
                             {t['about.description'].split('\n').map((line, i) => (
+
                                 <p key={i} class="leading-relaxed text-justify">{line}</p>
                             ))}
                         </div>
@@ -66,10 +67,14 @@ const heroImages = [
                         </a>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-2xl border border-white/10">
-                        <video controls playsinline class="w-full aspect-video bg-black object-cover">
-                            <source src="/assets/video/maelab_research.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe 
+                            class="w-full aspect-video" 
+                            src="https://www.youtube.com/embed/j4HdWqpda-E" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
             </div>
