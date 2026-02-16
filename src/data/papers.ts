@@ -15,8 +15,8 @@ export const papers: Paper[] = [
     abstractShort: "自由に行動する海鳥において、バイオロガー上でのリアルタイム行動認識が、自律的な音声再生実験を可能にすることを実証しました。",
     abstractShortEn: "We demonstrated that real-time behavior recognition on bio-loggers enables autonomous audio playback experiments in free-ranging seabirds.",
     keywords: ["Bio-logging", "On-board AI", "Seabirds", "Behavior Recognition"],
-    figure: "/assets/images/papers/50798609.png",
-    fit: "cover",
+    figure: "/assets/images/papers/biologging/realtime behavior recognition.jpg",
+    fit: "contain",
   },
   {
     id: "48688487",
@@ -72,12 +72,12 @@ export const papers: Paper[] = [
     figure: "/assets/images/papers/47526256.png",
   },
   {
-    id: "33800208", // Moved to mining
-    area: "mining",
+    id: "33800208",
+    area: "biologging",
     abstractShort: "アテンションベースのドメイン敵対的深層ニューラルネットワークを用いて、異種間の行動分析を行う手法を開発しました。",
     abstractShortEn: "We have developed a method for cross-species behavior analysis using attention-based domain-adversarial deep neural networks.",
     keywords: ["Cross-species Analysis", "Deep Learning", "Behavior Analysis", "Domain Adaptation"],
-    figure: "/assets/images/papers/33800208.png",
+    figure: "/assets/images/papers/biologging/Cross-species behavior analysis with attention-based domain-adversarial dnn.png",
     fit: "cover",
   },
   {
@@ -102,7 +102,7 @@ export const papers: Paper[] = [
     abstractShort: "機械学習を用いることで、海鳥に装着するバイオロガーの動作時間と精度を向上させることができることを示しました。",
     abstractShortEn: "We showed that machine learning enables improved runtime and precision for bio-loggers on seabirds.",
     keywords: ["Bio-logging", "Machine Learning", "Seabirds", "Energy Efficiency"],
-    figure: "/assets/images/papers/placeholder.png", // No image available yet
+    figure: "/assets/images/papers/biologging/Machine learning enables improved runtime and precision for bio-loggers on seabirds.png",
     fit: "cover",
   },
   {
@@ -111,16 +111,25 @@ export const papers: Paper[] = [
     abstractShort: "軽量な異常検知器を搭載したビデオバイオロガーを用いて、野生動物の稀な行動を自動的に記録する手法を開発しました。",
     abstractShortEn: "We developed a method to automatically record rare behaviors of wild animals using video bio-loggers with on-board light-weight outlier detector.",
     keywords: ["Bio-logging", "Outlier Detection", "Video Recording", "Wild Animals"],
-    figure: "/assets/images/papers/placeholder.png", // No image available yet
+    figure: "/assets/images/papers/biologging/Automatic recording of rare behaviors of wild animals.png",
     fit: "cover",
   },
   {
     id: "31940751",
-    area: "mining",
+    area: "biologging",
     abstractShort: "DeepHLを用いた深層学習支援による動物の軌跡の比較分析手法を提案します。",
     abstractShortEn: "We propose a deep learning-assisted comparative analysis method of animal trajectories using DeepHL.",
     keywords: ["Trajectory Analysis", "Deep Learning", "DeepHL", "Animal Behavior"],
-    figure: "/assets/images/papers/placeholder.png", // No image available yet
+    figure: "/assets/images/papers/biologging/Deep learning-assisted comparative analysis of animal trajectories with DeepHL.png",
+    fit: "cover",
+  },
+  {
+    id: "45639287",
+    area: "biologging",
+    abstractShort: "動物装着型加速度計を用いた野生動物の行動分類のための深層学習技術を探求しました。",
+    abstractShortEn: "Exploring deep learning techniques for wild animal behaviour classification using animal-borne accelerometers.",
+    keywords: ["Bio-logging", "Deep Learning", "Animal Behavior", "Accelerometers"],
+    figure: "/assets/images/papers/biologging/Exploring deep learning techniques for wild animal behaviour.png",
     fit: "cover",
   },
 ];
