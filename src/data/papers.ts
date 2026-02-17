@@ -15,8 +15,7 @@ export const papers: Paper[] = [
     abstractShort: "野生の海鳥に対して、自律的な音声プレイバック実験を可能にするバイオロガー上に実装されたリアルタイム行動認識AIを実現しました。",
     abstractShortEn: "We demonstrated that real-time behavior recognition on bio-loggers enables autonomous audio playback experiments in free-ranging seabirds.",
     keywords: ["Bio-logging", "On-board AI", "Seabirds", "Behavior Recognition"],
-    //figure: "/assets/images/papers/biologging/realtime behavior recognition.jpg",
-    figure: "https://besjournals.onlinelibrary.wiley.com/cms/asset/495358c4-0801-4a16-a75b-dc3c56881bda/mee314137-toc-0001-m.jpg",
+    figure: "/assets/images/papers/biologging/realtime behavior recognition.jpg",
     fit: "contain",
   },
   {
@@ -130,7 +129,8 @@ export const papers: Paper[] = [
     abstractShort: "加速度センサを用いた野生動物の行動認識のための様々な深層学習技術を検証しました。",
     abstractShortEn: "Exploring deep learning techniques for wild animal behaviour classification using animal-borne accelerometers.",
     keywords: ["Bio-logging", "Deep Learning", "Animal Behavior", "Accelerometers"],
-    figure: "/assets/images/papers/biologging/Exploring deep learning techniques for wild animal behaviour.png",
+//    figure: "/assets/images/papers/biologging/Exploring deep learning techniques for wild animal behaviour.png",
+    figure: "https://besjournals.onlinelibrary.wiley.com/cms/asset/495358c4-0801-4a16-a75b-dc3c56881bda/mee314137-toc-0001-m.jpg",
     fit: "cover",
   },
 ];
