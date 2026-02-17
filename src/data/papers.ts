@@ -15,7 +15,8 @@ export const papers: Paper[] = [
     abstractShort: "野生の海鳥に対して、自律的な音声プレイバック実験を可能にするバイオロガー上に実装されたリアルタイム行動認識AIを実現しました。",
     abstractShortEn: "We demonstrated that real-time behavior recognition on bio-loggers enables autonomous audio playback experiments in free-ranging seabirds.",
     keywords: ["Bio-logging", "On-board AI", "Seabirds", "Behavior Recognition"],
-    figure: "/assets/images/papers/biologging/realtime behavior recognition.jpg",
+    //figure: "/assets/images/papers/biologging/realtime behavior recognition.jpg",
+    figure: "https://besjournals.onlinelibrary.wiley.com/cms/asset/495358c4-0801-4a16-a75b-dc3c56881bda/mee314137-toc-0001-m.jpg",
     fit: "contain",
   },
   {
@@ -73,7 +74,7 @@ export const papers: Paper[] = [
   },
   {
     id: "33800208",
-    area: "biologging",
+    area: "mining",
     abstractShort: "アテンションベースのドメイン敵対的深層ニューラルネットワークを用いて、異種動物行動を横断的に分析する手法を開発しました。",
     abstractShortEn: "We have developed a method for cross-species behavior analysis using attention-based domain-adversarial deep neural networks.",
     keywords: ["Cross-species Analysis", "Deep Learning", "Behavior Analysis", "Domain Adaptation"],
@@ -117,7 +118,7 @@ export const papers: Paper[] = [
   {
     id: "31940751",
     area: "mining",
-    abstractShort: "深層学習支援による動物の軌跡の比較分析手法DeepHLを提案しました。",
+    abstractShort: "深層学習による動物の軌跡の比較分析手法DeepHLを提案しました。",
     abstractShortEn: "We propose a deep learning-assisted comparative analysis method of animal trajectories named DeepHL.",
     keywords: ["Trajectory Analysis", "Deep Learning", "DeepHL", "Animal Behavior"],
     figure: "/assets/images/papers/biologging/Deep learning-assisted comparative analysis of animal trajectories with DeepHL.png",
@@ -126,7 +127,7 @@ export const papers: Paper[] = [
   {
     id: "45639287",
     area: "biologging",
-    abstractShort: "加速度センサを用いた野生動物の行動分類のための様々な深層学習技術を検証しました。",
+    abstractShort: "加速度センサを用いた野生動物の行動認識のための様々な深層学習技術を検証しました。",
     abstractShortEn: "Exploring deep learning techniques for wild animal behaviour classification using animal-borne accelerometers.",
     keywords: ["Bio-logging", "Deep Learning", "Animal Behavior", "Accelerometers"],
     figure: "/assets/images/papers/biologging/Exploring deep learning techniques for wild animal behaviour.png",
