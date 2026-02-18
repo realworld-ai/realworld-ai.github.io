@@ -33,12 +33,12 @@ export const researchAreas: ResearchArea[] = [
     description: "屋内位置推定技術は、スマートフォンなどのセンサデバイスから得られた加速度データやWi-Fi信号などのデータを利用し、人間やロボットなどの位置座標を推定する技術で、屋内ナビゲーションやスマートファクトリーなど幅広い応用があります。実世界知能基盤講座では、そのようなデータに加えて音声や屋内で観測されるGPS信号なども用いた、マルチモーダル屋内位置推定の研究を行っています。",
     descriptionEn: "In indoor environments where GPS is unavailable, we research high-precision positioning technologies to locate people and objects using Wi-Fi, geomagnetism, and sound waves.",
   },
-  {
-    id: "mining",
-    titleJa: "実世界データマイニング",
-    titleEn: "Real-world Data Mining",
-    video: "/assets/video/realworldAIonlyHuman.mp4",
-    description: "人間や動物の行動データを自動解析するAIを実現し、これまでに明らかになっていなかった知識を掘り起こすデータマイニング技術を開発しています。健常および疾患のモデル動物の行動を解析して創薬に役立てたり、環境変動による野生動物の行動に及ぼす影響の評価、獣害対策施策の動物行動に与える影響の評価、熟練作業員の作業データからのノウハウや暗黙知の抽出などの様々な実世界応用が見込まれます。",
-    descriptionEn: "We are engaged in the research of advanced real-world data mining techniques using machine learning and statistical methods to extract valuable insights from diverse data sources.",
-  },
+  // {
+  //   id: "mining",
+  //   titleJa: "実世界データマイニング",
+  //   titleEn: "Real-world Data Mining",
+  //   video: "/assets/video/realworldAIonlyHuman.mp4",
+  //   description: "人間や動物の行動データを自動解析するAIを実現し、これまでに明らかになっていなかった知識を掘り起こすデータマイニング技術を開発しています。健常および疾患のモデル動物の行動を解析して創薬に役立てたり、環境変動による野生動物の行動に及ぼす影響の評価、獣害対策施策の動物行動に与える影響の評価、熟練作業員の作業データからのノウハウや暗黙知の抽出などの様々な実世界応用が見込まれます。",
+  //   descriptionEn: "We are engaged in the research of advanced real-world data mining techniques using machine learning and statistical methods to extract valuable insights from diverse data sources.",
+  // },
 ];
