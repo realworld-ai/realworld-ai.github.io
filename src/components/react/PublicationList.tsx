@@ -1,268 +1,319 @@
-import React, { useState, useMemo, useEffect } from 'react';
-import type { Publication } from '../../utils/bibtex';
+import React, { useState, useMemo } from 'react';
 import { PublicationItem } from './PublicationItem';
+import { BookOpen, Award, Newspaper, Mic2, Search, Filter } from 'lucide-react';
+
+// Import data directly
+import membersData from '../../data/members.json';
+import publicationsData from '../../data/publications.json';
+import awardsData from '../../data/awards.json';
+import mediaData from '../../data/media_coverage.json';
+import presentationsData from '../../data/presentations.json';
+
+// Types based on data structure
+interface Member {
+    id: string;
+    name_ja: string;
+    name_en: string;
+    role_ja: string;
+    role_en: string;
+    image: string;
+}
+
+interface Publication {
+    id: string;
+    type: string;
+    category: string; // 'International' | 'Domestic'
+    subCategory: string; // 'Journal' | 'Conference' | 'Other'
+    title: string;
+    authors: string;
+    journal: string;
+    volume?: string;
+    issue?: string;
+    pages?: string;
+    dateDisplay: string;
+    year: number;
+    doi?: string;
+    url?: string;
+    publication_date?: string;
+}
+
+interface Award {
+    id: string;
+    award_name: string;
+    award_title: string;
+    winners: string | { name: string }[]; // Can be string or array based on fetch script
+    association: string;
+    award_date: string; // YYYY-MM
+    major_achievement?: boolean;
+}
+
+interface MediaCoverage {
+    id: string;
+    media_coverage_title: string;
+    event: string;
+    publication_date: string; // YYYY-MM
+    media_coverage_type: string;
+    major_achievement?: boolean;
+}
+
+interface Presentation {
+    id: string;
+    presentation_title: string;
+    presenters: string;
+    event: string;
+    publication_date: string; // YYYY-MM-DD
+    presentation_type: string;
+    major_achievement?: boolean;
+}
 
 interface Props {
-    publications: Publication[];
     lang: 'en' | 'ja';
 }
 
-type FilterType = 'venue' | 'author';
+type Tab = 'all' | 'awards' | 'media' | 'presentations';
+type MemberFilter = string | null; // member ID
 
-export const PublicationList: React.FC<Props> = ({ publications, lang }) => {
-    useEffect(() => {
-        console.log(`[PublicationList] Loaded ${publications?.length} items`, publications);
-    }, [publications]);
-
+export const PublicationList: React.FC<Props> = ({ lang }) => {
+    const [activeTab, setActiveTab] = useState<Tab>('all');
+    const [selectedMemberId, setSelectedMemberId] = useState<MemberFilter>(null);
     const [search, setSearch] = useState('');
-    const [activeFilter, setActiveFilter] = useState<{ type: FilterType, value: string } | null>(null);
-    const [activeTab, setActiveTab] = useState<FilterType>('venue');
-    const [showAllAuthors, setShowAllAuthors] = useState(false);
     const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
-    if (!publications) {
-        console.error('[PublicationList] Error: publications prop is undefined or null');
-        return <div className="text-red-500 py-8">Error loading data. Please check console.</div>;
-    }
+    // Filter Logic
+    const selectedMember = useMemo(() => 
+        membersData.find(m => m.id === selectedMemberId), 
+    [selectedMemberId]);
 
-    // Normalization Functions
-    const normalizeVenue = (venue: string) => {
-        if (!venue) return 'Unknown';
-        let v = venue.trim();
+    const filterItemByMember = (item: any, type: Tab) => {
+        if (!selectedMember) return true;
         
-        // Extract acronym in parens if present at end or implies conference acronym
-        const parenMatch = v.match(/\(([^)]+)\)$/);
-        if (parenMatch && parenMatch[1].length < 20) {
-            // e.g. (PerCom 2024) -> PerCom
-            return parenMatch[1].replace(/\d{4}/g, '').trim(); 
+        const names = [selectedMember.name_en.toLowerCase(), selectedMember.name_ja.toLowerCase()];
+        const check = (text: string) => {
+            if (!text) return false;
+            const t = text.toLowerCase();
+            return names.some(n => t.includes(n));
+        };
+
+        if (type === 'all') { // Publication
+            return check(item.authors);
+        } else if (type === 'awards') {
+            // winners can be string or array
+            if (Array.isArray(item.winners)) {
+                return item.winners.some((w: any) => check(w.name || w));
+            }
+            return check(item.winners);
+        } else if (type === 'media') {
+            return check(item.media_coverage_title) || check(item.event);
+        } else if (type === 'presentations') {
+            return check(item.presenters);
         }
-
-        // Common cleanups
-        v = v
-            .replace(/^Proc\. of\s+/i, '')
-            .replace(/^the\s+/i, '')
-            .replace(/\d{4}/g, '') // Remove years
-            .replace(/International Conference on/i, 'Int. Conf. on')
-            .replace(/Symposium on/i, 'Symp. on')
-            .replace(/IEEE/g, '')
-            .replace(/ACM/g, '')
-            .trim();
-        
-        // Remove trailing comma or dot
-        v = v.replace(/[.,]+$/, '');
-        
-        return v || 'Unknown';
+        return true;
     };
 
-    const normalizeAuthor = (author: string) => {
-        return author.trim().replace(/\*/g, ''); // Remove corresponding author asterisk
+    const filterItemBySearch = (item: any, type: Tab) => {
+        if (!search) return true;
+        const s = search.toLowerCase();
+        
+        if (type === 'all') {
+            return (item.title || '').toLowerCase().includes(s) || 
+                   (item.authors || '').toLowerCase().includes(s) || 
+                   (item.journal || '').toLowerCase().includes(s);
+        } else if (type === 'awards') {
+            return (item.award_title || '').toLowerCase().includes(s) || 
+                   (item.award_name || '').toLowerCase().includes(s) ||
+                   (item.association || '').toLowerCase().includes(s);
+        } else if (type === 'media') {
+            return (item.media_coverage_title || '').toLowerCase().includes(s) || 
+                   (item.event || '').toLowerCase().includes(s);
+        } else if (type === 'presentations') {
+            return (item.presentation_title || '').toLowerCase().includes(s) ||
+                   (item.event || '').toLowerCase().includes(s);
+        }
+        return true;
     };
 
-    // Extract Data for Index
-    const indexData = useMemo(() => {
-        const venues: Record<string, number> = {};
-        const authors: Record<string, number> = {};
+    // Filtered Lists
+    // Sort by Date Descending
+    const filteredData = useMemo(() => {
+        let data: any[] = [];
+        if (activeTab === 'all') data = publicationsData;
+        else if (activeTab === 'awards') data = awardsData;
+        else if (activeTab === 'media') data = mediaData;
+        else if (activeTab === 'presentations') data = presentationsData;
 
-        publications.forEach(pub => {
-            // Venue
-            if (pub.journal) {
-                const v = normalizeVenue(pub.journal);
-                venues[v] = (venues[v] || 0) + 1;
-            }
+        return data.filter(item => filterItemByMember(item, activeTab) && filterItemBySearch(item, activeTab));
+    }, [activeTab, selectedMember, search]);
 
-            // Authors
-            if (pub.authors) {
-                pub.authors.split(',').forEach(a => {
-                    const auth = normalizeAuthor(a);
-                    if (auth) {
-                        authors[auth] = (authors[auth] || 0) + 1;
-                    }
-                });
+    // Grouping by Year
+    const dataByYear = useMemo(() => {
+        const grouped: Record<string, any[]> = {};
+        filteredData.forEach(item => {
+            // date field varies: publication_date, award_date. 
+            // Publications has 'year' number. Others use date string.
+            let year = '';
+            if (activeTab === 'all') {
+                year = item.year.toString();
+            } else if (activeTab === 'awards') {
+                year = (item.award_date || '').split('-')[0];
+            } else {
+                year = (item.publication_date || '').split('-')[0];
             }
+            
+            if (!year) year = 'Unknown';
+            if (!grouped[year]) grouped[year] = [];
+            grouped[year].push(item);
         });
+        return grouped;
+    }, [filteredData, activeTab]);
 
-        const sortedVenues = Object.entries(venues).sort((a, b) => b[1] - a[1]);
-        const sortedAuthors = Object.entries(authors).sort((a, b) => b[1] - a[1]);
-
-        return { venues: sortedVenues, authors: sortedAuthors };
-    }, [publications]);
-
-    // Filtering
-    const filteredPubs = useMemo(() => {
-        let result = publications;
-
-        // 1. Text Search
-        if (search) {
-            const lowerSearch = search.toLowerCase();
-            result = result.filter(pub => 
-                (pub.title || '').toLowerCase().includes(lowerSearch) ||
-                (pub.authors || '').toLowerCase().includes(lowerSearch) ||
-                (pub.journal || '').toLowerCase().includes(lowerSearch) ||
-                (pub.year || '').toString().includes(lowerSearch)
-            );
-        }
-
-        // 2. Sidebar Filter
-        if (activeFilter) {
-            if (activeFilter.type === 'venue') {
-                result = result.filter(pub => pub.journal && normalizeVenue(pub.journal) === activeFilter.value);
-            } else if (activeFilter.type === 'author') {
-                result = result.filter(pub => pub.authors && pub.authors.split(',').map(normalizeAuthor).includes(activeFilter.value));
-            }
-        }
-
-        return result;
-    }, [publications, search, activeFilter]);
-
-    // Grouping
-    const pubsByYear = useMemo(() => {
-        return filteredPubs.reduce((acc, pub) => {
-            const year = pub.year;
-            if (!acc[year]) acc[year] = [];
-            acc[year].push(pub);
-            return acc;
-        }, {} as Record<number, Publication[]>);
-    }, [filteredPubs]);
-
-    const sortedYears = useMemo(() => Object.keys(pubsByYear).map(Number).sort((a, b) => b - a), [pubsByYear]);
+    const sortedYears = Object.keys(dataByYear).sort((a, b) => Number(b) - Number(a));
 
     const labels = {
         en: {
-            international: 'International',
-            journals: 'Journals',
-            conferences: 'Conferences',
-            other: 'Other',
-            domestic: 'Domestic',
-            searchPlaceholder: 'Search by title, author, venue...',
-            byVenue: 'By Venue',
-            byAuthor: 'By Author',
+            pageTitle: 'Publications',
+            all: 'Papers',
+            awards: 'Awards',
+            media: 'Media',
+            presentations: 'Talks',
+            searchPlaceholder: 'Search...',
+            filterByMember: 'Filter by Member',
             clearFilter: 'Clear Filter',
-            showAllAuthors: 'Show all authors',
-            filter: 'Filter',
             toggleFilters: 'Toggle Filters'
         },
         ja: {
-            international: '国際発表',
-            journals: '学術論文',
-            conferences: '国際会議',
-            other: 'その他',
-            domestic: '国内発表',
-            searchPlaceholder: 'タイトル、著者、会議名などで検索...',
-            byVenue: '会議・雑誌別',
-            byAuthor: '著者別',
+            pageTitle: '業績リスト',
+            all: '論文',
+            awards: '受賞',
+            media: '報道',
+            presentations: '講演',
+            searchPlaceholder: '検索...',
+            filterByMember: 'メンバーで絞り込み',
             clearFilter: '絞り込み解除',
-            showAllAuthors: '全ての著者を表示',
-            filter: 'フィルター',
             toggleFilters: 'フィルター表示切替'
         }
     };
     
     const t = labels[lang];
 
-    if (!publications || publications.length === 0) {
-        return <div className="text-center text-gray-400 py-12">Loading publications... (or no data found)</div>;
-    }
+    const tabs = [
+        { id: 'all' as const, label: t.all, icon: BookOpen },
+        { id: 'awards' as const, label: t.awards, icon: Award },
+        { id: 'media' as const, label: t.media, icon: Newspaper },
+        { id: 'presentations' as const, label: t.presentations, icon: Mic2 },
+    ];
 
-    const AuthorsList = () => {
-        // Option A: >= 2 by default
-        const threshold = 2;
-        const visibleAuthors = showAllAuthors ? indexData.authors : indexData.authors.filter(([_, count]) => count >= threshold);
-        
+    // --- Renderers ---
+
+    const renderAward = (award: Award) => {
+        const winnersStr = Array.isArray(award.winners) 
+            ? award.winners.map((w: any) => w.name || w).join(', ') 
+            : award.winners;
         return (
-            <div className="space-y-1">
-                {visibleAuthors.map(([name, count]) => (
-                    <button
-                        key={name}
-                        onClick={() => setActiveFilter({ type: 'author', value: name })}
-                        className={`w-full text-left text-sm py-1 px-2 rounded flex justify-between group ${
-                            activeFilter?.type === 'author' && activeFilter.value === name
-                                ? 'bg-lab-accent/20 text-lab-accent'
-                                : 'text-gray-400 hover:bg-white/5 hover:text-white'
-                        }`}
-                    >
-                        <span className="truncate pr-2">{name}</span>
-                        <span className="text-xs bg-white/10 px-1.5 rounded-full h-5 flex items-center">{count}</span>
-                    </button>
-                ))}
-                {!showAllAuthors && indexData.authors.length > visibleAuthors.length && (
-                    <button 
-                        onClick={() => setShowAllAuthors(true)}
-                        className="text-xs text-lab-accent hover:underline mt-2 pl-2"
-                    >
-                        {t.showAllAuthors} ({indexData.authors.length - visibleAuthors.length} more)
-                    </button>
-                )}
+            <div key={award.id} className="py-3 border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors rounded-lg px-4 -mx-4">
+                <div className="text-gray-300 leading-relaxed text-sm lg:text-base">
+                    <span className="font-bold text-white">{award.award_name}</span>. 
+                    <span className="block italic text-gray-400 mt-1">{award.award_title}</span>
+                    <div className="text-sm mt-1">
+                        <span className="text-gray-400">{winnersStr}</span>
+                        <span className="text-gray-500 mx-2">|</span>
+                        <span className="text-lab-accent">{award.association}</span>
+                        <span className="text-gray-500 ml-2">({award.award_date})</span>
+                    </div>
+                </div>
             </div>
         );
     };
 
-    const VenuesList = () => (
-        <div className="space-y-1 max-h-[60vh] overflow-y-auto pr-1 custom-scrollbar">
-            {indexData.venues.map(([name, count]) => (
-                <button
-                    key={name}
-                    onClick={() => setActiveFilter({ type: 'venue', value: name })}
-                    className={`w-full text-left text-sm py-1 px-2 rounded flex justify-between group ${
-                        activeFilter?.type === 'venue' && activeFilter.value === name
-                            ? 'bg-lab-accent/20 text-lab-accent'
-                            : 'text-gray-400 hover:bg-white/5 hover:text-white'
-                    }`}
-                >
-                    <span className="truncate pr-2" title={name}>{name}</span>
-                    <span className="text-xs bg-white/10 px-1.5 rounded-full h-5 flex items-center">{count}</span>
-                </button>
-            ))}
+    const renderMedia = (media: MediaCoverage) => (
+        <div key={media.id} className="py-3 border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors rounded-lg px-4 -mx-4">
+            <div className="text-gray-300 leading-relaxed text-sm lg:text-base">
+                <span className="font-bold text-white">{media.media_coverage_title}</span>
+                {media.event && <span className="block text-gray-400 mt-1">{media.event}</span>}
+                <div className="text-sm mt-1 text-gray-500">
+                    {media.publication_date}
+                    {media.media_coverage_type && <span className="ml-2 px-1.5 py-0.5 rounded bg-white/10 text-xs">{media.media_coverage_type}</span>}
+                </div>
+            </div>
+        </div>
+    );
+
+    const renderPresentation = (pres: Presentation) => (
+        <div key={pres.id} className="py-3 border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors rounded-lg px-4 -mx-4">
+            <div className="text-gray-300 leading-relaxed text-sm lg:text-base">
+                <span className="font-bold text-white max-w-3xl block">{pres.presentation_title}</span>
+                <span className="block text-gray-400 text-sm mt-1">{pres.presenters}</span>
+                <div className="text-sm mt-1 flex items-center gap-2">
+                    <span className="italic text-lab-accent">{pres.event}</span>
+                    <span className="text-gray-500">({pres.publication_date})</span>
+                    {pres.presentation_type && <span className="px-1.5 py-0.5 rounded bg-white/10 text-xs text-gray-400">{pres.presentation_type}</span>}
+                </div>
+            </div>
         </div>
     );
 
     return (
-        <div className="flex flex-col lg:flex-row gap-8 relative items-start">
-             {/* Sidebar - Desktop Sticky / Mobile Collapsible */}
-             <div className={`w-full lg:w-1/4 lg:sticky lg:top-4 bg-gray-900/50 p-4 rounded-xl border border-white/5 backdrop-blur-sm transition-all z-10 ${isMobileFilterOpen ? 'block' : 'hidden lg:block'}`}>
-                 {/* Mobile Close Button */}
+        <div className="min-h-[50vh]">
+            {/* Header Section */}
+            <div className="mb-12">
+                <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-8">{t.pageTitle}</h1>
+                
+                {/* Tabs */}
+                <div className="flex flex-wrap gap-2 border-b border-white/10">
+                    {tabs.map(tab => {
+                        const Icon = tab.icon;
+                        const isActive = activeTab === tab.id;
+                        return (
+                            <button
+                                key={tab.id}
+                                onClick={() => setActiveTab(tab.id)}
+                                className={`flex items-center gap-2 px-6 py-3 rounded-t-lg font-medium transition-all relative top-[1px] ${
+                                    isActive
+                                        ? 'bg-lab-accent text-white shadow-lg shadow-lab-accent/20'
+                                        : 'text-gray-400 hover:text-white hover:bg-white/5'
+                                }`}
+                            >
+                                <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-500 group-hover:text-white'}`} />
+                                {tab.label}
+                            </button>
+                        );
+                    })}
+                </div>
+            </div>
+
+            <div className="flex flex-col lg:flex-row gap-8 relative items-start">
+             {/* Sidebar - Members */}
+             <div className={`w-full lg:w-1/4 lg:sticky lg:top-8 bg-gray-900/50 p-4 rounded-xl border border-white/5 backdrop-blur-sm transition-all z-10 ${isMobileFilterOpen ? 'block' : 'hidden lg:block'}`}>
                  <div className="lg:hidden flex justify-end mb-2">
                      <button onClick={() => setIsMobileFilterOpen(false)} className="text-gray-400">&times;</button>
                  </div>
-
-                {/* Tabs */}
-                <div className="flex border-b border-white/10 mb-4">
-                    <button
-                        onClick={() => setActiveTab('venue')}
-                        className={`flex-1 py-2 text-sm font-medium border-b-2 transition-colors ${
-                            activeTab === 'venue' ? 'border-lab-accent text-lab-accent' : 'border-transparent text-gray-500 hover:text-gray-300'
+                 
+                 <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4 border-b border-white/10 pb-2">{t.filterByMember}</h3>
+                 
+                 <div className="space-y-1 max-h-[60vh] overflow-y-auto custom-scrollbar pr-1">
+                     <button
+                        onClick={() => setSelectedMemberId(null)}
+                        className={`w-full text-left text-sm py-2 px-3 rounded transition-colors ${
+                            selectedMemberId === null 
+                                ? 'bg-lab-accent text-white font-bold shadow-lg shadow-lab-accent/20' 
+                                : 'text-gray-400 hover:bg-white/5 hover:text-white'
                         }`}
-                    >
-                        {t.byVenue}
-                    </button>
-                    <button
-                        onClick={() => setActiveTab('author')}
-                        className={`flex-1 py-2 text-sm font-medium border-b-2 transition-colors ${
-                            activeTab === 'author' ? 'border-lab-accent text-lab-accent' : 'border-transparent text-gray-500 hover:text-gray-300'
-                        }`}
-                    >
-                        {t.byAuthor}
-                    </button>
-                </div>
-
-                {/* Filter List */}
-                {activeTab === 'venue' ? <VenuesList /> : <AuthorsList />}
-
-                {/* Active Filter Indication / Clear */}
-                {activeFilter && (
-                    <div className="mt-6 pt-4 border-t border-white/10">
-                        <div className="text-xs text-gray-500 mb-2">{t.filter}:</div>
-                        <div className="bg-lab-accent/10 border border-lab-accent/30 rounded px-2 py-1 text-sm text-lab-accent flex justify-between items-center mb-2">
-                            <span className="truncate">{activeFilter.value}</span>
-                            <button onClick={() => setActiveFilter(null)} className="hover:text-white ml-2">&times;</button>
-                        </div>
-                        <button 
-                            onClick={() => setActiveFilter(null)}
-                            className="w-full text-center text-xs text-gray-400 hover:text-white hover:underline"
-                        >
-                            {t.clearFilter}
-                        </button>
-                    </div>
-                )}
+                     >
+                        All Members
+                     </button>
+                     {membersData.map(member => (
+                         <button
+                            key={member.id}
+                            onClick={() => setSelectedMemberId(member.id)}
+                            className={`w-full text-left text-sm py-2 px-3 rounded transition-colors flex items-center gap-3 ${
+                                selectedMemberId === member.id
+                                    ? 'bg-lab-accent/20 text-lab-accent border border-lab-accent/30'
+                                    : 'text-gray-400 hover:bg-white/5 hover:text-white border border-transparent'
+                            }`}
+                         >
+                             <span className="truncate">{lang === 'en' ? member.name_en : member.name_ja}</span>
+                         </button>
+                     ))}
+                 </div>
              </div>
 
              {/* Mobile Filter Toggle */}
@@ -271,121 +322,66 @@ export const PublicationList: React.FC<Props> = ({ publications, lang }) => {
                     onClick={() => setIsMobileFilterOpen(!isMobileFilterOpen)}
                     className="w-full py-2 bg-gray-800 rounded border border-white/10 text-gray-300 flex justify-center items-center gap-2"
                 >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" /></svg>
-                    {t.toggleFilters} {activeFilter ? '(1)' : ''}
-                 </button>
+                    <Filter className="w-4 h-4" />
+                    {t.toggleFilters} {selectedMember ? '(1)' : ''}
+                </button>
              </div>
 
             {/* Main Content */}
-            <div className="w-full lg:w-3/4 space-y-8">
-                {/* Search Input */}
-                <div>
-                    <div className="relative">
+            <div className="w-full lg:w-3/4 space-y-6">
+                
+                {/* Search */}
+                <div className="">
+                    <div className="relative w-full">
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <svg className="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
+                            <Search className="h-4 w-4 text-gray-500" />
                         </div>
                         <input
                             type="text"
-                            className="block w-full pl-10 pr-3 py-3 border border-gray-700 rounded-lg leading-5 bg-gray-900/50 text-gray-300 placeholder-gray-500 focus:outline-none focus:bg-gray-900 focus:border-lab-accent focus:ring-1 focus:ring-lab-accent sm:text-sm transition-colors"
+                            className="block w-full pl-9 pr-3 py-2 border border-white/10 rounded-lg leading-5 bg-gray-900/50 text-gray-300 placeholder-gray-600 focus:outline-none focus:bg-gray-900 focus:border-lab-accent text-sm transition-colors"
                             placeholder={t.searchPlaceholder}
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
                         />
                     </div>
-                     <div className="flex justify-between items-center mt-2 px-1">
-                        <p className="text-gray-500 text-xs">
-                           {/* Hint */}
-                        </p>
-                        <p className="text-gray-500 text-xs">
-                            {filteredPubs.length} / {publications.length}
-                        </p>
-                    </div>
                 </div>
 
-                <div className="space-y-16">
-                    {sortedYears.length === 0 && (
-                        <div className="text-center text-gray-500 py-12">
-                            {lang === 'en' ? 'No publications found matching criteria' : '条件に一致する論文が見つかりません'}
+                {/* Counter */}
+                <div className="flex justify-between items-center text-xs text-gray-500 px-2 border-b border-white/5 pb-2">
+                    <span>
+                        {selectedMember ? (lang === 'en' ? `Showing results for: ${selectedMember.name_en}` : `${selectedMember.name_ja} の業績を表示中`) : ''}
+                    </span>
+                    <span>{filteredData.length} items found</span>
+                </div>
+
+                {/* List */}
+                <div className="space-y-12">
+                     {sortedYears.length === 0 && (
+                        <div className="text-center text-gray-500 py-12 bg-gray-900/20 rounded-xl border border-white/5 border-dashed">
+                            {lang === 'en' ? 'No items found matching criteria' : '条件に一致する項目が見つかりません'}
                         </div>
                     )}
-                    
-                    {sortedYears.map(year => {
-                        const yearPubs = pubsByYear[year];
-                        const international = yearPubs.filter(p => p.category === 'International');
-                        const domestic = yearPubs.filter(p => p.category === 'Domestic');
-                        
-                        const intJournals = international.filter(p => p.subCategory === 'Journal');
-                        const intConfs = international.filter(p => p.subCategory === 'Conference');
-                        const intOthers = international.filter(p => p.subCategory !== 'Journal' && p.subCategory !== 'Conference');
 
-                        return (
+                    {sortedYears.map(year => (
                         <section key={year}>
-                            <h2 className="text-3xl font-bold text-white mb-8 border-b border-white/10 pb-2 flex items-center">
-                                <span className="text-lab-accent mr-3">#</span> {year}
+                            <h2 className="text-2xl font-bold text-white mb-6 border-b border-white/10 pb-2 flex items-center sticky top-0 bg-gray-950/90 backdrop-blur py-2 z-10 w-full">
+                                <span className="text-lab-accent mr-3 text-lg opacity-70">#</span> {year}
                             </h2>
                             
-                            <div className="space-y-10 pl-4 lg:pl-8">
-                                {/* International Section */}
-                                {(international.length > 0) && (
-                                    <div className="space-y-8">
-                                        <h3 className="text-xl font-bold text-white/90 uppercase tracking-wider">{t.international}</h3>
-                                        
-                                        {/* International Journals */}
-                                        {intJournals.length > 0 && (
-                                            <div className="space-y-4">
-                                                <h4 className="text-lg font-semibold text-lab-accent">{t.journals}</h4>
-                                                <div className="space-y-2">
-                                                    {intJournals.map(pub => (
-                                                        <PublicationItem key={pub.id} pub={pub} />
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        )}
-
-                                        {/* International Conferences */}
-                                        {intConfs.length > 0 && (
-                                            <div className="space-y-4">
-                                                <h4 className="text-lg font-semibold text-lab-accent">{t.conferences}</h4>
-                                                <div className="space-y-2">
-                                                    {intConfs.map(pub => (
-                                                        <PublicationItem key={pub.id} pub={pub} />
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        )}
-                                        
-                                        {/* International Others */}
-                                        {intOthers.length > 0 && (
-                                            <div className="space-y-4">
-                                                <h4 className="text-lg font-semibold text-lab-accent">{t.other}</h4>
-                                                <div className="space-y-2">
-                                                    {intOthers.map(pub => (
-                                                        <PublicationItem key={pub.id} pub={pub} />
-                                                    ))}
-                                                </div>
-                                            </div>
-                                        )}
-                                    </div>
-                                )}
-
-                                {/* Domestic Section */}
-                                {domestic.length > 0 && (
-                                    <div className="space-y-4">
-                                        <h3 className="text-xl font-bold text-white/90 uppercase tracking-wider pt-4">{t.domestic}</h3>
-                                        <div className="space-y-2">
-                                            {domestic.map(pub => (
-                                                <PublicationItem key={pub.id} pub={pub} />
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
+                            <div className="pl-2 lg:pl-4 space-y-1">
+                                {dataByYear[year].map(item => {
+                                    if (activeTab === 'all') return <PublicationItem key={item.id} pub={item as any} />;
+                                    if (activeTab === 'awards') return renderAward(item as Award);
+                                    if (activeTab === 'media') return renderMedia(item as MediaCoverage);
+                                    if (activeTab === 'presentations') return renderPresentation(item as Presentation);
+                                    return null;
+                                })}
                             </div>
                         </section>
-                    )})}
+                    ))}
                 </div>
             </div>
+          </div>
         </div>
     );
 };
