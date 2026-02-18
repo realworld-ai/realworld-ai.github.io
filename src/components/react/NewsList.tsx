@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Calendar, Award, Activity, Link as LinkIcon, Users } from 'lucide-react';
+import { getTagColor } from '../../utils/colors';
 
 interface NewsItemData {
     title: string;
@@ -9,6 +10,7 @@ interface NewsItemData {
     summary?: string;
     links?: { label: string; url: string }[];
     coverImage?: string;
+    tags?: string[];
 }
 
 interface NewsItem {
@@ -151,6 +153,19 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                                                                     <LinkIcon className="w-3 h-3" />
                                                                     {link.label}
                                                                 </a>
+                                                            ))}
+                                                        </div>
+                                                    )}
+
+                                                    {item.data.tags && item.data.tags.length > 0 && (
+                                                        <div className={`flex flex-wrap gap-2 ${item.data.links && item.data.links.length > 0 ? 'mt-3' : 'mt-4 pt-4 border-t border-white/5'}`}>
+                                                            {item.data.tags.map((tag) => (
+                                                                <span 
+                                                                    key={tag} 
+                                                                    className={`text-xs px-2 py-0.5 rounded border ${getTagColor(tag)}`}
+                                                                >
+                                                                    {tag}
+                                                                </span>
                                                             ))}
                                                         </div>
                                                     )}
