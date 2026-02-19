@@ -14,7 +14,8 @@
     "year": 2025,
     "doi": "10.1002/ece3.71832",
     "url": "https://doi.org/10.1002/ece3.71832",
-    "publication_date": "2025-08"
+    "publication_date": "2025-08",
+    "major_achievement": false
   },
   {
     "id": "51279988",
@@ -31,7 +32,8 @@
     "year": 2025,
     "doi": "10.1109/ICPS65515.2025.11087824",
     "url": "https://doi.org/10.1109/ICPS65515.2025.11087824",
-    "publication_date": "2025-05"
+    "publication_date": "2025-05",
+    "major_achievement": false
   },
   {
     "id": "48688487",
@@ -48,7 +50,8 @@
     "year": 2025,
     "doi": "10.1109/TMC.2024.3514736",
     "url": "https://doi.org/10.1109/TMC.2024.3514736",
-    "publication_date": "2025-05"
+    "publication_date": "2025-05",
+    "major_achievement": true
   },
   {
     "id": "49819188",
@@ -65,7 +68,8 @@
     "year": 2025,
     "doi": "10.1186/s40462-025-00551-8",
     "url": "https://doi.org/10.1186/s40462-025-00551-8",
-    "publication_date": "2025-04-01"
+    "publication_date": "2025-04-01",
+    "major_achievement": false
   },
   {
     "id": "49821499",
@@ -82,7 +86,8 @@
     "year": 2025,
     "doi": "",
     "url": "",
-    "publication_date": "2025-03"
+    "publication_date": "2025-03",
+    "major_achievement": false
   },
   {
     "id": "49820787",
@@ -99,7 +104,8 @@
     "year": 2025,
     "doi": "",
     "url": "",
-    "publication_date": "2025-03"
+    "publication_date": "2025-03",
+    "major_achievement": true
   },
   {
     "id": "49819976",
@@ -116,7 +122,8 @@
     "year": 2025,
     "doi": "",
     "url": "",
-    "publication_date": "2025-03"
+    "publication_date": "2025-03",
+    "major_achievement": true
   },
   {
     "id": "51280014",
@@ -133,7 +140,8 @@
     "year": 2025,
     "doi": "10.7717/peerj.19393",
     "url": "https://doi.org/10.7717/peerj.19393",
-    "publication_date": "2025"
+    "publication_date": "2025",
+    "major_achievement": false
   },
   {
     "id": "49819191",
@@ -150,7 +158,8 @@
     "year": 2024,
     "doi": "10.1186/s40462-024-00511-8",
     "url": "https://doi.org/10.1186/s40462-024-00511-8",
-    "publication_date": "2024-12-18"
+    "publication_date": "2024-12-18",
+    "major_achievement": false
   },
   {
     "id": "49819259",
@@ -167,7 +176,8 @@
     "year": 2024,
     "doi": "10.1145/3675094.3678384",
     "url": "https://doi.org/10.1145/3675094.3678384",
-    "publication_date": "2024-10"
+    "publication_date": "2024-10",
+    "major_achievement": false
   },
   {
     "id": "49819258",
@@ -184,7 +194,8 @@
     "year": 2024,
     "doi": "10.1145/3675094.3677597",
     "url": "https://doi.org/10.1145/3675094.3677597",
-    "publication_date": "2024-10"
+    "publication_date": "2024-10",
+    "major_achievement": false
   },
   {
     "id": "49819238",
@@ -201,7 +212,8 @@
     "year": 2024,
     "doi": "",
     "url": "",
-    "publication_date": "2024-10"
+    "publication_date": "2024-10",
+    "major_achievement": false
   },
   {
     "id": "48391298",
@@ -218,7 +230,8 @@
     "year": 2024,
     "doi": "10.2197/ipsjjip.32.863",
     "url": "https://doi.org/10.2197/ipsjjip.32.863",
-    "publication_date": "2024-10"
+    "publication_date": "2024-10",
+    "major_achievement": false
   },
   {
     "id": "47526256",
@@ -235,7 +248,8 @@
     "year": 2024,
     "doi": "10.1145/3678554",
     "url": "https://doi.org/10.1145/3678554",
-    "publication_date": "2024-08-22"
+    "publication_date": "2024-08-22",
+    "major_achievement": true
   },
   {
     "id": "47328633",
@@ -252,7 +266,8 @@
     "year": 2024,
     "doi": "10.1098/rsbl.2024.0223",
     "url": "https://doi.org/10.1098/rsbl.2024.0223",
-    "publication_date": "2024-08-07"
+    "publication_date": "2024-08-07",
+    "major_achievement": false
   },
   {
     "id": "47255806",
@@ -269,7 +284,8 @@
     "year": 2024,
     "doi": "10.60401/ijabc.16",
     "url": "https://doi.org/10.60401/ijabc.16",
-    "publication_date": "2024-06"
+    "publication_date": "2024-06",
+    "major_achievement": false
   },
   {
     "id": "47255794",
@@ -286,7 +302,8 @@
     "year": 2024,
     "doi": "10.60401/ijabc.17",
     "url": "https://doi.org/10.60401/ijabc.17",
-    "publication_date": "2024-06"
+    "publication_date": "2024-06",
+    "major_achievement": false
   },
   {
     "id": "45639287",
@@ -303,7 +320,8 @@
     "year": 2024,
     "doi": "10.1111/2041-210X.14294",
     "url": "https://doi.org/10.1111/2041-210X.14294",
-    "publication_date": "2024-04"
+    "publication_date": "2024-04",
+    "major_achievement": true
   },
   {
     "id": "46459299",
@@ -320,7 +338,8 @@
     "year": 2024,
     "doi": "10.1109/PerComWorkshops59983.2024.10503195",
     "url": "https://doi.org/10.1109/PerComWorkshops59983.2024.10503195",
-    "publication_date": "2024-03"
+    "publication_date": "2024-03",
+    "major_achievement": false
   },
   {
     "id": "46459298",
@@ -337,7 +356,8 @@
     "year": 2024,
     "doi": "10.1109/PerCom59722.2024.10494448",
     "url": "https://doi.org/10.1109/PerCom59722.2024.10494448",
-    "publication_date": "2024-03"
+    "publication_date": "2024-03",
+    "major_achievement": true
   },
   {
     "id": "46459297",
@@ -354,7 +374,8 @@
     "year": 2024,
     "doi": "10.1109/PerComWorkshops59983.2024.10503342",
     "url": "https://doi.org/10.1109/PerComWorkshops59983.2024.10503342",
-    "publication_date": "2024-03"
+    "publication_date": "2024-03",
+    "major_achievement": false
   },
   {
     "id": "44467792",
@@ -371,7 +392,8 @@
     "year": 2024,
     "doi": "10.1093/pnasnexus/pgad447",
     "url": "https://doi.org/10.1093/pnasnexus/pgad447",
-    "publication_date": "2024-01-16"
+    "publication_date": "2024-01-16",
+    "major_achievement": true
   },
   {
     "id": "48763584",
@@ -388,7 +410,8 @@
     "year": 2024,
     "doi": "10.2197/ipsjjip.32.861",
     "url": "https://doi.org/10.2197/ipsjjip.32.861",
-    "publication_date": "2024"
+    "publication_date": "2024",
+    "major_achievement": false
   },
   {
     "id": "43530786",
@@ -405,7 +428,8 @@
     "year": 2023,
     "doi": "10.1145/3592571.3592974",
     "url": "https://doi.org/10.1145/3592571.3592974",
-    "publication_date": "2023-06-12"
+    "publication_date": "2023-06-12",
+    "major_achievement": false
   },
   {
     "id": "43461877",
@@ -422,7 +446,8 @@
     "year": 2023,
     "doi": "10.48550/arXiv.2306.02140",
     "url": "https://doi.org/10.48550/arXiv.2306.02140",
-    "publication_date": "2023-06"
+    "publication_date": "2023-06",
+    "major_achievement": false
   },
   {
     "id": "43264881",
@@ -439,7 +464,8 @@
     "year": 2023,
     "doi": "",
     "url": "",
-    "publication_date": "2023-03"
+    "publication_date": "2023-03",
+    "major_achievement": false
   },
   {
     "id": "42604203",
@@ -456,7 +482,8 @@
     "year": 2023,
     "doi": "10.1109/PERCOM56429.2023.10099353",
     "url": "https://doi.org/10.1109/PERCOM56429.2023.10099353",
-    "publication_date": "2023-03"
+    "publication_date": "2023-03",
+    "major_achievement": true
   },
   {
     "id": "42604202",
@@ -473,7 +500,8 @@
     "year": 2023,
     "doi": "10.1016/j.pmcj.2022.101742",
     "url": "https://doi.org/10.1016/j.pmcj.2022.101742",
-    "publication_date": "2023-02"
+    "publication_date": "2023-02",
+    "major_achievement": false
   },
   {
     "id": "42604201",
@@ -490,7 +518,8 @@
     "year": 2023,
     "doi": "10.1016/j.pmcj.2022.101735",
     "url": "https://doi.org/10.1016/j.pmcj.2022.101735",
-    "publication_date": "2023-01"
+    "publication_date": "2023-01",
+    "major_achievement": false
   },
   {
     "id": "43461875",
@@ -507,7 +536,8 @@
     "year": 2023,
     "doi": "10.1109/PerComWorkshops56833.2023.10150227",
     "url": "https://doi.org/10.1109/PerComWorkshops56833.2023.10150227",
-    "publication_date": "2023"
+    "publication_date": "2023",
+    "major_achievement": false
   },
   {
     "id": "43434207",
@@ -524,7 +554,8 @@
     "year": 2023,
     "doi": "10.1109/MDM58254.2023.00018",
     "url": "https://doi.org/10.1109/MDM58254.2023.00018",
-    "publication_date": "2023"
+    "publication_date": "2023",
+    "major_achievement": false
   },
   {
     "id": "42604204",
@@ -541,7 +572,8 @@
     "year": 2022,
     "doi": "10.1145/3569467",
     "url": "https://doi.org/10.1145/3569467",
-    "publication_date": "2022-12"
+    "publication_date": "2022-12",
+    "major_achievement": true
   },
   {
     "id": "40054243",
@@ -558,7 +590,8 @@
     "year": 2022,
     "doi": "10.1145/3550319",
     "url": "https://doi.org/10.1145/3550319",
-    "publication_date": "2022-09"
+    "publication_date": "2022-09",
+    "major_achievement": true
   },
   {
     "id": "38940481",
@@ -575,7 +608,8 @@
     "year": 2022,
     "doi": "10.3389/fcomp.2022.925108",
     "url": "https://doi.org/10.3389/fcomp.2022.925108",
-    "publication_date": "2022-07-14"
+    "publication_date": "2022-07-14",
+    "major_achievement": false
   },
   {
     "id": "38940514",
@@ -592,7 +626,8 @@
     "year": 2022,
     "doi": "10.1145/3534572",
     "url": "https://doi.org/10.1145/3534572",
-    "publication_date": "2022-07-04"
+    "publication_date": "2022-07-04",
+    "major_achievement": true
   },
   {
     "id": "44155022",
@@ -609,7 +644,8 @@
     "year": 2022,
     "doi": "10.1109/JSEN.2021.3102916",
     "url": "https://doi.org/10.1109/JSEN.2021.3102916",
-    "publication_date": "2022-03-15"
+    "publication_date": "2022-03-15",
+    "major_achievement": false
   },
   {
     "id": "40054244",
@@ -626,7 +662,8 @@
     "year": 2022,
     "doi": "10.1109/PerCom53586.2022.9762388",
     "url": "https://doi.org/10.1109/PerCom53586.2022.9762388",
-    "publication_date": "2022-03"
+    "publication_date": "2022-03",
+    "major_achievement": true
   },
   {
     "id": "40809396",
@@ -643,7 +680,8 @@
     "year": 2022,
     "doi": "10.1016/j.knosys.2022.109674",
     "url": "https://doi.org/10.1016/j.knosys.2022.109674",
-    "publication_date": "2022"
+    "publication_date": "2022",
+    "major_achievement": false
   },
   {
     "id": "37782743",
@@ -660,7 +698,8 @@
     "year": 2021,
     "doi": "10.1145/3474717.3483949",
     "url": "https://doi.org/10.1145/3474717.3483949",
-    "publication_date": "2021-11"
+    "publication_date": "2021-11",
+    "major_achievement": false
   },
   {
     "id": "40054245",
@@ -677,7 +716,8 @@
     "year": 2021,
     "doi": "10.2197/ipsjjip.29.597",
     "url": "https://doi.org/10.2197/ipsjjip.29.597",
-    "publication_date": "2021-10"
+    "publication_date": "2021-10",
+    "major_achievement": false
   },
   {
     "id": "33800227",
@@ -694,7 +734,8 @@
     "year": 2021,
     "doi": "10.1145/3460421.3480431",
     "url": "https://doi.org/10.1145/3460421.3480431",
-    "publication_date": "2021-09-21"
+    "publication_date": "2021-09-21",
+    "major_achievement": false
   },
   {
     "id": "33800208",
@@ -711,7 +752,8 @@
     "year": 2021,
     "doi": "10.1038/s41467-021-25636-x",
     "url": "https://doi.org/10.1038/s41467-021-25636-x",
-    "publication_date": "2021-09-17"
+    "publication_date": "2021-09-17",
+    "major_achievement": true
   },
   {
     "id": "40054246",
@@ -728,7 +770,8 @@
     "year": 2021,
     "doi": "10.1109/IJCNN52387.2021.9533888",
     "url": "https://doi.org/10.1109/IJCNN52387.2021.9533888",
-    "publication_date": "2021-07"
+    "publication_date": "2021-07",
+    "major_achievement": false
   },
   {
     "id": "37502211",
@@ -745,7 +788,8 @@
     "year": 2021,
     "doi": "10.1109/IJCNN52387.2021.9534327",
     "url": "https://doi.org/10.1109/IJCNN52387.2021.9534327",
-    "publication_date": "2021-07"
+    "publication_date": "2021-07",
+    "major_achievement": false
   },
   {
     "id": "33678325",
@@ -762,7 +806,8 @@
     "year": 2021,
     "doi": "10.1186/s40317-021-00242-2",
     "url": "https://doi.org/10.1186/s40317-021-00242-2",
-    "publication_date": "2021-06"
+    "publication_date": "2021-06",
+    "major_achievement": false
   },
   {
     "id": "33678707",
@@ -779,7 +824,8 @@
     "year": 2021,
     "doi": "",
     "url": "",
-    "publication_date": "2021-05"
+    "publication_date": "2021-05",
+    "major_achievement": false
   },
   {
     "id": "33678310",
@@ -796,7 +842,8 @@
     "year": 2021,
     "doi": "10.1109/access.2021.3080275",
     "url": "https://doi.org/10.1109/access.2021.3080275",
-    "publication_date": "2021-05"
+    "publication_date": "2021-05",
+    "major_achievement": false
   },
   {
     "id": "33678708",
@@ -813,7 +860,8 @@
     "year": 2021,
     "doi": "",
     "url": "",
-    "publication_date": "2021-04"
+    "publication_date": "2021-04",
+    "major_achievement": false
   },
   {
     "id": "33678311",
@@ -830,7 +878,8 @@
     "year": 2021,
     "doi": "10.1109/PerComWorkshops51409.2021.9431118",
     "url": "https://doi.org/10.1109/PerComWorkshops51409.2021.9431118",
-    "publication_date": "2021-03"
+    "publication_date": "2021-03",
+    "major_achievement": false
   },
   {
     "id": "31940685",
@@ -847,7 +896,8 @@
     "year": 2021,
     "doi": "10.2197/ipsjjip.29.46",
     "url": "https://doi.org/10.2197/ipsjjip.29.46",
-    "publication_date": "2021-01"
+    "publication_date": "2021-01",
+    "major_achievement": false
   },
   {
     "id": "43461878",
@@ -864,7 +914,8 @@
     "year": 2021,
     "doi": "10.1007/978-3-030-94822-1_26",
     "url": "https://doi.org/10.1007/978-3-030-94822-1_26",
-    "publication_date": "2021"
+    "publication_date": "2021",
+    "major_achievement": false
   },
   {
     "id": "33678312",
@@ -881,7 +932,8 @@
     "year": 2021,
     "doi": "",
     "url": "https://arxiv.org/abs/2106.02256",
-    "publication_date": "2021"
+    "publication_date": "2021",
+    "major_achievement": false
   },
   {
     "id": "31940775",
@@ -898,7 +950,8 @@
     "year": 2020,
     "doi": "10.1145/3408308.3427981",
     "url": "https://doi.org/10.1145/3408308.3427981",
-    "publication_date": "2020-11"
+    "publication_date": "2020-11",
+    "major_achievement": false
   },
   {
     "id": "31940752",
@@ -915,7 +968,8 @@
     "year": 2020,
     "doi": "10.1038/s42003-020-01356-8",
     "url": "https://doi.org/10.1038/s42003-020-01356-8",
-    "publication_date": "2020-10"
+    "publication_date": "2020-10",
+    "major_achievement": true
   },
   {
     "id": "31940751",
@@ -932,7 +986,8 @@
     "year": 2020,
     "doi": "10.1038/s41467-020-19105-0",
     "url": "https://doi.org/10.1038/s41467-020-19105-0",
-    "publication_date": "2020-10"
+    "publication_date": "2020-10",
+    "major_achievement": true
   },
   {
     "id": "31940774",
@@ -949,7 +1004,8 @@
     "year": 2020,
     "doi": "",
     "url": "https://www.bmvc2020-conference.com/assets/papers/0877.pdf",
-    "publication_date": "2020-09"
+    "publication_date": "2020-09",
+    "major_achievement": false
   },
   {
     "id": "30123088",
@@ -966,7 +1022,8 @@
     "year": 2020,
     "doi": "10.1145/3411836",
     "url": "https://doi.org/10.1145/3411836",
-    "publication_date": "2020-09"
+    "publication_date": "2020-09",
+    "major_achievement": true
   },
   {
     "id": "30123110",
@@ -982,7 +1039,8 @@
     "year": 2020,
     "doi": "",
     "url": "http://id.nii.ac.jp/1001/00206262/",
-    "publication_date": "2020-08"
+    "publication_date": "2020-08",
+    "major_achievement": false
   },
   {
     "id": "30123111",
@@ -999,7 +1057,8 @@
     "year": 2020,
     "doi": "",
     "url": "http://id.ndl.go.jp/bib/030419509",
-    "publication_date": "2020-05"
+    "publication_date": "2020-05",
+    "major_achievement": false
   },
   {
     "id": "26487419",
@@ -1016,7 +1075,8 @@
     "year": 2020,
     "doi": "",
     "url": "",
-    "publication_date": "2020-05"
+    "publication_date": "2020-05",
+    "major_achievement": false
   },
   {
     "id": "30123089",
@@ -1033,7 +1093,8 @@
     "year": 2020,
     "doi": "10.1109/PerCom45495.2020.9127376",
     "url": "https://doi.org/10.1109/PerCom45495.2020.9127376",
-    "publication_date": "2020-03"
+    "publication_date": "2020-03",
+    "major_achievement": true
   },
   {
     "id": "30123090",
@@ -1050,7 +1111,8 @@
     "year": 2020,
     "doi": "10.1109/ICSC.2020.00076",
     "url": "https://doi.org/10.1109/ICSC.2020.00076",
-    "publication_date": "2020-02"
+    "publication_date": "2020-02",
+    "major_achievement": false
   },
   {
     "id": "39101491",
@@ -1067,7 +1129,8 @@
     "year": 2020,
     "doi": "",
     "url": "http://ceur-ws.org/Vol-2660/ialatecml_paper2.pdf",
-    "publication_date": "2020"
+    "publication_date": "2020",
+    "major_achievement": false
   },
   {
     "id": "30123091",
@@ -1084,7 +1147,8 @@
     "year": 2019,
     "doi": "10.1109/BigData47090.2019.9006010",
     "url": "https://doi.org/10.1109/BigData47090.2019.9006010",
-    "publication_date": "2019-12"
+    "publication_date": "2019-12",
+    "major_achievement": false
   },
   {
     "id": "26688452",
@@ -1101,7 +1165,8 @@
     "year": 2019,
     "doi": "10.1109/CBS46900.2019.9114417",
     "url": "https://doi.org/10.1109/CBS46900.2019.9114417",
-    "publication_date": "2019-09"
+    "publication_date": "2019-09",
+    "major_achievement": false
   },
   {
     "id": "26487421",
@@ -1118,7 +1183,8 @@
     "year": 2019,
     "doi": "10.1007/978-3-030-26142-9_24",
     "url": "https://doi.org/10.1007/978-3-030-26142-9_24",
-    "publication_date": "2019-09"
+    "publication_date": "2019-09",
+    "major_achievement": false
   },
   {
     "id": "26487426",
@@ -1135,7 +1201,8 @@
     "year": 2019,
     "doi": "",
     "url": "",
-    "publication_date": "2019-07"
+    "publication_date": "2019-07",
+    "major_achievement": false
   },
   {
     "id": "22988383",
@@ -1152,7 +1219,8 @@
     "year": 2019,
     "doi": "10.3389/fnins.2019.00626",
     "url": "https://doi.org/10.3389/fnins.2019.00626",
-    "publication_date": "2019-06"
+    "publication_date": "2019-06",
+    "major_achievement": false
   },
   {
     "id": "22988376",
@@ -1169,7 +1237,8 @@
     "year": 2019,
     "doi": "10.1145/3328931",
     "url": "https://doi.org/10.1145/3328931",
-    "publication_date": "2019-06"
+    "publication_date": "2019-06",
+    "major_achievement": true
   },
   {
     "id": "44155021",
@@ -1185,7 +1254,8 @@
     "year": 2019,
     "doi": "10.1101/630053",
     "url": "https://doi.org/10.1101/630053",
-    "publication_date": "2019-05-07"
+    "publication_date": "2019-05-07",
+    "major_achievement": false
   },
   {
     "id": "21392667",
@@ -1201,7 +1271,8 @@
     "year": 2019,
     "doi": "10.1145/3308560.3316596",
     "url": "https://doi.org/10.1145/3308560.3316596",
-    "publication_date": "2019-05"
+    "publication_date": "2019-05",
+    "major_achievement": false
   },
   {
     "id": "21392666",
@@ -1217,7 +1288,8 @@
     "year": 2019,
     "doi": "10.1145/3308560.3316595",
     "url": "https://doi.org/10.1145/3308560.3316595",
-    "publication_date": "2019-05"
+    "publication_date": "2019-05",
+    "major_achievement": false
   },
   {
     "id": "21392671",
@@ -1233,7 +1305,8 @@
     "year": 2019,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201902220602830625",
-    "publication_date": "2019-03-15"
+    "publication_date": "2019-03-15",
+    "major_achievement": false
   },
   {
     "id": "22988379",
@@ -1249,7 +1322,8 @@
     "year": 2019,
     "doi": "10.1109/PERCOMW.2019.8730668",
     "url": "https://doi.org/10.1109/PERCOMW.2019.8730668",
-    "publication_date": "2019-03"
+    "publication_date": "2019-03",
+    "major_achievement": false
   },
   {
     "id": "22988378",
@@ -1265,7 +1339,8 @@
     "year": 2019,
     "doi": "10.1109/PERCOMW.2019.8730673",
     "url": "https://doi.org/10.1109/PERCOMW.2019.8730673",
-    "publication_date": "2019-03"
+    "publication_date": "2019-03",
+    "major_achievement": false
   },
   {
     "id": "22988377",
@@ -1281,7 +1356,8 @@
     "year": 2019,
     "doi": "10.1109/PERCOMW.2019.8730698",
     "url": "https://doi.org/10.1109/PERCOMW.2019.8730698",
-    "publication_date": "2019-03"
+    "publication_date": "2019-03",
+    "major_achievement": false
   },
   {
     "id": "21392672",
@@ -1297,7 +1373,8 @@
     "year": 2019,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201902282218784990",
-    "publication_date": "2019-02-15"
+    "publication_date": "2019-02-15",
+    "major_achievement": false
   },
   {
     "id": "21392665",
@@ -1314,7 +1391,8 @@
     "year": 2019,
     "doi": "10.1080/01691864.2019.1575544",
     "url": "https://doi.org/10.1080/01691864.2019.1575544",
-    "publication_date": "2019-02"
+    "publication_date": "2019-02",
+    "major_achievement": false
   },
   {
     "id": "23318400",
@@ -1331,7 +1409,8 @@
     "year": 2018,
     "doi": "10.1007/s00779-017-1070-9",
     "url": "https://doi.org/10.1007/s00779-017-1070-9",
-    "publication_date": "2018-04-01"
+    "publication_date": "2018-04-01",
+    "major_achievement": false
   },
   {
     "id": "25756270",
@@ -1348,7 +1427,8 @@
     "year": 2018,
     "doi": "",
     "url": "",
-    "publication_date": "2018-02"
+    "publication_date": "2018-02",
+    "major_achievement": false
   },
   {
     "id": "21392674",
@@ -1364,7 +1444,8 @@
     "year": 2018,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201802269055112782",
-    "publication_date": "2018-01-15"
+    "publication_date": "2018-01-15",
+    "major_achievement": false
   },
   {
     "id": "23318399",
@@ -1381,7 +1462,8 @@
     "year": 2018,
     "doi": "10.1016/j.future.2017.03.022",
     "url": "https://doi.org/10.1016/j.future.2017.03.022",
-    "publication_date": "2018-01"
+    "publication_date": "2018-01",
+    "major_achievement": false
   },
   {
     "id": "23318403",
@@ -1397,7 +1479,8 @@
     "year": 2018,
     "doi": "10.1109/ICDCS.2018.00061",
     "url": "https://doi.org/10.1109/ICDCS.2018.00061",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "23318402",
@@ -1413,7 +1496,8 @@
     "year": 2018,
     "doi": "10.1007/978-3-319-91131-1_9",
     "url": "https://doi.org/10.1007/978-3-319-91131-1_9",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "23318401",
@@ -1429,7 +1513,8 @@
     "year": 2018,
     "doi": "",
     "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17197",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "21392669",
@@ -1445,7 +1530,8 @@
     "year": 2018,
     "doi": "10.1109/BigData.2018.8622072",
     "url": "https://doi.org/10.1109/BigData.2018.8622072",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "21392668",
@@ -1461,7 +1547,8 @@
     "year": 2018,
     "doi": "10.1145/3287038",
     "url": "https://doi.org/10.1145/3287038",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": true
   },
   {
     "id": "17983234",
@@ -1477,7 +1564,8 @@
     "year": 2018,
     "doi": "10.1109/PERCOMW.2018.8480339",
     "url": "https://doi.org/10.1109/PERCOMW.2018.8480339",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "17983233",
@@ -1493,7 +1581,8 @@
     "year": 2018,
     "doi": "10.1109/PERCOMW.2018.8480357",
     "url": "https://doi.org/10.1109/PERCOMW.2018.8480357",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "17983232",
@@ -1509,7 +1598,8 @@
     "year": 2018,
     "doi": "10.1109/PERCOMW.2018.8480253",
     "url": "https://doi.org/10.1109/PERCOMW.2018.8480253",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "17983231",
@@ -1525,7 +1615,8 @@
     "year": 2018,
     "doi": "10.1145/3282894.3289728",
     "url": "https://doi.org/10.1145/3282894.3289728",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": false
   },
   {
     "id": "17983230",
@@ -1541,7 +1632,8 @@
     "year": 2018,
     "doi": "10.1145/3264940",
     "url": "https://doi.org/10.1145/3264940",
-    "publication_date": "2018"
+    "publication_date": "2018",
+    "major_achievement": true
   },
   {
     "id": "30123160",
@@ -1557,7 +1649,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://id.nii.ac.jp/1001/00183722/",
-    "publication_date": "2017-10-15"
+    "publication_date": "2017-10-15",
+    "major_achievement": false
   },
   {
     "id": "30123159",
@@ -1573,7 +1666,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://id.nii.ac.jp/1001/00183727/",
-    "publication_date": "2017-10-15"
+    "publication_date": "2017-10-15",
+    "major_achievement": false
   },
   {
     "id": "21392680",
@@ -1589,7 +1683,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201802283484877441",
-    "publication_date": "2017-10-15"
+    "publication_date": "2017-10-15",
+    "major_achievement": false
   },
   {
     "id": "21392679",
@@ -1605,7 +1700,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201802281442685292",
-    "publication_date": "2017-10-15"
+    "publication_date": "2017-10-15",
+    "major_achievement": false
   },
   {
     "id": "21392678",
@@ -1621,7 +1717,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201802254045650556",
-    "publication_date": "2017-10-15"
+    "publication_date": "2017-10-15",
+    "major_achievement": false
   },
   {
     "id": "23318405",
@@ -1638,7 +1735,8 @@
     "year": 2017,
     "doi": "10.2197/ipsjjip.25.889",
     "url": "https://doi.org/10.2197/ipsjjip.25.889",
-    "publication_date": "2017-10-01"
+    "publication_date": "2017-10-01",
+    "major_achievement": false
   },
   {
     "id": "23318407",
@@ -1655,7 +1753,8 @@
     "year": 2017,
     "doi": "10.1016/j.pmcj.2016.12.001",
     "url": "https://doi.org/10.1016/j.pmcj.2016.12.001",
-    "publication_date": "2017-10"
+    "publication_date": "2017-10",
+    "major_achievement": false
   },
   {
     "id": "23318411",
@@ -1672,7 +1771,8 @@
     "year": 2017,
     "doi": "10.1145/3134230.3134232",
     "url": "https://doi.org/10.1145/3134230.3134232",
-    "publication_date": "2017-09-21"
+    "publication_date": "2017-09-21",
+    "major_achievement": false
   },
   {
     "id": "29713510",
@@ -1689,7 +1789,8 @@
     "year": 2017,
     "doi": "10.1109/ICMA.2017.8015842",
     "url": "https://doi.org/10.1109/ICMA.2017.8015842",
-    "publication_date": "2017-08-23"
+    "publication_date": "2017-08-23",
+    "major_achievement": false
   },
   {
     "id": "21392681",
@@ -1705,7 +1806,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201702254487703094",
-    "publication_date": "2017-01-15"
+    "publication_date": "2017-01-15",
+    "major_achievement": false
   },
   {
     "id": "35435845",
@@ -1721,7 +1823,8 @@
     "year": 2017,
     "doi": "10.1299/jsmermd.2017.2A2-P06",
     "url": "https://doi.org/10.1299/jsmermd.2017.2A2-P06",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318413",
@@ -1738,7 +1841,8 @@
     "year": 2017,
     "doi": "10.1109/PERCOM.2017.7917860",
     "url": "https://doi.org/10.1109/PERCOM.2017.7917860",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318412",
@@ -1754,7 +1858,8 @@
     "year": 2017,
     "doi": "10.1109/PERCOMW.2017.7917506",
     "url": "https://doi.org/10.1109/PERCOMW.2017.7917506",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318410",
@@ -1770,7 +1875,8 @@
     "year": 2017,
     "doi": "",
     "url": "https://aclanthology.info/papers/D17-1251/d17-1251",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318409",
@@ -1787,7 +1893,8 @@
     "year": 2017,
     "doi": "10.1007/978-3-319-56997-0_9",
     "url": "https://doi.org/10.1007/978-3-319-56997-0_9",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318408",
@@ -1804,7 +1911,8 @@
     "year": 2017,
     "doi": "10.1109/TETC.2014.2335537",
     "url": "https://doi.org/10.1109/TETC.2014.2335537",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318406",
@@ -1821,7 +1929,8 @@
     "year": 2017,
     "doi": "10.2197/ipsjjip.25.901",
     "url": "https://doi.org/10.2197/ipsjjip.25.901",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318404",
@@ -1837,7 +1946,8 @@
     "year": 2017,
     "doi": "",
     "url": "http://doi.acm.org/10.1145/3131898",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "21392682",
@@ -1853,7 +1963,8 @@
     "year": 2017,
     "doi": "10.7210/jrsj.35.105",
     "url": "https://doi.org/10.7210/jrsj.35.105",
-    "publication_date": "2017"
+    "publication_date": "2017",
+    "major_achievement": false
   },
   {
     "id": "23318421",
@@ -1870,7 +1981,8 @@
     "year": 2016,
     "doi": "10.1145/3012709.3012715",
     "url": "https://doi.org/10.1145/3012709.3012715",
-    "publication_date": "2016-12-12"
+    "publication_date": "2016-12-12",
+    "major_achievement": false
   },
   {
     "id": "23318420",
@@ -1887,7 +1999,8 @@
     "year": 2016,
     "doi": "10.1145/2971648.2971721",
     "url": "https://doi.org/10.1145/2971648.2971721",
-    "publication_date": "2016-09-12"
+    "publication_date": "2016-09-12",
+    "major_achievement": false
   },
   {
     "id": "23318419",
@@ -1904,7 +2017,8 @@
     "year": 2016,
     "doi": "10.1145/2971648.2971684",
     "url": "https://doi.org/10.1145/2971648.2971684",
-    "publication_date": "2016-09-12"
+    "publication_date": "2016-09-12",
+    "major_achievement": false
   },
   {
     "id": "23318418",
@@ -1921,7 +2035,8 @@
     "year": 2016,
     "doi": "10.1145/2971648.2971651",
     "url": "https://doi.org/10.1145/2971648.2971651",
-    "publication_date": "2016-09-12"
+    "publication_date": "2016-09-12",
+    "major_achievement": false
   },
   {
     "id": "23318416",
@@ -1938,7 +2053,8 @@
     "year": 2016,
     "doi": "10.2197/ipsjjip.24.302",
     "url": "https://doi.org/10.2197/ipsjjip.24.302",
-    "publication_date": "2016-03-15"
+    "publication_date": "2016-03-15",
+    "major_achievement": false
   },
   {
     "id": "23318415",
@@ -1955,7 +2071,8 @@
     "year": 2016,
     "doi": "10.2197/ipsjjip.24.237",
     "url": "https://doi.org/10.2197/ipsjjip.24.237",
-    "publication_date": "2016-03-15"
+    "publication_date": "2016-03-15",
+    "major_achievement": false
   },
   {
     "id": "23318414",
@@ -1972,7 +2089,8 @@
     "year": 2016,
     "doi": "10.2197/ipsjjip.24.203",
     "url": "https://doi.org/10.2197/ipsjjip.24.203",
-    "publication_date": "2016-03-15"
+    "publication_date": "2016-03-15",
+    "major_achievement": false
   },
   {
     "id": "21392684",
@@ -1988,7 +2106,8 @@
     "year": 2016,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201602205696162091",
-    "publication_date": "2016-02-15"
+    "publication_date": "2016-02-15",
+    "major_achievement": false
   },
   {
     "id": "29688164",
@@ -2005,7 +2124,8 @@
     "year": 2016,
     "doi": "10.1541/ieejeiss.136.1693",
     "url": "https://doi.org/10.1541/ieejeiss.136.1693",
-    "publication_date": "2016"
+    "publication_date": "2016",
+    "major_achievement": false
   },
   {
     "id": "23318425",
@@ -2022,7 +2142,8 @@
     "year": 2016,
     "doi": "10.1109/PERCOMW.2016.7457056",
     "url": "https://doi.org/10.1109/PERCOMW.2016.7457056",
-    "publication_date": "2016"
+    "publication_date": "2016",
+    "major_achievement": false
   },
   {
     "id": "23318424",
@@ -2039,7 +2160,8 @@
     "year": 2016,
     "doi": "10.1109/PERCOMW.2016.7457063",
     "url": "https://doi.org/10.1109/PERCOMW.2016.7457063",
-    "publication_date": "2016"
+    "publication_date": "2016",
+    "major_achievement": false
   },
   {
     "id": "23318423",
@@ -2056,7 +2178,8 @@
     "year": 2016,
     "doi": "10.1109/PERCOMW.2016.7457053",
     "url": "https://doi.org/10.1109/PERCOMW.2016.7457053",
-    "publication_date": "2016"
+    "publication_date": "2016",
+    "major_achievement": false
   },
   {
     "id": "23318422",
@@ -2072,7 +2195,8 @@
     "year": 2016,
     "doi": "",
     "url": "http://doi.acm.org/10.1145/3012709.3016070",
-    "publication_date": "2016"
+    "publication_date": "2016",
+    "major_achievement": false
   },
   {
     "id": "23318417",
@@ -2088,7 +2212,8 @@
     "year": 2016,
     "doi": "",
     "url": "http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12355",
-    "publication_date": "2016"
+    "publication_date": "2016",
+    "major_achievement": false
   },
   {
     "id": "23318430",
@@ -2105,7 +2230,8 @@
     "year": 2015,
     "doi": "10.1145/2802083.2808400",
     "url": "https://doi.org/10.1145/2802083.2808400",
-    "publication_date": "2015-09-07"
+    "publication_date": "2015-09-07",
+    "major_achievement": false
   },
   {
     "id": "21392689",
@@ -2122,7 +2248,8 @@
     "year": 2015,
     "doi": "10.1541/ieejeiss.135.564",
     "url": "https://doi.org/10.1541/ieejeiss.135.564",
-    "publication_date": "2015-06-01"
+    "publication_date": "2015-06-01",
+    "major_achievement": false
   },
   {
     "id": "21392688",
@@ -2139,7 +2266,8 @@
     "year": 2015,
     "doi": "10.1541/ieejeiss.135.637",
     "url": "https://doi.org/10.1541/ieejeiss.135.637",
-    "publication_date": "2015-06-01"
+    "publication_date": "2015-06-01",
+    "major_achievement": false
   },
   {
     "id": "21392685",
@@ -2155,7 +2283,8 @@
     "year": 2015,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201502287710607008",
-    "publication_date": "2015-03-15"
+    "publication_date": "2015-03-15",
+    "major_achievement": false
   },
   {
     "id": "23318427",
@@ -2172,7 +2301,8 @@
     "year": 2015,
     "doi": "10.1145/2667226",
     "url": "https://doi.org/10.1145/2667226",
-    "publication_date": "2015-03"
+    "publication_date": "2015-03",
+    "major_achievement": false
   },
   {
     "id": "23318426",
@@ -2189,7 +2319,8 @@
     "year": 2015,
     "doi": "10.1109/JSTSP.2014.2382478",
     "url": "https://doi.org/10.1109/JSTSP.2014.2382478",
-    "publication_date": "2015-03"
+    "publication_date": "2015-03",
+    "major_achievement": false
   },
   {
     "id": "21392687",
@@ -2205,7 +2336,8 @@
     "year": 2015,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201502296003967579",
-    "publication_date": "2015-01-15"
+    "publication_date": "2015-01-15",
+    "major_achievement": false
   },
   {
     "id": "21392686",
@@ -2221,7 +2353,8 @@
     "year": 2015,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201502290118408249",
-    "publication_date": "2015-01-15"
+    "publication_date": "2015-01-15",
+    "major_achievement": false
   },
   {
     "id": "23318429",
@@ -2238,7 +2371,8 @@
     "year": 2015,
     "doi": "10.1145/2750858.2806061",
     "url": "https://doi.org/10.1145/2750858.2806061",
-    "publication_date": "2015"
+    "publication_date": "2015",
+    "major_achievement": false
   },
   {
     "id": "23318428",
@@ -2255,7 +2389,8 @@
     "year": 2015,
     "doi": "10.1145/2750858.2804259",
     "url": "https://doi.org/10.1145/2750858.2804259",
-    "publication_date": "2015"
+    "publication_date": "2015",
+    "major_achievement": false
   },
   {
     "id": "29621153",
@@ -2272,7 +2407,8 @@
     "year": 2014,
     "doi": "10.1109/WiMOB.2014.6962230",
     "url": "https://doi.org/10.1109/WiMOB.2014.6962230",
-    "publication_date": "2014-11-18"
+    "publication_date": "2014-11-18",
+    "major_achievement": false
   },
   {
     "id": "23318431",
@@ -2289,7 +2425,8 @@
     "year": 2014,
     "doi": "10.1007/s00607-013-0326-0",
     "url": "https://doi.org/10.1007/s00607-013-0326-0",
-    "publication_date": "2014-09"
+    "publication_date": "2014-09",
+    "major_achievement": false
   },
   {
     "id": "21392696",
@@ -2305,7 +2442,8 @@
     "year": 2014,
     "doi": "10.11509/isciesci.58.1_9",
     "url": "https://doi.org/10.11509/isciesci.58.1_9",
-    "publication_date": "2014-01-15"
+    "publication_date": "2014-01-15",
+    "major_achievement": false
   },
   {
     "id": "21392691",
@@ -2321,7 +2459,8 @@
     "year": 2014,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201502295575193403",
-    "publication_date": "2014-01-15"
+    "publication_date": "2014-01-15",
+    "major_achievement": false
   },
   {
     "id": "21392690",
@@ -2337,7 +2476,8 @@
     "year": 2014,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201502255068803958",
-    "publication_date": "2014-01-15"
+    "publication_date": "2014-01-15",
+    "major_achievement": false
   },
   {
     "id": "23318432",
@@ -2354,7 +2494,8 @@
     "year": 2014,
     "doi": "10.1145/2632048.2636069",
     "url": "https://doi.org/10.1145/2632048.2636069",
-    "publication_date": "2014"
+    "publication_date": "2014",
+    "major_achievement": false
   },
   {
     "id": "21392692",
@@ -2371,7 +2512,8 @@
     "year": 2014,
     "doi": "10.1541/ieejeiss.134.711",
     "url": "https://doi.org/10.1541/ieejeiss.134.711",
-    "publication_date": "2014"
+    "publication_date": "2014",
+    "major_achievement": false
   },
   {
     "id": "23318435",
@@ -2388,7 +2530,8 @@
     "year": 2013,
     "doi": "10.1007/s00779-012-0556-8",
     "url": "https://doi.org/10.1007/s00779-012-0556-8",
-    "publication_date": "2013-08"
+    "publication_date": "2013-08",
+    "major_achievement": false
   },
   {
     "id": "23318434",
@@ -2405,7 +2548,8 @@
     "year": 2013,
     "doi": "10.1007/s00779-011-0491-0",
     "url": "https://doi.org/10.1007/s00779-011-0491-0",
-    "publication_date": "2013-03"
+    "publication_date": "2013-03",
+    "major_achievement": false
   },
   {
     "id": "29584793",
@@ -2422,7 +2566,8 @@
     "year": 2013,
     "doi": "10.1007/978-3-642-37932-1_11",
     "url": "https://doi.org/10.1007/978-3-642-37932-1_11",
-    "publication_date": "2013"
+    "publication_date": "2013",
+    "major_achievement": false
   },
   {
     "id": "23318439",
@@ -2439,7 +2584,8 @@
     "year": 2013,
     "doi": "10.4108/icst.pervasivehealth.2013.252128",
     "url": "https://doi.org/10.4108/icst.pervasivehealth.2013.252128",
-    "publication_date": "2013"
+    "publication_date": "2013",
+    "major_achievement": false
   },
   {
     "id": "23318438",
@@ -2456,7 +2602,8 @@
     "year": 2013,
     "doi": "10.1145/2493988.2494348",
     "url": "https://doi.org/10.1145/2493988.2494348",
-    "publication_date": "2013"
+    "publication_date": "2013",
+    "major_achievement": false
   },
   {
     "id": "23318437",
@@ -2473,7 +2620,8 @@
     "year": 2013,
     "doi": "10.1145/2493432.2493460",
     "url": "https://doi.org/10.1145/2493432.2493460",
-    "publication_date": "2013"
+    "publication_date": "2013",
+    "major_achievement": false
   },
   {
     "id": "23318436",
@@ -2490,7 +2638,8 @@
     "year": 2013,
     "doi": "10.1145/2494091.2495991",
     "url": "https://doi.org/10.1145/2494091.2495991",
-    "publication_date": "2013"
+    "publication_date": "2013",
+    "major_achievement": false
   },
   {
     "id": "21392707",
@@ -2506,7 +2655,8 @@
     "year": 2012,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201202249380196951",
-    "publication_date": "2012-11-01"
+    "publication_date": "2012-11-01",
+    "major_achievement": false
   },
   {
     "id": "21392708",
@@ -2522,7 +2672,8 @@
     "year": 2012,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201202256323124517",
-    "publication_date": "2012-07-15"
+    "publication_date": "2012-07-15",
+    "major_achievement": false
   },
   {
     "id": "23318440",
@@ -2539,7 +2690,8 @@
     "year": 2012,
     "doi": "10.1145/2078316.2078320",
     "url": "https://doi.org/10.1145/2078316.2078320",
-    "publication_date": "2012-01"
+    "publication_date": "2012-01",
+    "major_achievement": false
   },
   {
     "id": "23318443",
@@ -2556,7 +2708,8 @@
     "year": 2012,
     "doi": "10.1007/978-3-642-31205-2_15",
     "url": "https://doi.org/10.1007/978-3-642-31205-2_15",
-    "publication_date": "2012"
+    "publication_date": "2012",
+    "major_achievement": false
   },
   {
     "id": "23318442",
@@ -2573,7 +2726,8 @@
     "year": 2012,
     "doi": "10.1007/978-3-642-31205-2_2",
     "url": "https://doi.org/10.1007/978-3-642-31205-2_2",
-    "publication_date": "2012"
+    "publication_date": "2012",
+    "major_achievement": false
   },
   {
     "id": "23318441",
@@ -2590,7 +2744,8 @@
     "year": 2012,
     "doi": "10.1109/PerComW.2012.6197551",
     "url": "https://doi.org/10.1109/PerComW.2012.6197551",
-    "publication_date": "2012"
+    "publication_date": "2012",
+    "major_achievement": false
   },
   {
     "id": "21392709",
@@ -2606,7 +2761,8 @@
     "year": 2011,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201202296357657010",
-    "publication_date": "2011-12-15"
+    "publication_date": "2011-12-15",
+    "major_achievement": false
   },
   {
     "id": "21392710",
@@ -2622,7 +2778,8 @@
     "year": 2011,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/201102228468457700",
-    "publication_date": "2011-04-15"
+    "publication_date": "2011-04-15",
+    "major_achievement": false
   },
   {
     "id": "23318446",
@@ -2639,7 +2796,8 @@
     "year": 2011,
     "doi": "10.1007/978-3-642-21726-5_18",
     "url": "https://doi.org/10.1007/978-3-642-21726-5_18",
-    "publication_date": "2011"
+    "publication_date": "2011",
+    "major_achievement": false
   },
   {
     "id": "23318445",
@@ -2656,7 +2814,8 @@
     "year": 2011,
     "doi": "10.1109/ISWC.2011.24",
     "url": "https://doi.org/10.1109/ISWC.2011.24",
-    "publication_date": "2011"
+    "publication_date": "2011",
+    "major_achievement": false
   },
   {
     "id": "23318444",
@@ -2673,7 +2832,8 @@
     "year": 2011,
     "doi": "10.1007/978-3-642-24279-3_20",
     "url": "https://doi.org/10.1007/978-3-642-24279-3_20",
-    "publication_date": "2011"
+    "publication_date": "2011",
+    "major_achievement": false
   },
   {
     "id": "23318448",
@@ -2690,7 +2850,8 @@
     "year": 2010,
     "doi": "10.4018/jcini.2010010104",
     "url": "https://doi.org/10.4018/jcini.2010010104",
-    "publication_date": "2010-01"
+    "publication_date": "2010-01",
+    "major_achievement": false
   },
   {
     "id": "23318447",
@@ -2707,7 +2868,8 @@
     "year": 2010,
     "doi": "10.4018/jcini.2010010102",
     "url": "https://doi.org/10.4018/jcini.2010010102",
-    "publication_date": "2010-01"
+    "publication_date": "2010-01",
+    "major_achievement": false
   },
   {
     "id": "23318451",
@@ -2724,7 +2886,8 @@
     "year": 2010,
     "doi": "10.1007/978-3-642-12654-3_15",
     "url": "https://doi.org/10.1007/978-3-642-12654-3_15",
-    "publication_date": "2010"
+    "publication_date": "2010",
+    "major_achievement": false
   },
   {
     "id": "23318450",
@@ -2741,7 +2904,8 @@
     "year": 2010,
     "doi": "10.1145/1734454.1734507",
     "url": "https://doi.org/10.1145/1734454.1734507",
-    "publication_date": "2010"
+    "publication_date": "2010",
+    "major_achievement": false
   },
   {
     "id": "23318449",
@@ -2757,7 +2921,8 @@
     "year": 2010,
     "doi": "10.4018/jssci.2010101906",
     "url": "https://doi.org/10.4018/jssci.2010101906",
-    "publication_date": "2010"
+    "publication_date": "2010",
+    "major_achievement": false
   },
   {
     "id": "21392711",
@@ -2773,7 +2938,8 @@
     "year": 2009,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902201981301371",
-    "publication_date": "2009-06-15"
+    "publication_date": "2009-06-15",
+    "major_achievement": false
   },
   {
     "id": "23318454",
@@ -2790,7 +2956,8 @@
     "year": 2009,
     "doi": "10.1145/1571941.1571949",
     "url": "https://doi.org/10.1145/1571941.1571949",
-    "publication_date": "2009"
+    "publication_date": "2009",
+    "major_achievement": false
   },
   {
     "id": "23318453",
@@ -2807,7 +2974,8 @@
     "year": 2009,
     "doi": "10.1007/978-3-642-05408-2_13",
     "url": "https://doi.org/10.1007/978-3-642-05408-2_13",
-    "publication_date": "2009"
+    "publication_date": "2009",
+    "major_achievement": false
   },
   {
     "id": "23318452",
@@ -2824,7 +2992,8 @@
     "year": 2009,
     "doi": "10.1109/COGINF.2009.5250792",
     "url": "https://doi.org/10.1109/COGINF.2009.5250792",
-    "publication_date": "2009"
+    "publication_date": "2009",
+    "major_achievement": false
   },
   {
     "id": "23318455",
@@ -2841,7 +3010,8 @@
     "year": 2008,
     "doi": "10.1109/MPRV.2008.79",
     "url": "https://doi.org/10.1109/MPRV.2008.79",
-    "publication_date": "2008-10"
+    "publication_date": "2008-10",
+    "major_achievement": false
   },
   {
     "id": "21392712",
@@ -2857,7 +3027,8 @@
     "year": 2008,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902250132783592",
-    "publication_date": "2008-06-15"
+    "publication_date": "2008-06-15",
+    "major_achievement": false
   },
   {
     "id": "29122038",
@@ -2874,7 +3045,8 @@
     "year": 2008,
     "doi": "",
     "url": "",
-    "publication_date": "2008"
+    "publication_date": "2008",
+    "major_achievement": false
   },
   {
     "id": "23318458",
@@ -2891,7 +3063,8 @@
     "year": 2008,
     "doi": "10.1145/1390334.1390489",
     "url": "https://doi.org/10.1145/1390334.1390489",
-    "publication_date": "2008"
+    "publication_date": "2008",
+    "major_achievement": false
   },
   {
     "id": "23318457",
@@ -2908,7 +3081,8 @@
     "year": 2008,
     "doi": "10.1145/1387269.1387280",
     "url": "https://doi.org/10.1145/1387269.1387280",
-    "publication_date": "2008"
+    "publication_date": "2008",
+    "major_achievement": false
   },
   {
     "id": "23318456",
@@ -2925,7 +3099,8 @@
     "year": 2008,
     "doi": "10.1145/1387269.1387275",
     "url": "https://doi.org/10.1145/1387269.1387275",
-    "publication_date": "2008"
+    "publication_date": "2008",
+    "major_achievement": false
   },
   {
     "id": "23318459",
@@ -2942,7 +3117,8 @@
     "year": 2007,
     "doi": "10.1007/s10209-007-0088-6",
     "url": "https://doi.org/10.1007/s10209-007-0088-6",
-    "publication_date": "2007-11"
+    "publication_date": "2007-11",
+    "major_achievement": false
   },
   {
     "id": "21392713",
@@ -2958,7 +3134,8 @@
     "year": 2007,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902214013797139",
-    "publication_date": "2007-07-15"
+    "publication_date": "2007-07-15",
+    "major_achievement": false
   },
   {
     "id": "21392714",
@@ -2974,7 +3151,8 @@
     "year": 2007,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902284775958391",
-    "publication_date": "2007-06-01"
+    "publication_date": "2007-06-01",
+    "major_achievement": false
   },
   {
     "id": "28793106",
@@ -2991,7 +3169,8 @@
     "year": 2007,
     "doi": "",
     "url": "",
-    "publication_date": "2007"
+    "publication_date": "2007",
+    "major_achievement": false
   },
   {
     "id": "23318460",
@@ -3008,7 +3187,8 @@
     "year": 2007,
     "doi": "10.1145/1242572.1242800",
     "url": "https://doi.org/10.1145/1242572.1242800",
-    "publication_date": "2007"
+    "publication_date": "2007",
+    "major_achievement": false
   },
   {
     "id": "21392720",
@@ -3024,7 +3204,8 @@
     "year": 2006,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902270882106380",
-    "publication_date": "2006-12-15"
+    "publication_date": "2006-12-15",
+    "major_achievement": false
   },
   {
     "id": "21392719",
@@ -3040,7 +3221,8 @@
     "year": 2006,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902286040329008",
-    "publication_date": "2006-09-21"
+    "publication_date": "2006-09-21",
+    "major_achievement": false
   },
   {
     "id": "23318461",
@@ -3057,7 +3239,8 @@
     "year": 2006,
     "doi": "10.1002/scj.20562",
     "url": "https://doi.org/10.1002/scj.20562",
-    "publication_date": "2006-09"
+    "publication_date": "2006-09",
+    "major_achievement": false
   },
   {
     "id": "21392718",
@@ -3073,7 +3256,8 @@
     "year": 2006,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902271165416622",
-    "publication_date": "2006-06-22"
+    "publication_date": "2006-06-22",
+    "major_achievement": false
   },
   {
     "id": "25309688",
@@ -3090,7 +3274,8 @@
     "year": 2006,
     "doi": "",
     "url": "",
-    "publication_date": "2006-03"
+    "publication_date": "2006-03",
+    "major_achievement": false
   },
   {
     "id": "25309686",
@@ -3107,7 +3292,8 @@
     "year": 2006,
     "doi": "",
     "url": "",
-    "publication_date": "2006-03"
+    "publication_date": "2006-03",
+    "major_achievement": false
   },
   {
     "id": "23318467",
@@ -3124,7 +3310,8 @@
     "year": 2006,
     "doi": "10.1145/1135777.1135789",
     "url": "https://doi.org/10.1145/1135777.1135789",
-    "publication_date": "2006"
+    "publication_date": "2006",
+    "major_achievement": false
   },
   {
     "id": "23318466",
@@ -3141,7 +3328,8 @@
     "year": 2006,
     "doi": "10.1145/1133219.1133234",
     "url": "https://doi.org/10.1145/1133219.1133234",
-    "publication_date": "2006"
+    "publication_date": "2006",
+    "major_achievement": false
   },
   {
     "id": "23318465",
@@ -3158,7 +3346,8 @@
     "year": 2006,
     "doi": "10.1109/PERCOM.2006.1",
     "url": "https://doi.org/10.1109/PERCOM.2006.1",
-    "publication_date": "2006"
+    "publication_date": "2006",
+    "major_achievement": false
   },
   {
     "id": "23318464",
@@ -3175,7 +3364,8 @@
     "year": 2006,
     "doi": "10.1109/MDM.2006.94",
     "url": "https://doi.org/10.1109/MDM.2006.94",
-    "publication_date": "2006"
+    "publication_date": "2006",
+    "major_achievement": false
   },
   {
     "id": "23318463",
@@ -3192,7 +3382,8 @@
     "year": 2006,
     "doi": "10.1109/MDM.2006.127",
     "url": "https://doi.org/10.1109/MDM.2006.127",
-    "publication_date": "2006"
+    "publication_date": "2006",
+    "major_achievement": false
   },
   {
     "id": "23318462",
@@ -3209,7 +3400,8 @@
     "year": 2006,
     "doi": "10.1109/MDM.2006.155",
     "url": "https://doi.org/10.1109/MDM.2006.155",
-    "publication_date": "2006"
+    "publication_date": "2006",
+    "major_achievement": false
   },
   {
     "id": "21392717",
@@ -3225,7 +3417,8 @@
     "year": 2005,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902288748661803",
-    "publication_date": "2005-06-01"
+    "publication_date": "2005-06-01",
+    "major_achievement": false
   },
   {
     "id": "21392716",
@@ -3241,7 +3434,8 @@
     "year": 2005,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902240654002455",
-    "publication_date": "2005-03-01"
+    "publication_date": "2005-03-01",
+    "major_achievement": false
   },
   {
     "id": "25309638",
@@ -3258,7 +3452,8 @@
     "year": 2005,
     "doi": "",
     "url": "",
-    "publication_date": "2005-03"
+    "publication_date": "2005-03",
+    "major_achievement": false
   },
   {
     "id": "23318469",
@@ -3275,7 +3470,8 @@
     "year": 2005,
     "doi": "10.1109/ICDE.2005.285",
     "url": "https://doi.org/10.1109/ICDE.2005.285",
-    "publication_date": "2005"
+    "publication_date": "2005",
+    "major_achievement": false
   },
   {
     "id": "23318468",
@@ -3292,7 +3488,8 @@
     "year": 2005,
     "doi": "10.1109/DEXA.2005.69",
     "url": "https://doi.org/10.1109/DEXA.2005.69",
-    "publication_date": "2005"
+    "publication_date": "2005",
+    "major_achievement": false
   },
   {
     "id": "25309620",
@@ -3309,7 +3506,8 @@
     "year": 2004,
     "doi": "",
     "url": "",
-    "publication_date": "2004-09"
+    "publication_date": "2004-09",
+    "major_achievement": false
   },
   {
     "id": "25309618",
@@ -3326,7 +3524,8 @@
     "year": 2004,
     "doi": "",
     "url": "",
-    "publication_date": "2004-07"
+    "publication_date": "2004-07",
+    "major_achievement": false
   },
   {
     "id": "21392715",
@@ -3342,7 +3541,8 @@
     "year": 2004,
     "doi": "",
     "url": "http://jglobal.jst.go.jp/public/200902249263389085",
-    "publication_date": "2004-06-15"
+    "publication_date": "2004-06-15",
+    "major_achievement": false
   },
   {
     "id": "25309589",
@@ -3359,7 +3559,8 @@
     "year": 2004,
     "doi": "",
     "url": "http://id.ndl.go.jp/bib/7712392",
-    "publication_date": "2004-03"
+    "publication_date": "2004-03",
+    "major_achievement": false
   },
   {
     "id": "23318470",
@@ -3376,6 +3577,7 @@
     "year": 2004,
     "doi": "10.1109/ICECT.2004.1319755",
     "url": "https://doi.org/10.1109/ICECT.2004.1319755",
-    "publication_date": "2004"
+    "publication_date": "2004",
+    "major_achievement": false
   }
 ]

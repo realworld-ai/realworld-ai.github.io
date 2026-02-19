@@ -123,6 +123,8 @@ function processPublications(items) {
         subCategory = 'Conference';
     }
     
+    const major_achievement = item.major_achievement || false;
+
     return {
       id: item['rm:id'],
       type: item.published_paper_type, 
@@ -138,7 +140,8 @@ function processPublications(items) {
       year: parseInt(year) || 0,
       doi,
       url,
-      publication_date: dateStr 
+      publication_date: dateStr,
+      major_achievement
     };
   });
 
