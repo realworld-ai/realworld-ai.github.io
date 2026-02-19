@@ -44,7 +44,7 @@ const heroImages = [
                     ))}
                 </h1>
             </div>
-            <p class="text-xl text-gray-400 mb-10 drop-shadow-md">{t['hero.subtitle']}</p>
+            <!-- <p class="text-xl text-gray-400 mb-10 drop-shadow-md">{t['hero.subtitle']}</p> -->
             <!-- <div class="">
                 <a href={`/${lang}/research`} class="inline-block px-8 py-3 bg-lab-accent text-white font-medium rounded-lg hover:bg-blue-600 transition-all shadow-lg">{t['btn.learnMore']}</a>
             </div> -->
@@ -140,6 +140,20 @@ const heroImages = [
             </div>
         </div> */}
 
+        <!-- News Carousel Section -->
+        <section class="py-20 bg-lab-bg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between mb-8">
+                    <h2 class="text-3xl font-heading font-bold border-l-4 border-lab-accent pl-4">News</h2>
+                    <a href={`/${lang}/news`} class="flex items-center text-lab-accent hover:text-white transition-colors group">
+                        View all <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </a>
+                </div>
+                
+                <NewsCarousel client:only="react" items={latestNews} lang={lang} />
+            </div>
+        </section>
+
         <!-- Themes & Projects Section -->
         <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="mb-16">
@@ -149,7 +163,7 @@ const heroImages = [
                         {t['btn.learnMore']} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </a>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {research.sort((a,b) => a.data.order - b.data.order).map(item => (
                         <a href={`/${lang}/research/${item.slug.split('/')[1]}`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-lab-accent/50 transition-all hover:-translate-y-1">
                             <div class="aspect-video bg-white rounded-lg border border-gray-200 shadow-inner p-2.5 overflow-hidden">
@@ -199,20 +213,6 @@ const heroImages = [
                         </a>
                     ))}
                 </div>
-            </div>
-        </section>
-
-        <!-- News Carousel Section -->
-        <section class="py-20 bg-lab-bg">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex items-center justify-between mb-8">
-                    <h2 class="text-3xl font-heading font-bold border-l-4 border-lab-accent pl-4">Latest Awards and Activities</h2>
-                    <a href={`/${lang}/news`} class="flex items-center text-lab-accent hover:text-white transition-colors group">
-                        View all <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </a>
-                </div>
-                
-                <NewsCarousel client:only="react" items={latestNews} lang={lang} />
             </div>
         </section>
 	</main>

@@ -29,7 +29,11 @@ const description = data.summary ?? (hasBody ? null : '詳細は後日掲載し�
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
             一覧に戻る
         </a>
-        <PageHeader title={data.title} subtitle={data.type === 'award' ? '受賞 / ハイライト' : '活動 / 更新'} />
+        <PageHeader 
+            title={data.title} 
+            tags={data.tags}
+            subtitle={data.type === 'award' ? '受賞 / ハイライト' : '活動 / 更新'} 
+        />
 
         <script>
             const backLink = document.getElementById('back-link');

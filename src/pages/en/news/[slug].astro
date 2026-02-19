@@ -29,7 +29,11 @@ const description = data.summary ?? (hasBody ? null : 'Details coming soon.');
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
             Back to News
         </a>
-        <PageHeader title={data.title} subtitle={data.type === 'award' ? 'Award / Highlight' : 'Activity / Update'} />
+        <PageHeader 
+            title={data.title} 
+            tags={data.tags}
+            subtitle={data.type === 'award' ? 'Award / Highlight' : 'Activity / Update'} 
+        />
 
         <script>
             const backLink = document.getElementById('back-link');

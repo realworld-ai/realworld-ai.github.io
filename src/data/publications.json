@@ -5,7 +5,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Real-Time Behaviour Recognition on Bio-Loggers Enables Autonomous Audio Playback Experiments in Free-Ranging Seabirds",
-    "authors": "Ryoma Otsuka, Hibiki Sugiyama, Yuichi Mizutani, Ken Yoda, Takuya Maekawa*",
+    "authors": "Ryoma Otsuka, Hibiki Sugiyama, Yuichi Mizutani, Ken Yoda, Takuya Maekawa",
     "journal": "Ecology and Evolution",
     "volume": "",
     "issue": "",
@@ -13,7 +13,8 @@
     "dateDisplay": "(Aug. 2025)",
     "year": 2025,
     "doi": "10.1002/ece3.71832",
-    "url": "https://doi.org/10.1002/ece3.71832"
+    "url": "https://doi.org/10.1002/ece3.71832",
+    "publication_date": "2025-08"
   },
   {
     "id": "51279988",
@@ -29,7 +30,8 @@
     "dateDisplay": "(May 2025)",
     "year": 2025,
     "doi": "10.1109/ICPS65515.2025.11087824",
-    "url": "https://doi.org/10.1109/ICPS65515.2025.11087824"
+    "url": "https://doi.org/10.1109/ICPS65515.2025.11087824",
+    "publication_date": "2025-05"
   },
   {
     "id": "48688487",
@@ -37,7 +39,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Self-Supervised Learning for Complex Activity Recognition Through Motif Identification Learning",
-    "authors": "Qingxin Xia, Jaime Morales, Yongzhi Huang, Takahiro Hara, Kaishun Wu, Hirotomo Oshima, Masamitsu Fukuda, Yasuo Namioka, Takuya Maekawa*",
+    "authors": "Qingxin Xia, Jaime Morales, Yongzhi Huang, Takahiro Hara, Kaishun Wu, Hirotomo Oshima, Masamitsu Fukuda, Yasuo Namioka, Takuya Maekawa",
     "journal": "IEEE Transactions on Mobile Computing",
     "volume": "",
     "issue": "",
@@ -45,7 +47,8 @@
     "dateDisplay": "(May 2025)",
     "year": 2025,
     "doi": "10.1109/TMC.2024.3514736",
-    "url": "https://doi.org/10.1109/TMC.2024.3514736"
+    "url": "https://doi.org/10.1109/TMC.2024.3514736",
+    "publication_date": "2025-05"
   },
   {
     "id": "49819188",
@@ -61,7 +64,8 @@
     "dateDisplay": "(Apr. 2025)",
     "year": 2025,
     "doi": "10.1186/s40462-025-00551-8",
-    "url": "https://doi.org/10.1186/s40462-025-00551-8"
+    "url": "https://doi.org/10.1186/s40462-025-00551-8",
+    "publication_date": "2025-04-01"
   },
   {
     "id": "49821499",
@@ -77,7 +81,8 @@
     "dateDisplay": "(Mar. 2025)",
     "year": 2025,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2025-03"
   },
   {
     "id": "49820787",
@@ -93,7 +98,8 @@
     "dateDisplay": "(Mar. 2025)",
     "year": 2025,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2025-03"
   },
   {
     "id": "49819976",
@@ -109,7 +115,8 @@
     "dateDisplay": "(Mar. 2025)",
     "year": 2025,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2025-03"
   },
   {
     "id": "51280014",
@@ -125,7 +132,8 @@
     "dateDisplay": "(2025)",
     "year": 2025,
     "doi": "10.7717/peerj.19393",
-    "url": "https://doi.org/10.7717/peerj.19393"
+    "url": "https://doi.org/10.7717/peerj.19393",
+    "publication_date": "2025"
   },
   {
     "id": "49819191",
@@ -141,7 +149,8 @@
     "dateDisplay": "(Dec. 2024)",
     "year": 2024,
     "doi": "10.1186/s40462-024-00511-8",
-    "url": "https://doi.org/10.1186/s40462-024-00511-8"
+    "url": "https://doi.org/10.1186/s40462-024-00511-8",
+    "publication_date": "2024-12-18"
   },
   {
     "id": "49819259",
@@ -149,7 +158,7 @@
     "category": "International",
     "subCategory": "Conference",
     "title": "Preliminary Investigation of Activity Prediction in Nursing Homes using Activity History with Erroneous Time Stamps",
-    "authors": "Ryuichiro Okuda, Qingxin Xia, Takuya Maekawa*, Takahiro Hara, Sozo Inoue",
+    "authors": "Ryuichiro Okuda, Qingxin Xia, Takuya Maekawa, Takahiro Hara, Sozo Inoue",
     "journal": "COMPANION OF THE 2024 ACM INTERNATIONAL JOINT CONFERENCE ON PERVASIVE AND UBIQUITOUS COMPUTING, UBICOMP COMPANION 2024",
     "volume": "",
     "issue": "",
@@ -157,7 +166,8 @@
     "dateDisplay": "(Oct. 2024)",
     "year": 2024,
     "doi": "10.1145/3675094.3678384",
-    "url": "https://doi.org/10.1145/3675094.3678384"
+    "url": "https://doi.org/10.1145/3675094.3678384",
+    "publication_date": "2024-10"
   },
   {
     "id": "49819258",
@@ -173,7 +183,8 @@
     "dateDisplay": "(Oct. 2024)",
     "year": 2024,
     "doi": "10.1145/3675094.3677597",
-    "url": "https://doi.org/10.1145/3675094.3677597"
+    "url": "https://doi.org/10.1145/3675094.3677597",
+    "publication_date": "2024-10"
   },
   {
     "id": "49819238",
@@ -189,7 +200,8 @@
     "dateDisplay": "(Oct. 2024)",
     "year": 2024,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2024-10"
   },
   {
     "id": "48391298",
@@ -197,7 +209,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "AoA-net: Estimating Angle-of-arrival Using Wi-Fi Channel State Information Based on Deep Neural Networks with Subcarrier Selection",
-    "authors": "Teerawat Kumrai, Zesheng Cai, Takuya Maekawa*, Takahiro Hara, Kazuya Ohara, Tomoki Murakami, Hirantha Abeysekera",
+    "authors": "Teerawat Kumrai, Zesheng Cai, Takuya Maekawa, Takahiro Hara, Kazuya Ohara, Tomoki Murakami, Hirantha Abeysekera",
     "journal": "Journal of Information Processing",
     "volume": "32",
     "issue": "",
@@ -205,7 +217,8 @@
     "dateDisplay": "(Oct. 2024)",
     "year": 2024,
     "doi": "10.2197/ipsjjip.32.863",
-    "url": "https://doi.org/10.2197/ipsjjip.32.863"
+    "url": "https://doi.org/10.2197/ipsjjip.32.863",
+    "publication_date": "2024-10"
   },
   {
     "id": "47526256",
@@ -213,7 +226,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Predicting Signal Reception Information from GNSS Satellites in Indoor Environments without Site Survey: Towards Opportunistic Indoor Positioning Based on GNSS Fingerprinting",
-    "authors": "Heng Zhou, Takuya Maekawa*",
+    "authors": "Heng Zhou, Takuya Maekawa",
     "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
     "volume": "8",
     "issue": "(3)",
@@ -221,7 +234,8 @@
     "dateDisplay": "(Aug. 2024)",
     "year": 2024,
     "doi": "10.1145/3678554",
-    "url": "https://doi.org/10.1145/3678554"
+    "url": "https://doi.org/10.1145/3678554",
+    "publication_date": "2024-08-22"
   },
   {
     "id": "47328633",
@@ -237,7 +251,8 @@
     "dateDisplay": "(Aug. 2024)",
     "year": 2024,
     "doi": "10.1098/rsbl.2024.0223",
-    "url": "https://doi.org/10.1098/rsbl.2024.0223"
+    "url": "https://doi.org/10.1098/rsbl.2024.0223",
+    "publication_date": "2024-08-07"
   },
   {
     "id": "47255806",
@@ -245,7 +260,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Activity Prediction Method for Nursing Care Records with Missing Entries",
-    "authors": "Ryuichiro Okuda, Qingxin Xia, Takuya Maekawa*, Takahiro Hara, Sozo Inoue",
+    "authors": "Ryuichiro Okuda, Qingxin Xia, Takuya Maekawa, Takahiro Hara, Sozo Inoue",
     "journal": "International Journal of Activity and Behavior Computing",
     "volume": "2024",
     "issue": "(2)",
@@ -253,7 +268,8 @@
     "dateDisplay": "(Jun. 2024)",
     "year": 2024,
     "doi": "10.60401/ijabc.16",
-    "url": "https://doi.org/10.60401/ijabc.16"
+    "url": "https://doi.org/10.60401/ijabc.16",
+    "publication_date": "2024-06"
   },
   {
     "id": "47255794",
@@ -261,7 +277,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Introduction of the OpenPack Dataset and Lessons Learned from Organizing OpenPack Challenge 2022",
-    "authors": "Takuya Maekawa*, Naoya Yoshimura, Jaime Morales, Takahiro Hara",
+    "authors": "Takuya Maekawa, Naoya Yoshimura, Jaime Morales, Takahiro Hara",
     "journal": "International Journal of Activity and Behavior Computing",
     "volume": "2024",
     "issue": "(2)",
@@ -269,7 +285,8 @@
     "dateDisplay": "(Jun. 2024)",
     "year": 2024,
     "doi": "10.60401/ijabc.17",
-    "url": "https://doi.org/10.60401/ijabc.17"
+    "url": "https://doi.org/10.60401/ijabc.17",
+    "publication_date": "2024-06"
   },
   {
     "id": "45639287",
@@ -277,7 +294,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Exploring deep learning techniques for wild animal behaviour classification using animal‐borne accelerometers",
-    "authors": "Ryoma Otsuka, Naoya Yoshimura, Kei Tanigaki, Shiho Koyama, Yuichi Mizutani, Ken Yoda, Takuya Maekawa*",
+    "authors": "Ryoma Otsuka, Naoya Yoshimura, Kei Tanigaki, Shiho Koyama, Yuichi Mizutani, Ken Yoda, Takuya Maekawa",
     "journal": "Methods in Ecology and Evolution",
     "volume": "15",
     "issue": "(4)",
@@ -285,7 +302,8 @@
     "dateDisplay": "(Apr. 2024)",
     "year": 2024,
     "doi": "10.1111/2041-210X.14294",
-    "url": "https://doi.org/10.1111/2041-210X.14294"
+    "url": "https://doi.org/10.1111/2041-210X.14294",
+    "publication_date": "2024-04"
   },
   {
     "id": "46459299",
@@ -301,7 +319,8 @@
     "dateDisplay": "(Mar. 2024)",
     "year": 2024,
     "doi": "10.1109/PerComWorkshops59983.2024.10503195",
-    "url": "https://doi.org/10.1109/PerComWorkshops59983.2024.10503195"
+    "url": "https://doi.org/10.1109/PerComWorkshops59983.2024.10503195",
+    "publication_date": "2024-03"
   },
   {
     "id": "46459298",
@@ -309,7 +328,7 @@
     "category": "International",
     "subCategory": "Conference",
     "title": "OpenPack: A Large-Scale Dataset for Recognizing Packaging Works in IoT-Enabled Logistic Environments.",
-    "authors": "Naoya Yoshimura, Jaime Morales, Takuya Maekawa*, Takahiro Hara",
+    "authors": "Naoya Yoshimura, Jaime Morales, Takuya Maekawa, Takahiro Hara",
     "journal": "IEEE Int'l Conf. on Pervasive Computing and Communications (PerCom 2024)",
     "volume": "",
     "issue": "",
@@ -317,7 +336,8 @@
     "dateDisplay": "(Mar. 2024)",
     "year": 2024,
     "doi": "10.1109/PerCom59722.2024.10494448",
-    "url": "https://doi.org/10.1109/PerCom59722.2024.10494448"
+    "url": "https://doi.org/10.1109/PerCom59722.2024.10494448",
+    "publication_date": "2024-03"
   },
   {
     "id": "46459297",
@@ -333,7 +353,8 @@
     "dateDisplay": "(Mar. 2024)",
     "year": 2024,
     "doi": "10.1109/PerComWorkshops59983.2024.10503342",
-    "url": "https://doi.org/10.1109/PerComWorkshops59983.2024.10503342"
+    "url": "https://doi.org/10.1109/PerComWorkshops59983.2024.10503342",
+    "publication_date": "2024-03"
   },
   {
     "id": "44467792",
@@ -341,7 +362,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Automatic recording of rare behaviors of wild animals using video bio-loggers with on-board light-weight outlier detector",
-    "authors": "Kei Tanigaki, Ryoma Otsuka, Aiyi Li, Yota Hatano, Yuanzhou Wei, Shiho Koyama, Ken Yoda, Takuya Maekawa*",
+    "authors": "Kei Tanigaki, Ryoma Otsuka, Aiyi Li, Yota Hatano, Yuanzhou Wei, Shiho Koyama, Ken Yoda, Takuya Maekawa",
     "journal": "PNAS Nexus",
     "volume": "",
     "issue": "",
@@ -349,7 +370,8 @@
     "dateDisplay": "(Jan. 2024)",
     "year": 2024,
     "doi": "10.1093/pnasnexus/pgad447",
-    "url": "https://doi.org/10.1093/pnasnexus/pgad447"
+    "url": "https://doi.org/10.1093/pnasnexus/pgad447",
+    "publication_date": "2024-01-16"
   },
   {
     "id": "48763584",
@@ -365,7 +387,8 @@
     "dateDisplay": "(2024)",
     "year": 2024,
     "doi": "10.2197/ipsjjip.32.861",
-    "url": "https://doi.org/10.2197/ipsjjip.32.861"
+    "url": "https://doi.org/10.2197/ipsjjip.32.861",
+    "publication_date": "2024"
   },
   {
     "id": "43530786",
@@ -381,7 +404,8 @@
     "dateDisplay": "(Jun. 2023)",
     "year": 2023,
     "doi": "10.1145/3592571.3592974",
-    "url": "https://doi.org/10.1145/3592571.3592974"
+    "url": "https://doi.org/10.1145/3592571.3592974",
+    "publication_date": "2023-06-12"
   },
   {
     "id": "43461877",
@@ -397,7 +421,8 @@
     "dateDisplay": "(Jun. 2023)",
     "year": 2023,
     "doi": "10.48550/arXiv.2306.02140",
-    "url": "https://doi.org/10.48550/arXiv.2306.02140"
+    "url": "https://doi.org/10.48550/arXiv.2306.02140",
+    "publication_date": "2023-06"
   },
   {
     "id": "43264881",
@@ -413,7 +438,8 @@
     "dateDisplay": "(Mar. 2023)",
     "year": 2023,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2023-03"
   },
   {
     "id": "42604203",
@@ -429,7 +455,8 @@
     "dateDisplay": "(Mar. 2023)",
     "year": 2023,
     "doi": "10.1109/PERCOM56429.2023.10099353",
-    "url": "https://doi.org/10.1109/PERCOM56429.2023.10099353"
+    "url": "https://doi.org/10.1109/PERCOM56429.2023.10099353",
+    "publication_date": "2023-03"
   },
   {
     "id": "42604202",
@@ -437,7 +464,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Automated construction of Wi-Fi-based indoor logical location predictor using crowd-sourced photos with Wi-Fi signals.",
-    "authors": "Teerawat Kumrai, Joseph Korpela, Yizhe Zhang, Kazuya Ohara, Tomoki Murakami, Hirantha Abeysekera, Takuya Maekawa*",
+    "authors": "Teerawat Kumrai, Joseph Korpela, Yizhe Zhang, Kazuya Ohara, Tomoki Murakami, Hirantha Abeysekera, Takuya Maekawa",
     "journal": "Pervasive Mob. Comput.",
     "volume": "89",
     "issue": "",
@@ -445,7 +472,25 @@
     "dateDisplay": "(Feb. 2023)",
     "year": 2023,
     "doi": "10.1016/j.pmcj.2022.101742",
-    "url": "https://doi.org/10.1016/j.pmcj.2022.101742"
+    "url": "https://doi.org/10.1016/j.pmcj.2022.101742",
+    "publication_date": "2023-02"
+  },
+  {
+    "id": "42604201",
+    "type": "scientific_journal",
+    "category": "International",
+    "subCategory": "Journal",
+    "title": "MGA-Net+: Acceleration-based packaging work recognition using motif-guided attention networks.",
+    "authors": "Jaime Morales, Naoya Yoshimura, Qingxin Xia, Atsushi Wada, Yasuo Namioka, Takuya Maekawa",
+    "journal": "Pervasive Mob. Comput.",
+    "volume": "88",
+    "issue": "",
+    "pages": "101735-101735",
+    "dateDisplay": "(Jan. 2023)",
+    "year": 2023,
+    "doi": "10.1016/j.pmcj.2022.101735",
+    "url": "https://doi.org/10.1016/j.pmcj.2022.101735",
+    "publication_date": "2023-01"
   },
   {
     "id": "43461875",
@@ -461,7 +506,8 @@
     "dateDisplay": "(2023)",
     "year": 2023,
     "doi": "10.1109/PerComWorkshops56833.2023.10150227",
-    "url": "https://doi.org/10.1109/PerComWorkshops56833.2023.10150227"
+    "url": "https://doi.org/10.1109/PerComWorkshops56833.2023.10150227",
+    "publication_date": "2023"
   },
   {
     "id": "43434207",
@@ -477,23 +523,8 @@
     "dateDisplay": "(2023)",
     "year": 2023,
     "doi": "10.1109/MDM58254.2023.00018",
-    "url": "https://doi.org/10.1109/MDM58254.2023.00018"
-  },
-  {
-    "id": "42604201",
-    "type": "scientific_journal",
-    "category": "International",
-    "subCategory": "Journal",
-    "title": "MGA-Net+: Acceleration-based packaging work recognition using motif-guided attention networks.",
-    "authors": "Jaime Morales, Naoya Yoshimura, Qingxin Xia, Atsushi Wada, Yasuo Namioka, Takuya Maekawa*",
-    "journal": "Pervasive Mob. Comput.",
-    "volume": "88",
-    "issue": "",
-    "pages": "101735-101735",
-    "dateDisplay": "(Jan. 2023)",
-    "year": 2023,
-    "doi": "10.1016/j.pmcj.2022.101735",
-    "url": "https://doi.org/10.1016/j.pmcj.2022.101735"
+    "url": "https://doi.org/10.1109/MDM58254.2023.00018",
+    "publication_date": "2023"
   },
   {
     "id": "42604204",
@@ -501,7 +532,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "GPS-assisted Indoor Pedestrian Dead Reckoning.",
-    "authors": "Heng Zhou, Takuya Maekawa*",
+    "authors": "Heng Zhou, Takuya Maekawa",
     "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
     "volume": "6",
     "issue": "(4)",
@@ -509,7 +540,8 @@
     "dateDisplay": "(Dec. 2022)",
     "year": 2022,
     "doi": "10.1145/3569467",
-    "url": "https://doi.org/10.1145/3569467"
+    "url": "https://doi.org/10.1145/3569467",
+    "publication_date": "2022-12"
   },
   {
     "id": "40054243",
@@ -517,7 +549,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Predicting Performance Improvement of Human Activity Recognition Model by Additional Data Collection.",
-    "authors": "Kei Tanigaki, Tze Chuin Teoh, Naoya Yoshimura, Takuya Maekawa*, Takahiro Hara",
+    "authors": "Kei Tanigaki, Tze Chuin Teoh, Naoya Yoshimura, Takuya Maekawa, Takahiro Hara",
     "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
     "volume": "6",
     "issue": "(3)",
@@ -525,7 +557,8 @@
     "dateDisplay": "(Sep. 2022)",
     "year": 2022,
     "doi": "10.1145/3550319",
-    "url": "https://doi.org/10.1145/3550319"
+    "url": "https://doi.org/10.1145/3550319",
+    "publication_date": "2022-09"
   },
   {
     "id": "38940481",
@@ -533,7 +566,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Few-Shot and Weakly Supervised Repetition Counting With Body-Worn Accelerometers",
-    "authors": "Yuuki Nishino, Takuya Maekawa*, Takahiro Hara",
+    "authors": "Yuuki Nishino, Takuya Maekawa, Takahiro Hara",
     "journal": "Frontiers in Computer Science",
     "volume": "4",
     "issue": "",
@@ -541,7 +574,8 @@
     "dateDisplay": "(Jul. 2022)",
     "year": 2022,
     "doi": "10.3389/fcomp.2022.925108",
-    "url": "https://doi.org/10.3389/fcomp.2022.925108"
+    "url": "https://doi.org/10.3389/fcomp.2022.925108",
+    "publication_date": "2022-07-14"
   },
   {
     "id": "38940514",
@@ -549,7 +583,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Acceleration-based Activity Recognition of Repetitive Works with Lightweight Ordered-work Segmentation Network",
-    "authors": "Naoya Yoshimura, Takuya Maekawa*, Takahiro Hara, Atsushi Wada, Yasuo Namioka",
+    "authors": "Naoya Yoshimura, Takuya Maekawa, Takahiro Hara, Atsushi Wada, Yasuo Namioka",
     "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
     "volume": "6",
     "issue": "(2)",
@@ -557,7 +591,8 @@
     "dateDisplay": "(Jul. 2022)",
     "year": 2022,
     "doi": "10.1145/3534572",
-    "url": "https://doi.org/10.1145/3534572"
+    "url": "https://doi.org/10.1145/3534572",
+    "publication_date": "2022-07-04"
   },
   {
     "id": "44155022",
@@ -573,7 +608,8 @@
     "dateDisplay": "(Mar. 2022)",
     "year": 2022,
     "doi": "10.1109/JSEN.2021.3102916",
-    "url": "https://doi.org/10.1109/JSEN.2021.3102916"
+    "url": "https://doi.org/10.1109/JSEN.2021.3102916",
+    "publication_date": "2022-03-15"
   },
   {
     "id": "40054244",
@@ -589,7 +625,8 @@
     "dateDisplay": "(Mar. 2022)",
     "year": 2022,
     "doi": "10.1109/PerCom53586.2022.9762388",
-    "url": "https://doi.org/10.1109/PerCom53586.2022.9762388"
+    "url": "https://doi.org/10.1109/PerCom53586.2022.9762388",
+    "publication_date": "2022-03"
   },
   {
     "id": "40809396",
@@ -605,7 +642,8 @@
     "dateDisplay": "(2022)",
     "year": 2022,
     "doi": "10.1016/j.knosys.2022.109674",
-    "url": "https://doi.org/10.1016/j.knosys.2022.109674"
+    "url": "https://doi.org/10.1016/j.knosys.2022.109674",
+    "publication_date": "2022"
   },
   {
     "id": "37782743",
@@ -621,7 +659,8 @@
     "dateDisplay": "(Nov. 2021)",
     "year": 2021,
     "doi": "10.1145/3474717.3483949",
-    "url": "https://doi.org/10.1145/3474717.3483949"
+    "url": "https://doi.org/10.1145/3474717.3483949",
+    "publication_date": "2021-11"
   },
   {
     "id": "40054245",
@@ -637,7 +676,8 @@
     "dateDisplay": "(Oct. 2021)",
     "year": 2021,
     "doi": "10.2197/ipsjjip.29.597",
-    "url": "https://doi.org/10.2197/ipsjjip.29.597"
+    "url": "https://doi.org/10.2197/ipsjjip.29.597",
+    "publication_date": "2021-10"
   },
   {
     "id": "33800227",
@@ -653,7 +693,8 @@
     "dateDisplay": "(Sep. 2021)",
     "year": 2021,
     "doi": "10.1145/3460421.3480431",
-    "url": "https://doi.org/10.1145/3460421.3480431"
+    "url": "https://doi.org/10.1145/3460421.3480431",
+    "publication_date": "2021-09-21"
   },
   {
     "id": "33800208",
@@ -661,7 +702,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Cross-species behavior analysis with attention-based domain-adversarial deep neural networks.",
-    "authors": "Takuya Maekawa*, Daiki Higashide, Takahiro Hara, Kentarou Matsumura, Kaoru Ide, Takahisa Miyatake, Koutarou D Kimura, Susumu Takahashi",
+    "authors": "Takuya Maekawa, Daiki Higashide, Takahiro Hara, Kentarou Matsumura, Kaoru Ide, Takahisa Miyatake, Koutarou D Kimura, Susumu Takahashi",
     "journal": "Nature communications",
     "volume": "12",
     "issue": "(1)",
@@ -669,7 +710,8 @@
     "dateDisplay": "(Sep. 2021)",
     "year": 2021,
     "doi": "10.1038/s41467-021-25636-x",
-    "url": "https://doi.org/10.1038/s41467-021-25636-x"
+    "url": "https://doi.org/10.1038/s41467-021-25636-x",
+    "publication_date": "2021-09-17"
   },
   {
     "id": "40054246",
@@ -685,7 +727,8 @@
     "dateDisplay": "(Jul. 2021)",
     "year": 2021,
     "doi": "10.1109/IJCNN52387.2021.9533888",
-    "url": "https://doi.org/10.1109/IJCNN52387.2021.9533888"
+    "url": "https://doi.org/10.1109/IJCNN52387.2021.9533888",
+    "publication_date": "2021-07"
   },
   {
     "id": "37502211",
@@ -701,7 +744,8 @@
     "dateDisplay": "(Jul. 2021)",
     "year": 2021,
     "doi": "10.1109/IJCNN52387.2021.9534327",
-    "url": "https://doi.org/10.1109/IJCNN52387.2021.9534327"
+    "url": "https://doi.org/10.1109/IJCNN52387.2021.9534327",
+    "publication_date": "2021-07"
   },
   {
     "id": "33678325",
@@ -709,7 +753,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Automatic identification of differences in behavioral co-occurrence between groups",
-    "authors": "Yiming Tian, Takuya Maekawa*, Joseph Korpela, Daichi Amagata, Takahiro Hara, Sakiko Matsumoto, Ken Yoda",
+    "authors": "Yiming Tian, Takuya Maekawa, Joseph Korpela, Daichi Amagata, Takahiro Hara, Sakiko Matsumoto, Ken Yoda",
     "journal": "ANIMAL BIOTELEMETRY",
     "volume": "9",
     "issue": "(1)",
@@ -717,7 +761,8 @@
     "dateDisplay": "(Jun. 2021)",
     "year": 2021,
     "doi": "10.1186/s40317-021-00242-2",
-    "url": "https://doi.org/10.1186/s40317-021-00242-2"
+    "url": "https://doi.org/10.1186/s40317-021-00242-2",
+    "publication_date": "2021-06"
   },
   {
     "id": "33678707",
@@ -725,7 +770,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Visualization of Deep Feature Representation Toward Transfer Learning of Activity Recognition Models",
-    "authors": "吉村直也, 前川卓也*, 原隆浩",
+    "authors": "吉村直也, 前川卓也, 原隆浩",
     "journal": "情報処理学会論文誌ジャーナル(Web)",
     "volume": "62",
     "issue": "(5)",
@@ -733,7 +778,8 @@
     "dateDisplay": "(May 2021)",
     "year": 2021,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2021-05"
   },
   {
     "id": "33678310",
@@ -749,7 +795,8 @@
     "dateDisplay": "(May 2021)",
     "year": 2021,
     "doi": "10.1109/access.2021.3080275",
-    "url": "https://doi.org/10.1109/access.2021.3080275"
+    "url": "https://doi.org/10.1109/access.2021.3080275",
+    "publication_date": "2021-05"
   },
   {
     "id": "33678708",
@@ -765,7 +812,8 @@
     "dateDisplay": "(Apr. 2021)",
     "year": 2021,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2021-04"
   },
   {
     "id": "33678311",
@@ -773,7 +821,7 @@
     "category": "International",
     "subCategory": "Conference",
     "title": "NaviMine: A tool for mining trajectories through behavior prediction.",
-    "authors": "Yiming Tian, Takuya Maekawa*, Takahiro Hara, Yojiro Yokomori, Takashi Kitagawa",
+    "authors": "Yiming Tian, Takuya Maekawa, Takahiro Hara, Yojiro Yokomori, Takashi Kitagawa",
     "journal": "PerCom 2021 Workshops",
     "volume": "",
     "issue": "",
@@ -781,39 +829,8 @@
     "dateDisplay": "(Mar. 2021)",
     "year": 2021,
     "doi": "10.1109/PerComWorkshops51409.2021.9431118",
-    "url": "https://doi.org/10.1109/PerComWorkshops51409.2021.9431118"
-  },
-  {
-    "id": "43461878",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "Comparative Analysis of High- and Low-Performing Factory Workers with Attention-Based Neural Networks.",
-    "authors": "Qingxin Xia, Atsushi Wada, Takanori Yoshii, Yasuo Namioka, Takuya Maekawa",
-    "journal": "Mobile and Ubiquitous Systems: Computing, Networking and Services - 18th EAI International Conference(MobiQuitous)",
-    "volume": "",
-    "issue": "",
-    "pages": "469-480",
-    "dateDisplay": "(2021)",
-    "year": 2021,
-    "doi": "10.1007/978-3-030-94822-1_26",
-    "url": "https://doi.org/10.1007/978-3-030-94822-1_26"
-  },
-  {
-    "id": "33678312",
-    "type": "scientific_journal",
-    "category": "International",
-    "subCategory": "Journal",
-    "title": "Using Social Media Background to Improve Cold-start Recommendation Deep Models.",
-    "authors": "Yihong Zhang 0001, Takuya Maekawa, Takahiro Hara",
-    "journal": "CoRR",
-    "volume": "abs/2106.02256",
-    "issue": "",
-    "pages": "",
-    "dateDisplay": "(2021)",
-    "year": 2021,
-    "doi": "",
-    "url": "https://arxiv.org/abs/2106.02256"
+    "url": "https://doi.org/10.1109/PerComWorkshops51409.2021.9431118",
+    "publication_date": "2021-03"
   },
   {
     "id": "31940685",
@@ -829,7 +846,42 @@
     "dateDisplay": "(Jan. 2021)",
     "year": 2021,
     "doi": "10.2197/ipsjjip.29.46",
-    "url": "https://doi.org/10.2197/ipsjjip.29.46"
+    "url": "https://doi.org/10.2197/ipsjjip.29.46",
+    "publication_date": "2021-01"
+  },
+  {
+    "id": "43461878",
+    "type": "international_conference_proceedings",
+    "category": "International",
+    "subCategory": "Conference",
+    "title": "Comparative Analysis of High- and Low-Performing Factory Workers with Attention-Based Neural Networks.",
+    "authors": "Qingxin Xia, Atsushi Wada, Takanori Yoshii, Yasuo Namioka, Takuya Maekawa",
+    "journal": "Mobile and Ubiquitous Systems: Computing, Networking and Services - 18th EAI International Conference(MobiQuitous)",
+    "volume": "",
+    "issue": "",
+    "pages": "469-480",
+    "dateDisplay": "(2021)",
+    "year": 2021,
+    "doi": "10.1007/978-3-030-94822-1_26",
+    "url": "https://doi.org/10.1007/978-3-030-94822-1_26",
+    "publication_date": "2021"
+  },
+  {
+    "id": "33678312",
+    "type": "scientific_journal",
+    "category": "International",
+    "subCategory": "Journal",
+    "title": "Using Social Media Background to Improve Cold-start Recommendation Deep Models.",
+    "authors": "Yihong Zhang 0001, Takuya Maekawa, Takahiro Hara",
+    "journal": "CoRR",
+    "volume": "abs/2106.02256",
+    "issue": "",
+    "pages": "",
+    "dateDisplay": "(2021)",
+    "year": 2021,
+    "doi": "",
+    "url": "https://arxiv.org/abs/2106.02256",
+    "publication_date": "2021"
   },
   {
     "id": "31940775",
@@ -837,7 +889,7 @@
     "category": "International",
     "subCategory": "Conference",
     "title": "Smartphone-assisted Automatic Indoor Localization of BLE-enabled Appliances Using BLE and GNSS Signals.",
-    "authors": "Masayuki Fujiwara, Tomoya Nakatani, Yiming Tian, Joseph Korpela, Takuya Maekawa*, Takahiro Hara",
+    "authors": "Masayuki Fujiwara, Tomoya Nakatani, Yiming Tian, Joseph Korpela, Takuya Maekawa, Takahiro Hara",
     "journal": "BuildSys '20: The 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation(BuildSys@SenSys)",
     "volume": "",
     "issue": "",
@@ -845,7 +897,8 @@
     "dateDisplay": "(Nov. 2020)",
     "year": 2020,
     "doi": "10.1145/3408308.3427981",
-    "url": "https://doi.org/10.1145/3408308.3427981"
+    "url": "https://doi.org/10.1145/3408308.3427981",
+    "publication_date": "2020-11"
   },
   {
     "id": "31940752",
@@ -853,7 +906,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Machine learning enables improved runtime and precision for bio-loggers on seabirds",
-    "authors": "Joseph Korpela, Hirokazu Suzuki, Sakiko Matsumoto, Yuichi Mizutani, Masaki Samejima, Takuya Maekawa*, Junichi Nakai, Ken Yoda",
+    "authors": "Joseph Korpela, Hirokazu Suzuki, Sakiko Matsumoto, Yuichi Mizutani, Masaki Samejima, Takuya Maekawa, Junichi Nakai, Ken Yoda",
     "journal": "COMMUNICATIONS BIOLOGY",
     "volume": "3",
     "issue": "(1)",
@@ -861,7 +914,8 @@
     "dateDisplay": "(Oct. 2020)",
     "year": 2020,
     "doi": "10.1038/s42003-020-01356-8",
-    "url": "https://doi.org/10.1038/s42003-020-01356-8"
+    "url": "https://doi.org/10.1038/s42003-020-01356-8",
+    "publication_date": "2020-10"
   },
   {
     "id": "31940751",
@@ -869,7 +923,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Deep learning-assisted comparative analysis of animal trajectories with DeepHL",
-    "authors": "Takuya Maekawa*, Kazuya Ohara, Yizhe Zhang, Matasaburo Fukutomi, Sakiko Matsumoto, Kentarou Matsumura, Hisashi Shidara, Shuhei J. Yamazaki, Ryusuke Fujisawa, Kaoru Ide, Naohisa Nagaya, Koji Yamazaki, Shinsuke Koike, Takahisa Miyatake, Koutarou D. Kimura, Hiroto Ogawa, Susumu Takahashi, Ken Yoda",
+    "authors": "Takuya Maekawa, Kazuya Ohara, Yizhe Zhang, Matasaburo Fukutomi, Sakiko Matsumoto, Kentarou Matsumura, Hisashi Shidara, Shuhei J. Yamazaki, Ryusuke Fujisawa, Kaoru Ide, Naohisa Nagaya, Koji Yamazaki, Shinsuke Koike, Takahisa Miyatake, Koutarou D. Kimura, Hiroto Ogawa, Susumu Takahashi, Ken Yoda",
     "journal": "NATURE COMMUNICATIONS",
     "volume": "11",
     "issue": "(1)",
@@ -877,7 +931,8 @@
     "dateDisplay": "(Oct. 2020)",
     "year": 2020,
     "doi": "10.1038/s41467-020-19105-0",
-    "url": "https://doi.org/10.1038/s41467-020-19105-0"
+    "url": "https://doi.org/10.1038/s41467-020-19105-0",
+    "publication_date": "2020-10"
   },
   {
     "id": "31940774",
@@ -893,7 +948,8 @@
     "dateDisplay": "(Sep. 2020)",
     "year": 2020,
     "doi": "",
-    "url": "https://www.bmvc2020-conference.com/assets/papers/0877.pdf"
+    "url": "https://www.bmvc2020-conference.com/assets/papers/0877.pdf",
+    "publication_date": "2020-09"
   },
   {
     "id": "30123088",
@@ -901,7 +957,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Robust Unsupervised Factory Activity Recognition with Body-worn Accelerometer Using Temporal Structure of Multiple Sensor Data Motifs.",
-    "authors": "Xia Qingxin, Joseph Korpela, Yasuo Namioka, Takuya Maekawa*",
+    "authors": "Xia Qingxin, Joseph Korpela, Yasuo Namioka, Takuya Maekawa",
     "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
     "volume": "4",
     "issue": "(3)",
@@ -909,7 +965,8 @@
     "dateDisplay": "(Sep. 2020)",
     "year": 2020,
     "doi": "10.1145/3411836",
-    "url": "https://doi.org/10.1145/3411836"
+    "url": "https://doi.org/10.1145/3411836",
+    "publication_date": "2020-09"
   },
   {
     "id": "30123110",
@@ -924,7 +981,8 @@
     "dateDisplay": "(Aug. 2020)",
     "year": 2020,
     "doi": "",
-    "url": "http://id.nii.ac.jp/1001/00206262/"
+    "url": "http://id.nii.ac.jp/1001/00206262/",
+    "publication_date": "2020-08"
   },
   {
     "id": "30123111",
@@ -940,7 +998,8 @@
     "dateDisplay": "(May 2020)",
     "year": 2020,
     "doi": "",
-    "url": "http://id.ndl.go.jp/bib/030419509"
+    "url": "http://id.ndl.go.jp/bib/030419509",
+    "publication_date": "2020-05"
   },
   {
     "id": "26487419",
@@ -956,7 +1015,8 @@
     "dateDisplay": "(May 2020)",
     "year": 2020,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2020-05"
   },
   {
     "id": "30123089",
@@ -972,7 +1032,8 @@
     "dateDisplay": "(Mar. 2020)",
     "year": 2020,
     "doi": "10.1109/PerCom45495.2020.9127376",
-    "url": "https://doi.org/10.1109/PerCom45495.2020.9127376"
+    "url": "https://doi.org/10.1109/PerCom45495.2020.9127376",
+    "publication_date": "2020-03"
   },
   {
     "id": "30123090",
@@ -988,7 +1049,8 @@
     "dateDisplay": "(Feb. 2020)",
     "year": 2020,
     "doi": "10.1109/ICSC.2020.00076",
-    "url": "https://doi.org/10.1109/ICSC.2020.00076"
+    "url": "https://doi.org/10.1109/ICSC.2020.00076",
+    "publication_date": "2020-02"
   },
   {
     "id": "39101491",
@@ -1004,7 +1066,8 @@
     "dateDisplay": "(2020)",
     "year": 2020,
     "doi": "",
-    "url": "http://ceur-ws.org/Vol-2660/ialatecml_paper2.pdf"
+    "url": "http://ceur-ws.org/Vol-2660/ialatecml_paper2.pdf",
+    "publication_date": "2020"
   },
   {
     "id": "30123091",
@@ -1020,7 +1083,8 @@
     "dateDisplay": "(Dec. 2019)",
     "year": 2019,
     "doi": "10.1109/BigData47090.2019.9006010",
-    "url": "https://doi.org/10.1109/BigData47090.2019.9006010"
+    "url": "https://doi.org/10.1109/BigData47090.2019.9006010",
+    "publication_date": "2019-12"
   },
   {
     "id": "26688452",
@@ -1036,7 +1100,8 @@
     "dateDisplay": "(Sep. 2019)",
     "year": 2019,
     "doi": "10.1109/CBS46900.2019.9114417",
-    "url": "https://doi.org/10.1109/CBS46900.2019.9114417"
+    "url": "https://doi.org/10.1109/CBS46900.2019.9114417",
+    "publication_date": "2019-09"
   },
   {
     "id": "26487421",
@@ -1052,7 +1117,8 @@
     "dateDisplay": "(Sep. 2019)",
     "year": 2019,
     "doi": "10.1007/978-3-030-26142-9_24",
-    "url": "https://doi.org/10.1007/978-3-030-26142-9_24"
+    "url": "https://doi.org/10.1007/978-3-030-26142-9_24",
+    "publication_date": "2019-09"
   },
   {
     "id": "26487426",
@@ -1068,7 +1134,8 @@
     "dateDisplay": "(Jul. 2019)",
     "year": 2019,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2019-07"
   },
   {
     "id": "22988383",
@@ -1084,7 +1151,8 @@
     "dateDisplay": "(Jun. 2019)",
     "year": 2019,
     "doi": "10.3389/fnins.2019.00626",
-    "url": "https://doi.org/10.3389/fnins.2019.00626"
+    "url": "https://doi.org/10.3389/fnins.2019.00626",
+    "publication_date": "2019-06"
   },
   {
     "id": "22988376",
@@ -1092,7 +1160,7 @@
     "category": "International",
     "subCategory": "Journal",
     "title": "Unsupervised Factory Activity Recognition with Wearable Sensors Using Process Instruction Information.",
-    "authors": "Xia Qingxin, Atsushi Wada, Joseph Korpela, Takuya Maekawa*, Yasuo Namioka",
+    "authors": "Xia Qingxin, Atsushi Wada, Joseph Korpela, Takuya Maekawa, Yasuo Namioka",
     "journal": "IMWUT",
     "volume": "3",
     "issue": "(2)",
@@ -1100,7 +1168,8 @@
     "dateDisplay": "(Jun. 2019)",
     "year": 2019,
     "doi": "10.1145/3328931",
-    "url": "https://doi.org/10.1145/3328931"
+    "url": "https://doi.org/10.1145/3328931",
+    "publication_date": "2019-06"
   },
   {
     "id": "44155021",
@@ -1115,7 +1184,8 @@
     "dateDisplay": "(May 2019)",
     "year": 2019,
     "doi": "10.1101/630053",
-    "url": "https://doi.org/10.1101/630053"
+    "url": "https://doi.org/10.1101/630053",
+    "publication_date": "2019-05-07"
   },
   {
     "id": "21392667",
@@ -1130,7 +1200,8 @@
     "dateDisplay": "(May 2019)",
     "year": 2019,
     "doi": "10.1145/3308560.3316596",
-    "url": "https://doi.org/10.1145/3308560.3316596"
+    "url": "https://doi.org/10.1145/3308560.3316596",
+    "publication_date": "2019-05"
   },
   {
     "id": "21392666",
@@ -1145,7 +1216,8 @@
     "dateDisplay": "(May 2019)",
     "year": 2019,
     "doi": "10.1145/3308560.3316595",
-    "url": "https://doi.org/10.1145/3308560.3316595"
+    "url": "https://doi.org/10.1145/3308560.3316595",
+    "publication_date": "2019-05"
   },
   {
     "id": "21392671",
@@ -1160,7 +1232,8 @@
     "dateDisplay": "(Mar. 2019)",
     "year": 2019,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201902220602830625"
+    "url": "http://jglobal.jst.go.jp/public/201902220602830625",
+    "publication_date": "2019-03-15"
   },
   {
     "id": "22988379",
@@ -1175,7 +1248,8 @@
     "dateDisplay": "(Mar. 2019)",
     "year": 2019,
     "doi": "10.1109/PERCOMW.2019.8730668",
-    "url": "https://doi.org/10.1109/PERCOMW.2019.8730668"
+    "url": "https://doi.org/10.1109/PERCOMW.2019.8730668",
+    "publication_date": "2019-03"
   },
   {
     "id": "22988378",
@@ -1190,7 +1264,8 @@
     "dateDisplay": "(Mar. 2019)",
     "year": 2019,
     "doi": "10.1109/PERCOMW.2019.8730673",
-    "url": "https://doi.org/10.1109/PERCOMW.2019.8730673"
+    "url": "https://doi.org/10.1109/PERCOMW.2019.8730673",
+    "publication_date": "2019-03"
   },
   {
     "id": "22988377",
@@ -1205,7 +1280,8 @@
     "dateDisplay": "(Mar. 2019)",
     "year": 2019,
     "doi": "10.1109/PERCOMW.2019.8730698",
-    "url": "https://doi.org/10.1109/PERCOMW.2019.8730698"
+    "url": "https://doi.org/10.1109/PERCOMW.2019.8730698",
+    "publication_date": "2019-03"
   },
   {
     "id": "21392672",
@@ -1220,7 +1296,8 @@
     "dateDisplay": "(Feb. 2019)",
     "year": 2019,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201902282218784990"
+    "url": "http://jglobal.jst.go.jp/public/201902282218784990",
+    "publication_date": "2019-02-15"
   },
   {
     "id": "21392665",
@@ -1236,7 +1313,8 @@
     "dateDisplay": "(Feb. 2019)",
     "year": 2019,
     "doi": "10.1080/01691864.2019.1575544",
-    "url": "https://doi.org/10.1080/01691864.2019.1575544"
+    "url": "https://doi.org/10.1080/01691864.2019.1575544",
+    "publication_date": "2019-02"
   },
   {
     "id": "23318400",
@@ -1252,7 +1330,8 @@
     "dateDisplay": "(Apr. 2018)",
     "year": 2018,
     "doi": "10.1007/s00779-017-1070-9",
-    "url": "https://doi.org/10.1007/s00779-017-1070-9"
+    "url": "https://doi.org/10.1007/s00779-017-1070-9",
+    "publication_date": "2018-04-01"
   },
   {
     "id": "25756270",
@@ -1268,7 +1347,8 @@
     "dateDisplay": "(Feb. 2018)",
     "year": 2018,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2018-02"
   },
   {
     "id": "21392674",
@@ -1283,52 +1363,8 @@
     "dateDisplay": "(Jan. 2018)",
     "year": 2018,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201802269055112782"
-  },
-  {
-    "id": "23318403",
-    "category": "International",
-    "subCategory": "Other",
-    "title": "Environment-Adaptive Malicious Node Detection in MANETs with Ensemble Learning.",
-    "authors": "Boqi Gao, Takuya Maekawa, Daichi Amagata, Takahiro Hara",
-    "journal": "38th IEEE International Conference on Distributed Computing Systems, ICDCS 2018, Vienna, Austria, July 2-6, 2018",
-    "volume": "",
-    "issue": "",
-    "pages": "556-566",
-    "dateDisplay": "(2018)",
-    "year": 2018,
-    "doi": "10.1109/ICDCS.2018.00061",
-    "url": "https://doi.org/10.1109/ICDCS.2018.00061"
-  },
-  {
-    "id": "23318402",
-    "category": "International",
-    "subCategory": "Other",
-    "title": "Easy-to-Install Methods for Indoor Context Recognition Using Wi-Fi Signals.",
-    "authors": "Kazuya Ohara, Takuya Maekawa",
-    "journal": "Distributed, Ambient and Pervasive Interactions: Technologies and Contexts - 6th International Conference, DAPI 2018, Held as Part of HCI International 2018, Las Vegas, NV, USA, July 15-20, 2018, Proceedings, Part II",
-    "volume": "",
-    "issue": "",
-    "pages": "112-124",
-    "dateDisplay": "(2018)",
-    "year": 2018,
-    "doi": "10.1007/978-3-319-91131-1_9",
-    "url": "https://doi.org/10.1007/978-3-319-91131-1_9"
-  },
-  {
-    "id": "23318401",
-    "category": "International",
-    "subCategory": "Other",
-    "title": "Generating an Event Timeline About Daily Activities From a Semantic Concept Stream.",
-    "authors": "Taiki Miyanishi, Junichiro Hirayama, Takuya Maekawa, Motoaki Kawanabe",
-    "journal": "Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, New Orleans, Louisiana, USA, February 2-7, 2018",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "dateDisplay": "(2018)",
-    "year": 2018,
-    "doi": "",
-    "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17197"
+    "url": "http://jglobal.jst.go.jp/public/201802269055112782",
+    "publication_date": "2018-01-15"
   },
   {
     "id": "23318399",
@@ -1344,7 +1380,56 @@
     "dateDisplay": "(Jan. 2018)",
     "year": 2018,
     "doi": "10.1016/j.future.2017.03.022",
-    "url": "https://doi.org/10.1016/j.future.2017.03.022"
+    "url": "https://doi.org/10.1016/j.future.2017.03.022",
+    "publication_date": "2018-01"
+  },
+  {
+    "id": "23318403",
+    "category": "International",
+    "subCategory": "Other",
+    "title": "Environment-Adaptive Malicious Node Detection in MANETs with Ensemble Learning.",
+    "authors": "Boqi Gao, Takuya Maekawa, Daichi Amagata, Takahiro Hara",
+    "journal": "38th IEEE International Conference on Distributed Computing Systems, ICDCS 2018, Vienna, Austria, July 2-6, 2018",
+    "volume": "",
+    "issue": "",
+    "pages": "556-566",
+    "dateDisplay": "(2018)",
+    "year": 2018,
+    "doi": "10.1109/ICDCS.2018.00061",
+    "url": "https://doi.org/10.1109/ICDCS.2018.00061",
+    "publication_date": "2018"
+  },
+  {
+    "id": "23318402",
+    "category": "International",
+    "subCategory": "Other",
+    "title": "Easy-to-Install Methods for Indoor Context Recognition Using Wi-Fi Signals.",
+    "authors": "Kazuya Ohara, Takuya Maekawa",
+    "journal": "Distributed, Ambient and Pervasive Interactions: Technologies and Contexts - 6th International Conference, DAPI 2018, Held as Part of HCI International 2018, Las Vegas, NV, USA, July 15-20, 2018, Proceedings, Part II",
+    "volume": "",
+    "issue": "",
+    "pages": "112-124",
+    "dateDisplay": "(2018)",
+    "year": 2018,
+    "doi": "10.1007/978-3-319-91131-1_9",
+    "url": "https://doi.org/10.1007/978-3-319-91131-1_9",
+    "publication_date": "2018"
+  },
+  {
+    "id": "23318401",
+    "category": "International",
+    "subCategory": "Other",
+    "title": "Generating an Event Timeline About Daily Activities From a Semantic Concept Stream.",
+    "authors": "Taiki Miyanishi, Junichiro Hirayama, Takuya Maekawa, Motoaki Kawanabe",
+    "journal": "Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, New Orleans, Louisiana, USA, February 2-7, 2018",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "dateDisplay": "(2018)",
+    "year": 2018,
+    "doi": "",
+    "url": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17197",
+    "publication_date": "2018"
   },
   {
     "id": "21392669",
@@ -1359,7 +1444,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1109/BigData.2018.8622072",
-    "url": "https://doi.org/10.1109/BigData.2018.8622072"
+    "url": "https://doi.org/10.1109/BigData.2018.8622072",
+    "publication_date": "2018"
   },
   {
     "id": "21392668",
@@ -1374,7 +1460,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1145/3287038",
-    "url": "https://doi.org/10.1145/3287038"
+    "url": "https://doi.org/10.1145/3287038",
+    "publication_date": "2018"
   },
   {
     "id": "17983234",
@@ -1389,7 +1476,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1109/PERCOMW.2018.8480339",
-    "url": "https://doi.org/10.1109/PERCOMW.2018.8480339"
+    "url": "https://doi.org/10.1109/PERCOMW.2018.8480339",
+    "publication_date": "2018"
   },
   {
     "id": "17983233",
@@ -1404,7 +1492,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1109/PERCOMW.2018.8480357",
-    "url": "https://doi.org/10.1109/PERCOMW.2018.8480357"
+    "url": "https://doi.org/10.1109/PERCOMW.2018.8480357",
+    "publication_date": "2018"
   },
   {
     "id": "17983232",
@@ -1419,7 +1508,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1109/PERCOMW.2018.8480253",
-    "url": "https://doi.org/10.1109/PERCOMW.2018.8480253"
+    "url": "https://doi.org/10.1109/PERCOMW.2018.8480253",
+    "publication_date": "2018"
   },
   {
     "id": "17983231",
@@ -1434,7 +1524,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1145/3282894.3289728",
-    "url": "https://doi.org/10.1145/3282894.3289728"
+    "url": "https://doi.org/10.1145/3282894.3289728",
+    "publication_date": "2018"
   },
   {
     "id": "17983230",
@@ -1449,7 +1540,8 @@
     "dateDisplay": "(2018)",
     "year": 2018,
     "doi": "10.1145/3264940",
-    "url": "https://doi.org/10.1145/3264940"
+    "url": "https://doi.org/10.1145/3264940",
+    "publication_date": "2018"
   },
   {
     "id": "30123160",
@@ -1464,7 +1556,8 @@
     "dateDisplay": "(Oct. 2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://id.nii.ac.jp/1001/00183722/"
+    "url": "http://id.nii.ac.jp/1001/00183722/",
+    "publication_date": "2017-10-15"
   },
   {
     "id": "30123159",
@@ -1479,7 +1572,8 @@
     "dateDisplay": "(Oct. 2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://id.nii.ac.jp/1001/00183727/"
+    "url": "http://id.nii.ac.jp/1001/00183727/",
+    "publication_date": "2017-10-15"
   },
   {
     "id": "21392680",
@@ -1494,7 +1588,8 @@
     "dateDisplay": "(Oct. 2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201802283484877441"
+    "url": "http://jglobal.jst.go.jp/public/201802283484877441",
+    "publication_date": "2017-10-15"
   },
   {
     "id": "21392679",
@@ -1509,7 +1604,8 @@
     "dateDisplay": "(Oct. 2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201802281442685292"
+    "url": "http://jglobal.jst.go.jp/public/201802281442685292",
+    "publication_date": "2017-10-15"
   },
   {
     "id": "21392678",
@@ -1524,23 +1620,8 @@
     "dateDisplay": "(Oct. 2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201802254045650556"
-  },
-  {
-    "id": "23318407",
-    "type": "scientific_journal",
-    "category": "International",
-    "subCategory": "Journal",
-    "title": "Spatio-temporal adaptive indoor positioning using an ensemble approach",
-    "authors": "Taisei Hayashi, Daisuke Taniuchi, Joseph Korpela, Takuya Maekawa",
-    "journal": "PERVASIVE AND MOBILE COMPUTING",
-    "volume": "41",
-    "issue": "",
-    "pages": "319-332",
-    "dateDisplay": "(Oct. 2017)",
-    "year": 2017,
-    "doi": "10.1016/j.pmcj.2016.12.001",
-    "url": "https://doi.org/10.1016/j.pmcj.2016.12.001"
+    "url": "http://jglobal.jst.go.jp/public/201802254045650556",
+    "publication_date": "2017-10-15"
   },
   {
     "id": "23318405",
@@ -1556,7 +1637,25 @@
     "dateDisplay": "(Oct. 2017)",
     "year": 2017,
     "doi": "10.2197/ipsjjip.25.889",
-    "url": "https://doi.org/10.2197/ipsjjip.25.889"
+    "url": "https://doi.org/10.2197/ipsjjip.25.889",
+    "publication_date": "2017-10-01"
+  },
+  {
+    "id": "23318407",
+    "type": "scientific_journal",
+    "category": "International",
+    "subCategory": "Journal",
+    "title": "Spatio-temporal adaptive indoor positioning using an ensemble approach",
+    "authors": "Taisei Hayashi, Daisuke Taniuchi, Joseph Korpela, Takuya Maekawa",
+    "journal": "PERVASIVE AND MOBILE COMPUTING",
+    "volume": "41",
+    "issue": "",
+    "pages": "319-332",
+    "dateDisplay": "(Oct. 2017)",
+    "year": 2017,
+    "doi": "10.1016/j.pmcj.2016.12.001",
+    "url": "https://doi.org/10.1016/j.pmcj.2016.12.001",
+    "publication_date": "2017-10"
   },
   {
     "id": "23318411",
@@ -1572,7 +1671,8 @@
     "dateDisplay": "(Sep. 2017)",
     "year": 2017,
     "doi": "10.1145/3134230.3134232",
-    "url": "https://doi.org/10.1145/3134230.3134232"
+    "url": "https://doi.org/10.1145/3134230.3134232",
+    "publication_date": "2017-09-21"
   },
   {
     "id": "29713510",
@@ -1588,7 +1688,8 @@
     "dateDisplay": "(Aug. 2017)",
     "year": 2017,
     "doi": "10.1109/ICMA.2017.8015842",
-    "url": "https://doi.org/10.1109/ICMA.2017.8015842"
+    "url": "https://doi.org/10.1109/ICMA.2017.8015842",
+    "publication_date": "2017-08-23"
   },
   {
     "id": "21392681",
@@ -1603,7 +1704,8 @@
     "dateDisplay": "(Jan. 2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201702254487703094"
+    "url": "http://jglobal.jst.go.jp/public/201702254487703094",
+    "publication_date": "2017-01-15"
   },
   {
     "id": "35435845",
@@ -1618,7 +1720,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.1299/jsmermd.2017.2A2-P06",
-    "url": "https://doi.org/10.1299/jsmermd.2017.2A2-P06"
+    "url": "https://doi.org/10.1299/jsmermd.2017.2A2-P06",
+    "publication_date": "2017"
   },
   {
     "id": "23318413",
@@ -1634,7 +1737,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.1109/PERCOM.2017.7917860",
-    "url": "https://doi.org/10.1109/PERCOM.2017.7917860"
+    "url": "https://doi.org/10.1109/PERCOM.2017.7917860",
+    "publication_date": "2017"
   },
   {
     "id": "23318412",
@@ -1649,7 +1753,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.1109/PERCOMW.2017.7917506",
-    "url": "https://doi.org/10.1109/PERCOMW.2017.7917506"
+    "url": "https://doi.org/10.1109/PERCOMW.2017.7917506",
+    "publication_date": "2017"
   },
   {
     "id": "23318410",
@@ -1664,7 +1769,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "",
-    "url": "https://aclanthology.info/papers/D17-1251/d17-1251"
+    "url": "https://aclanthology.info/papers/D17-1251/d17-1251",
+    "publication_date": "2017"
   },
   {
     "id": "23318409",
@@ -1680,7 +1786,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.1007/978-3-319-56997-0_9",
-    "url": "https://doi.org/10.1007/978-3-319-56997-0_9"
+    "url": "https://doi.org/10.1007/978-3-319-56997-0_9",
+    "publication_date": "2017"
   },
   {
     "id": "23318408",
@@ -1696,7 +1803,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.1109/TETC.2014.2335537",
-    "url": "https://doi.org/10.1109/TETC.2014.2335537"
+    "url": "https://doi.org/10.1109/TETC.2014.2335537",
+    "publication_date": "2017"
   },
   {
     "id": "23318406",
@@ -1712,7 +1820,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.2197/ipsjjip.25.901",
-    "url": "https://doi.org/10.2197/ipsjjip.25.901"
+    "url": "https://doi.org/10.2197/ipsjjip.25.901",
+    "publication_date": "2017"
   },
   {
     "id": "23318404",
@@ -1727,7 +1836,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "",
-    "url": "http://doi.acm.org/10.1145/3131898"
+    "url": "http://doi.acm.org/10.1145/3131898",
+    "publication_date": "2017"
   },
   {
     "id": "21392682",
@@ -1742,7 +1852,8 @@
     "dateDisplay": "(2017)",
     "year": 2017,
     "doi": "10.7210/jrsj.35.105",
-    "url": "https://doi.org/10.7210/jrsj.35.105"
+    "url": "https://doi.org/10.7210/jrsj.35.105",
+    "publication_date": "2017"
   },
   {
     "id": "23318421",
@@ -1758,7 +1869,8 @@
     "dateDisplay": "(Dec. 2016)",
     "year": 2016,
     "doi": "10.1145/3012709.3012715",
-    "url": "https://doi.org/10.1145/3012709.3012715"
+    "url": "https://doi.org/10.1145/3012709.3012715",
+    "publication_date": "2016-12-12"
   },
   {
     "id": "23318420",
@@ -1774,7 +1886,8 @@
     "dateDisplay": "(Sep. 2016)",
     "year": 2016,
     "doi": "10.1145/2971648.2971721",
-    "url": "https://doi.org/10.1145/2971648.2971721"
+    "url": "https://doi.org/10.1145/2971648.2971721",
+    "publication_date": "2016-09-12"
   },
   {
     "id": "23318419",
@@ -1790,7 +1903,8 @@
     "dateDisplay": "(Sep. 2016)",
     "year": 2016,
     "doi": "10.1145/2971648.2971684",
-    "url": "https://doi.org/10.1145/2971648.2971684"
+    "url": "https://doi.org/10.1145/2971648.2971684",
+    "publication_date": "2016-09-12"
   },
   {
     "id": "23318418",
@@ -1806,7 +1920,8 @@
     "dateDisplay": "(Sep. 2016)",
     "year": 2016,
     "doi": "10.1145/2971648.2971651",
-    "url": "https://doi.org/10.1145/2971648.2971651"
+    "url": "https://doi.org/10.1145/2971648.2971651",
+    "publication_date": "2016-09-12"
   },
   {
     "id": "23318416",
@@ -1822,7 +1937,8 @@
     "dateDisplay": "(Mar. 2016)",
     "year": 2016,
     "doi": "10.2197/ipsjjip.24.302",
-    "url": "https://doi.org/10.2197/ipsjjip.24.302"
+    "url": "https://doi.org/10.2197/ipsjjip.24.302",
+    "publication_date": "2016-03-15"
   },
   {
     "id": "23318415",
@@ -1838,7 +1954,8 @@
     "dateDisplay": "(Mar. 2016)",
     "year": 2016,
     "doi": "10.2197/ipsjjip.24.237",
-    "url": "https://doi.org/10.2197/ipsjjip.24.237"
+    "url": "https://doi.org/10.2197/ipsjjip.24.237",
+    "publication_date": "2016-03-15"
   },
   {
     "id": "23318414",
@@ -1854,7 +1971,8 @@
     "dateDisplay": "(Mar. 2016)",
     "year": 2016,
     "doi": "10.2197/ipsjjip.24.203",
-    "url": "https://doi.org/10.2197/ipsjjip.24.203"
+    "url": "https://doi.org/10.2197/ipsjjip.24.203",
+    "publication_date": "2016-03-15"
   },
   {
     "id": "21392684",
@@ -1869,7 +1987,8 @@
     "dateDisplay": "(Feb. 2016)",
     "year": 2016,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201602205696162091"
+    "url": "http://jglobal.jst.go.jp/public/201602205696162091",
+    "publication_date": "2016-02-15"
   },
   {
     "id": "29688164",
@@ -1885,7 +2004,8 @@
     "dateDisplay": "(2016)",
     "year": 2016,
     "doi": "10.1541/ieejeiss.136.1693",
-    "url": "https://doi.org/10.1541/ieejeiss.136.1693"
+    "url": "https://doi.org/10.1541/ieejeiss.136.1693",
+    "publication_date": "2016"
   },
   {
     "id": "23318425",
@@ -1901,7 +2021,8 @@
     "dateDisplay": "(2016)",
     "year": 2016,
     "doi": "10.1109/PERCOMW.2016.7457056",
-    "url": "https://doi.org/10.1109/PERCOMW.2016.7457056"
+    "url": "https://doi.org/10.1109/PERCOMW.2016.7457056",
+    "publication_date": "2016"
   },
   {
     "id": "23318424",
@@ -1917,7 +2038,8 @@
     "dateDisplay": "(2016)",
     "year": 2016,
     "doi": "10.1109/PERCOMW.2016.7457063",
-    "url": "https://doi.org/10.1109/PERCOMW.2016.7457063"
+    "url": "https://doi.org/10.1109/PERCOMW.2016.7457063",
+    "publication_date": "2016"
   },
   {
     "id": "23318423",
@@ -1933,7 +2055,8 @@
     "dateDisplay": "(2016)",
     "year": 2016,
     "doi": "10.1109/PERCOMW.2016.7457053",
-    "url": "https://doi.org/10.1109/PERCOMW.2016.7457053"
+    "url": "https://doi.org/10.1109/PERCOMW.2016.7457053",
+    "publication_date": "2016"
   },
   {
     "id": "23318422",
@@ -1948,7 +2071,8 @@
     "dateDisplay": "(2016)",
     "year": 2016,
     "doi": "",
-    "url": "http://doi.acm.org/10.1145/3012709.3016070"
+    "url": "http://doi.acm.org/10.1145/3012709.3016070",
+    "publication_date": "2016"
   },
   {
     "id": "23318417",
@@ -1963,7 +2087,8 @@
     "dateDisplay": "(2016)",
     "year": 2016,
     "doi": "",
-    "url": "http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12355"
+    "url": "http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12355",
+    "publication_date": "2016"
   },
   {
     "id": "23318430",
@@ -1979,7 +2104,8 @@
     "dateDisplay": "(Sep. 2015)",
     "year": 2015,
     "doi": "10.1145/2802083.2808400",
-    "url": "https://doi.org/10.1145/2802083.2808400"
+    "url": "https://doi.org/10.1145/2802083.2808400",
+    "publication_date": "2015-09-07"
   },
   {
     "id": "21392689",
@@ -1995,7 +2121,8 @@
     "dateDisplay": "(Jun. 2015)",
     "year": 2015,
     "doi": "10.1541/ieejeiss.135.564",
-    "url": "https://doi.org/10.1541/ieejeiss.135.564"
+    "url": "https://doi.org/10.1541/ieejeiss.135.564",
+    "publication_date": "2015-06-01"
   },
   {
     "id": "21392688",
@@ -2011,7 +2138,8 @@
     "dateDisplay": "(Jun. 2015)",
     "year": 2015,
     "doi": "10.1541/ieejeiss.135.637",
-    "url": "https://doi.org/10.1541/ieejeiss.135.637"
+    "url": "https://doi.org/10.1541/ieejeiss.135.637",
+    "publication_date": "2015-06-01"
   },
   {
     "id": "21392685",
@@ -2026,7 +2154,8 @@
     "dateDisplay": "(Mar. 2015)",
     "year": 2015,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201502287710607008"
+    "url": "http://jglobal.jst.go.jp/public/201502287710607008",
+    "publication_date": "2015-03-15"
   },
   {
     "id": "23318427",
@@ -2042,7 +2171,8 @@
     "dateDisplay": "(Mar. 2015)",
     "year": 2015,
     "doi": "10.1145/2667226",
-    "url": "https://doi.org/10.1145/2667226"
+    "url": "https://doi.org/10.1145/2667226",
+    "publication_date": "2015-03"
   },
   {
     "id": "23318426",
@@ -2058,7 +2188,8 @@
     "dateDisplay": "(Mar. 2015)",
     "year": 2015,
     "doi": "10.1109/JSTSP.2014.2382478",
-    "url": "https://doi.org/10.1109/JSTSP.2014.2382478"
+    "url": "https://doi.org/10.1109/JSTSP.2014.2382478",
+    "publication_date": "2015-03"
   },
   {
     "id": "21392687",
@@ -2073,7 +2204,8 @@
     "dateDisplay": "(Jan. 2015)",
     "year": 2015,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201502296003967579"
+    "url": "http://jglobal.jst.go.jp/public/201502296003967579",
+    "publication_date": "2015-01-15"
   },
   {
     "id": "21392686",
@@ -2088,7 +2220,8 @@
     "dateDisplay": "(Jan. 2015)",
     "year": 2015,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201502290118408249"
+    "url": "http://jglobal.jst.go.jp/public/201502290118408249",
+    "publication_date": "2015-01-15"
   },
   {
     "id": "23318429",
@@ -2104,7 +2237,8 @@
     "dateDisplay": "(2015)",
     "year": 2015,
     "doi": "10.1145/2750858.2806061",
-    "url": "https://doi.org/10.1145/2750858.2806061"
+    "url": "https://doi.org/10.1145/2750858.2806061",
+    "publication_date": "2015"
   },
   {
     "id": "23318428",
@@ -2120,7 +2254,8 @@
     "dateDisplay": "(2015)",
     "year": 2015,
     "doi": "10.1145/2750858.2804259",
-    "url": "https://doi.org/10.1145/2750858.2804259"
+    "url": "https://doi.org/10.1145/2750858.2804259",
+    "publication_date": "2015"
   },
   {
     "id": "29621153",
@@ -2136,7 +2271,8 @@
     "dateDisplay": "(Nov. 2014)",
     "year": 2014,
     "doi": "10.1109/WiMOB.2014.6962230",
-    "url": "https://doi.org/10.1109/WiMOB.2014.6962230"
+    "url": "https://doi.org/10.1109/WiMOB.2014.6962230",
+    "publication_date": "2014-11-18"
   },
   {
     "id": "23318431",
@@ -2152,7 +2288,8 @@
     "dateDisplay": "(Sep. 2014)",
     "year": 2014,
     "doi": "10.1007/s00607-013-0326-0",
-    "url": "https://doi.org/10.1007/s00607-013-0326-0"
+    "url": "https://doi.org/10.1007/s00607-013-0326-0",
+    "publication_date": "2014-09"
   },
   {
     "id": "21392696",
@@ -2167,7 +2304,8 @@
     "dateDisplay": "(Jan. 2014)",
     "year": 2014,
     "doi": "10.11509/isciesci.58.1_9",
-    "url": "https://doi.org/10.11509/isciesci.58.1_9"
+    "url": "https://doi.org/10.11509/isciesci.58.1_9",
+    "publication_date": "2014-01-15"
   },
   {
     "id": "21392691",
@@ -2182,7 +2320,8 @@
     "dateDisplay": "(Jan. 2014)",
     "year": 2014,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201502295575193403"
+    "url": "http://jglobal.jst.go.jp/public/201502295575193403",
+    "publication_date": "2014-01-15"
   },
   {
     "id": "21392690",
@@ -2197,23 +2336,8 @@
     "dateDisplay": "(Jan. 2014)",
     "year": 2014,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201502255068803958"
-  },
-  {
-    "id": "23318433",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "Robust Wi-Fi based Indoor Positioning with Ensemble Learning",
-    "authors": "Daisuke Taniuchi, Takuya Maekawa",
-    "journal": "2014 IEEE 10TH INTERNATIONAL CONFERENCE ON WIRELESS AND MOBILE COMPUTING, NETWORKING AND COMMUNICATIONS (WIMOB)",
-    "volume": "",
-    "issue": "",
-    "pages": "592-597",
-    "dateDisplay": "(2014)",
-    "year": 2014,
-    "doi": "10.1109/WiMOB.2014.6962230",
-    "url": "https://doi.org/10.1109/WiMOB.2014.6962230"
+    "url": "http://jglobal.jst.go.jp/public/201502255068803958",
+    "publication_date": "2014-01-15"
   },
   {
     "id": "23318432",
@@ -2229,7 +2353,8 @@
     "dateDisplay": "(2014)",
     "year": 2014,
     "doi": "10.1145/2632048.2636069",
-    "url": "https://doi.org/10.1145/2632048.2636069"
+    "url": "https://doi.org/10.1145/2632048.2636069",
+    "publication_date": "2014"
   },
   {
     "id": "21392692",
@@ -2245,7 +2370,8 @@
     "dateDisplay": "(2014)",
     "year": 2014,
     "doi": "10.1541/ieejeiss.134.711",
-    "url": "https://doi.org/10.1541/ieejeiss.134.711"
+    "url": "https://doi.org/10.1541/ieejeiss.134.711",
+    "publication_date": "2014"
   },
   {
     "id": "23318435",
@@ -2261,7 +2387,8 @@
     "dateDisplay": "(Aug. 2013)",
     "year": 2013,
     "doi": "10.1007/s00779-012-0556-8",
-    "url": "https://doi.org/10.1007/s00779-012-0556-8"
+    "url": "https://doi.org/10.1007/s00779-012-0556-8",
+    "publication_date": "2013-08"
   },
   {
     "id": "23318434",
@@ -2277,7 +2404,8 @@
     "dateDisplay": "(Mar. 2013)",
     "year": 2013,
     "doi": "10.1007/s00779-011-0491-0",
-    "url": "https://doi.org/10.1007/s00779-011-0491-0"
+    "url": "https://doi.org/10.1007/s00779-011-0491-0",
+    "publication_date": "2013-03"
   },
   {
     "id": "29584793",
@@ -2293,7 +2421,8 @@
     "dateDisplay": "(2013)",
     "year": 2013,
     "doi": "10.1007/978-3-642-37932-1_11",
-    "url": "https://doi.org/10.1007/978-3-642-37932-1_11"
+    "url": "https://doi.org/10.1007/978-3-642-37932-1_11",
+    "publication_date": "2013"
   },
   {
     "id": "23318439",
@@ -2309,7 +2438,8 @@
     "dateDisplay": "(2013)",
     "year": 2013,
     "doi": "10.4108/icst.pervasivehealth.2013.252128",
-    "url": "https://doi.org/10.4108/icst.pervasivehealth.2013.252128"
+    "url": "https://doi.org/10.4108/icst.pervasivehealth.2013.252128",
+    "publication_date": "2013"
   },
   {
     "id": "23318438",
@@ -2325,7 +2455,8 @@
     "dateDisplay": "(2013)",
     "year": 2013,
     "doi": "10.1145/2493988.2494348",
-    "url": "https://doi.org/10.1145/2493988.2494348"
+    "url": "https://doi.org/10.1145/2493988.2494348",
+    "publication_date": "2013"
   },
   {
     "id": "23318437",
@@ -2341,7 +2472,8 @@
     "dateDisplay": "(2013)",
     "year": 2013,
     "doi": "10.1145/2493432.2493460",
-    "url": "https://doi.org/10.1145/2493432.2493460"
+    "url": "https://doi.org/10.1145/2493432.2493460",
+    "publication_date": "2013"
   },
   {
     "id": "23318436",
@@ -2357,7 +2489,8 @@
     "dateDisplay": "(2013)",
     "year": 2013,
     "doi": "10.1145/2494091.2495991",
-    "url": "https://doi.org/10.1145/2494091.2495991"
+    "url": "https://doi.org/10.1145/2494091.2495991",
+    "publication_date": "2013"
   },
   {
     "id": "21392707",
@@ -2372,7 +2505,8 @@
     "dateDisplay": "(Nov. 2012)",
     "year": 2012,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201202249380196951"
+    "url": "http://jglobal.jst.go.jp/public/201202249380196951",
+    "publication_date": "2012-11-01"
   },
   {
     "id": "21392708",
@@ -2387,55 +2521,8 @@
     "dateDisplay": "(Jul. 2012)",
     "year": 2012,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201202256323124517"
-  },
-  {
-    "id": "23318443",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "Recognizing Handheld Electrical Device Usage with Hand-worn Coil of Wire",
-    "authors": "Takuya Maekawa, Yasue Kishino, Yutaka Yanagisawa, Yasushi Sakurai",
-    "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-    "volume": "7319",
-    "issue": "",
-    "pages": "234-252",
-    "dateDisplay": "(2012)",
-    "year": 2012,
-    "doi": "10.1007/978-3-642-31205-2_15",
-    "url": "https://doi.org/10.1007/978-3-642-31205-2_15"
-  },
-  {
-    "id": "23318442",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "Mimic sensors: Battery-shaped sensor node for detecting electrical events of handheld devices",
-    "authors": "Takuya Maekawa, Yasue Kishino, Yutaka Yanagisawa, Yasushi Sakurai",
-    "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
-    "volume": "7319",
-    "issue": "",
-    "pages": "20-38",
-    "dateDisplay": "(2012)",
-    "year": 2012,
-    "doi": "10.1007/978-3-642-31205-2_2",
-    "url": "https://doi.org/10.1007/978-3-642-31205-2_2"
-  },
-  {
-    "id": "23318441",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "WristSense: Wrist-worn sensor device with camera for daily activity recognition",
-    "authors": "Takuya Maekawa, Yasue Kishino, Yutaka Yanagisawa, Yasushi Sakurai",
-    "journal": "2012 IEEE International Conference on Pervasive Computing and Communications Workshops, PERCOM Workshops 2012",
-    "volume": "",
-    "issue": "",
-    "pages": "510-512",
-    "dateDisplay": "(2012)",
-    "year": 2012,
-    "doi": "10.1109/PerComW.2012.6197551",
-    "url": "https://doi.org/10.1109/PerComW.2012.6197551"
+    "url": "http://jglobal.jst.go.jp/public/201202256323124517",
+    "publication_date": "2012-07-15"
   },
   {
     "id": "23318440",
@@ -2451,7 +2538,59 @@
     "dateDisplay": "(Jan. 2012)",
     "year": 2012,
     "doi": "10.1145/2078316.2078320",
-    "url": "https://doi.org/10.1145/2078316.2078320"
+    "url": "https://doi.org/10.1145/2078316.2078320",
+    "publication_date": "2012-01"
+  },
+  {
+    "id": "23318443",
+    "type": "international_conference_proceedings",
+    "category": "International",
+    "subCategory": "Conference",
+    "title": "Recognizing handheld electrical device usage with hand-worn coil of wire",
+    "authors": "Takuya Maekawa, Yasue Kishino, Yutaka Yanagisawa, Yasushi Sakurai",
+    "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "volume": "7319",
+    "issue": "",
+    "pages": "234-252",
+    "dateDisplay": "(2012)",
+    "year": 2012,
+    "doi": "10.1007/978-3-642-31205-2_15",
+    "url": "https://doi.org/10.1007/978-3-642-31205-2_15",
+    "publication_date": "2012"
+  },
+  {
+    "id": "23318442",
+    "type": "international_conference_proceedings",
+    "category": "International",
+    "subCategory": "Conference",
+    "title": "Mimic sensors: Battery-shaped sensor node for detecting electrical events of handheld devices",
+    "authors": "Takuya Maekawa, Yasue Kishino, Yutaka Yanagisawa, Yasushi Sakurai",
+    "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "volume": "7319",
+    "issue": "",
+    "pages": "20-38",
+    "dateDisplay": "(2012)",
+    "year": 2012,
+    "doi": "10.1007/978-3-642-31205-2_2",
+    "url": "https://doi.org/10.1007/978-3-642-31205-2_2",
+    "publication_date": "2012"
+  },
+  {
+    "id": "23318441",
+    "type": "international_conference_proceedings",
+    "category": "International",
+    "subCategory": "Conference",
+    "title": "WristSense: Wrist-worn sensor device with camera for daily activity recognition",
+    "authors": "Takuya Maekawa, Yasue Kishino, Yutaka Yanagisawa, Yasushi Sakurai",
+    "journal": "2012 IEEE International Conference on Pervasive Computing and Communications Workshops, PERCOM Workshops 2012",
+    "volume": "",
+    "issue": "",
+    "pages": "510-512",
+    "dateDisplay": "(2012)",
+    "year": 2012,
+    "doi": "10.1109/PerComW.2012.6197551",
+    "url": "https://doi.org/10.1109/PerComW.2012.6197551",
+    "publication_date": "2012"
   },
   {
     "id": "21392709",
@@ -2466,7 +2605,8 @@
     "dateDisplay": "(Dec. 2011)",
     "year": 2011,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201202296357657010"
+    "url": "http://jglobal.jst.go.jp/public/201202296357657010",
+    "publication_date": "2011-12-15"
   },
   {
     "id": "21392710",
@@ -2481,7 +2621,8 @@
     "dateDisplay": "(Apr. 2011)",
     "year": 2011,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/201102228468457700"
+    "url": "http://jglobal.jst.go.jp/public/201102228468457700",
+    "publication_date": "2011-04-15"
   },
   {
     "id": "23318446",
@@ -2497,7 +2638,8 @@
     "dateDisplay": "(2011)",
     "year": 2011,
     "doi": "10.1007/978-3-642-21726-5_18",
-    "url": "https://doi.org/10.1007/978-3-642-21726-5_18"
+    "url": "https://doi.org/10.1007/978-3-642-21726-5_18",
+    "publication_date": "2011"
   },
   {
     "id": "23318445",
@@ -2513,7 +2655,8 @@
     "dateDisplay": "(2011)",
     "year": 2011,
     "doi": "10.1109/ISWC.2011.24",
-    "url": "https://doi.org/10.1109/ISWC.2011.24"
+    "url": "https://doi.org/10.1109/ISWC.2011.24",
+    "publication_date": "2011"
   },
   {
     "id": "23318444",
@@ -2529,54 +2672,8 @@
     "dateDisplay": "(2011)",
     "year": 2011,
     "doi": "10.1007/978-3-642-24279-3_20",
-    "url": "https://doi.org/10.1007/978-3-642-24279-3_20"
-  },
-  {
-    "id": "23318451",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "Object-Based Activity Recognition with Heterogeneous Sensors on Wrist",
-    "authors": "Takuya Maekawa, Yutaka Yanagisawa, Yasue Kishino, Katsuhiko Ishiguro, Koji Kamei, Yasushi Sakurai, Takeshi Okadome",
-    "journal": "PERVASIVE COMPUTING, PROCEEDINGS",
-    "volume": "6030",
-    "issue": "",
-    "pages": "246-264",
-    "dateDisplay": "(2010)",
-    "year": 2010,
-    "doi": "10.1007/978-3-642-12654-3_15",
-    "url": "https://doi.org/10.1007/978-3-642-12654-3_15"
-  },
-  {
-    "id": "23318450",
-    "type": "international_conference_proceedings",
-    "category": "International",
-    "subCategory": "Conference",
-    "title": "Interactive Story Creation for Knowledge Acquisition",
-    "authors": "Shohei Yoshioka, Takuya Maekawa, Yasushi Hirano, Shoji Kajita, Kenji Mase",
-    "journal": "PROCEEDINGS OF THE 5TH ACM/IEEE INTERNATIONAL CONFERENCE ON HUMAN-ROBOT INTERACTION (HRI 2010)",
-    "volume": "",
-    "issue": "",
-    "pages": "131-132",
-    "dateDisplay": "(2010)",
-    "year": 2010,
-    "doi": "10.1145/1734454.1734507",
-    "url": "https://doi.org/10.1145/1734454.1734507"
-  },
-  {
-    "id": "23318449",
-    "category": "International",
-    "subCategory": "Other",
-    "title": "Estimating which Object Type a Sensor Node is Attached to in Ubiquitous Sensor Environment.",
-    "authors": "Takuya Maekawa, Yutaka Yanagisawa, Takeshi Okadome",
-    "journal": "IJSSCI",
-    "volume": "2",
-    "issue": "(1)",
-    "pages": "86-101",
-    "dateDisplay": "(2010)",
-    "year": 2010,
-    "doi": "10.4018/jssci.2010101906",
-    "url": "https://doi.org/10.4018/jssci.2010101906"
+    "url": "https://doi.org/10.1007/978-3-642-24279-3_20",
+    "publication_date": "2011"
   },
   {
     "id": "23318448",
@@ -2592,7 +2689,8 @@
     "dateDisplay": "(Jan. 2010)",
     "year": 2010,
     "doi": "10.4018/jcini.2010010104",
-    "url": "https://doi.org/10.4018/jcini.2010010104"
+    "url": "https://doi.org/10.4018/jcini.2010010104",
+    "publication_date": "2010-01"
   },
   {
     "id": "23318447",
@@ -2608,7 +2706,58 @@
     "dateDisplay": "(Jan. 2010)",
     "year": 2010,
     "doi": "10.4018/jcini.2010010102",
-    "url": "https://doi.org/10.4018/jcini.2010010102"
+    "url": "https://doi.org/10.4018/jcini.2010010102",
+    "publication_date": "2010-01"
+  },
+  {
+    "id": "23318451",
+    "type": "international_conference_proceedings",
+    "category": "International",
+    "subCategory": "Conference",
+    "title": "Object-Based Activity Recognition with Heterogeneous Sensors on Wrist",
+    "authors": "Takuya Maekawa, Yutaka Yanagisawa, Yasue Kishino, Katsuhiko Ishiguro, Koji Kamei, Yasushi Sakurai, Takeshi Okadome",
+    "journal": "PERVASIVE COMPUTING, PROCEEDINGS",
+    "volume": "6030",
+    "issue": "",
+    "pages": "246-264",
+    "dateDisplay": "(2010)",
+    "year": 2010,
+    "doi": "10.1007/978-3-642-12654-3_15",
+    "url": "https://doi.org/10.1007/978-3-642-12654-3_15",
+    "publication_date": "2010"
+  },
+  {
+    "id": "23318450",
+    "type": "international_conference_proceedings",
+    "category": "International",
+    "subCategory": "Conference",
+    "title": "Interactive Story Creation for Knowledge Acquisition",
+    "authors": "Shohei Yoshioka, Takuya Maekawa, Yasushi Hirano, Shoji Kajita, Kenji Mase",
+    "journal": "PROCEEDINGS OF THE 5TH ACM/IEEE INTERNATIONAL CONFERENCE ON HUMAN-ROBOT INTERACTION (HRI 2010)",
+    "volume": "",
+    "issue": "",
+    "pages": "131-132",
+    "dateDisplay": "(2010)",
+    "year": 2010,
+    "doi": "10.1145/1734454.1734507",
+    "url": "https://doi.org/10.1145/1734454.1734507",
+    "publication_date": "2010"
+  },
+  {
+    "id": "23318449",
+    "category": "International",
+    "subCategory": "Other",
+    "title": "Estimating which Object Type a Sensor Node is Attached to in Ubiquitous Sensor Environment.",
+    "authors": "Takuya Maekawa, Yutaka Yanagisawa, Takeshi Okadome",
+    "journal": "IJSSCI",
+    "volume": "2",
+    "issue": "(1)",
+    "pages": "86-101",
+    "dateDisplay": "(2010)",
+    "year": 2010,
+    "doi": "10.4018/jssci.2010101906",
+    "url": "https://doi.org/10.4018/jssci.2010101906",
+    "publication_date": "2010"
   },
   {
     "id": "21392711",
@@ -2623,7 +2772,8 @@
     "dateDisplay": "(Jun. 2009)",
     "year": 2009,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902201981301371"
+    "url": "http://jglobal.jst.go.jp/public/200902201981301371",
+    "publication_date": "2009-06-15"
   },
   {
     "id": "23318454",
@@ -2639,7 +2789,8 @@
     "dateDisplay": "(2009)",
     "year": 2009,
     "doi": "10.1145/1571941.1571949",
-    "url": "https://doi.org/10.1145/1571941.1571949"
+    "url": "https://doi.org/10.1145/1571941.1571949",
+    "publication_date": "2009"
   },
   {
     "id": "23318453",
@@ -2655,7 +2806,8 @@
     "dateDisplay": "(2009)",
     "year": 2009,
     "doi": "10.1007/978-3-642-05408-2_13",
-    "url": "https://doi.org/10.1007/978-3-642-05408-2_13"
+    "url": "https://doi.org/10.1007/978-3-642-05408-2_13",
+    "publication_date": "2009"
   },
   {
     "id": "23318452",
@@ -2671,7 +2823,8 @@
     "dateDisplay": "(2009)",
     "year": 2009,
     "doi": "10.1109/COGINF.2009.5250792",
-    "url": "https://doi.org/10.1109/COGINF.2009.5250792"
+    "url": "https://doi.org/10.1109/COGINF.2009.5250792",
+    "publication_date": "2009"
   },
   {
     "id": "23318455",
@@ -2687,7 +2840,8 @@
     "dateDisplay": "(Oct. 2008)",
     "year": 2008,
     "doi": "10.1109/MPRV.2008.79",
-    "url": "https://doi.org/10.1109/MPRV.2008.79"
+    "url": "https://doi.org/10.1109/MPRV.2008.79",
+    "publication_date": "2008-10"
   },
   {
     "id": "21392712",
@@ -2702,7 +2856,8 @@
     "dateDisplay": "(Jun. 2008)",
     "year": 2008,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902250132783592"
+    "url": "http://jglobal.jst.go.jp/public/200902250132783592",
+    "publication_date": "2008-06-15"
   },
   {
     "id": "29122038",
@@ -2718,7 +2873,8 @@
     "dateDisplay": "(2008)",
     "year": 2008,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2008"
   },
   {
     "id": "23318458",
@@ -2734,7 +2890,8 @@
     "dateDisplay": "(2008)",
     "year": 2008,
     "doi": "10.1145/1390334.1390489",
-    "url": "https://doi.org/10.1145/1390334.1390489"
+    "url": "https://doi.org/10.1145/1390334.1390489",
+    "publication_date": "2008"
   },
   {
     "id": "23318457",
@@ -2750,7 +2907,8 @@
     "dateDisplay": "(2008)",
     "year": 2008,
     "doi": "10.1145/1387269.1387280",
-    "url": "https://doi.org/10.1145/1387269.1387280"
+    "url": "https://doi.org/10.1145/1387269.1387280",
+    "publication_date": "2008"
   },
   {
     "id": "23318456",
@@ -2766,7 +2924,8 @@
     "dateDisplay": "(2008)",
     "year": 2008,
     "doi": "10.1145/1387269.1387275",
-    "url": "https://doi.org/10.1145/1387269.1387275"
+    "url": "https://doi.org/10.1145/1387269.1387275",
+    "publication_date": "2008"
   },
   {
     "id": "23318459",
@@ -2782,7 +2941,8 @@
     "dateDisplay": "(Nov. 2007)",
     "year": 2007,
     "doi": "10.1007/s10209-007-0088-6",
-    "url": "https://doi.org/10.1007/s10209-007-0088-6"
+    "url": "https://doi.org/10.1007/s10209-007-0088-6",
+    "publication_date": "2007-11"
   },
   {
     "id": "21392713",
@@ -2797,7 +2957,8 @@
     "dateDisplay": "(Jul. 2007)",
     "year": 2007,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902214013797139"
+    "url": "http://jglobal.jst.go.jp/public/200902214013797139",
+    "publication_date": "2007-07-15"
   },
   {
     "id": "21392714",
@@ -2812,7 +2973,8 @@
     "dateDisplay": "(Jun. 2007)",
     "year": 2007,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902284775958391"
+    "url": "http://jglobal.jst.go.jp/public/200902284775958391",
+    "publication_date": "2007-06-01"
   },
   {
     "id": "28793106",
@@ -2828,7 +2990,8 @@
     "dateDisplay": "(2007)",
     "year": 2007,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2007"
   },
   {
     "id": "23318460",
@@ -2844,7 +3007,8 @@
     "dateDisplay": "(2007)",
     "year": 2007,
     "doi": "10.1145/1242572.1242800",
-    "url": "https://doi.org/10.1145/1242572.1242800"
+    "url": "https://doi.org/10.1145/1242572.1242800",
+    "publication_date": "2007"
   },
   {
     "id": "21392720",
@@ -2859,7 +3023,8 @@
     "dateDisplay": "(Dec. 2006)",
     "year": 2006,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902270882106380"
+    "url": "http://jglobal.jst.go.jp/public/200902270882106380",
+    "publication_date": "2006-12-15"
   },
   {
     "id": "21392719",
@@ -2874,7 +3039,8 @@
     "dateDisplay": "(Sep. 2006)",
     "year": 2006,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902286040329008"
+    "url": "http://jglobal.jst.go.jp/public/200902286040329008",
+    "publication_date": "2006-09-21"
   },
   {
     "id": "23318461",
@@ -2890,7 +3056,8 @@
     "dateDisplay": "(Sep. 2006)",
     "year": 2006,
     "doi": "10.1002/scj.20562",
-    "url": "https://doi.org/10.1002/scj.20562"
+    "url": "https://doi.org/10.1002/scj.20562",
+    "publication_date": "2006-09"
   },
   {
     "id": "21392718",
@@ -2905,7 +3072,8 @@
     "dateDisplay": "(Jun. 2006)",
     "year": 2006,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902271165416622"
+    "url": "http://jglobal.jst.go.jp/public/200902271165416622",
+    "publication_date": "2006-06-22"
   },
   {
     "id": "25309688",
@@ -2921,7 +3089,8 @@
     "dateDisplay": "(Mar. 2006)",
     "year": 2006,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2006-03"
   },
   {
     "id": "25309686",
@@ -2937,7 +3106,8 @@
     "dateDisplay": "(Mar. 2006)",
     "year": 2006,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2006-03"
   },
   {
     "id": "23318467",
@@ -2953,7 +3123,8 @@
     "dateDisplay": "(2006)",
     "year": 2006,
     "doi": "10.1145/1135777.1135789",
-    "url": "https://doi.org/10.1145/1135777.1135789"
+    "url": "https://doi.org/10.1145/1135777.1135789",
+    "publication_date": "2006"
   },
   {
     "id": "23318466",
@@ -2969,7 +3140,8 @@
     "dateDisplay": "(2006)",
     "year": 2006,
     "doi": "10.1145/1133219.1133234",
-    "url": "https://doi.org/10.1145/1133219.1133234"
+    "url": "https://doi.org/10.1145/1133219.1133234",
+    "publication_date": "2006"
   },
   {
     "id": "23318465",
@@ -2985,7 +3157,8 @@
     "dateDisplay": "(2006)",
     "year": 2006,
     "doi": "10.1109/PERCOM.2006.1",
-    "url": "https://doi.org/10.1109/PERCOM.2006.1"
+    "url": "https://doi.org/10.1109/PERCOM.2006.1",
+    "publication_date": "2006"
   },
   {
     "id": "23318464",
@@ -3001,7 +3174,8 @@
     "dateDisplay": "(2006)",
     "year": 2006,
     "doi": "10.1109/MDM.2006.94",
-    "url": "https://doi.org/10.1109/MDM.2006.94"
+    "url": "https://doi.org/10.1109/MDM.2006.94",
+    "publication_date": "2006"
   },
   {
     "id": "23318463",
@@ -3017,7 +3191,8 @@
     "dateDisplay": "(2006)",
     "year": 2006,
     "doi": "10.1109/MDM.2006.127",
-    "url": "https://doi.org/10.1109/MDM.2006.127"
+    "url": "https://doi.org/10.1109/MDM.2006.127",
+    "publication_date": "2006"
   },
   {
     "id": "23318462",
@@ -3033,7 +3208,8 @@
     "dateDisplay": "(2006)",
     "year": 2006,
     "doi": "10.1109/MDM.2006.155",
-    "url": "https://doi.org/10.1109/MDM.2006.155"
+    "url": "https://doi.org/10.1109/MDM.2006.155",
+    "publication_date": "2006"
   },
   {
     "id": "21392717",
@@ -3048,7 +3224,24 @@
     "dateDisplay": "(Jun. 2005)",
     "year": 2005,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902288748661803"
+    "url": "http://jglobal.jst.go.jp/public/200902288748661803",
+    "publication_date": "2005-06-01"
+  },
+  {
+    "id": "21392716",
+    "category": "Domestic",
+    "subCategory": "Other",
+    "title": "A Collaborative WWW Browsing System for Multiple Handheld Devices",
+    "authors": "前川卓也, 原隆浩, 西尾章治郎",
+    "journal": "電子情報通信学会論文誌 D-1",
+    "volume": "J88-D-1",
+    "issue": "(3)",
+    "pages": "629-641",
+    "dateDisplay": "(Mar. 2005)",
+    "year": 2005,
+    "doi": "",
+    "url": "http://jglobal.jst.go.jp/public/200902240654002455",
+    "publication_date": "2005-03-01"
   },
   {
     "id": "25309638",
@@ -3064,22 +3257,8 @@
     "dateDisplay": "(Mar. 2005)",
     "year": 2005,
     "doi": "",
-    "url": ""
-  },
-  {
-    "id": "21392716",
-    "category": "Domestic",
-    "subCategory": "Other",
-    "title": "A Collaborative WWW Browsing System for Multiple Handheld Devices",
-    "authors": "前川卓也, 原隆浩, 西尾章治郎",
-    "journal": "電子情報通信学会論文誌 D-1",
-    "volume": "J88-D-1",
-    "issue": "(3)",
-    "pages": "629-641",
-    "dateDisplay": "(Mar. 2005)",
-    "year": 2005,
-    "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902240654002455"
+    "url": "",
+    "publication_date": "2005-03"
   },
   {
     "id": "23318469",
@@ -3095,7 +3274,8 @@
     "dateDisplay": "(2005)",
     "year": 2005,
     "doi": "10.1109/ICDE.2005.285",
-    "url": "https://doi.org/10.1109/ICDE.2005.285"
+    "url": "https://doi.org/10.1109/ICDE.2005.285",
+    "publication_date": "2005"
   },
   {
     "id": "23318468",
@@ -3111,7 +3291,8 @@
     "dateDisplay": "(2005)",
     "year": 2005,
     "doi": "10.1109/DEXA.2005.69",
-    "url": "https://doi.org/10.1109/DEXA.2005.69"
+    "url": "https://doi.org/10.1109/DEXA.2005.69",
+    "publication_date": "2005"
   },
   {
     "id": "25309620",
@@ -3127,7 +3308,8 @@
     "dateDisplay": "(Sep. 2004)",
     "year": 2004,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2004-09"
   },
   {
     "id": "25309618",
@@ -3143,7 +3325,8 @@
     "dateDisplay": "(Jul. 2004)",
     "year": 2004,
     "doi": "",
-    "url": ""
+    "url": "",
+    "publication_date": "2004-07"
   },
   {
     "id": "21392715",
@@ -3158,7 +3341,8 @@
     "dateDisplay": "(Jun. 2004)",
     "year": 2004,
     "doi": "",
-    "url": "http://jglobal.jst.go.jp/public/200902249263389085"
+    "url": "http://jglobal.jst.go.jp/public/200902249263389085",
+    "publication_date": "2004-06-15"
   },
   {
     "id": "25309589",
@@ -3174,7 +3358,8 @@
     "dateDisplay": "(Mar. 2004)",
     "year": 2004,
     "doi": "",
-    "url": "http://id.ndl.go.jp/bib/7712392"
+    "url": "http://id.ndl.go.jp/bib/7712392",
+    "publication_date": "2004-03"
   },
   {
     "id": "23318470",
@@ -3190,6 +3375,7 @@
     "dateDisplay": "(2004)",
     "year": 2004,
     "doi": "10.1109/ICECT.2004.1319755",
-    "url": "https://doi.org/10.1109/ICECT.2004.1319755"
+    "url": "https://doi.org/10.1109/ICECT.2004.1319755",
+    "publication_date": "2004"
   }
 ]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "51280183",
+    "presentation_title": "Keynote: Transforming Animal Behavioral Research with AI and IoT Technologies",
+    "presenters": "Takuya Maekawa",
+    "event": "The 15th International Conference on Mobile Computing and Ubiquitous Networking",
+    "publication_date": "2025-09-11",
+    "presentation_type": "keynote_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "51280186",
+    "presentation_title": "Keynote: AI/IoT systems for Animal Behavioral Research",
+    "presenters": "Takuya Maekawa",
+    "event": "3rd International Conference on Artificial Intelligence of Things and Systems, AIoTSys 2025",
+    "publication_date": "2025-08-17",
+    "presentation_type": "keynote_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "47526424",
+    "presentation_title": "Sensor-based Activity Recognition in Emerging Domains",
+    "presenters": "Takuya Maekawa, Ryoma Otsuka, Kei Tanigaki, Qingxin Xia, Naoya Yoshimura",
+    "event": "20th International Conference on Intelligent Environments",
+    "publication_date": "2024-06-18",
+    "presentation_type": "public_discourse",
+    "major_achievement": false
+  },
+  {
+    "id": "46459344",
+    "presentation_title": "AI on Animals: AI-enabled bio-loggers transform animal behavior study in the wild",
+    "presenters": "Takuya Maekawa, Kei Tanigaki, Ryoma Otsuka, Shiho Koyama, Yuichi Mizutani, Ken Yoda",
+    "event": "The 8th International Bio-Logging Science Symposium",
+    "publication_date": "2024-03",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "43169966",
+    "presentation_title": "IoT on Animals: Using On-device Activity Recognition Techniques to Unveil the Secrets of Animal Behavior",
+    "presenters": "Takuya Maekawa",
+    "event": "ACM MobiSys 2023, IoT Day",
+    "publication_date": "2023-07",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "40092738",
+    "presentation_title": "AI on Animals: 野生動物観測のためのリアルタイム行動認識技術を活用したバイオロギング",
+    "presenters": "前川卓也",
+    "event": "電子情報通信学会 2022年ソサイエティ大会",
+    "publication_date": "2022-09",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "33709949",
+    "presentation_title": "AI on Animals: 行動認識技術とバイオロギングの融合による野生動物観測",
+    "presenters": "前川卓也",
+    "event": "インタラクション2021",
+    "publication_date": "2021-03",
+    "presentation_type": "keynote_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "33709940",
+    "presentation_title": "Machine Learning-assisted Animal Activity Sensing and Understanding",
+    "presenters": "Takuya Maekawa",
+    "event": "IJCAI2020 Workshop on AI4IoT,",
+    "publication_date": "2021-01",
+    "presentation_type": "keynote_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "33709922",
+    "presentation_title": "AI on Animals: 人工知能を搭載したバイオロギングデバイスの開発と運用",
+    "presenters": "前川卓也",
+    "event": "第21回計測自動制御学会システムインテグレーション部門講演会",
+    "publication_date": "2020-12",
+    "presentation_type": "keynote_oral_presentation",
+    "major_achievement": true
+  },
+  {
+    "id": "30123125",
+    "presentation_title": "Trends Tracking Memory Recommender Networks for Product Recommendations in E-Commerce",
+    "presenters": "Zhi Li, Boqi Gao, Daichi Amagata, Takuya Maekawa, Takahiro Hara, Hao Niu, Kei Yonekawa, Mori Kurokawa",
+    "event": "第12回データ工学と情報マネジメントに関するフォーラム（DEIMフォーラム2020）",
+    "publication_date": "2020-03",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "30123126",
+    "presentation_title": "Detecting Energy Depriving Malicious Nodes by Unsupervised Learning in Energy Harvesting Cooperative Wireless Sensor Networks",
+    "presenters": "高 博奇, 天方 大地, 前川 卓也, 原 隆浩",
+    "event": "マルチメディア通信と分散処理ワークショップ (DPSWS 2019)",
+    "publication_date": "2019-11",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "30123127",
+    "presentation_title": "行動認識モデルの転移学習に向けたニューラルネットワークによる特徴抽出の可視化と分析",
+    "presenters": "吉村 直也, 前川 卓也, 原 隆浩",
+    "event": "情報処理学会マルチメディア，分散，協調とモバイル(DICOMO2019)シンポジウム論文集",
+    "publication_date": "2019-07",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "13113927",
+    "presentation_title": "行動認識モデルの転移学習に向けたニューラルネットワークによる特徴抽出の可視化と分析",
+    "presenters": "吉村直也, 前川卓也, 原隆浩",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2019-06-26",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "13113930",
+    "presentation_title": "Preliminary Investigation of an Accelerated Algorithm for Unsupervised Assembly-work Activity Recognition with Acceleration Sensors (情報システム研究会 知的情報システム,その他一般)",
+    "presenters": "Xia Qingxin, Korpela Joseph, 前川 卓也, 和田 篤, 浪岡 保男",
+    "event": "電気学会研究会資料. IS",
+    "publication_date": "2019-05-27",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531050",
+    "presentation_title": "転移学習を用いたWi‐Fi電波による屋内日常物の状態推定に関する検討",
+    "presenters": "キム ヘン, 尾原和也, 前川卓也, 村上友規, アベセカラ ヒランタ, 天方大地, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2018-11-27",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531049",
+    "presentation_title": "Wi‐Fiチャネル状態情報を用いた教師無し学習によるドアの開閉検知手法",
+    "presenters": "尾原和也, 前川卓也, 村上友規, アベセカラ ヒランタ",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2018-11-27",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531051",
+    "presentation_title": "照度計駆動型の映像記録装置のツキノワグマへの装着試験",
+    "presenters": "小池伸介, 山崎晃司, 森光由樹, 前川卓也, 鮫島正樹, 鮫島正樹, 正藤陽久, 木村聡志",
+    "event": "日本哺乳類学会大会プログラム・講演要旨集",
+    "publication_date": "2018-09-08",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531052",
+    "presentation_title": "再帰型ニューラルネットワークによるアプリケーションの利用履歴を用いたユーザのコンテキスト推定モデルの構築",
+    "presenters": "神谷俊充, 中村達哉, 前川卓也, 天方大地, 原隆浩",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2018-06-27",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531053",
+    "presentation_title": "Preliminary investigation of a method for supporting discovery of attribute-dependent differences in animal behavior for animal trajectory analysis",
+    "presenters": "東出大輝, 前川卓也, 天方大地, 原隆浩, 水谷友一, 鈴木宏和, 依田憲",
+    "event": "システム制御情報学会研究発表講演会講演論文集(CD-ROM)",
+    "publication_date": "2018-05-16",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531054",
+    "presentation_title": "ジェスチャ・行動認識のための加速度信号アップサンプリング手法に関する検討",
+    "presenters": "吉村直也, 前川卓也, 天方大地, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2018-05-11",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531055",
+    "presentation_title": "Preliminary investigation of co-occurrence rule extraction from multi-modal animal locomotion data",
+    "presenters": "田一鳴, 前川卓也, 天方大地, 原隆浩, 松本祥子, 依田憲, 藤岡慧明, 濱井郁弥, 福井大, 飛龍志津子",
+    "event": "情報処理学会全国大会講演論文集",
+    "publication_date": "2018-03-13",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531056",
+    "presentation_title": "Comparative Pattern Mining of Human Trajectory Data",
+    "presenters": "梶岡慎輔, 佐久間拓人, 西和弥, 梅津佑太, 烏山昌幸, 玉木徹, 前川卓也, 打矢隆弘, 松尾啓志, 竹内一郎, 竹内一郎, 竹内一郎",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2018-02-19",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531057",
+    "presentation_title": "ウミネコの意外な採餌行動と繁殖ステージ変遷による餌種,採餌頻度変化",
+    "presenters": "鶴谷未知, 水谷友一, 鈴木宏和, 前川卓也, KORPELA Joseph, 依田憲",
+    "event": "日本動物行動学会大会発表要旨集",
+    "publication_date": "2018",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531058",
+    "presentation_title": "Wi‐Fiチャネル状態情報を用いた屋内日常物の状態推定",
+    "presenters": "尾原和也, 前川卓也, 松下康之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2017-10-25",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531059",
+    "presentation_title": "Scale Estimation for Structure from Motion by Indoor Localization using Wi-Fi Channel State Information",
+    "presenters": "尾原和也, 林大晟, 前川卓也, 松下康之",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2017-08-02",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531060",
+    "presentation_title": "バイオロギングのためのイベント駆動型ロガーの開発",
+    "presenters": "鮫島正樹, 前川卓也, 岸野泰恵, 中井淳一, 依田憲",
+    "event": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
+    "publication_date": "2017-05-09",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531061",
+    "presentation_title": "Location Semantics Labeling of Wi-Fi Signal Information using Convolutional Neural Network and Camera Images",
+    "presenters": "ZHANG Yizhe, 前川卓也, 松下康之",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2017-03-23",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531062",
+    "presentation_title": "実世界センシングを用いた日常生活行動の言語化",
+    "presenters": "宮西大樹, 平山淳一郎, 前川卓也, 川鍋一晃",
+    "event": "電子情報通信学会大会講演論文集(CD-ROM)",
+    "publication_date": "2017-03-07",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531063",
+    "presentation_title": "ニューラルネットワークによるWi‐Fi受信電波強度を用いた2地点間距離推定に関する検討",
+    "presenters": "中谷友哉, 前川卓也, 白川真澄, 原隆浩",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2017-03-02",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531065",
+    "presentation_title": "Selective Inference for Time-series Change-Point Analysis",
+    "presenters": "梅津佑太, 中川和也, 井上茂乗, 津田宏治, 杉山麿人, 前川卓也, 玉木徹, 依田憲, 竹内一郎",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-08-29",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531064",
+    "presentation_title": "一人称鳥視点映像解析の試み",
+    "presenters": "玉木徹, 竹内一郎, 前川卓也, 依田憲",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-08-29",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531066",
+    "presentation_title": "Preliminary Investigation of Unsupervised Analysis of Assembly Work by Using Wearable Sensor",
+    "presenters": "尾原和也, 中井大輔, 前川卓也, 浪岡保男",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2016-08-02",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "13113931",
+    "presentation_title": "赤外光の再帰性反射を用いたデバイスフリー屋内位置推定のための単眼カメラによる複数人物追跡",
+    "presenters": "山藤浩明, 前川卓也, 前川卓也, 前川卓也, 松下康之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2016-05-21",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "11531067",
+    "presentation_title": "Wi‐Fiチャネル状態情報を用いた屋内日常物の状態変化の検知に関する検討",
+    "presenters": "尾原和也, 前川卓也, 松下康之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2016-05-21",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "46459346",
+    "presentation_title": "A trial for wild animal behaviour classification using animal-borne accelerometers and deep learning techniques",
+    "presenters": "Ryoma Otsuka, Naoya Yoshimura, Kei Tanigaki, Shiho Koyama, Yuichi Mizutani, Ken Yoda, Takuya Maekawa",
+    "event": "The 8th International Bio-Logging Science Symposium",
+    "publication_date": "",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false
+  }
+]
