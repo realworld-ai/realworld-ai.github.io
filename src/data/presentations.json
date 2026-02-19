@@ -36,6 +36,15 @@
     "major_achievement": false
   },
   {
+    "id": "44110777",
+    "presentation_title": "時系列センサデータと人工知能を用いた動物の行動認識手法とその応用について（ラウンドテーブル 人工知能 × 動物行動研究）",
+    "presenters": "大塚 亮真",
+    "event": "日本動物行動学会第42回大会 JES42",
+    "publication_date": "2023-11-03",
+    "presentation_type": "",
+    "major_achievement": false
+  },
+  {
     "id": "43169966",
     "presentation_title": "IoT on Animals: Using On-device Activity Recognition Techniques to Unveil the Secrets of Animal Behavior",
     "presenters": "Takuya Maekawa",
@@ -72,6 +81,15 @@
     "major_achievement": true
   },
   {
+    "id": "36384296",
+    "presentation_title": "ウガンダ共和国ブウィンディ原生国立公園におけるマウンテンゴリラの糞中グルココルチコイド濃度と観光の関係についての予備的な報告",
+    "presenters": "大塚亮真, 山越言, 木下こづえ",
+    "event": "第36回霊長類学会大会",
+    "publication_date": "2020-12-04",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false
+  },
+  {
     "id": "33709922",
     "presentation_title": "AI on Animals: 人工知能を搭載したバイオロギングデバイスの開発と運用",
     "presenters": "前川卓也",
@@ -79,6 +97,24 @@
     "publication_date": "2020-12",
     "presentation_type": "keynote_oral_presentation",
     "major_achievement": true
+  },
+  {
+    "id": "36384329",
+    "presentation_title": "Tourist Expectation and Satisfaction in Mountain Gorilla Tourism in Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 14th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2020-09",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "36384297",
+    "presentation_title": "野生動物との近接は魅力的か？―マウンテンゴリラのエコツーリズムに関連するYouTube動画における人間とゴリラとの近接に着目して―",
+    "presenters": "大塚亮真, 山越言",
+    "event": "日本アフリカ学会第57回学術大会",
+    "publication_date": "2020-05",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false
   },
   {
     "id": "30123125",
@@ -96,6 +132,15 @@
     "event": "マルチメディア通信と分散処理ワークショップ (DPSWS 2019)",
     "publication_date": "2019-11",
     "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "36384325",
+    "presentation_title": "Popularity of YouTube Contents that Violate the Tourism Regulations May Undermine Conservation of Mountain Gorillas",
+    "presenters": "Ryoma Otsuka, Gen Yamakoshi",
+    "event": "The 12th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2019-09",
+    "presentation_type": "oral_presentation",
     "major_achievement": false
   },
   {
@@ -126,6 +171,24 @@
     "major_achievement": false
   },
   {
+    "id": "36384320",
+    "presentation_title": "Community Participation in Human-Wildlife Conflict Mitigation Program: A Case of Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "Area Studies and Sustainable Development Goals (SDGs)",
+    "publication_date": "2019-05",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "36384317",
+    "presentation_title": "Understanding Community People's Perception of Animals Living in Protected Areas: A Case of Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 11th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2019-03",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false
+  },
+  {
     "id": "11531050",
     "presentation_title": "転移学習を用いたWi‐Fi電波による屋内日常物の状態推定に関する検討",
     "presenters": "キム ヘン, 尾原和也, 前川卓也, 村上友規, アベセカラ ヒランタ, 天方大地, 原隆浩",
@@ -150,6 +213,15 @@
     "event": "日本哺乳類学会大会プログラム・講演要旨集",
     "publication_date": "2018-09-08",
     "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "36384313",
+    "presentation_title": "Current Status and Issues of Community Conservation in Bwindi Impenetrable National Park, Uganda: The Case of “Human-Gorilla Conflict Resolution Program (HUGO)",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 27th International Primatological Society Congress, Nairobi, Kenya",
+    "publication_date": "2018-08",
+    "presentation_type": "poster_presentation",
     "major_achievement": false
   },
   {
@@ -189,6 +261,15 @@
     "major_achievement": false
   },
   {
+    "id": "36384306",
+    "presentation_title": "How Can Community People Actively Participate in Community Conservation?: The Case of \"Human-Gorilla Conflict Resolution Program (HUGO)\" in Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 9th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2018-03",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false
+  },
+  {
     "id": "11531056",
     "presentation_title": "Comparative Pattern Mining of Human Trajectory Data",
     "presenters": "梶岡慎輔, 佐久間拓人, 西和弥, 梅津佑太, 烏山昌幸, 玉木徹, 前川卓也, 打矢隆弘, 松尾啓志, 竹内一郎, 竹内一郎, 竹内一郎",
@@ -204,6 +285,15 @@
     "event": "日本動物行動学会大会発表要旨集",
     "publication_date": "2018",
     "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "36384300",
+    "presentation_title": "The Effectiveness and Challenges of Human-Gorilla Conflict Resolution Program (HUGO) In Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "International Symposium France-Japan Area Studies Forum",
+    "publication_date": "2017-12",
+    "presentation_type": "poster_presentation",
     "major_achievement": false
   },
   {
@@ -258,6 +348,15 @@
     "event": "電子情報通信学会技術研究報告",
     "publication_date": "2017-03-02",
     "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "36384299",
+    "presentation_title": "Crop-raiding by mountain gorillas in Bwindi Impenetrable National Park and HUGO: local countermeasure and attitudes towards the crop-raiding in Buhoma area",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 7th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2017-03",
+    "presentation_type": "oral_presentation",
     "major_achievement": false
   },
   {

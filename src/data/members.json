@@ -16,7 +16,10 @@
     "name_en": "Yasuyuki Matsushita",
     "role_ja": "招聘教授",
     "role_en": "Invited Professor",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/yasumat"
+    }
   },
   {
     "id": "fumio-okura",
@@ -24,7 +27,10 @@
     "name_en": "Fumio Okura",
     "role_ja": "准教授",
     "role_en": "Associate Professor",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/okura.fumio"
+    }
   },
   {
     "id": "qingxin-xia",
@@ -32,7 +38,10 @@
     "name_en": "Qingxin Xia",
     "role_ja": "講師",
     "role_en": "Lecturer",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/okura.fumio"
+    }
   },
   {
     "id": "xinpeng-liu",
@@ -48,7 +57,10 @@
     "name_en": "Ryoma Otsuka",
     "role_ja": "特任助教",
     "role_en": "Specially Appointed Assistant Professor",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/ryoma_otsuka"
+    }
   },
   {
     "id": "teerawat-kumrai",
@@ -56,7 +68,10 @@
     "name_en": "Teerawat Kumrai",
     "role_ja": "特任助教",
     "role_en": "Specially Appointed Assistant Professor",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/teerawat_kumrai"
+    }
   },
   {
     "id": "momoe-sukegawa",
@@ -64,7 +79,10 @@
     "name_en": "Momoe Sukegawa",
     "role_ja": "特任研究員",
     "role_en": "Specially Appointed Researcher",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/placeholder.jpg",
+    "links": {
+      "researchmap": "https://researchmap.jp/sukegawa_momoe"
+    }
   },
   {
     "id": "guanyu-cao",
