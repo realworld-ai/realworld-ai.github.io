@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { PublicationItem } from './PublicationItem';
-import { BookOpen, Award, Newspaper, Mic2, Search, Filter } from 'lucide-react';
+import { BookOpen, Award, Newspaper, Mic2, Search, Filter, Star } from 'lucide-react';
 
 // Import data directly
 import membersData from '../../data/members.json';
@@ -35,6 +35,7 @@ interface Publication {
     doi?: string;
     url?: string;
     publication_date?: string;
+    major_achievement?: boolean;
 }
 
 interface Award {
@@ -70,11 +71,11 @@ interface Props {
     lang: 'en' | 'ja';
 }
 
-type Tab = 'all' | 'awards' | 'media' | 'presentations';
+type Tab = 'selected' | 'all' | 'awards' | 'media' | 'presentations';
 type MemberFilter = string | null; // member ID
 
 export const PublicationList: React.FC<Props> = ({ lang }) => {
-    const [activeTab, setActiveTab] = useState<Tab>('all');
+    const [activeTab, setActiveTab] = useState<Tab>('selected');
     const [selectedMemberId, setSelectedMemberId] = useState<MemberFilter>(null);
     const [search, setSearch] = useState('');
     const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
@@ -94,7 +95,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
             return names.some(n => t.includes(n));
         };
 
-        if (type === 'all') { // Publication
+        if (type === 'all' || type === 'selected') { // Publication
             return check(item.authors);
         } else if (type === 'awards') {
             // winners can be string or array
@@ -114,7 +115,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         if (!search) return true;
         const s = search.toLowerCase();
         
-        if (type === 'all') {
+        if (type === 'all' || type === 'selected') {
             return (item.title || '').toLowerCase().includes(s) || 
                    (item.authors || '').toLowerCase().includes(s) || 
                    (item.journal || '').toLowerCase().includes(s);
@@ -136,8 +137,13 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
     // Sort by Date Descending
     const filteredData = useMemo(() => {
         let data: any[] = [];
-        if (activeTab === 'all') data = publicationsData;
-        else if (activeTab === 'awards') data = awardsData;
+        if (activeTab === 'selected') {
+            data = publicationsData.filter((item: any) => item.major_achievement === true);
+        } else if (activeTab === 'all') {
+            // Should 'all' include selected or exclude? Usually 'all' means everything.
+            // Keeping 'all' as entire publication list.
+            data = publicationsData;
+        } else if (activeTab === 'awards') data = awardsData;
         else if (activeTab === 'media') data = mediaData;
         else if (activeTab === 'presentations') data = presentationsData;
 
@@ -151,7 +157,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
             // date field varies: publication_date, award_date. 
             // Publications has 'year' number. Others use date string.
             let year = '';
-            if (activeTab === 'all') {
+            if (activeTab === 'all' || activeTab === 'selected') {
                 year = item.year.toString();
             } else if (activeTab === 'awards') {
                 year = (item.award_date || '').split('-')[0];
@@ -171,7 +177,8 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
     const labels = {
         en: {
             pageTitle: 'Publications',
-            all: 'Papers',
+            selected: 'Selected',
+            all: 'All Papers',
             awards: 'Awards',
             media: 'Media',
             presentations: 'Talks',
@@ -182,7 +189,8 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         },
         ja: {
             pageTitle: '業績リスト',
-            all: '論文',
+            selected: '精選論文',
+            all: '全部論文',
             awards: '受賞',
             media: '報道',
             presentations: '講演',
@@ -196,6 +204,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
     const t = labels[lang];
 
     const tabs = [
+        { id: 'selected' as const, label: t.selected, icon: Star },
         { id: 'all' as const, label: t.all, icon: BookOpen },
         { id: 'awards' as const, label: t.awards, icon: Award },
         { id: 'media' as const, label: t.media, icon: Newspaper },
@@ -363,14 +372,15 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                     )}
 
                     {sortedYears.map(year => (
-                        <section key={year}>
-                            <h2 className="text-2xl font-bold text-white mb-6 border-b border-white/10 pb-2 flex items-center sticky top-0 bg-gray-950/90 backdrop-blur py-2 z-10 w-full">
-                                <span className="text-lab-accent mr-3 text-lg opacity-70">#</span> {year}
-                            </h2>
+                        <section key={year} className="relative">
+                            <div className="flex items-center gap-4 mb-8 mt-12 first:mt-0">
+                                <h2 className="text-3xl font-bold text-white/60 font-mono">{year}</h2>
+                                <div className="h-px bg-white/10 flex-grow"></div>
+                            </div>
                             
                             <div className="pl-2 lg:pl-4 space-y-1">
                                 {dataByYear[year].map(item => {
-                                    if (activeTab === 'all') return <PublicationItem key={item.id} pub={item as any} />;
+                                    if (activeTab === 'all' || activeTab === 'selected') return <PublicationItem key={item.id} pub={item as any} />;
                                     if (activeTab === 'awards') return renderAward(item as Award);
                                     if (activeTab === 'media') return renderMedia(item as MediaCoverage);
                                     if (activeTab === 'presentations') return renderPresentation(item as Presentation);
