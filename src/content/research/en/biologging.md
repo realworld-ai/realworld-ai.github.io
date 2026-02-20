@@ -4,4 +4,4 @@ description: "AI technology to elucidate ecology and behavior of animals using d
 order: 2
 image: "/images/theme/biologging/AIonAnimals1.png"
 ---
-"Bio-logging," which records behavior, physiological states, and environmental information by attaching small sensors (bio-loggers) to wild animals, is advancing. We are developing AI technology to highly accurately and effectively automatically recognize complex animal behaviors (predation, reproduction, social behavior, etc.) from multimodal data such as acceleration and video.
+AI Biologging is a research paradigm that we were the first in the world to propose, in which AI embedded within biologging devices intelligently conducts ecological observation of wild animals. Through the development of compact and intelligent AI systems capable of operating on small-scale devices, we aim to uncover previously unknown mysteries of wildlife.

@@ -152,7 +152,7 @@ export const papers: Paper[] = [
       "Fingerprinting",
       "Site Survey"
     ],
-    "figure": "/assets/images/papers/47526256.png",
+    "figure": "/assets/images/papers/indoor/Predicting Signal Reception Information from GNSS Satellites.png",
     "title": "Predicting Signal Reception Information from GNSS Satellites in Indoor Environments without Site Survey: Towards Opportunistic Indoor Positioning Based on GNSS Fingerprinting",
     "authors": "Heng Zhou, Takuya Maekawa",
     "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
@@ -193,8 +193,8 @@ export const papers: Paper[] = [
       "Crowdsourcing",
       "Logical Location"
     ],
-    "figure": "/assets/images/papers/placeholder.png",
-    "title": "Automated construction of Wi-Fi-based indoor logical location predictor using crowd-sourced photos with Wi-Fi signals.",
+    "figure": "/assets/images/papers/indoor/Automatic Update of Indoor Location Fingerprints.png",
+    "title": "Automated construction of Wi-Fi-based indoor logical location predictor using crowd-sourced photos with Wi-Fi signals",
     "authors": "Teerawat Kumrai, Joseph Korpela, Yizhe Zhang, Kazuya Ohara, Tomoki Murakami, Hirantha Abeysekera, Takuya Maekawa",
     "journal": "Pervasive Mob. Comput.",
     "dateDisplay": "(Feb. 2023)",
@@ -317,13 +317,13 @@ export const papers: Paper[] = [
       "Deep Learning"
     ],
     "figure": "/assets/images/papers/indoor/AoA-net.png",
-    "title": "",
-    "authors": "",
-    "journal": "",
+    "title": "AoA-net: Estimating Angle-of-arrival Using Wi-Fi Channel State Information Based on Deep Neural Networks with Subcarrier Selection",
+    "authors": "Teerawat Kumrai, Zesheng Cai, Takuya Maekawa, Takahiro Hara, Kazuya Ohara, Tomoki Murakami, Hirantha Abeysekera",
+    "journal": "Journal of Information Processing",
     "dateDisplay": "",
-    "year": 0,
-    "url": "",
-    "doi": ""
+    "year": 2024,
+    "url": "https://www.jstage.jst.go.jp/article/ipsjjip/32/0/32_863/_article",
+    "doi": "https://doi.org/10.2197/ipsjjip.32.863"
   },
   {
     "id": "80000005",
@@ -336,33 +336,13 @@ export const papers: Paper[] = [
       "Environmental Independency"
     ],
     "figure": "/assets/images/papers/indoor/Enhancing Environmental Independency.png",
-    "title": "",
-    "authors": "",
-    "journal": "",
+    "title": "Enhancing Environmental Independency for CSI-based Depth Image Reconstruction",
+    "authors": "Guanyu Cao; Takuya Maekawa; Kazuya Ohara; Yasue Kishino",
+    "journal": "IEEE Annual Conference on Pervasive Computing and Communications Workshops (PerCom)",
     "dateDisplay": "",
-    "year": 0,
-    "url": "",
-    "doi": ""
-  },
-  {
-    "id": "80000006",
-    "area": "positioning",
-    "abstractShort": "事前のサイトサーベイなしで屋内でのGNSS信号受信情報を予測し、GNSSフィンガープリントに基づく機会的屋内測位を実現しました。",
-    "abstractShortEn": "We realized opportunistic indoor positioning based on GNSS fingerprinting by predicting GNSS signal reception information indoors without site survey.",
-    "keywords": [
-      "Indoor Positioning",
-      "GNSS",
-      "Fingerprinting",
-      "Site Survey"
-    ],
-    "figure": "/assets/images/papers/indoor/Predicting Signal Reception Information from GNSS Satellites.png",
-    "title": "",
-    "authors": "",
-    "journal": "",
-    "dateDisplay": "",
-    "year": 0,
-    "url": "",
-    "doi": ""
+    "year": 2025,
+    "url": "https://ieeexplore.ieee.org/document/11038560",
+    "doi": "10.1109/PerComWorkshops65533.2025.00121"
   },
   {
     "id": "80000007",
@@ -375,12 +355,12 @@ export const papers: Paper[] = [
       "Navigation"
     ],
     "figure": "/assets/images/papers/indoor/GPS-assisted Indoor Pedestrian Dead Reckoning.png",
-    "title": "",
-    "authors": "",
-    "journal": "",
+    "title": "GPS-assisted Indoor Pedestrian Dead Reckoning",
+    "authors": "Zhou, Heng and Maekawa, Takuya",
+    "journal": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
     "dateDisplay": "",
-    "year": 0,
-    "url": "",
-    "doi": ""
+    "year": 2023,
+    "url": "https://doi.org/10.1145/3569467",
+    "doi": "10.1145/3569467"
   }
 ];
