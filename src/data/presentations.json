@@ -1,5 +1,14 @@
 [
   {
+    "id": "50614061",
+    "presentation_title": "NeuraLeaf: 葉のニューラルパラメトリックモデリング",
+    "presenters": "大倉史生",
+    "event": "日本生物環境工学会2025年大会オーガナイズドセッション「ゲームエンジンで探る植物工場デジタルツインの可能性」",
+    "publication_date": "2025-09-16",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
     "id": "51280183",
     "presentation_title": "Keynote: Transforming Animal Behavioral Research with AI and IoT Technologies",
     "presenters": "Takuya Maekawa",
@@ -16,6 +25,51 @@
     "publication_date": "2025-08-17",
     "presentation_type": "keynote_oral_presentation",
     "major_achievement": true
+  },
+  {
+    "id": "51019359",
+    "presentation_title": "Panel Discussion: The Science of Phenomics",
+    "presenters": "Yanfeng Ding, YuanKai Tu, Hyoung Seok Kim, Fumio Okura",
+    "event": "International Workshop on Machine Learning for Cyber-Agricultural Systems (MLCAS2025)",
+    "publication_date": "2025-08-06",
+    "presentation_type": "nominated_symposium",
+    "major_achievement": false
+  },
+  {
+    "id": "50472410",
+    "presentation_title": "HoGS: Unified near and far object reconstruction via homogeneous gaussian splatting",
+    "presenters": "Xinpeng Liu, Zeyi Huang, Fumio Okura, Yasuyuki Matsushita",
+    "event": "第28回 画像の認識・理解シンポジウム（MIRU2025）",
+    "publication_date": "2025-07-30",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "48106455",
+    "presentation_title": "画像からの植物「構造」の復元",
+    "presenters": "大倉史生",
+    "event": "第31回食料生産技術研究会",
+    "publication_date": "2024-10-09",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "47671814",
+    "presentation_title": "緻密な植物デジタルツイン生成に向けた植物構造復元",
+    "presenters": "大倉 史生",
+    "event": "日本生物環境工学会2024年大会市民向け公開国際シンポジウム「農業デジタルツインの現場と展望」",
+    "publication_date": "2024-09-19",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "47671764",
+    "presentation_title": "Agricultural development using digital technologies and best practices from Japan",
+    "presenters": "Fumio Okura",
+    "event": "International Cooperation on Digital and Smart Manufacturing Technology in the Agro-processing Industry",
+    "publication_date": "2024-09-05",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
   },
   {
     "id": "47526424",
@@ -54,6 +108,24 @@
     "major_achievement": true
   },
   {
+    "id": "42405377",
+    "presentation_title": "3D structural reconstruction of plants: A perspective from computer vision study",
+    "presenters": "Fumio Okura",
+    "event": "The Fourth International Workshop on Machine Learning for Cyber-Agricultural Systems (MLCAS2022)",
+    "publication_date": "2022-10-10",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "39891153",
+    "presentation_title": "画像からの枝葉「構造」の復元",
+    "presenters": "大倉 史生",
+    "event": "第39回日本植物バイオテクノロジー学会大会「植物フェノタイピングに向けたデジタルテクノロジー」",
+    "publication_date": "2022-09-13",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
     "id": "40092738",
     "presentation_title": "AI on Animals: 野生動物観測のためのリアルタイム行動認識技術を活用したバイオロギング",
     "presenters": "前川卓也",
@@ -61,6 +133,33 @@
     "publication_date": "2022-09",
     "presentation_type": "invited_oral_presentation",
     "major_achievement": true
+  },
+  {
+    "id": "39891144",
+    "presentation_title": "農業は情報の「応用」か？農業分野から新しい情報技術を生み出す",
+    "presenters": "大倉 史生",
+    "event": "農業情報学会2022年度年次大会「情報分野から見た農業情報学」",
+    "publication_date": "2022-05-21",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "36568667",
+    "presentation_title": "画像からの枝葉構造の定量化",
+    "presenters": "大倉 史生",
+    "event": "日本生態学会第69回全国大会シンポジウム「植物フェノタイピングは何を明らかにするか」",
+    "publication_date": "2022-03-19",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "33541507",
+    "presentation_title": "多視点画像からの植物の三次元構造復元に向けて",
+    "presenters": "大倉 史生",
+    "event": "農業情報学会2021年度 年次大会 オーガナイズドセッション「JSTさきがけプロジェクト「情報協働栽培」から」",
+    "publication_date": "2021-05-23",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
   },
   {
     "id": "33709949",
@@ -126,12 +225,30 @@
     "major_achievement": false
   },
   {
+    "id": "29948466",
+    "presentation_title": "コンピュータビジョンにおける植物",
+    "presenters": "大倉 史生",
+    "event": "日本生態学会第67回全国大会シンポジウム「植物フェノタイピング：表現型データの定量化，モデル化とその自動化をもう一度考える」",
+    "publication_date": "2020-03",
+    "presentation_type": "invited_oral_presentation",
+    "major_achievement": false
+  },
+  {
     "id": "30123126",
     "presentation_title": "Detecting Energy Depriving Malicious Nodes by Unsupervised Learning in Energy Harvesting Cooperative Wireless Sensor Networks",
     "presenters": "高 博奇, 天方 大地, 前川 卓也, 原 隆浩",
     "event": "マルチメディア通信と分散処理ワークショップ (DPSWS 2019)",
     "publication_date": "2019-11",
     "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "29948474",
+    "presentation_title": "人工知能x植物科学：そもそもAIってなんだ",
+    "presenters": "大倉 史生",
+    "event": "日本植物学会第83回大会 理事会主催シンポジウム「人工知能で切り開く植物科学の近未来」",
+    "publication_date": "2019-09",
+    "presentation_type": "invited_oral_presentation",
     "major_achievement": false
   },
   {
@@ -177,6 +294,15 @@
     "event": "Area Studies and Sustainable Development Goals (SDGs)",
     "publication_date": "2019-05",
     "presentation_type": "poster_presentation",
+    "major_achievement": false
+  },
+  {
+    "id": "29948478",
+    "presentation_title": "AIと画像解析",
+    "presenters": "大倉 史生",
+    "event": "日本育種学会第61回シンポジウム「育種とAI―育種家はAIとどうつきあうか」",
+    "publication_date": "2019-03",
+    "presentation_type": "invited_oral_presentation",
     "major_achievement": false
   },
   {
@@ -402,6 +528,15 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2016-05-21",
     "presentation_type": "",
+    "major_achievement": false
+  },
+  {
+    "id": "29948486",
+    "presentation_title": "Automatically acquiring walking-related behavior of 100,000 people",
+    "presenters": "Fumio Okura",
+    "event": "International Workshop on Human Behavior Analysis in the Real World (in conjunction with ACPR2015)",
+    "publication_date": "2015-11",
+    "presentation_type": "invited_oral_presentation",
     "major_achievement": false
   },
   {
