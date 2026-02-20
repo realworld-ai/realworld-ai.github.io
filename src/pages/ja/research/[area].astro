@@ -3,8 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import PageHeader from '../../../components/PageHeader.astro';
 import MediaFrame from '../../../components/MediaFrame.astro';
 import { researchAreas } from '../../../data/researchAreas';
-import { papers as paperDetails } from '../../../data/papers';
-import allPublications from '../../../data/publications.json';
+import { papers } from '../../../data/research_papers';
 import { getCollection } from 'astro:content';
 
 const lang = 'ja';
@@ -17,18 +16,9 @@ export async function getStaticPaths() {
     return id.startsWith('ja/');
   });
 
-  // Merge publication data with paper details
-  const detailedPapers = allPublications
-    .map(pub => {
-      const detail = paperDetails.find(p => p.id === pub.id);
-      if (!detail) return null;
-      return { ...pub, ...detail };
-    })
-    .filter(p => p !== null);
-
   // Augment research areas with papers, keywords, and images
   const areasWithData = researchAreas.map(area => {
-    const papersInArea = detailedPapers.filter(p => p.area === area.id);
+    const papersInArea = papers.filter(p => p.area === area.id);
     const allKeywords = papersInArea.flatMap(p => p.keywords);
     
     const keywordCounts = allKeywords.reduce((acc, keyword) => {
@@ -91,7 +81,7 @@ const { areaData } = Astro.props;
               allowfullscreen
             ></iframe>
           ) : (
-            <video controls playsinline class="w-full h-auto bg-black" style="max-height: 500px;">
+            <video controls playsinline class="w-full h-full object-cover bg-black" style="max-height: 500px;">
               <source src={areaData.video || "/assets/video/realworldAIonlyHuman.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
