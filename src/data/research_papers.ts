@@ -289,7 +289,7 @@ export const papers: Paper[] = [
   {
     "id": "80000001",
     "area": "positioning",
-    "abstractShort": "音響信号の手がかりを活用して屋内での歩行者デッドレコニング（PDR）の精度を向上させる手法を提案しました。",
+    "abstractShort": "アクティブサウンドセンシングを利用して屋内での歩行者トラッキングの精度を向上させる手法を提案しました。",
     "abstractShortEn": "We proposed a method to improve the accuracy of indoor Pedestrian Dead Reckoning (PDR) by utilizing acoustic signal cues.",
     "keywords": [
       "Indoor Positioning",
@@ -308,8 +308,8 @@ export const papers: Paper[] = [
   {
     "id": "80000004",
     "area": "positioning",
-    "abstractShort": "Wi-Fi CSIからAoAを推定し、デバイスフリー屋内位置推定を実現する「AoA-net」を提案しました。",
-    "abstractShortEn": "We proposed AoA-net, realizing device-free indoor localization based on AoA estimation with WiFi CSI.",
+    "abstractShort": "Wi-Fi CSIからAoAを深層学習により推定する「AoA-net」を提案しました。",
+    "abstractShortEn": "We proposed AoA-net, enabling end-to-end AoA estimation with WiFi CSI.",
     "keywords": [
       "Device-free Localization",
       "AoA",
