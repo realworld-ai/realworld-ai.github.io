@@ -165,7 +165,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                 year = (item.publication_date || '').split('-')[0];
             }
             
-            if (!year) year = 'Unknown';
+            if (!year) year = 'Others';
             if (!grouped[year]) grouped[year] = [];
             grouped[year].push(item);
         });
