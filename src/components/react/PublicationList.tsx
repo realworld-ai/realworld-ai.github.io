@@ -71,7 +71,7 @@ interface Props {
     lang: 'en' | 'ja';
 }
 
-type Tab = 'selected' | 'all' | 'awards' | 'media' | 'presentations';
+type Tab = 'selected' | 'all' | 'awards_selected' | 'awards_all' | 'media' | 'presentations_invited' | 'presentations_all';
 type MemberFilter = string | null; // member ID
 
 export const PublicationList: React.FC<Props> = ({ lang }) => {
@@ -95,9 +95,9 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
             return names.some(n => t.includes(n));
         };
 
-        if (type === 'all' || type === 'selected') { // Publication
+        if (type.startsWith('all') || type.startsWith('selected')) { // Publication
             return check(item.authors);
-        } else if (type === 'awards') {
+        } else if (type.startsWith('awards')) {
             // winners can be string or array
             if (Array.isArray(item.winners)) {
                 return item.winners.some((w: any) => check(w.name || w));
@@ -105,7 +105,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
             return check(item.winners);
         } else if (type === 'media') {
             return check(item.media_coverage_title) || check(item.event);
-        } else if (type === 'presentations') {
+        } else if (type.startsWith('presentations')) {
             return check(item.presenters);
         }
         return true;
@@ -115,18 +115,18 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         if (!search) return true;
         const s = search.toLowerCase();
         
-        if (type === 'all' || type === 'selected') {
+        if (type.startsWith('all') || type.startsWith('selected')) {
             return (item.title || '').toLowerCase().includes(s) || 
                    (item.authors || '').toLowerCase().includes(s) || 
                    (item.journal || '').toLowerCase().includes(s);
-        } else if (type === 'awards') {
+        } else if (type.startsWith('awards')) {
             return (item.award_title || '').toLowerCase().includes(s) || 
                    (item.award_name || '').toLowerCase().includes(s) ||
                    (item.association || '').toLowerCase().includes(s);
         } else if (type === 'media') {
             return (item.media_coverage_title || '').toLowerCase().includes(s) || 
                    (item.event || '').toLowerCase().includes(s);
-        } else if (type === 'presentations') {
+        } else if (type.startsWith('presentations')) {
             return (item.presentation_title || '').toLowerCase().includes(s) ||
                    (item.event || '').toLowerCase().includes(s);
         }
@@ -140,12 +140,21 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         if (activeTab === 'selected') {
             data = publicationsData.filter((item: any) => item.major_achievement === true);
         } else if (activeTab === 'all') {
-            // Should 'all' include selected or exclude? Usually 'all' means everything.
-            // Keeping 'all' as entire publication list.
             data = publicationsData;
-        } else if (activeTab === 'awards') data = awardsData;
-        else if (activeTab === 'media') data = mediaData;
-        else if (activeTab === 'presentations') data = presentationsData;
+        } else if (activeTab === 'awards_selected') {
+            data = awardsData.filter((item: any) => item.major_achievement === true);
+        } else if (activeTab === 'awards_all') {
+             data = awardsData;
+        } else if (activeTab === 'media') {
+             data = mediaData;
+        } else if (activeTab === 'presentations_invited') {
+             data = presentationsData.filter((item: any) => 
+                 item.presentation_type === 'keynote_oral_presentation' || 
+                 item.presentation_type === 'invited_oral_presentation'
+             );
+        } else if (activeTab === 'presentations_all') {
+             data = presentationsData;
+        }
 
         return data.filter(item => filterItemByMember(item, activeTab) && filterItemBySearch(item, activeTab));
     }, [activeTab, selectedMember, search]);
@@ -157,9 +166,9 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
             // date field varies: publication_date, award_date. 
             // Publications has 'year' number. Others use date string.
             let year = '';
-            if (activeTab === 'all' || activeTab === 'selected') {
+            if (activeTab.startsWith('all') || activeTab.startsWith('selected')) {
                 year = item.year.toString();
-            } else if (activeTab === 'awards') {
+            } else if (activeTab.startsWith('awards')) {
                 year = (item.award_date || '').split('-')[0];
             } else {
                 year = (item.publication_date || '').split('-')[0];
@@ -177,11 +186,13 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
     const labels = {
         en: {
             pageTitle: 'Publications',
-            selected: 'Selected',
+            selected: 'Selected Papers',
             all: 'All Papers',
-            awards: 'Awards',
+            awards_selected: 'Selected Awards',
+            awards_all: 'All Awards',
             media: 'Media',
-            presentations: 'Talks',
+            presentations_invited: 'Invited Talks',
+            presentations_all: 'All Talks',
             searchPlaceholder: 'Search...',
             filterByMember: 'Filter by Member',
             clearFilter: 'Clear Filter',
@@ -191,9 +202,11 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
             pageTitle: '業績リスト',
             selected: '主要論文',
             all: '全論文',
-            awards: '受賞',
+            awards_selected: '主要受賞',
+            awards_all: '全受賞',
             media: '報道',
-            presentations: '講演',
+            presentations_invited: '招待講演',
+            presentations_all: '全講演',
             searchPlaceholder: '検索...',
             filterByMember: 'メンバーで絞り込み',
             clearFilter: '絞り込み解除',
@@ -204,11 +217,13 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
     const t = labels[lang];
 
     const tabs = [
-        { id: 'selected' as const, label: t.selected, icon: Star },
-        { id: 'all' as const, label: t.all, icon: BookOpen },
-        { id: 'awards' as const, label: t.awards, icon: Award },
-        { id: 'media' as const, label: t.media, icon: Newspaper },
-        { id: 'presentations' as const, label: t.presentations, icon: Mic2 },
+        { id: 'selected', label: t.selected, icon: Star },
+        { id: 'all', label: t.all, icon: BookOpen },
+        { id: 'awards_selected', label: t.awards_selected, icon: Award },
+        { id: 'awards_all', label: t.awards_all, icon: Award },
+        { id: 'media', label: t.media, icon: Newspaper },
+        { id: 'presentations_invited', label: t.presentations_invited, icon: Mic2 },
+        { id: 'presentations_all', label: t.presentations_all, icon: Mic2 },
     ];
 
     // --- Renderers ---
@@ -275,13 +290,15 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                             <button
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
-                                className={`flex items-center gap-2 px-6 py-3 rounded-t-lg font-medium transition-all relative top-[1px] ${
+                                className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all ${
                                     isActive
-                                        ? 'bg-lab-accent text-white shadow-lg shadow-lab-accent/20'
-                                        : 'text-gray-400 hover:text-white hover:bg-white/5'
+                                        ? 'bg-accent/20 text-white border border-accent/30 shadow-lg shadow-accent/10 relative z-10'
+                                        : 'text-gray-400 hover:text-white hover:bg-white/5 border border-transparent'
                                 }`}
                             >
-                                <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-gray-500 group-hover:text-white'}`} />
+                                {tab.icon && (
+                                    <tab.icon className={`w-4 h-4 ${isActive ? 'text-accent' : 'text-gray-500 group-hover:text-white'}`} />
+                                )}
                                 {tab.label}
                             </button>
                         );
@@ -380,10 +397,10 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                             
                             <div className="pl-2 lg:pl-4 space-y-1">
                                 {dataByYear[year].map(item => {
-                                    if (activeTab === 'all' || activeTab === 'selected') return <PublicationItem key={item.id} pub={item as any} />;
-                                    if (activeTab === 'awards') return renderAward(item as Award);
+                                    if (activeTab.startsWith('all') || activeTab.startsWith('selected')) return <PublicationItem key={item.id} pub={item as any} />;
+                                    if (activeTab.startsWith('awards')) return renderAward(item as Award);
                                     if (activeTab === 'media') return renderMedia(item as MediaCoverage);
-                                    if (activeTab === 'presentations') return renderPresentation(item as Presentation);
+                                    if (activeTab.startsWith('presentations')) return renderPresentation(item as Presentation);
                                     return null;
                                 })}
                             </div>

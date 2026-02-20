@@ -1,5 +1,37 @@
 import fs from 'fs/promises';
 import path from 'path';
+import https from 'https';
+
+// --- Simple fetch polyfill for Node < 18 ---
+const fetch = global.fetch || ((url) => {
+  return new Promise((resolve, reject) => {
+    const req = https.get(url, (res) => {
+      const chunks = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => {
+        const body = Buffer.concat(chunks).toString();
+        resolve({
+          ok: res.statusCode >= 200 && res.statusCode < 300,
+          status: res.statusCode,
+          json: async () => {
+             try {
+               return JSON.parse(body);
+             } catch (e) {
+               console.error("JSON Parse Error", e);
+               return {}; 
+             }
+          },
+          text: async () => body
+        });
+      });
+    });
+    req.on('error', (err) => {
+      console.error("Fetch Error", err);
+      reject(err);
+    });
+    req.end();
+  });
+});
 
 // Helper to get researchmap IDs from members.json
 async function getResearchMapIDs() {

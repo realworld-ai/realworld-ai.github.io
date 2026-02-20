@@ -276,7 +276,7 @@ export const papers: Paper[] = [
       "Animal Behavior",
       "Accelerometers"
     ],
-    "figure": "https://besjournals.onlinelibrary.wiley.com/cms/asset/495358c4-0801-4a16-a75b-dc3c56881bda/mee314137-toc-0001-m.jpg",
+    "figure": "/assets/images/papers/biologging/exploredeepl.jpg",
     "fit": "cover",
     "title": "Exploring Deep Learning Techniques for Wild Animal Behaviour Classification Using Animal‐borne AccelerometersMachine learning enables improved runtime and precision for bio-loggers on seabirds",
     "authors": "Ryoma Otsuka, Naoya Yoshimura, Kei Tanigaki, Shiho Koyama, Yuichi Mizutani, Ken Yoda, Takuya Maekawa",
