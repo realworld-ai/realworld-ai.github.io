@@ -189,8 +189,8 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         },
         ja: {
             pageTitle: '業績リスト',
-            selected: '精選論文',
-            all: '全部論文',
+            selected: '主要論文',
+            all: '全論文',
             awards: '受賞',
             media: '報道',
             presentations: '講演',
