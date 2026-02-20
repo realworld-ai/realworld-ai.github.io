@@ -1,0 +1,28 @@
+{
+  "ja": {
+    "recruitment": {
+      "title": "採用情報",
+      "no_openings": "現在、募集中の職種はありません。",
+      "description": "当研究室では、意欲ある学生・研究員を募集しています。詳細は下記をご覧ください。",
+      "jobs": []
+    },
+    "visit": {
+      "title": "見学・共同研究のお申し込み",
+      "description": "研究室見学や共同研究のご相談は、以下のフォームよりお問い合わせください。",
+      "form_url": ""
+    }
+  },
+  "en": {
+    "recruitment": {
+      "title": "Join Our Team",
+      "no_openings": "Currently, there are no open positions.",
+      "description": "We are looking for motivated students and researchers. Please see below for details.",
+      "jobs": []
+    },
+    "visit": {
+      "title": "Visit / Collaboration Request",
+      "description": "Please use the form below to request a lab visit or discuss potential collaboration.",
+      "form_url": ""
+    }
+  }
+}

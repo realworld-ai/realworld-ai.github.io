@@ -5,7 +5,7 @@
     "name_en": "Takuya Maekawa",
     "role_ja": "教授",
     "role_en": "Professor",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/takumae80/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/takumae80"
     }
@@ -16,7 +16,7 @@
     "name_en": "Yasuyuki Matsushita",
     "role_ja": "招聘教授",
     "role_en": "Invited Professor",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/yasumat/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/yasumat"
     }
@@ -27,7 +27,7 @@
     "name_en": "Fumio Okura",
     "role_ja": "准教授",
     "role_en": "Associate Professor",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/okura.fumio/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/okura.fumio"
     }
@@ -38,7 +38,7 @@
     "name_en": "Qingxin Xia",
     "role_ja": "講師",
     "role_en": "Lecturer",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/xiaqing/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/xiaqing"
     }
@@ -57,7 +57,7 @@
     "name_en": "Ryoma Otsuka",
     "role_ja": "特任助教",
     "role_en": "Specially Appointed Assistant Professor",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/ryoma_otsuka/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/ryoma_otsuka"
     }
@@ -68,7 +68,7 @@
     "name_en": "Teerawat Kumrai",
     "role_ja": "特任助教",
     "role_en": "Specially Appointed Assistant Professor",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/teerawat_kumrai/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/teerawat_kumrai"
     }
@@ -79,7 +79,7 @@
     "name_en": "Momoe Sukegawa",
     "role_ja": "特任研究員",
     "role_en": "Specially Appointed Researcher",
-    "image": "/assets/members/placeholder.jpg",
+    "image": "https://researchmap.jp/sukegawa_momoe/avatar.jpg",
     "links": {
       "researchmap": "https://researchmap.jp/sukegawa_momoe"
     }

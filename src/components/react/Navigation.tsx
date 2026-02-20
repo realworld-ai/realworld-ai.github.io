@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Home, Search, Briefcase, FileText, Users, Newspaper, MapPin } from 'lucide-react';
+import { Menu, X, Home, Search, Briefcase, FileText, Users, Newspaper, MapPin, UserPlus } from 'lucide-react';
 
 const iconMap = {
     Home,
@@ -8,7 +8,8 @@ const iconMap = {
     FileText,
     Users,
     Newspaper,
-    MapPin
+    MapPin,
+    UserPlus
 };
 
 interface NavItem {
