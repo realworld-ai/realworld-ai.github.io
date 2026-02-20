@@ -5,6 +5,7 @@ type: "award"
 coverImage: "/images/news/ubi2024-yaku.png"
 members: ["谷垣 慶", "黒岩恒在"]
 tags: ['Awards']
+summary: "情報処理学会UBI研究会@屋久島で発表した論文が優秀論文賞とヤングリサーチャー賞を受賞しました"
 ---
 情報処理学会UBI研究会@屋久島で発表した論文が優秀論文賞とヤングリサーチャー賞を受賞しました
 
