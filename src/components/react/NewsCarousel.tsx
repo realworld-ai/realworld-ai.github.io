@@ -6,10 +6,12 @@ import { getTagColor } from '../../utils/colors';
 
 interface NewsItemData {
     title: string;
+    title_en?: string;
     date: string | Date;
     type: string;
     members?: string[];
     summary?: string;
+    summary_en?: string;
     links?: { label: string; url: string }[];
     coverImage?: string;
     tags?: string[];
@@ -77,7 +79,9 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
                                                 </div>
                                             )}
                                         </div>
-                                        <h3 className="text-base font-bold text-white group-hover/card:text-lab-accent transition-colors mb-2 line-clamp-2 leading-snug flex-grow">{item.data.title}</h3>
+                                        <h3 className="text-base font-bold text-white group-hover/card:text-lab-accent transition-colors mb-2 line-clamp-2 leading-snug flex-grow">
+                                            {lang === 'en' ? (item.data.title_en || item.data.title) : item.data.title}
+                                        </h3>
                                         
                                         {item.data.type === 'award' && item.data.members && (
                                             <div className="flex items-center gap-2 text-sm text-yellow-300 mt-2">
@@ -86,8 +90,10 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
                                             </div>
                                         )}
 
-                                        {item.data.type === 'activity' && item.data.summary && (
-                                            <p className="text-sm text-gray-400 line-clamp-2 mt-2">{item.data.summary}</p>
+                                        {item.data.type === 'activity' && (
+                                            <p className="text-sm text-gray-400 line-clamp-2 mt-2">
+                                                {lang === 'en' ? (item.data.summary_en || item.data.summary) : item.data.summary}
+                                            </p>
                                         )}
                                     </div>
                                 </a>

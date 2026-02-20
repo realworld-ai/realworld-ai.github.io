@@ -20,35 +20,69 @@ const rendered = await entry.render();
 const data = entry.data;
 const cover = data.coverImage ?? '/images/news/placeholder.svg';
 const hasBody = Boolean(entry.body && entry.body.trim().length > 0);
+// Use raw title/summary (Japanese by default)
+const title = data.title;
 const description = data.summary ?? (hasBody ? null : '詳細は後日掲載します。');
 ---
 
-<Layout title={`${data.title} | ニュース | 実世界知能基盤講座`} lang={lang}>
+<Layout title={`${title} | ニュース | 実世界知能基盤講座`} lang={lang}>
     <main class="pt-32 pb-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <a href={`/${lang}/news`} id="back-link" class="inline-flex items-center text-sm font-medium text-gray-400 hover:text-white transition-colors mb-8 group">
+        <a href={`/${lang}/news#${entry.slug}`} id="back-link" class="inline-flex items-center text-sm font-medium text-gray-400 hover:text-white transition-colors mb-8 group">
             <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
             一覧に戻る
         </a>
         <PageHeader 
-            title={data.title} 
+            title={title} 
             tags={data.tags}
             subtitle={data.type === 'award' ? '受賞 / ハイライト' : '活動 / 更新'} 
         />
 
-        <script>
-            const backLink = document.getElementById('back-link');
-            if (backLink) {
-                backLink.addEventListener('click', (e) => {
-                    if (document.referrer && document.referrer.includes('/news')) {
-                        e.preventDefault();
-                        history.back();
-                    }
-                });
+        <style is:global>
+            /* Hide English content on Japanese pages */
+            .lang-en { display: none !important; }
+            .lang-ja { display: block !important; }
+
+            /* Improve News Content Typography */
+            .news-content {
+                font-size: 1.125rem;
+                line-height: 1.8;
+                color: #d1d5db; /* text-gray-300 */
             }
-        </script>
+            .news-content p {
+                margin-bottom: 1.5em;
+            }
+            .news-content ul {
+                list-style: none;
+                padding: 0;
+                margin: 2em 0;
+                display: grid;
+                gap: 1rem;
+            }
+            .news-content li {
+                background: rgba(17, 24, 39, 0.5); /* bg-gray-900/50 */
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 0.5rem;
+                padding: 1.25rem;
+                position: relative;
+                transition: border-color 0.2s;
+            }
+            .news-content li:hover {
+                border-color: rgba(59, 130, 246, 0.5); /* blue-500/50 */
+            }
+            .news-content strong {
+                color: #60a5fa; /* blue-400 */
+                display: block;
+                margin-bottom: 0.25rem;
+                font-size: 1.1em;
+            }
+        </style>
 
         <article class="prose prose-invert max-w-none mt-8">
-            <img src={cover} alt={data.title} class="w-full rounded-lg mb-6 object-cover" />
+            <img 
+                src={cover} 
+                alt={title} 
+                class="w-full h-auto max-h-[600px] object-contain bg-gray-900/50 rounded-lg mb-6 mx-auto border border-white/10" 
+            />
 
             <div class="text-sm text-gray-400 mb-4">
                 <time>{new Date(data.date).toLocaleDateString('ja-JP', { year: 'numeric', month: 'short', day: 'numeric' })}</time>
@@ -58,12 +92,12 @@ const description = data.summary ?? (hasBody ? null : '詳細は後日掲載し�
             </div>
 
             {hasBody ? (
-                <div>
+                <div class="news-content">
                     <rendered.Content />
                 </div>
             ) : (
                 <div class="rounded-lg border border-white/5 bg-gray-900/40 p-6">
-                    <h4 class="text-lg font-bold text-white mb-2">{data.title}</h4>
+                    <h4 class="text-lg font-bold text-white mb-2">{title}</h4>
                     <p class="text-gray-400">{description}</p>
                 </div>
             )}

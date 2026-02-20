@@ -4,10 +4,12 @@ import { getTagColor } from '../../utils/colors';
 
 interface NewsItemData {
     title: string;
+    title_en?: string;
     date: string | Date;
     type: string;
     members?: string[];
     summary?: string;
+    summary_en?: string;
     links?: { label: string; url: string }[];
     coverImage?: string;
     tags?: string[];
@@ -15,6 +17,7 @@ interface NewsItemData {
 
 interface NewsItem {
     id: string;
+    slug: string;
     data: NewsItemData;
     body?: string;
 }
@@ -51,13 +54,19 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
             all: 'All',
             award: 'Awards',
             activity: 'Activities',
-            readMore: 'Read more'
+            readMore: 'Read more',
+            awardLabel: 'Award',
+            activityLabel: 'Activity',
+            members: 'Members'
         },
         ja: {
             all: 'すべて',
             award: '受賞',
             activity: '活動',
-            readMore: '詳細を見る'
+            readMore: '詳細を見る',
+            awardLabel: '受賞',
+            activityLabel: '活動',
+            members: 'メンバー'
         }
     };
 
@@ -100,9 +109,17 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                         
                         <div className="space-y-6 relative z-20 pl-4 lg:pl-8 border-l border-white/10 ml-4">
                             {itemsByYear[year].map(item => {
-                                const slug = (item as any).slug ?? item.id;
+                                // Determine content based on language
+                                const displayTitle = lang === 'en' 
+                                    ? (item.data.title_en || item.data.title)
+                                    : item.data.title;
+                                    
+                                const displaySummary = lang === 'en'
+                                    ? (item.data.summary_en || item.data.summary)
+                                    : item.data.summary;
+
                                 return (
-                                    <article key={item.id} className="group relative bg-gray-900/40 border border-white/5 rounded-xl p-6 hover:border-lab-accent/30 transition-all hover:bg-gray-900/60">
+                                    <article key={item.id} id={item.slug} className="group relative bg-gray-900/40 border border-white/5 rounded-xl p-6 hover:border-lab-accent/30 transition-all hover:bg-gray-900/60 scroll-mt-32">
                                         <div className="flex flex-col md:flex-row gap-6">
                                             <div className="flex-1">
                                                 <div className="flex items-center gap-3 text-sm text-gray-400 mb-2">
@@ -112,7 +129,7 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                                                             : 'border-blue-500/30 text-blue-400 bg-blue-500/10'
                                                     }`}>
                                                         {item.data.type === 'award' ? <Award className="w-3 h-3" /> : <Activity className="w-3 h-3" />}
-                                                        <span className="capitalize">{item.data.type}</span>
+                                                        <span className="capitalize">{item.data.type === 'award' ? t.awardLabel : t.activityLabel}</span>
                                                     </div>
                                                     <time className="flex items-center gap-1.5">
                                                         <Calendar className="w-3.5 h-3.5" />
@@ -121,14 +138,14 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                                                 </div>
 
                                                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-lab-accent transition-colors">
-                                                    <a href={`/${lang}/news/${slug}`} className="inline-block">
-                                                        {item.data.title}
+                                                    <a href={`/${lang}/news/${item.slug}`} className="inline-block">
+                                                        {displayTitle}
                                                     </a>
                                                 </h3>
 
-                                                {item.data.summary && (
+                                                {displaySummary && (
                                                     <p className="text-gray-400 mb-4 leading-relaxed text-sm">
-                                                        {item.data.summary}
+                                                        {displaySummary}
                                                     </p>
                                                 )}
 
@@ -139,6 +156,7 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                                                             <span>{item.data.members.join(', ')}</span>
                                                         </div>
                                                     )}
+
                                                     
                                                     {item.data.links && item.data.links.length > 0 && (
                                                         <div className="flex flex-wrap gap-3 mt-4 pt-4 border-t border-white/5">

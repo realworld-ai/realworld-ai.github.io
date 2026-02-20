@@ -4,10 +4,12 @@ const newsCollection = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
+    title_en: z.string().optional(),
     date: z.date(),
     type: z.enum(['award', 'activity', 'talk', 'media', 'workshop']).default('activity'),
     members: z.array(z.string()).optional(),
     summary: z.string().optional(),
+    summary_en: z.string().optional(),
     links: z.array(z.object({
         label: z.string(),
         url: z.string()
