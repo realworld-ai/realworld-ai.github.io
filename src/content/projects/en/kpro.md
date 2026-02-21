@@ -5,5 +5,6 @@ tags: ["K-Pro"]
 image: "/images/projects/kpro/bench.png"
 funding: "JST K-Program"
 period: "2025-2030"
+url: "https://www.jst.go.jp/k-program/pr_materials/leaflet/15_leaflet_v.pdf"
 ---
 A project to connect to skill inheritance, work support, and automation by capturing the "expert skills" of skilled workers as sensor data and analyzing/modeling it. We are conducting demonstration experiments mainly in the life-science field.
