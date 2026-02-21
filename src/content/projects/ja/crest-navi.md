@@ -2,7 +2,7 @@
 title: "長距離ナビゲーション動物が獲得した超感覚統合メカニズムの解明(分担)"
 status: "ongoing"
 tags: ["CREST", "分担"]
-image: "/images/projects/jst/logo_crest.svg"
+image: "/images/projects/JST/logo_crest.svg"
 funding: "JST CREST"
 period: "2023-2028"
 url: "https://projectdb.jst.go.jp/grant/JST-PROJECT-23813790/"

@@ -2,7 +2,7 @@
 title: "4D-CTA・4D-MRA 医療画像に基づく壁微小運動の数理解析と AI 技術の融合 ～先制医療のための数理データ科学統合シミュレーション～(分担)"
 status: "ongoing"
 tags: ["CREST", "分担"]
-image: "/images/projects/jst/logo_crest.svg"
+image: "/images/projects/JST/logo_crest.svg"
 funding: "JST CREST"
 period: "2020-2025"
 url: "https://www.ccb.osaka-u.ac.jp/wpccb_handle/wp-content/uploads/2022/03/SugiyamaYoshie2021JP.pdf"
