@@ -307,7 +307,7 @@ export const papers: Paper[] = [
   },
   {
     "id": "80000004",
-    "area": "positioning",
+    "area": "none",
     "abstractShort": "Wi-Fi CSIからAoAを深層学習により推定する「AoA-net」を提案しました。",
     "abstractShortEn": "We proposed AoA-net, enabling end-to-end AoA estimation with WiFi CSI.",
     "keywords": [
@@ -327,7 +327,7 @@ export const papers: Paper[] = [
   },
   {
     "id": "80000005",
-    "area": "positioning",
+    "area": "none",
     "abstractShort": "CSIベースの深度画像再構成において、環境への依存を低減し汎化性能を向上させる手法を提案しました。",
     "abstractShortEn": "We proposed a method to enhance environmental independency for CSI-based depth image reconstruction.",
     "keywords": [
