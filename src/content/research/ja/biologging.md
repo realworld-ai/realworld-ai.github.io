@@ -1,6 +1,6 @@
 ---
 title: "AIバイオロギング"
-description: "野生動物に装着したセンサから得られるデータを用いて、動物の生態や行動を解明するAI技術。"
+description: "野生動物に装着したセンサから得られるデータを用いて、動物の生態や行動を解明するAI技術を研究しています"
 order: 3
 image: "/images/theme/biologging/AIonAnimals1.png"
 ---
