@@ -307,9 +307,9 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                             <button
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
-                                className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all ${
+                                className={`flex items-center gap-2 px-6 py-3 rounded-t-lg font-medium transition-all relative top-[1px] ${
                                     isActive
-                                        ? 'bg-accent/20 text-white border border-accent/30 shadow-lg shadow-accent/10 relative z-10'
+                                        ? 'bg-lab-accent text-white border border-lab-accent/30 shadow-lg shadow-accent/10 relative z-10'
                                         : 'text-gray-400 hover:text-white hover:bg-white/5 border border-transparent'
                                 }`}
                             >
