@@ -244,7 +244,7 @@ function processAwards(items) {
 function processMediaCoverage(items) {
     const processed = items.map(item => {
         const title = item.media_coverage_title?.en || item.media_coverage_title?.ja || '';
-        const event = item.media_coverage_description?.en || item.media_coverage_description?.ja || ''; // Mapping 'event' to description if needed, or check fields
+        const event = item.event?.en || item.event?.ja || ''; // Mapping 'event' to description if needed, or check fields
         // Wait, typical key is `media_coverage_description` or specific field? 
         // Let's assume description maps to event/outlet context.
         const date = item.publication_date || '';

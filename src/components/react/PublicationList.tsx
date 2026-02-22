@@ -216,7 +216,7 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
     
     const t = labels[lang];
 
-    const tabs = [
+    const tabs: { id: Tab; label: string; icon: any }[] = [
         { id: 'selected', label: t.selected, icon: Star },
         { id: 'all', label: t.all, icon: BookOpen },
         { id: 'awards_selected', label: t.awards_selected, icon: Award },
@@ -248,14 +248,31 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         );
     };
 
+    const mediaTypeMap: Record<'en' | 'ja', Record<string, string>> = {
+        en: {
+            paper: "Newspaper, magazine",
+            internet: "Internet", 
+            media_report: "TV or radio program"
+        },
+        ja: {
+            paper: "新聞・雑誌",
+            internet: "インターネットメディア",
+            media_report: "テレビ・ラジオ番組"
+        }
+    };
+
     const renderMedia = (media: MediaCoverage) => (
         <div key={media.id} className="py-3 border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors rounded-lg px-4 -mx-4">
             <div className="text-gray-300 leading-relaxed text-sm lg:text-base">
-                <span className="font-bold text-white">{media.media_coverage_title}</span>
-                {media.event && <span className="block text-gray-400 mt-1">{media.event}</span>}
-                <div className="text-sm mt-1 text-gray-500">
+                <span className="font-bold text-white max-w-3xl block">{media.media_coverage_title}</span>
+                <div className="text-sm mt-1 text-gray-500 flex items-center gap-2">
                     {media.publication_date}
-                    {media.media_coverage_type && <span className="ml-2 px-1.5 py-0.5 rounded bg-white/10 text-xs">{media.media_coverage_type}</span>}
+                    {media.event && <span className="">{media.event}</span>}
+                    {media.media_coverage_type && (
+                         <span className="px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-xs text-gray-400">
+                            {mediaTypeMap[lang][media.media_coverage_type] || media.media_coverage_type}
+                        </span>
+                    )}
                 </div>
             </div>
         </div>
