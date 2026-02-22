@@ -4,8 +4,15 @@ import PageHeader from '../../components/PageHeader.astro';
 import { getCollection } from 'astro:content';
 
 const lang = 'en';
-const projects = await getCollection('projects', ({ id }) => {
+const projects = (await getCollection('projects', ({ id }) => {
   return id.startsWith('en/');
+})).sort((a, b) => {
+    const getStartYear = (period?: string) => {
+        if (!period) return 0;
+        const match = period.match(/(\d{4})/);
+        return match ? parseInt(match[1]) : 0;
+    };
+    return getStartYear(b.data.period) - getStartYear(a.data.period);
 });
 ---
 

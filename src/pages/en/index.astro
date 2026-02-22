@@ -19,7 +19,14 @@ const latestNews = allNews
 const recentAnnouncements = allNews.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 5);
 
 const research = await getCollection('research', ({ id }) => id.startsWith('en/'));
-const projects = await getCollection('projects', ({ id }) => id.startsWith('en/'));
+const projects = (await getCollection('projects', ({ id }) => id.startsWith('en/'))).sort((a, b) => {
+    const getStartYear = (period?: string) => {
+        if (!period) return 0;
+        const match = period.match(/(\d{4})/);
+        return match ? parseInt(match[1]) : 0;
+    };
+    return getStartYear(b.data.period) - getStartYear(a.data.period);
+});
 
 const heroImages = [
     '/assets/hero/1.png',
