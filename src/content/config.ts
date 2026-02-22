@@ -41,6 +41,7 @@ const projectsCollection = defineCollection({
       image: z.string().optional(),
       funding: z.string().optional(),
       period: z.string().optional(),
+      url: z.string().optional(),
       fit: z.enum(['contain', 'cover']).default('contain').optional(),
     }),
 });

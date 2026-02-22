@@ -198,9 +198,27 @@ const heroImages = [
                     </a>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {projects.map(project => (
-                        <a href={`/${lang}/projects`} class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-purple-500/50 transition-all hover:-translate-y-1">
-                            <div class="aspect-video bg-white rounded-lg border border-gray-200 shadow-inner p-2.5 overflow-hidden">
+                    {projects.map(project => {
+                        const hasUrl = !!project.data.url;
+                        const Component = hasUrl ? 'a' : 'div';
+                        const props = hasUrl ? {
+                            href: project.data.url,
+                            target: '_blank',
+                            rel: 'noopener noreferrer'
+                        } : {
+                            // If no external URL, keep it as a div or internal link to projects page?
+                            // The original code was <a href={`/${lang}/projects`}>
+                            // Let's keep it as an anchor to /projects if no external URL
+                        };
+
+                        return (
+                        <a 
+                            href={hasUrl ? project.data.url : `/${lang}/projects`}
+                            target={hasUrl ? "_blank" : "_self"}
+                            rel={hasUrl ? "noopener noreferrer" : undefined}
+                            class="group block bg-lab-card rounded-xl overflow-hidden border border-white/5 hover:border-purple-500/50 transition-all hover:-translate-y-1 h-full flex flex-col"
+                        >
+                            <div class="aspect-video bg-white rounded-lg border border-gray-200 shadow-inner p-2.5 overflow-hidden shrink-0">
                                 {project.data.image ? (
                                     <img 
                                         src={project.data.image} 
@@ -211,12 +229,26 @@ const heroImages = [
                                      <div class="w-full h-full bg-gray-100 rounded-md flex items-center justify-center text-gray-400">No Image</div>
                                 )}
                             </div>
-                            <div class="p-4">
-                                <h3 class="text-lg font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">{project.data.title}</h3>
-                                {project.data.funding && <p class="text-xs text-gray-400">{project.data.funding}</p>}
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="flex items-center gap-2 mb-3 flex-wrap">
+                                    <span class={`px-2 py-0.5 text-xs rounded border ${project.data.status === 'ongoing' ? 'border-green-500/50 text-green-400' : 'border-gray-500 text-gray-400'}`}>
+                                        {project.data.status === 'ongoing' ? '進行中' : '完了'}
+                                    </span>
+                                    {project.data.funding && (
+                                        <span class="px-2 py-0.5 text-xs rounded bg-blue-500/10 text-blue-300 border border-blue-500/20">
+                                            {project.data.funding}
+                                        </span>
+                                    )}
+                                     {project.data.period && (
+                                        <span class="px-2 py-0.5 text-xs rounded bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                                            {project.data.period}
+                                        </span>
+                                    )}
+                                </div>
+                                <h3 class="text-lg font-bold text-white mb-2 group-hover:text-purple-400 transition-colors line-clamp-2">{project.data.title}</h3>
                             </div>
                         </a>
-                    ))}
+                    )})}
                 </div>
             </div>
         </section>
