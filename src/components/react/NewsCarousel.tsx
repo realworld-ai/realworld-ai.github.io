@@ -15,6 +15,7 @@ interface NewsItemData {
     links?: { label: string; url: string }[];
     coverImage?: string;
     tags?: string[];
+    tags_ja?: string[];
 }
 
 interface NewsItem {
@@ -51,6 +52,9 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
                 <div className="flex">
                     {items.map((item) => {
                         const slug = item.slug ?? item.id;
+                        const displayTags = lang === 'ja' && item.data.tags_ja && item.data.tags_ja.length > 0 
+                            ? item.data.tags_ja 
+                            : item.data.tags;
                         return (
                             <div className="flex-[0_0_90%] sm:flex-[0_0_50%] md:flex-[0_0_40%] lg:flex-[0_0_33.33%] min-w-0 pl-4 py-4" key={item.id}>
                                 <a href={`/${lang}/news/${slug}`} className="block bg-lab-card rounded-xl overflow-hidden h-full group/card border border-white/10 hover:border-lab-accent transition-all duration-300 transform hover:-translate-y-1 shadow-lg">
@@ -66,9 +70,9 @@ export const NewsCarousel: React.FC<Props> = ({ items, lang }) => {
                                     <div className="p-4 flex flex-col flex-grow">
                                         <div className="flex justify-between items-start mb-2">
                                             <time className="text-xs text-gray-500">{formatDate(item.data.date)}</time>
-                                            {item.data.tags && item.data.tags.length > 0 && (
+                                            {displayTags && displayTags.length > 0 && (
                                                 <div className="flex flex-wrap gap-1 justify-end max-w-[60%]">
-                                                    {item.data.tags.map((tag) => (
+                                                    {displayTags.map((tag) => (
                                                         <span 
                                                             key={tag} 
                                                             className={`text-[10px] px-1.5 py-0.5 rounded border ${getTagColor(tag)}`}

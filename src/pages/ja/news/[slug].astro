@@ -33,7 +33,7 @@ const description = data.summary ?? (hasBody ? null : '詳細は後日掲載し�
         </a>
         <PageHeader 
             title={title} 
-            tags={data.tags}
+            tags={data.tags_ja || data.tags}
             subtitle={data.type === 'award' ? '受賞 / ハイライト' : '活動 / 更新'} 
         />
 

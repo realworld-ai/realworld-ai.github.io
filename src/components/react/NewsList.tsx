@@ -13,6 +13,7 @@ interface NewsItemData {
     links?: { label: string; url: string }[];
     coverImage?: string;
     tags?: string[];
+    tags_ja?: string[];
 }
 
 interface NewsItem {
@@ -117,6 +118,11 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                                 const displaySummary = lang === 'en'
                                     ? (item.data.summary_en || item.data.summary)
                                     : item.data.summary;
+                                
+                                const displayTags = lang === 'ja' && item.data.tags_ja && item.data.tags_ja.length > 0
+                                    ? item.data.tags_ja
+                                    : item.data.tags;
+
 
                                 return (
                                     <article key={item.id} id={item.slug} className="group relative bg-gray-900/40 border border-white/5 rounded-xl p-6 hover:border-lab-accent/30 transition-all hover:bg-gray-900/60 scroll-mt-32">
@@ -175,9 +181,9 @@ export const NewsList: React.FC<Props> = ({ items, lang }) => {
                                                         </div>
                                                     )}
 
-                                                    {item.data.tags && item.data.tags.length > 0 && (
+                                                    {displayTags && displayTags.length > 0 && (
                                                         <div className={`flex flex-wrap gap-2 ${item.data.links && item.data.links.length > 0 ? 'mt-3' : 'mt-4 pt-4 border-t border-white/5'}`}>
-                                                            {item.data.tags.map((tag) => (
+                                                            {displayTags.map((tag) => (
                                                                 <span 
                                                                     key={tag} 
                                                                     className={`text-xs px-2 py-0.5 rounded border ${getTagColor(tag)}`}

@@ -59,8 +59,40 @@ const navItems = [
 		<slot />
 
         <footer class="bg-lab-card py-12 mt-20 border-t border-white/5">
-            <div class="max-w-7xl mx-auto px-4 text-center text-sm text-gray-500">
-                &copy; {new Date().getFullYear()} {ui[lang]['hero.title']}
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm text-gray-400 mb-6">
+                    <a href={lang === 'ja' ? "https://mmde-lab.github.io/webpage/" : "https://mmde-lab.github.io/webpage/index-e/"} target="_blank" rel="noopener noreferrer" class="hover:text-lab-accent transition-colors">
+                        {lang === 'ja' ? '原研究室' : 'Hara Laboratory'}
+                    </a>
+                    <span class="text-gray-600 hidden sm:inline">|</span>
+                    
+                    <a href="http://cvl.ist.osaka-u.ac.jp/" target="_blank" rel="noopener noreferrer" class="hover:text-lab-accent transition-colors">
+                        {lang === 'ja' ? 'コンピュータビジョン講座' : 'Computer Vision Lab'}
+                    </a>
+                    <span class="text-gray-600 hidden sm:inline">|</span>
+
+                    <a href={lang === 'ja' ? "https://www.ist.osaka-u.ac.jp/japanese/majors/mm.php" : "https://www.ist.osaka-u.ac.jp/english/majors/mm.php"} target="_blank" rel="noopener noreferrer" class="hover:text-lab-accent transition-colors">
+                        {lang === 'ja' ? '大阪大学大学院情報科学研究科 マルチメディア工学専攻' : 'Department of Multimedia Engineering'}
+                    </a>
+                    <span class="text-gray-600 hidden sm:inline">|</span>
+
+                    <a href={lang === 'ja' ? "https://www.ist.osaka-u.ac.jp/" : "https://www.ist.osaka-u.ac.jp/english/"} target="_blank" rel="noopener noreferrer" class="hover:text-lab-accent transition-colors">
+                        {lang === 'ja' ? '大阪大学大学院情報科学研究科' : 'Graduate School of Information Science and Technology'}
+                    </a>
+                    <span class="text-gray-600 hidden sm:inline">|</span>
+
+                    <a href={lang === 'ja' ? "http://www.eng.osaka-u.ac.jp/ja/index.html" : "http://www.eng.osaka-u.ac.jp/en/index.html"} target="_blank" rel="noopener noreferrer" class="hover:text-lab-accent transition-colors">
+                        {lang === 'ja' ? '大阪大学工学部/大学院工学研究科' : 'School/Graduate School of Engineering'}
+                    </a>
+                    <span class="text-gray-600 hidden sm:inline">|</span>
+
+                    <a href={lang === 'ja' ? "http://www.osaka-u.ac.jp/ja" : "http://www.osaka-u.ac.jp/en"} target="_blank" rel="noopener noreferrer" class="hover:text-lab-accent transition-colors">
+                        {lang === 'ja' ? '大阪大学' : 'The University of Osaka'}
+                    </a>
+                </div>
+                <div class="text-center text-sm text-gray-500 border-t border-white/5 pt-8">
+                   &copy; {new Date().getFullYear()} {ui[lang]['hero.title']}
+                </div>
             </div>
         </footer>
 	</body>

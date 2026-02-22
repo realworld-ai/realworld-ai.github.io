@@ -16,6 +16,7 @@ const newsCollection = defineCollection({
     })).optional(),
     coverImage: z.string().optional(),
     tags: z.array(z.string()).optional(), // Keep for backward compatibility if needed
+    tags_ja: z.array(z.string()).optional(),
     lang: z.enum(['ja', 'en']).optional(), // Optional, content can be bilingual or specific
   }),
 });

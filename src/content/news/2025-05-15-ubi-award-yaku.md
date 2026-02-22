@@ -5,6 +5,7 @@ type: "award"
 coverImage: "/images/news/ubi2024-yaku.png"
 members: ["谷垣 慶", "黒岩恒在"]
 tags: ['Publications & Talks', 'Awards']
+tags_ja: ['研究発表', '受賞']
 summary: "情報処理学会UBI研究会@屋久島で発表した論文が優秀論文賞とヤングリサーチャー賞を受賞しました"
 title_en: "IPSJ UBI Study Group @ Yakushima Excellent Paper Award & Young Researcher Award"
 summary_en: "Papers presented at the IPSJ UBI Study Group in Yakushima received the Excellent Paper Award and Young Researcher Award."

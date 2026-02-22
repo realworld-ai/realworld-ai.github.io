@@ -343,7 +343,12 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                      >
                         All Members
                      </button>
-                     {membersData.map(member => (
+                     {membersData
+                        .filter(member => 
+                            member.role_en.includes('Professor') || 
+                            member.role_en.includes('Lecturer')
+                        )
+                        .map(member => (
                          <button
                             key={member.id}
                             onClick={() => setSelectedMemberId(member.id)}

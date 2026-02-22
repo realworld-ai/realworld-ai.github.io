@@ -39,13 +39,15 @@ const areasWithData = researchAreas.map(area => {
   };
 });
 
+const pageTitle = "Research";
 const pageDescription = "Our laboratory focuses on four main areas: Human Activity Recognition, Bio-logging, Indoor Positioning, and Real-world Data Mining, exploring new possibilities in real-world information technology.";
 ---
 
 <Layout title="Research | RealWorldAI Lab" lang={lang}>
   <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <PageHeader title="Research"  />
-    <p class="text-left text-gray-400 -mt-4 mb-16">{pageDescription}</p>
+    <!-- <PageHeader title="Research"  /> -->
+    <PageHeader title={pageTitle} subtitle={pageDescription} />
+    <!-- <p class="text-left text-gray-400 -mt-4 mb-16">{pageDescription}</p> -->
 
     <!-- B. Research Areas Section -->
     <section id="research-areas" class="mb-24">
