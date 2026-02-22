@@ -44,7 +44,7 @@ export const ui = {
     'news.latest': 'Latest News',
     'about.title': 'Welcome to the Real-World Intelligence Group (Maekawa Lab)',
     'about.welcome': 'Welcome to Real-World Intelligence Lab',
-    'about.description': 'We aim to create "Artificial Intelligence that understands the real world." We conduct research on AI that estimates behavior, state, and context from multimodal sensor data, targeting humans and animals.\nOur lab integrates research fields such as IoT/Wearable/Bio-logging, Human/Animal Sensing, Activity Recognition/Positioning, Edge AI/Embedded AI, and Physical AI. By designing sensors, data, algorithms, and implementations as a unified system, we strive to establish an intelligence infrastructure that functions effectively in real-world environments.',
+    'about.description': 'With the goal of “creating artificial intelligence that understands the real world,” we conduct research on AI technologies that infer human and animal behaviors, states, and contexts from multimodal sensor data.\nOur laboratory takes an interdisciplinary approach spanning IoT, wearable and biologging technologies, human and animal sensing, activity recognition and positioning, edge AI and embedded AI, as well as Physical AI. By jointly designing sensors, data, algorithms, and system implementations as an integrated framework, we aim to establish an intelligent foundation that operates robustly in real-world environments.',
     'research.themes': 'Research Themes',
     'research.projects': 'Research Projects',
     'about.text': 'The Multimedia Engineering — Computer Vision group conducts research on computer vision, machine learning, and optimization, with a focus on large-scale information processing and industrial applications.',

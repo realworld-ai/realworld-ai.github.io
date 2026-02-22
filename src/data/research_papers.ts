@@ -46,7 +46,7 @@ export const papers: Paper[] = [
     "abstractShortEn": "In this study, we propose a novel self-supervised learning method for complex activity recognition through motif identification learning.",
     "keywords": [
       "Self-Supervised Learning",
-      "Activity Recognition",
+      "Human Activity Recognition",
       "Motif Identification",
       "Deep Learning"
     ],
@@ -66,7 +66,7 @@ export const papers: Paper[] = [
     "abstractShort": "物流環境における梱包作業認識のための大規模センサデータセット「OpenPack」を構築・公開しました。",
     "abstractShortEn": "This paper introduces OpenPack, a large-scale dataset for recognizing packaging work in IoT-enabled logistic environments.",
     "keywords": [
-      "Activity Recognition",
+      "Human Activity Recognition",
       "Wearable Sensors",
       "Logistics",
       "Dataset"
@@ -87,7 +87,7 @@ export const papers: Paper[] = [
     "abstractShort": "弱教師あり学習を用いて、加速度センサーデータからトレーニングの繰り返し回数を計測する手法「WeakCounter」を提案しました。",
     "abstractShortEn": "This paper proposes WeakCounter, a method for counting action repetitions from acceleration data using weakly supervised learning.",
     "keywords": [
-      "Repetition Counting",
+      // "Repetition Counting",
       "Weakly Supervised Learning",
       "Wearable Sensors"
     ],
@@ -129,7 +129,7 @@ export const papers: Paper[] = [
     "keywords": [
       "Health Monitoring",
       "Acoustic Sensing",
-      "Activity Recognition"
+      "Human Activity Recognition"
     ],
     "figure": "/assets/images/papers/har/toothbrushing.png",
     "fit": "contain",

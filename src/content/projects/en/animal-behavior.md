@@ -7,4 +7,4 @@ funding: "Grant-in-Aid for Scientific Research (A)"
 period: "2023-2027"
 url: "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25H01116/"
 ---
-This project aims to build a technological foundation to support the improvement of animal welfare and coexistence with humans by understanding the mechanisms of animal behavior modification and implementing appropriate interventions.
+This project seeks to understand the mechanisms underlying behavioral changes in animals and to establish technological foundations for appropriate interventions. Through this approach, we aim to enhance animal welfare and promote harmonious coexistence between humans and animals.
