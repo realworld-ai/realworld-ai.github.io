@@ -7,4 +7,4 @@ funding: "Grant-in-Aid for Transformative Research Areas (A)"
 period: "2021-2025"
 url: "https://bio-navigation.jp/"
 ---
-This project aims to elucidate the hierarchical mechanisms of how organisms process environmental information to navigate to their destinations, and to apply these principles to engineering control and new navigation technologies.
+This project aims to elucidate the hierarchical mechanisms by which living organisms process environmental information and navigate toward their destinations. The insights gained are translated into engineering control systems and novel navigation technologies.
