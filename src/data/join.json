@@ -4,7 +4,18 @@
       "title": "採用情報",
       "no_openings": "現在、募集中の職種はありません。",
       "description": "実世界知能基盤講座では、意欲ある研究員・技術補佐員を募集しています。詳細は下記をご覧ください。",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "非常勤の技術補佐員",
+          "number": "2-3名",
+          "description": [
+            "業務内容は、バイオ実験で取得されたビデオデータおよび各種センサーデータのラベリングおよび整理作業です（専用アプリの使用方法は着任後に指導いたします）。",
+            "基本的なパソコン操作（Word、Excel）が可能な方を対象とし、バイオ実験経験者を歓迎します。勤務は週3～5日、1日6時間（時間帯は応相談）。時給は1,203円～1,387円です。",
+            "ご応募方法の詳細は下記リンクをご参照ください。採用者が決まり次第、募集を終了いたします。"
+          ],
+          "attachment": "https://www.osaka-u.ac.jp/ja/guide/employment/part_research/zrb1gi/20260119_jouhou-kagaku-multi-media_gijutsuhosa.pdf/@@download/file"
+        }
+      ]
     },
     "visit": {
       "title": "見学・共同研究のお申し込み",
@@ -17,7 +28,18 @@
       "title": "Join Our Team",
       "no_openings": "Currently, there are no open positions.",
       "description": "We are looking for motivated students and researchers. Please see below for details.",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Part-time Technical Assistants",
+          "number": "2-3",
+          "description": [
+            "Responsibilities include labeling and organizing video and sensor data collected during biological experiments (training will be provided).",
+            "Applicants should have basic computer skills (Word and Excel); experience in biological experiments is preferred. The position requires 3–5 days per week, 6 hours per day (flexible schedule). The hourly wage ranges from JPY 1,203 to JPY 1,387.",
+            "Please refer to the link below for application details. The position will remain open until filled."
+          ],
+          "attachment": "https://www.osaka-u.ac.jp/ja/guide/employment/part_research/zrb1gi/20260119_jouhou-kagaku-multi-media_gijutsuhosa.pdf/@@download/file"
+        }
+      ]
     },
     "visit": {
       "title": "Visit / Collaboration Request",

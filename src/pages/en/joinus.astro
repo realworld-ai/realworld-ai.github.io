@@ -22,21 +22,49 @@ const pageData = joinData[lang];
         {pageData.recruitment.title}
       </h2>
 
-      <div class="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-        <p class="text-lg text-gray-700 mb-6">{pageData.recruitment.description}</p>
+      <div class="">
+        <p class="text-lg text-gray-400 mb-6">{pageData.recruitment.description}</p>
 
         {
           pageData.recruitment.jobs && pageData.recruitment.jobs.length > 0 ? (
             <div class="space-y-8">
               {pageData.recruitment.jobs.map((job) => (
-                <div class="border-l-4 border-lab-blue pl-6 py-2 bg-gray-50 rounded-r-lg">
-                  <h3 class="text-xl font-bold text-gray-900">{job.title}</h3>
-                  <p class="text-gray-600 mt-2 whitespace-pre-wrap">{job.content}</p>
+                <div class="border-l-4 border-lab-blue p-6 bg-gray-50/5 border border-gray-700/30 rounded-r-lg hover:bg-gray-800/20 transition-colors">
+                  <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
+                    <h3 class="text-xl font-bold text-white">{job.title}</h3>
+                    {job.number && (
+                      <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-lab-blue/10 text-lab-blue border border-lab-blue/20">
+                        Openings: {job.number}
+                      </span>
+                    )}
+                  </div>
+                  
+                  <div class="space-y-4 text-gray-300">
+                    {Array.isArray(job.description) ? (
+                      job.description.map((desc) => <p class="leading-relaxed">{desc}</p>)
+                    ) : (
+                      <p class="leading-relaxed">{job.description}</p>
+                    )}
+                  </div>
+
+                  {job.attachment && (
+                    <div class="mt-6 pt-4 border-t border-gray-700/50">
+                      <a 
+                        href={job.attachment}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-lab-blue hover:text-lab-blue/80 transition-colors bg-lab-blue/5 hover:bg-lab-blue/10 px-4 py-2 rounded-lg"
+                      >
+                        <UserPlus className="w-4 h-4" />
+                        Download Application Guidelines (PDF)
+                      </a>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
           ) : (
-            <div class="text-center py-12 bg-gray-50 rounded-lg border border-dashed border-gray-300">
+            <div class="text-center py-12 bg-gray-800 rounded-lg border border-dashed border-gray-700">
               <p class="text-gray-500 italic text-lg">{pageData.recruitment.no_openings}</p>
             </div>
           )
