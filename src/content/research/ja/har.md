@@ -1,6 +1,6 @@
 ---
 title: "人間行動認識"
-description: "ウェアラブルセンサや環境センサを用いて、人間の日常行動や作業内容を認識する技術。"
+description: "ウェアラブルセンサや環境センサを用いて、人間の日常行動や作業行動を認識する技術を研究しています"
 order: 1
 image: "/images/theme/har/openpack.png"
 ---

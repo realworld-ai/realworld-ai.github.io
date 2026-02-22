@@ -1,6 +1,6 @@
 ---
 title: "屋内位置測位"
-description: "GPSの届かない屋内環境において、人やモノの位置を高精度に推定する技術。"
+description: "GPSの届かない屋内環境において、人やモノの位置を高精度に推定する技術を研究しています"
 order: 2
 image: "/images/theme/positioning/indoorpos.png"
 ---
