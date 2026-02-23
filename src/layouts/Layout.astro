@@ -1,7 +1,9 @@
 ---
-import '@fontsource/inter';
-import '@fontsource/space-grotesk';
-import '@fontsource/noto-sans-jp';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import '@fontsource/noto-sans-jp/400.css';
+import '@fontsource/noto-sans-jp/700.css';
 import { languages, ui } from '../utils/ui';
 import { Navigation } from '../components/react/Navigation';
 
@@ -41,8 +43,119 @@ const navItems = [
         <meta name="author" content="maplor@163.com, qingxin-xia" />
 		<title>{title}</title>
 	</head>
-	<body class="bg-lab-bg text-lab-text font-sans antialiased">
-        <header class="fixed top-0 w-full z-50 bg-lab-bg/80 backdrop-blur-md border-b border-white/10">
+	<body class="bg-lab-bg text-lab-text font-sans antialiased leading-relaxed sm:tracking-wide">
+        <style is:global>
+            /* 1. HERO SECTION */
+            /* Increase main title font size & weight */
+            .hero-bg h1 {
+                font-size: 3.5rem !important; /* ~56px */
+                font-weight: 700 !important;
+                letter-spacing: -0.03em !important;
+                line-height: 1.1 !important;
+                text-shadow: 0 4px 12px rgba(0,0,0,0.5); /* Improve contrast */
+            }
+            @media (min-width: 768px) {
+                .hero-bg h1 {
+                    font-size: 4rem !important; /* ~64px on desktop */
+                }
+            }
+            /* Darker overlay for better text contrast */
+            .hero-bg > .absolute.bg-black\/50 {
+                background-color: rgba(0, 0, 0, 0.7) !important;
+            }
+
+
+            /* 2. SECTION HEADINGS */
+            /* Target headings with the border-left accent */
+            h2.border-l-4, h3.border-l-4 {
+                text-transform: uppercase !important;
+                letter-spacing: 0.05em !important; /* 1px spacing */
+                border-left-width: 2px !important; /* Thinner accent line */
+                border-color: theme('colors.lab-accent') !important;
+                padding-left: 1.25rem !important; /* Increase spacing */
+                margin-top: 2rem !important;
+                margin-bottom: 2rem !important;
+                font-weight: 700 !important;
+            }
+
+
+            /* 3. CARD COMPONENTS */
+            /* Override ALL card-like elements */
+            .bg-lab-card, 
+            article.bg-gray-900\/40,
+            .rounded-2xl.bg-gray-900\/40,
+            .rounded-2xl.bg-gray-900\/30,
+            .group.block.bg-lab-card {
+                box-shadow: none !important; /* Remove heavy shadows */
+                border: 1px solid rgba(255, 255, 255, 0.08) !important; /* Subtle 1px border */
+                border-radius: 4px !important; /* Sharper corners */
+                background-color: #111827 !important; /* Darker, specific engineering tone */
+                transition: all 0.2s ease-out !important;
+            }
+
+            /* Hover effects for cards */
+            /* .bg-lab-card:hover,  */
+            article.bg-gray-900\/40:hover,
+            .group.block.bg-lab-card:hover {
+                transform: translateY(-2px) !important; /* Slight lift */
+                border-color: theme('colors.lab-accent') !important; /* Highlight border */
+                background-color: #162032 !important; /* Slightly lighter on hover */
+            }
+
+            /* News Items specifically */
+            article.bg-gray-900\/40 {
+                border-radius: 4px !important;
+            }
+
+
+            /* 4. IMAGE CONSISTENCY */
+            img {
+                filter: saturate(90%); /* Slight desaturation for logos/photos */
+            }
+            /* Reset filter for hero slider to keep impact */
+            .hero-bg img {
+                filter: none;
+            }
+
+
+            /* 5. TYPOGRAPHY & LAYOUT */
+            p {
+                line-height: 1.75 !important;
+                margin-bottom: 1.5em !important;
+                color: #94a3b8 !important; /* Ensure nice slate-400 text */
+            }
+            /* Stronger hierarchy */
+            h1, h2, h3 {
+                color: #f8fafc !important; /* Slate-50 */
+            }
+            /* Add top divider to footer */
+            footer {
+                border-top: 1px solid rgba(255,255,255,0.05) !important;
+            }
+
+
+            /* 6. GLOBAL SCROLLBAR & SELECTION */
+            ::-webkit-scrollbar {
+                width: 8px;
+                background: #0F172A;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: #334155;
+                border-radius: 4px;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+                background: theme('colors.lab-accent');
+            }
+            ::selection {
+                background: rgba(59, 130, 246, 0.3); /* Subtle blue selection */
+                color: white;
+            }
+            
+            a {
+                transition: color 0.15s ease-out;
+            }
+        </style>
+        <header class="fixed top-0 w-full z-50 bg-lab-bg/90 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center gap-3">
