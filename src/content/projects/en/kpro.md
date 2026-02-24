@@ -1,7 +1,7 @@
 ---
 title: "Extraction and Utilization of Tacit Knowledge through Hybrid Intelligence for Enabling Bio-Experiments Exceeding Expert Levels"
 status: "ongoing"
-tags: ["K-Program"]
+tags: ["K-Program","PI"]
 image: "/images/projects/kpro/bench.png"
 funding: "JST K-Program"
 period: "2025-2030"

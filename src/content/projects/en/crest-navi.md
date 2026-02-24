@@ -1,7 +1,7 @@
 ---
 title: "Elucidation of Super-Sensory Integration Mechanisms Acquired by Long-Distance Navigation Animals (Co-investigator)"
 status: "ongoing"
-tags: ["CREST", "Co-investigator"]
+tags: ["CREST", "Co-investigator","Co-I"]
 image: "/images/projects/JST/logo_crest.svg"
 funding: "JST CREST"
 period: "2023-2028"

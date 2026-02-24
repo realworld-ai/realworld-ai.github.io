@@ -350,7 +350,7 @@ export const papers: Paper[] = [
     "abstractShort": "GPS信号を活用して屋内での歩行者デッドレコニング（PDR）の精度を向上させる手法を提案しました。",
     "abstractShortEn": "We proposed a method to improve indoor Pedestrian Dead Reckoning (PDR) accuracy assisted by GPS signals.",
     "keywords": [
-      "Indoor PDR",
+      "PDR",
       "GPS-assisted",
       "Navigation"
     ],

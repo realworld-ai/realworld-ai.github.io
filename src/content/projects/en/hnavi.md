@@ -1,7 +1,7 @@
 ---
 title: "Hierarchical Bio-navigation: Fusion of Cyber and Physical Spaces"
 status: "ongoing"
-tags: ["Grant-in-Aid for Transformative Research Areas (A)"]
+tags: ["Grant-in-Aid for Transformative Research Areas (A)","PI"]
 image: "/images/projects/hnavi/cynav.png"
 funding: "Grant-in-Aid for Transformative Research Areas (A)"
 period: "2021-2025"

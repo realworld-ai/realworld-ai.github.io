@@ -1,7 +1,7 @@
 ---
 title: "熟練者を超えるバイオ実験を可能とするHybrid Intelligenceによる暗黙知の抽出と活用"
 status: "ongoing"
-tags: ["Kプロ"]
+tags: ["Kプロ", "代表"]
 image: "/images/projects/kpro/bench.png"
 funding: "JST Kプログラム"
 period: "2025-2030"

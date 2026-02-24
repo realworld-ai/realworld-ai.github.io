@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Analysis of Wall Micro-motion Based on 4D-CTA/4D-MRA Medical Images and AI Technology Integration: Mathematical Data Science Integrated Simulation for Preemptive Medicine (Co-investigator)"
 status: "ongoing"
-tags: ["CREST", "Co-investigator"]
+tags: ["CREST", "Co-I"]
 image: "/images/projects/JST/logo_crest.svg"
 funding: "JST CREST"
 period: "2020-2025"
