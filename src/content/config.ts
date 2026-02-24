@@ -41,6 +41,7 @@ const projectsCollection = defineCollection({
       tags: z.array(z.string()).optional(),
       image: z.string().optional(),
       funding: z.string().optional(),
+      role: z.string().optional(),
       period: z.string().optional(),
       url: z.string().optional(),
       fit: z.enum(['contain', 'cover']).default('contain').optional(),

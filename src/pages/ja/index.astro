@@ -239,9 +239,9 @@ const heroImages = [
                             </div>
                             <div class="p-4 flex flex-col flex-grow">
                                 <div class="flex items-center gap-2 mb-3 flex-wrap">
-                                    <span class={`px-2 py-0.5 text-xs rounded border ${project.data.status === 'ongoing' ? 'border-green-500/50 text-green-400' : 'border-gray-500 text-gray-400'}`}>
-                                        {project.data.status === 'ongoing' ? '進行中' : '完了'}
-                                    </span>
+                                    {/* <span class={`px-2 py-0.5 text-xs rounded border ${project.data.status === 'ongoing' ? 'border-green-500/50 text-green-400' : 'border-gray-500 text-gray-400'}`}> */}
+                                        {/* {project.data.status === 'ongoing' ? '進行中' : '完了'} */}
+                                    {/* </span> */}
                                     {project.data.funding && (
                                         <span class="px-2 py-0.5 text-xs rounded bg-blue-500/10 text-blue-300 border border-blue-500/20">
                                             {project.data.funding}
@@ -250,6 +250,11 @@ const heroImages = [
                                      {project.data.period && (
                                         <span class="px-2 py-0.5 text-xs rounded bg-purple-500/10 text-purple-300 border border-purple-500/20">
                                             {project.data.period}
+                                        </span>
+                                    )}
+                                    {project.data.role && (
+                                        <span class="px-2 py-0.5 text-xs rounded bg-purple-500/10 text-green-300 border border-purple-500/20">
+                                            {project.data.role}
                                         </span>
                                     )}
                                 </div>
