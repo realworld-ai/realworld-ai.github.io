@@ -57,7 +57,7 @@
     "name_en": "Ryoma Otsuka",
     "role_ja": "特任助教",
     "role_en": "Specially Appointed Assistant Professor",
-    "image": "https://researchmap.jp/ryoma_otsuka/avatar.jpg",
+    "image": "/assets/members/RyomaOtsuka.JPG",
     "links": {
       "researchmap": "https://researchmap.jp/ryoma_otsuka"
     }
@@ -88,6 +88,14 @@
     "id": "guanyu-cao",
     "name_ja": "Guanyu Cao",
     "name_en": "Guanyu Cao",
+    "role_ja": "特任研究員",
+    "role_en": "Specially Appointed Researcher",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "kosuke-shibata",
+    "name_ja": "芝田 康将",
+    "name_en": "Kosuke Shibata",
     "role_ja": "特任研究員",
     "role_en": "Specially Appointed Researcher",
     "image": "/assets/members/placeholder.jpg"

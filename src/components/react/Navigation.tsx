@@ -83,11 +83,11 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
                             <li key={item.href}>
                                 <a 
                                     href={item.href} 
-                                    className={`flex items-center text-sm font-medium transition-colors ${
+                                    className={`flex flex-col items-center text-center text-sm font-medium transition-colors ${
                                         active ? 'text-lab-accent' : 'text-gray-300 hover:text-white'
                                     }`}
                                 >
-                                    {Icon && <Icon className="w-4 h-4 mr-2" />}
+                                    {Icon && <Icon className="w-4 h-4 mb-1" />}
                                     {item.label}
                                 </a>
                             </li>
@@ -128,12 +128,12 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
                                 <li key={item.href}>
                                     <a 
                                         href={item.href} 
-                                        className={`flex items-center text-lg font-medium block py-2 border-b border-white/5 transition-colors ${
+                                        className={`flex flex-col items-center text-center text-lg font-medium block py-2 border-b border-white/5 transition-colors ${
                                             active ? 'text-lab-accent' : 'text-white hover:text-lab-accent'
                                         }`}
                                         onClick={() => setIsOpen(false)}
                                     >
-                                        {Icon && <Icon className="w-5 h-5 mr-3" />}
+                                        {Icon && <Icon className="w-5 h-5 mb-2" />}
                                         {item.label}
                                     </a>
                                 </li>
