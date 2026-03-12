@@ -26,8 +26,8 @@ const studentGradeLabels: Record<string, string> = {
     'B4': '学部4年'
 };
 
-const faculty = membersData.filter(m => facultyRoles.includes(m.role_ja) && !['yasuyuki-matsushita', 'fumio-okura'].includes(m.id));
-const collaborators = membersData.filter(m => ['yasuyuki-matsushita', 'fumio-okura'].includes(m.id));
+const faculty = membersData.filter(m => facultyRoles.includes(m.role_ja) && !['yasuyuki-matsushita', 'fumio-okura', 'xinpeng-liu'].includes(m.id));
+const collaborators = membersData.filter(m => ['yasuyuki-matsushita', 'fumio-okura', 'xinpeng-liu'].includes(m.id));
 const staff = membersData.filter(m => staffRoles.includes(m.role_ja));
 const students = membersData.filter(m => studentGrades.some(grade => m.role_en.startsWith(grade)));
 
@@ -208,6 +208,7 @@ const alumni = alumniData.filter(a => graduateRoles.includes(a.role_en));
         </section>
 
         {/* Alumni Section */}
+        {/*
         <section class="mb-20">
             <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
                 <History className="w-6 h-6 text-lab-accent" />
@@ -236,5 +237,6 @@ const alumni = alumniData.filter(a => graduateRoles.includes(a.role_en));
                 </table>
             </div>
         </section>
+        */}
     </main>
 </Layout>
