@@ -16,10 +16,10 @@ const pageData = joinData[lang];
       <div class="absolute w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl bottom-20 right-20"></div>
     </div>
     <div class="relative max-w-4xl mx-auto px-4 py-20 text-center">
-      <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
         {pageData.hero.title}
       </h1>
-      <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
+      <p class="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto text-justify">
         {pageData.hero.subtitle}
       </p>
       <a href="#why_join" class="inline-flex items-center gap-2 bg-lab-blue hover:bg-lab-blue/90 text-white px-8 py-4 rounded-lg font-semibold transition-colors">
@@ -37,9 +37,9 @@ const pageData = joinData[lang];
       </h2>
       <div class="grid md:grid-cols-3 gap-8">
         {pageData.why_join.benefits.map((benefit) => (
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 hover:border-lab-blue/50 transition-colors group">
+          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 hover:border-lab-blue/50 transition-colors group h-full flex flex-col">
             <h3 class="text-xl font-bold text-white mb-4">{benefit.title}</h3>
-            <p class="text-gray-400 leading-relaxed">{benefit.description}</p>
+            <p class="text-gray-400 leading-relaxed text-justify">{benefit.description}</p>
           </div>
         ))}
       </div>
@@ -52,10 +52,10 @@ const pageData = joinData[lang];
       </h2>
       <div class="grid md:grid-cols-2 gap-8">
         {pageData.who_we_welcome.profiles.map((profile) => (
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 hover:border-lab-blue/50 transition-colors">
+          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 hover:border-lab-blue/50 transition-colors flex flex-col h-full">
             <h3 class="text-2xl font-bold text-lab-blue mb-4">{profile.title}</h3>
-            <p class="text-gray-300 leading-relaxed mb-6">{profile.description}</p>
-            <a href={profile.cta_link_text === "Current Openings" ? "#recruitment" : "#contact"} class="inline-flex items-center gap-2 text-lab-blue hover:text-lab-blue/80 font-semibold transition-colors">
+            <p class="text-gray-300 leading-relaxed mb-6 text-justify">{profile.description}</p>
+            <a href={profile.cta_link_url || (profile.cta_link_text === "Current Openings" ? "#recruitment" : "#contact")} {...(profile.cta_link_url && profile.cta_link_url.startsWith('http') && { target: "_blank", rel: "noopener noreferrer" })} class="inline-flex items-center gap-2 text-lab-blue hover:text-lab-blue/80 font-semibold transition-colors mt-auto">
               {profile.cta_link_text}
             </a>
           </div>
@@ -71,7 +71,7 @@ const pageData = joinData[lang];
             {pageData.research_snapshot.title}
           </h2>
           {pageData.research_snapshot.description && (
-            <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto text-justify">
               {pageData.research_snapshot.description}
             </p>
           )}
@@ -80,7 +80,7 @@ const pageData = joinData[lang];
           {pageData.research_snapshot.cards.map((card) => (
             <div class="bg-gradient-to-br from-lab-blue/10 to-cyan-500/10 rounded-xl p-8 border border-lab-blue/20 hover:border-lab-blue/50 transition-colors">
               <h3 class="text-xl font-bold text-lab-blue mb-3">{card.title}</h3>
-              <p class="text-gray-300 leading-relaxed">{card.description}</p>
+            <p class="text-gray-300 leading-relaxed text-justify">{card.description}</p>
             </div>
           ))}
         </div>
@@ -106,7 +106,7 @@ const pageData = joinData[lang];
             </div>
             <div class="pb-8">
               <h3 class="text-2xl font-bold text-white mb-2">{step.title}</h3>
-              <p class="text-gray-400 leading-relaxed">{step.description}</p>
+              <p class="text-gray-400 leading-relaxed text-justify">{step.description}</p>
             </div>
           </div>
         ))}
@@ -146,12 +146,12 @@ const pageData = joinData[lang];
         </h2>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           {pageData.final_cta.button_primary_url && (
-            <a href={pageData.final_cta.button_primary_url} class="inline-flex items-center justify-center gap-2 bg-lab-blue hover:bg-lab-blue/90 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+            <a href={pageData.final_cta.button_primary_url} class="inline-flex items-center justify-center gap-2 bg-gradient-to-br from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-lg font-semibold transition-colors border border-gray-700/50">
               {pageData.final_cta.button_primary_text}
             </a>
           )}
           {pageData.final_cta.button_secondary_url && (
-            <a href={pageData.final_cta.button_secondary_url} class="inline-flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors border border-gray-700">
+            <a href={pageData.final_cta.button_secondary_url} class="inline-flex items-center justify-center gap-2 bg-gradient-to-br from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-lg font-semibold transition-colors border border-gray-700/50">
               {pageData.final_cta.button_secondary_text}
             </a>
           )}
@@ -166,7 +166,7 @@ const pageData = joinData[lang];
       </h2>
 
       <div class="">
-        <p class="text-lg text-gray-400 mb-6">{pageData.recruitment.description}</p>
+        <p class="text-lg text-gray-400 mb-6 text-justify">{pageData.recruitment.description}</p>
 
         {
           pageData.recruitment.jobs && pageData.recruitment.jobs.length > 0 ? (
@@ -184,9 +184,9 @@ const pageData = joinData[lang];
                   
                   <div class="space-y-4 text-gray-300">
                     {Array.isArray(job.description) ? (
-                      job.description.map((desc) => <p class="leading-relaxed">{desc}</p>)
+                      job.description.map((desc) => <p class="leading-relaxed text-justify">{desc}</p>)
                     ) : (
-                      <p class="leading-relaxed">{job.description}</p>
+                      <p class="leading-relaxed text-justify">{job.description}</p>
                     )}
                   </div>
 
@@ -214,6 +214,33 @@ const pageData = joinData[lang];
       </div>
     </section>
 
+    <!-- Contact Section -->
+    {pageData.contact && (
+      <section id="contact" class="scroll-mt-24">
+        <h2 class="text-3xl font-bold mb-8 text-lab-blue">
+          {pageData.contact.title}
+        </h2>
+
+        <div class="">
+          <p class="text-lg text-gray-400 mb-8 text-justify">{pageData.contact.description}</p>
+
+          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
+            <div class="mb-6">
+              <p class="text-gray-300 leading-relaxed mb-4 text-justify">
+                <span class="font-semibold text-white">Contact:</span> {pageData.contact.contact_person}
+              </p>
+              <p class="text-gray-300 leading-relaxed text-justify">
+                <span class="font-semibold text-white">Email:</span> 
+                <br class="md:hidden" />
+                <span class="text-lab-blue">{pageData.contact.email}</span>
+              </p>
+              <p class="text-sm text-gray-400 mt-2 text-justify">{pageData.contact.email_note}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
     <!-- FAQ Section -->
     {pageData.faq && pageData.faq.faqs.length > 0 && (
       <section id="faq" class="scroll-mt-24">
@@ -230,7 +257,7 @@ const pageData = joinData[lang];
                 </span>
                 <span>{faq.question}</span>
               </summary>
-              <p class="text-gray-400 leading-relaxed mt-4 ml-9">{faq.answer}</p>
+              <p class="text-gray-400 leading-relaxed mt-4 ml-9 text-justify">{faq.answer}</p>
             </details>
           ))}
         </div>

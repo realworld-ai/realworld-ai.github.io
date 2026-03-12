@@ -32,12 +32,14 @@
         {
           "title": "学部生の方へ",
           "description": "大阪大学の学部生で、研究室配属を考えている方、または3年次からの早期参加を希望する方。プログラミングやAIへの興味があれば、経験不問です。",
-          "cta_link_text": "研究室配属について"
+          "cta_link_text": "研究室配属について",
+          "cta_link_url": "http://school.eei.eng.osaka-u.ac.jp"
         },
         {
           "title": "大学院進学希望の方へ",
           "description": "修士・博士课程への進学を検討されている方。国内外の大学からのご応募も大歓迎。AI、ロボティクス、センシング、データ分析など、様々な背景の方が活躍しています。",
-          "cta_link_text": "入試情報"
+          "cta_link_text": "入試情報",
+          "cta_link_url": "https://www.ist.osaka-u.ac.jp/japanese/"
         },
         {
           "title": "研究員・技術補佐員",
@@ -47,7 +49,8 @@
         {
           "title": "共同研究・事業化パートナー",
           "description": "企業、他機関からの共同研究、技術導入、コンサルティングのご相談も受け付けています。",
-          "cta_link_text": "お問い合わせ"
+          "cta_link_text": "お問い合わせ",
+          "cta_link_url": "#contact"
         }
       ]
     },
@@ -115,6 +118,13 @@
       "description": "研究室見学、共同研究のご相談、技術導入のお問い合わせなど、どんなご相談でもお待ちしています。以下のフォームからご連絡ください。",
       "form_url": ""
     },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "ご不明な点やご質問がございましたら、以下のメールアドレスまでお気軽にご連絡ください。",
+      "contact_person": "Qingxin Xia",
+      "email": "xia.qingxin at ist.osaka-u.ac.jp",
+      "email_note": "（メールを送信する際は、「at」を「@」に置き換えてください）"
+    },
     "faq": {
       "title": "よくある質問",
       "faqs": [
@@ -141,7 +151,7 @@
       "button_primary_text": "募集情報を見る",
       "button_primary_url": "#recruitment",
       "button_secondary_text": "お問い合わせ",
-      "button_secondary_url": "#visit"
+      "button_secondary_url": "#contact"
     }
   },
   "en": {
@@ -177,12 +187,14 @@
         {
           "title": "For Undergraduates",
           "description": "Osaka University students interested in a lab assignment or early participation in research projects. Programming and AI interest is a plus, but prior experience is not required.",
-          "cta_link_text": "Lab Assignment Information"
+          "cta_link_text": "Lab Assignment Information",
+          "cta_link_url": "http://school.eei.eng.osaka-u.ac.jp/"
         },
         {
           "title": "For Graduate Applicants",
           "description": "Prospective Master's and Ph.D. students. We actively welcome applications from students at other institutions domestically and internationally. Diverse backgrounds in AI, robotics, sensing, and data science are all valued.",
-          "cta_link_text": "Admissions Information"
+          "cta_link_text": "Admissions Information",
+          "cta_link_url": "https://www.ist.osaka-u.ac.jp/japanese/admission/"
         },
         {
           "title": "Research Associates & Technical Staff",
@@ -192,7 +204,8 @@
         {
           "title": "Industry & Research Partners",
           "description": "Interested in collaboration, technology transfer, or consulting? We welcome inquiries from companies, government agencies, and research institutions.",
-          "cta_link_text": "Contact Us"
+          "cta_link_text": "Contact Us",
+          "cta_link_url": "#contact"
         }
       ]
     },
@@ -260,6 +273,13 @@
       "description": "Interested in visiting the lab, discussing collaboration, or exploring technology transfer opportunities? We welcome inquiries of all kinds. Please reach out using the form below.",
       "form_url": ""
     },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions or would like to reach out to us, please feel free to contact us using the email address below.",
+      "contact_person": "Qingxin Xia",
+      "email": "xia.qingxin at ist.osaka-u.ac.jp",
+      "email_note": "(Replace 'at' with '@' when sending your email)"
+    },
     "faq": {
       "title": "Frequently Asked Questions",
       "faqs": [
@@ -286,7 +306,7 @@
       "button_primary_text": "View Openings",
       "button_primary_url": "#recruitment",
       "button_secondary_text": "Get in Touch",
-      "button_secondary_url": "#visit"
+      "button_secondary_url": "#contact"
     }
   }
 }
