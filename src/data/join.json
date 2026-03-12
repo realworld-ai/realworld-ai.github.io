@@ -1,9 +1,102 @@
 {
   "ja": {
+    "hero": {
+      "title": "実世界を理解するAIへ。",
+      "subtitle": "人間と動物の行動、複雑な環境現象をセンサとAIで可視化し、現実を変える研究に参加しませんか。",
+      "cta_label": "もっと知る",
+      "background_image_url": "/assets/images/joinus-hero-bg.jpg"
+    },
+    "why_join": {
+      "title": "当研究室で学ぶ理由",
+      "benefits": [
+        {
+          "icon": "brain-circuit",
+          "title": "実世界AIの第一線で学ぶ",
+          "description": "センシング、アルゴリズム、実装まで、実世界で動作するAIを一貫して開発。ウェアラブル、バイオロガー、屋内測位など、実際に機能するAI技術を体験できます。"
+        },
+        {
+          "icon": "users",
+          "title": "多様な協力と実応用",
+          "description": "業界パートナー、他大学、フィールド研究者と連携。あなたの研究が産業や生態学、医療など現実の課題解決に直結する経験ができます。"
+        },
+        {
+          "icon": "briefcase",
+          "title": "学際的スキルを育成",
+          "description": "機械学習だけでなく、組み込みAI、ハードウェア、ドメイン知識を習得。データサイエンティスト、エンジニア、研究者として多角的な視点を磨けます。"
+        }
+      ]
+    },
+    "who_we_welcome": {
+      "title": "歓迎する仲間",
+      "profiles": [
+        {
+          "title": "学部生の方へ",
+          "description": "大阪大学の学部生で、研究室配属を考えている方、または3年次からの早期参加を希望する方。プログラミングやAIへの興味があれば、経験不問です。",
+          "cta_link_text": "研究室配属について"
+        },
+        {
+          "title": "大学院進学希望の方へ",
+          "description": "修士・博士课程への進学を検討されている方。国内外の大学からのご応募も大歓迎。AI、ロボティクス、センシング、データ分析など、様々な背景の方が活躍しています。",
+          "cta_link_text": "入試情報"
+        },
+        {
+          "title": "研究員・技術補佐員",
+          "description": "実務経験を積みたい方、研究支援職に興味のある方。不定期に募集枠があります。",
+          "cta_link_text": "現在の募集"
+        },
+        {
+          "title": "共同研究・事業化パートナー",
+          "description": "企業、他機関からの共同研究、技術導入、コンサルティングのご相談も受け付けています。",
+          "cta_link_text": "お問い合わせ"
+        }
+      ]
+    },
+    "research_snapshot": {
+      "title": "研究領域スナップショット",
+      "description": "4つの主要テーマで、センシングからAI、実装まで、現実のデータから知識を引き出す研究を展開しています。",
+      "cards": [
+        {
+          "title": "人間行動認識",
+          "description": "スマートファクトリーやライフサイエンスで、複雑な行動を認識・理解。ウェアラブルセンサとAIで作業者の行動やコーチングに活用。"
+        },
+        {
+          "title": "AIバイオロギング",
+          "description": "野生動物に装着したセンサとAIで、未知の生態を観測。小型で高精度なエッジAIモデルを開発し、生態学の謎を解く。"
+        },
+        {
+          "title": "屋内位置測位",
+          "description": "複数のセンサ（加速度計、Wi-Fi、音声、GPS）を融合した、マルチモーダル屋内測位。ナビゲーションからスマートファクトリーの人間トラッキングまで。"
+        },
+        {
+          "title": "実世界データマイニング",
+          "description": "行動データから、隠れた知識を自動抽出。創薬支援、野生動物保全政策の評価、熟練技能の可視化など、現実課題の解決を目指します。"
+        }
+      ]
+    },
+    "how_to_join": {
+      "title": "参加までのステップ",
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "研究室をよく知る",
+          "description": "このウェブサイトで研究内容を確認。可能な限り、研究発表会やオープンラボのイベントに参加し、実際のプロジェクトと研究環境を体験してください。"
+        },
+        {
+          "step_number": 2,
+          "title": "相談・訪問",
+          "description": "興味を持ったら、気軽にお問い合わせください。研究室訪問や個別相談で、研究内容や参加方法、学生生活についてお話しします。"
+        },
+        {
+          "step_number": 3,
+          "title": "配属・進学へ",
+          "description": "学部生は正規の配属手続き を、大学院生は各大学院の入試を通じて参加。詳細な手続きはそれぞれの制度に従ってください。"
+        }
+      ]
+    },
     "recruitment": {
-      "title": "採用情報",
-      "no_openings": "現在、募集中の職種はありません。",
-      "description": "実世界知能基盤講座では、意欲ある研究員・技術補佐員を募集しています。詳細は下記をご覧ください。",
+      "title": "現在の募集",
+      "no_openings": "現在、新規募集枠がない場合があります。下記の募集情報をご確認ください。ご質問やご相談は、いつでもお問い合わせください。",
+      "description": "研究を支えるチームメンバーや、研究支援スタッフを随時募集しています。",
       "jobs": [
         {
           "title": "非常勤の技術補佐員",
@@ -19,32 +112,182 @@
     },
     "visit": {
       "title": "見学・共同研究のお申し込み",
-      "description": "研究室見学や共同研究のご相談は、以下のフォームよりお問い合わせください。",
+      "description": "研究室見学、共同研究のご相談、技術導入のお問い合わせなど、どんなご相談でもお待ちしています。以下のフォームからご連絡ください。",
       "form_url": ""
+    },
+    "faq": {
+      "title": "よくある質問",
+      "faqs": [
+        {
+          "question": "学部生ですが、配属される前に研究室を見学することはできますか？",
+          "answer": "はい、可能です。オープンラボのイベント情報をご確認いただくか、直接お問い合わせください。研究内容や学生生活についてご説明します。"
+        },
+        {
+          "question": "他大学からの大学院進学は可能ですか？",
+          "answer": "もちろん可能です。国内外の大学からの受け入れ実績があります。大阪大学大学院の入試情報をご確認のうえ、ご応募ください。"
+        },
+        {
+          "question": "研究室のコアタイムはありますか？",
+          "answer": "特別なコアタイムは定めていませんが、セミナーやミーティングで定期的に顔を合わせます。詳細はお問い合わせください。"
+        },
+        {
+          "question": "共同研究や技術導入の相談もできますか？",
+          "answer": "はい。企業、公的機関、他大学など多くの協力機関があります。まずはお気軽にお問い合わせください。"
+        }
+      ]
+    },
+    "final_cta": {
+      "title": "実世界のデータから、新しい知を引き出す。その一歩を、今ここから。",
+      "button_primary_text": "募集情報を見る",
+      "button_primary_url": "#recruitment",
+      "button_secondary_text": "お問い合わせ",
+      "button_secondary_url": "#visit"
     }
   },
   "en": {
+    "hero": {
+      "title": "AI That Understands the Real World.",
+      "subtitle": "Join us in developing sensing and AI technologies that reveal human and animal behavior, and transform how we understand real-world phenomena.",
+      "cta_label": "Learn More",
+      "background_image_url": "/assets/images/joinus-hero-bg.jpg"
+    },
+    "why_join": {
+      "title": "Why Study in Our Lab?",
+      "benefits": [
+        {
+          "icon": "brain-circuit",
+          "title": "Real-World AI from End to End",
+          "description": "From sensing and algorithms to deployment, develop AI that actually works in the real world. Work with wearables, biologgers, and indoor positioning systems. Gain hands-on experience building practical AI systems."
+        },
+        {
+          "icon": "users",
+          "title": "Impact Through Collaboration",
+          "description": "Partner with industry, academic institutions, and field researchers. Your research directly addresses real challenges in healthcare, wildlife conservation, manufacturing, and beyond—seeing your work translate from lab to impact."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Develop Cross-Disciplinary Skills",
+          "description": "Master not just machine learning, but edge AI, embedded systems, domain expertise, and hardware. Build a versatile toolkit as a researcher, engineer, and innovator."
+        }
+      ]
+    },
+    "who_we_welcome": {
+      "title": "Who We Welcome",
+      "profiles": [
+        {
+          "title": "For Undergraduates",
+          "description": "Osaka University students interested in a lab assignment or early participation in research projects. Programming and AI interest is a plus, but prior experience is not required.",
+          "cta_link_text": "Lab Assignment Information"
+        },
+        {
+          "title": "For Graduate Applicants",
+          "description": "Prospective Master's and Ph.D. students. We actively welcome applications from students at other institutions domestically and internationally. Diverse backgrounds in AI, robotics, sensing, and data science are all valued.",
+          "cta_link_text": "Admissions Information"
+        },
+        {
+          "title": "Research Associates & Technical Staff",
+          "description": "Gain industry and research experience. We periodically open positions for part-time assistants and technical staff.",
+          "cta_link_text": "Current Openings"
+        },
+        {
+          "title": "Industry & Research Partners",
+          "description": "Interested in collaboration, technology transfer, or consulting? We welcome inquiries from companies, government agencies, and research institutions.",
+          "cta_link_text": "Contact Us"
+        }
+      ]
+    },
+    "research_snapshot": {
+      "title": "Research Areas",
+      "description": "Four core research themes spanning sensing, AI, and deployment—extracting real knowledge from real-world data.",
+      "cards": [
+        {
+          "title": "Human Activity Recognition",
+          "description": "Recognize and understand complex behaviors in smart factories and life science experiments. Apply wearable sensors and AI to worker coaching and operational intelligence."
+        },
+        {
+          "title": "AI Bio-logging",
+          "description": "Observe wild animal behavior through embedded AI and biologging sensors. Develop compact, efficient AI models that uncover previously unknown aspects of wildlife ecology."
+        },
+        {
+          "title": "Indoor Positioning",
+          "description": "Fuse multiple sensor modalities—accelerometers, Wi-Fi, audio, and GPS—for robust multimodal indoor localization. Enable navigation, smart facility management, and human tracking applications."
+        },
+        {
+          "title": "Real-World Data Mining",
+          "description": "Automatically extract hidden knowledge from behavioral data. Support drug discovery, evaluate wildlife conservation policies, and make tacit skilled expertise visible and transferable."
+        }
+      ]
+    },
+    "how_to_join": {
+      "title": "Steps to Join",
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Learn About Our Research",
+          "description": "Explore this website to understand our research directions. Attend open lab events and research seminars if available—experience the real projects and environment firsthand."
+        },
+        {
+          "step_number": 2,
+          "title": "Connect and Visit",
+          "description": "Reach out through the contact form. We welcome lab visits and individual consultations to discuss research, participation options, and student life in detail."
+        },
+        {
+          "step_number": 3,
+          "title": "Join Through Official Channels",
+          "description": "Undergraduates proceed through the lab assignment process; graduate applicants apply through your graduate school's entrance examination. We'll guide you through the relevant procedures."
+        }
+      ]
+    },
     "recruitment": {
-      "title": "Join Our Team",
-      "no_openings": "Currently, there are no open positions.",
-      "description": "We are looking for motivated students and researchers. Please see below for details.",
+      "title": "Current Openings",
+      "no_openings": "Openings are posted as they become available. Check the recruitment list below, and feel free to contact us for inquiries.",
+      "description": "We actively seek team members and technical staff to support our research mission.",
       "jobs": [
         {
           "title": "Part-time Technical Assistants",
-          "number": "2-3",
+          "number": "2–3",
           "description": [
-            "Responsibilities include labeling and organizing video and sensor data collected during biological experiments (training will be provided).",
+            "Responsibilities include labeling and organizing video and sensor data collected during biological experiments (training will be provided on our specialized tools).",
             "Applicants should have basic computer skills (Word and Excel); experience in biological experiments is preferred. The position requires 3–5 days per week, 6 hours per day (flexible schedule). The hourly wage ranges from JPY 1,203 to JPY 1,387.",
-            "Please refer to the link below for application details. The position will remain open until filled."
+            "Please refer to the link below for detailed application instructions. The position will be closed once candidates are selected."
           ],
           "attachment": "https://www.osaka-u.ac.jp/ja/guide/employment/part_research/zrb1gi/20260119_jouhou-kagaku-multi-media_gijutsuhosa.pdf/@@download/file"
         }
       ]
     },
     "visit": {
-      "title": "Visit / Collaboration Request",
-      "description": "Please use the form below to request a lab visit or discuss potential collaboration.",
+      "title": "Visit & Collaboration",
+      "description": "Interested in visiting the lab, discussing collaboration, or exploring technology transfer opportunities? We welcome inquiries of all kinds. Please reach out using the form below.",
       "form_url": ""
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "Can I visit the lab before my assignment/enrollment?",
+          "answer": "Absolutely. Check our events page for open lab sessions, or contact us directly to arrange a visit. We're happy to discuss our research and student experience."
+        },
+        {
+          "question": "Can I apply from outside Osaka University?",
+          "answer": "Definitely. We welcome graduate applications from students worldwide. Please check Osaka University's graduate admissions information for application details and procedures."
+        },
+        {
+          "question": "Are there required core hours?",
+          "answer": "We don't have strict core hours, but we maintain regular meetings and seminars where the team connects. Details can be discussed during a visit or consultation."
+        },
+        {
+          "question": "Do you accept collaboration inquiries from companies or institutions?",
+          "answer": "Yes, absolutely. We work with industry partners and research institutions on joint projects, technology transfer, and consulting. Contact us to explore possibilities."
+        }
+      ]
+    },
+    "final_cta": {
+      "title": "Extract Real Knowledge from Real-World Data. Begin Your Journey Here.",
+      "button_primary_text": "View Openings",
+      "button_primary_url": "#recruitment",
+      "button_secondary_text": "Get in Touch",
+      "button_secondary_url": "#visit"
     }
   }
 }
+

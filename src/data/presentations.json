@@ -1,5 +1,14 @@
 [
   {
+    "id": "52485176",
+    "presentation_title": "Keynote: Pervasive Technologies for Animal Behavior Understanding",
+    "presenters": "Takuya Maekawa",
+    "event": "The 20th International Conference on Green, Pervasive, and Cloud Computing (GPC 2025)",
+    "publication_date": "2025-12-11",
+    "presentation_type": "keynote_oral_presentation",
+    "major_achievement": true
+  },
+  {
     "id": "50614061",
     "presentation_title": "NeuraLeaf: 葉のニューラルパラメトリックモデリング",
     "presenters": "大倉史生",
