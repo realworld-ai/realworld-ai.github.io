@@ -29,12 +29,12 @@ const studentGradeLabels: Record<string, string> = {
 const faculty = membersData.filter(m => facultyRoles.includes(m.role_ja) && !['yasuyuki-matsushita', 'fumio-okura'].includes(m.id));
 const collaborators = membersData.filter(m => ['yasuyuki-matsushita', 'fumio-okura'].includes(m.id));
 const staff = membersData.filter(m => staffRoles.includes(m.role_ja));
-const students = membersData.filter(m => studentGrades.includes(m.role_en));
+const students = membersData.filter(m => studentGrades.some(grade => m.role_en.startsWith(grade)));
 
 // Group students by grade
 const studentsByGrade: Record<string, typeof membersData> = {};
 studentGrades.forEach(grade => {
-    studentsByGrade[grade] = students.filter(s => s.role_en === grade);
+    studentsByGrade[grade] = students.filter(s => s.role_en.startsWith(grade));
 });
 
 // Filter alumni: only graduates (Bachelor/Master/Doctorate), exclude visitors

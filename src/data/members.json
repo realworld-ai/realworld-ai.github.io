@@ -189,6 +189,30 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
+    "id": "shuhei-yamazaki",
+    "name_ja": "山崎 修平",
+    "name_en": "Shuhei Yamazaki",
+    "role_ja": "博士3年",
+    "role_en": "D3",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "yuqiao-wang",
+    "name_ja": "王 宇翹",
+    "name_en": "Yuqiao Wang",
+    "role_ja": "博士3年 (10月入学)",
+    "role_en": "D3 (October enrollment)",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "yang-wang",
+    "name_ja": "Wang Yang",
+    "name_en": "Yang Wang",
+    "role_ja": "博士3年 (10月入学)",
+    "role_en": "D3 (October enrollment)",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
     "id": "junhao-xing",
     "name_ja": "Junhao Xing",
     "name_en": "Junhao Xing",
@@ -205,11 +229,27 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
+    "id": "kei-tanigaki",
+    "name_ja": "谷垣 慶",
+    "name_en": "Kei Tanigaki",
+    "role_ja": "博士2年",
+    "role_en": "D2",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
     "id": "siwei-zhou",
     "name_ja": "周 思為",
     "name_en": "Siwei Zhou",
     "role_ja": "博士1年",
     "role_en": "D1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "yating-gao",
+    "name_ja": "高 雅婷",
+    "name_en": "Yating Gao",
+    "role_ja": "博士1年 (10月入学)",
+    "role_en": "D1 (October enrollment)",
     "image": "/assets/members/placeholder.jpg"
   },
   {
@@ -264,6 +304,22 @@
     "id": "kanyu-xu",
     "name_ja": "Kanyu Xu",
     "name_en": "Kanyu Xu",
+    "role_ja": "修士2年",
+    "role_en": "M2",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "tsuneari-kuroiwa",
+    "name_ja": "黒岩 恒在",
+    "name_en": "Tsuneari Kuroiwa",
+    "role_ja": "修士2年",
+    "role_en": "M2",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "hongyin-qiao",
+    "name_ja": "喬 紅銀",
+    "name_en": "hongyin Qiao",
     "role_ja": "修士2年",
     "role_en": "M2",
     "image": "/assets/members/placeholder.jpg"
