@@ -1,31 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import joinData from "../../data/join.json";
+import { JoinUs } from "../../components/react/JoinUs";
 
 const lang = "en";
-const pageData = joinData[lang];
-const formUrl = joinData.formUrl;
 ---
-
-<style>
-  .tab-content {
-    display: none;
-  }
-  .tab-content.active {
-    display: block;
-  }
-  .tab-button {
-    cursor: pointer;
-  }
-  .tab-button.active {
-    background-color: var(--color-lab-blue);
-    color: white;
-    border: 1px solid rgba(59, 130, 246, 0.3);
-    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.1);
-    position: relative;
-    z-index: 10;
-  }
-</style>
 
 <Layout title="Join Us | Real-world Intelligence Lab" lang={lang}>
   <!-- Hero Section -->
@@ -36,192 +14,16 @@ const formUrl = joinData.formUrl;
     </div>
     <div class="relative max-w-4xl mx-auto px-4 py-12 text-center">
       <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-        {pageData.hero.title}
+        AI That Understands the Real World.
       </h1>
       <p class="text-xl md:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
-        {pageData.hero.subtitle}
+        Join us in developing sensing and AI technologies that reveal human and animal behavior, and transform how we understand real-world phenomena.
       </p>
     </div>
   </section>
 
-  <!-- Main Content -->
+  <!-- Main Content: Tabs + Sections (React component) -->
   <div class="pb-20 max-w-7xl mx-auto px-4 py-16">
-    <!-- Tabs -->
-    <div class="flex flex-wrap gap-2 border-b border-white/10 mb-12">
-      {pageData.localNav.map((item) => (
-        <a
-          href={`#${item.id}`}
-          class="flex items-center gap-2 px-6 py-3 rounded-t-lg font-medium transition-all relative top-[1px] text-gray-400 hover:text-white hover:bg-white/5 border border-transparent"
-        >
-          {item.label}
-        </a>
-      ))}
-    </div>
-
-    <!-- Student Recruitment Section -->
-    <section id="students" class="mb-20 scroll-mt-24">
-      <h2 class="text-4xl font-bold mb-6 text-white">{pageData.students.title}</h2>
-      <p class="text-lg text-gray-400 mb-12 leading-relaxed">{pageData.students.intro}</p>
-      
-      <div class="space-y-12">
-        <!-- Master's Students -->
-        <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
-          <h3 class="text-2xl font-bold text-lab-blue mb-4">{pageData.students.masters.title}</h3>
-          <p class="text-gray-300 leading-relaxed mb-6">{pageData.students.masters.description}</p>
-          <div class="mb-8">
-            <h4 class="text-lg font-semibold text-white mb-4">Highlights</h4>
-            <ul class="space-y-2">
-              {pageData.students.masters.highlights.map((highlight) => (
-                <li class="flex gap-3 text-gray-400">
-                  <span class="text-lab-blue font-bold">•</span>
-                  <span>{highlight}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <a href={formUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-lab-blue hover:bg-lab-blue/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-            {pageData.students.masters.ctaLabel}
-          </a>
-        </div>
-
-        <!-- PhD Students -->
-        <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
-          <h3 class="text-2xl font-bold text-lab-blue mb-4">{pageData.students.phd.title}</h3>
-          <p class="text-gray-300 leading-relaxed mb-6">{pageData.students.phd.description}</p>
-          <div class="mb-8">
-            <h4 class="text-lg font-semibold text-white mb-4">Highlights</h4>
-            <ul class="space-y-2">
-              {pageData.students.phd.highlights.map((highlight) => (
-                <li class="flex gap-3 text-gray-400">
-                  <span class="text-lab-blue font-bold">•</span>
-                  <span>{highlight}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <a href={formUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-lab-blue hover:bg-lab-blue/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-            {pageData.students.phd.ctaLabel}
-          </a>
-        </div>
-
-        <!-- Economic Support -->
-        <div class="bg-gradient-to-br from-cyan-900/20 to-lab-blue/10 rounded-xl p-8 border border-lab-blue/30">
-          <h3 class="text-2xl font-bold text-lab-blue mb-4">{pageData.students.support.title}</h3>
-          <p class="text-gray-300 leading-relaxed mb-6">{pageData.students.support.description}</p>
-          <div class="space-y-3">
-            {pageData.students.support.notes.map((note) => (
-              <p class="text-gray-400 leading-relaxed text-sm">{note}</p>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Research Associates Section -->
-    <section id="associates" class="mb-20 scroll-mt-24">
-      <h2 class="text-4xl font-bold mb-6 text-white">{pageData.associates.title}</h2>
-      <p class="text-lg text-gray-400 mb-8 leading-relaxed">{pageData.associates.intro}</p>
-      
-      <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 mb-8">
-        <h3 class="text-lg font-semibold text-white mb-6">Roles & Opportunities</h3>
-        <ul class="space-y-3">
-          {pageData.associates.roles.map((role) => (
-            <li class="flex gap-3 text-gray-300">
-              <span class="text-lab-blue font-bold">→</span>
-              <span>{role}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <a href={formUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-lab-blue hover:bg-lab-blue/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-        {pageData.associates.ctaLabel}
-      </a>
-    </section>
-
-    <!-- Technical Staff Section -->
-    <section id="technical" class="mb-20 scroll-mt-24">
-      <h2 class="text-4xl font-bold mb-8 text-white">{pageData.technical.title}</h2>
-      <p class="text-lg text-gray-400 mb-8 leading-relaxed">{pageData.technical.intro}</p>
-      
-      <div class="space-y-8">
-        {pageData.technical.positions.map((position) => (
-          <div class="border-l-4 border-lab-blue p-6 bg-gray-50/5 border border-gray-700/30 rounded-r-lg hover:bg-gray-800/20 transition-colors">
-            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
-              <h3 class="text-xl font-bold text-white">{position.title}</h3>
-              <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-lab-blue/10 text-lab-blue border border-lab-blue/20">
-                Openings: {position.openings}
-              </span>
-            </div>
-            <div class="space-y-4 text-gray-300">
-              <div>
-                <h4 class="text-sm font-semibold text-lab-blue mb-2">Responsibilities</h4>
-                <p class="leading-relaxed text-justify text-sm">{position.responsibilities}</p>
-              </div>
-              <div>
-                <h4 class="text-sm font-semibold text-lab-blue mb-2">Requirements</h4>
-                <p class="leading-relaxed text-justify text-sm">{position.requirements}</p>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <h4 class="text-sm font-semibold text-lab-blue mb-1">Schedule</h4>
-                  <p class="text-sm">{position.schedule}</p>
-                </div>
-                <div>
-                  <h4 class="text-sm font-semibold text-lab-blue mb-1">Compensation</h4>
-                  <p class="text-sm">{position.wage}</p>
-                </div>
-              </div>
-            </div>
-            <div class="mt-6 pt-4 border-t border-gray-700/50">
-              <a href="https://www.osaka-u.ac.jp/en/guide/employment/part_research/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-lab-blue hover:text-lab-blue/80 transition-colors bg-lab-blue/5 hover:bg-lab-blue/10 px-4 py-2 rounded-lg text-sm font-medium">
-                View Application Guidelines
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-
-    <!-- Visiting Section -->
-    <section id="visiting" class="mb-20 scroll-mt-24">
-      <h2 class="text-4xl font-bold mb-6 text-white">{pageData.visiting.title}</h2>
-      <p class="text-lg text-gray-400 mb-8 leading-relaxed">{pageData.visiting.intro}</p>
-      
-      <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 mb-8">
-        <ul class="space-y-4">
-          {pageData.visiting.items.map((item) => (
-            <li class="flex gap-3 text-gray-300 leading-relaxed">
-              <span class="text-lab-blue font-bold text-lg">✓</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <a href={formUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-lab-blue hover:bg-lab-blue/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-        {pageData.visiting.ctaLabel}
-      </a>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="scroll-mt-24">
-      <h2 class="text-4xl font-bold mb-12 text-white">{pageData.faq.title}</h2>
-      <div class="space-y-4">
-        {pageData.faq.items.map((item) => (
-          <details class="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border border-gray-700/50 hover:border-gray-600/50 transition-colors">
-            <summary class="flex items-center justify-between cursor-pointer p-8 font-medium text-white hover:text-lab-blue transition-colors">
-              <span class="text-lg font-bold">{item.q}</span>
-              <svg class="w-5 h-5 text-lab-blue transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-              </svg>
-            </summary>
-            <div class="px-8 pb-6 text-gray-300 leading-relaxed border-t border-gray-700/30">
-              {item.a}
-            </div>
-          </details>
-        ))}
-      </div>
-    </section>
+    <JoinUs client:only="react" lang="en" />
   </div>
 </Layout>

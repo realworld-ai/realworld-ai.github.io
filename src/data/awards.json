@@ -1,16 +1,7 @@
 [
   {
-    "id": "52095366",
-    "award_name": "第2回協和テクノロジィズ ICT研究奨励賞",
-    "award_title": "",
-    "winners": "",
-    "association": "大阪大学",
-    "award_date": "2026-02",
-    "major_achievement": false
-  },
-  {
     "id": "51602718",
-    "award_name": "最優秀発表賞（ポスター）",
+    "award_name": "第20回日本バイオログング研究会シンポジウム 最優秀発表賞（ポスター）",
     "award_title": "リアルタイム行動認識機能を備えたAIバイオロガーによる 海鳥に対する自律型音声プレイバック実験の試み",
     "winners": [
       {
@@ -22,135 +13,594 @@
     "major_achievement": false
   },
   {
-    "id": "51028105",
-    "award_name": "MIRUオーディエンス賞",
-    "award_title": "FreeEyeglass: Training-free and Mask-free Eyeglass Transfer for Facial Videos",
+    "id": "51279949",
+    "award_name": "Best Paper Award",
+    "award_title": "Toward Cross-Modal Generalization: Learning Without Direct Supervision for Wi-Fi CSI-Based Depth Imaging",
     "winners": [
       {
-        "name": "Weng Ian Chan"
+        "name": "Guanyu Cao"
       },
       {
-        "name": "Yuantian Huang"
+        "name": "Yasue Kishino"
       },
       {
-        "name": "Xingchao Yang"
+        "name": "Kazuya Ohara"
       },
       {
-        "name": "Fumio Okura"
-      },
-      {
-        "name": "Takafumi Taketomi"
+        "name": "Takuya Maekawa"
       }
     ],
-    "association": "画像の認識・理解シンポジウム（MIRU2025）",
-    "award_date": "2025-07",
+    "association": "The 15th International Conference on Mobile Computing and Ubiquitous Networking",
+    "award_date": "2025-09",
     "major_achievement": false
   },
   {
-    "id": "47436438",
-    "award_name": "MIRUインタラクティブ発表賞",
-    "award_title": "多視点カラー画像と偏光情報を組み合わせた信頼性に基づく高精細な3次元形状復元",
+    "id": "49822573",
+    "award_name": "国際会議発表奨励賞",
+    "award_title": "Preliminary Investigation of Skeleton-based Hand-washing Recognition Using Interaction Graph Between Two Hands",
     "winners": [
       {
-        "name": "深井高輝"
+        "name": "Zhang Yiqing"
       },
       {
-        "name": "山藤浩明"
-      },
-      {
-        "name": "大倉史生"
-      },
-      {
-        "name": "Heng Guo"
-      },
-      {
-        "name": "Yufei Han"
-      },
-      {
-        "name": "松下康之"
+        "name": "Maekawa Takuya"
       }
     ],
-    "association": "画像の認識・理解シンポジウム（MIRU2024）",
-    "award_date": "2024-08",
+    "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
+    "award_date": "2025-05",
     "major_achievement": false
   },
   {
-    "id": "47436432",
-    "award_name": "MIRUオーディエンス賞",
-    "award_title": "Instance-wise Distribution Control of Text-to-image Diffusion Models",
+    "id": "49822570",
+    "award_name": "2024年度 研究会活動貢献賞",
+    "award_title": "ユビキタスコンピューティングシステム研究会活動への貢献",
     "winners": [
       {
-        "name": "Weng Ian Chan, Santo Hiroaki, Yasuyuki Matsushita, Fumio Okura"
+        "name": "前川 卓也"
       }
     ],
-    "association": "画像の認識・理解シンポジウム（MIRU2024）",
-    "award_date": "2024-08",
+    "association": "情報処理学会",
+    "award_date": "2025-03",
     "major_achievement": false
   },
   {
-    "id": "43369061",
-    "award_name": "MIRUフロンティア賞",
-    "award_title": "Dual Pixelセンサを用いたStructure from Motionのスケール推定",
+    "id": "49822567",
+    "award_name": "優秀論文賞",
+    "award_title": "工程作業認識における時系列データの統合的活用検討",
     "winners": [
       {
-        "name": "芦田 光平"
+        "name": "大島 宏友"
       },
       {
-        "name": "山藤 浩明"
+        "name": "福田 雅允"
       },
       {
-        "name": "大倉 史生"
+        "name": "前川 卓也"
       },
       {
-        "name": "松下 康之"
+        "name": "浪岡 保男"
       }
     ],
-    "association": "MIRU2023",
-    "award_date": "2023-07",
+    "association": "DICOMO2024",
+    "award_date": "2024-10",
     "major_achievement": false
   },
   {
-    "id": "43369034",
-    "award_name": "MIRUインタラクティブ発表賞",
-    "award_title": "Fine-grained Facial Image Manipulation via Latent Space Decomposition",
+    "id": "49822561",
+    "award_name": "Journal of Information Processing IPSJ Specially Selected Paper",
+    "award_title": "AoA-net: Estimating Angle-of-arrival Using Wi-Fi Channel State Information Based on Deep Neural Networks with Subcarrier Selection",
     "winners": [
       {
-        "name": "Weng Ian Chan"
+        "name": "Teerawat Kumrai"
       },
       {
-        "name": "Xu Cao"
+        "name": "Zesheng Cai"
       },
       {
-        "name": "Hiroaki Santo"
+        "name": "Takuya Maekawa"
       },
       {
-        "name": "Fumio Okura"
+        "name": "Takahiro Hara"
+      },
+      {
+        "name": "Kazuya Ohara"
+      },
+      {
+        "name": "Tomoki Murakami"
+      },
+      {
+        "name": "Hirantha Abeysekera"
       }
     ],
-    "association": "MIRU2023",
-    "award_date": "2023-07",
+    "association": "IPSJ",
+    "award_date": "2024-10",
     "major_achievement": false
   },
   {
-    "id": "42405420",
-    "award_name": "IPSJ/IEEE-Computer Society Young Computer Researcher Award",
+    "id": "49822557",
+    "award_name": "国際会議発表奨励賞",
+    "award_title": "産業ドメインにおける複雑行動認識に関する研究",
+    "winners": [
+      {
+        "name": "Naoya Yoshimura"
+      },
+      {
+        "name": "Jaime Morales"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Takahiro Hara"
+      }
+    ],
+    "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
+    "award_date": "2024-09",
+    "major_achievement": false
+  },
+  {
+    "id": "49822544",
+    "award_name": "優秀論文賞",
+    "award_title": "アクティビティダイアリーの記録ずれを考慮した行動予測に関する検討",
+    "winners": [
+      {
+        "name": "奥田 隆一郎"
+      },
+      {
+        "name": "夏 清心"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      },
+      {
+        "name": "井上 創造"
+      }
+    ],
+    "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
+    "award_date": "2024-09",
+    "major_achievement": false
+  },
+  {
+    "id": "47255768",
+    "award_name": "ABC2024 Excellent Paper Award",
     "award_title": "",
     "winners": [
       {
-        "name": "Fumio Okura"
+        "name": "Ryuichiro Okuda"
+      },
+      {
+        "name": "Qingxin Xia"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Takahiro Hara"
+      },
+      {
+        "name": "Sozo Inoue"
       }
     ],
-    "association": "IPSJ, IEEE Computer Society",
-    "award_date": "2023-03",
+    "association": "",
+    "award_date": "2024-06",
     "major_achievement": false
   },
   {
-    "id": "46268304",
-    "award_name": "Osaka Science Prize",
+    "id": "46466745",
+    "award_name": "PerCom 2024 Best WiP Paper Award",
     "award_title": "",
-    "winners": "",
-    "association": "大阪府・大阪市および一般財団法人大阪科学技術センター",
-    "award_date": "2022-11",
+    "winners": [
+      {
+        "name": "Qingxin Xia"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Jaime Morales"
+      },
+      {
+        "name": "Takahiro Hara"
+      },
+      {
+        "name": "Hirotomo Oshima"
+      },
+      {
+        "name": "Masamitsu Fukuda"
+      },
+      {
+        "name": "Yasuo Namioka"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-03",
+    "major_achievement": false
+  },
+  {
+    "id": "45921021",
+    "award_name": "日本学術振興会賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "前川卓也"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-03",
+    "major_achievement": true
+  },
+  {
+    "id": "46466750",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 UBIヤングリサーチャー賞",
+    "award_title": "介護施設における介護記録の記録漏れを考慮した行動予測手法",
+    "winners": [
+      {
+        "name": "奥田 隆一郎"
+      },
+      {
+        "name": "夏 清心"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      },
+      {
+        "name": "井上 創造"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-02",
+    "major_achievement": false
+  },
+  {
+    "id": "46466749",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 UBIヤングリサーチャー賞",
+    "award_title": "産業分野における誤認識を含む行動認識結果に基づく作業工程の異常検知に関する検討",
+    "winners": [
+      {
+        "name": "門野 航央"
+      },
+      {
+        "name": "吉村 直也"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-02",
+    "major_achievement": false
+  },
+  {
+    "id": "46466748",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 企業発表賞",
+    "award_title": "複数種類の時系列データを統合的に扱う工程作業認識",
+    "winners": [
+      {
+        "name": "大島 宏友"
+      },
+      {
+        "name": "吉井 崇哲"
+      },
+      {
+        "name": "福田 雅允"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "浪岡 保男"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-02",
+    "major_achievement": false
+  },
+  {
+    "id": "46466747",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "Preliminary Investigation of Indoor GPS Satellite Reception Prediction via Neural Networks",
+    "winners": [
+      {
+        "name": "Cao Guanyu"
+      },
+      {
+        "name": "Maekawa Takuya"
+      },
+      {
+        "name": "Ohara Kazuya"
+      },
+      {
+        "name": "Kishino Yasue"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-02",
+    "major_achievement": false
+  },
+  {
+    "id": "46466746",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "Preliminary Investigation of Estimating Depth Images of Moving Objects from Wi-Fi Channel State Information",
+    "winners": [
+      {
+        "name": "周 恒"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "",
+    "award_date": "2024-02",
+    "major_achievement": false
+  },
+  {
+    "id": "46466751",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 国際会議発表奨励賞",
+    "award_title": "Preliminary Investigation of Using GPS Information to Improve Indoor Pedestrian Dead Reckoning",
+    "winners": [
+      {
+        "name": "Heng Zhou"
+      },
+      {
+        "name": "Takuya Maekawa"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-11",
+    "major_achievement": false
+  },
+  {
+    "id": "43170555",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 企業発表賞",
+    "award_title": "製品状態、作業箇所、作業者骨格情報に基づく工程作業認識",
+    "winners": [
+      {
+        "name": "大島 宏友"
+      },
+      {
+        "name": "吉井 崇哲"
+      },
+      {
+        "name": "蚊戸 健浩"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "浪岡 保男"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-05",
+    "major_achievement": false
+  },
+  {
+    "id": "43170498",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "Preliminary Investigation of Estimating Distance between Devices via Wi-Fi Round Trip Time Using Positional Embedding of Access Points",
+    "winners": [
+      {
+        "name": "Yuqiao Wang"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Kazuya Ohara"
+      },
+      {
+        "name": "Yasue Kishino"
+      },
+      {
+        "name": "Tomoki Murakami"
+      },
+      {
+        "name": "Hirantha Abeysekera"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-05",
+    "major_achievement": false
+  },
+  {
+    "id": "43170495",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 ポスター発表賞",
+    "award_title": "Preliminary Investigation of Distance Estimation between Devices via Wi-Fi Round Trip Time",
+    "winners": [
+      {
+        "name": "Yuqiao Wang"
+      },
+      {
+        "name": "Takuya Maekawa"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-05",
+    "major_achievement": false
+  },
+  {
+    "id": "43170494",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 国際会議発表奨励賞",
+    "award_title": "Preliminary Investigation of Employing Smartphone Active Sound Sensing to Predict Distance and Relative Velocity of Roadside Obstacles to Aid Distracted Pedestrians",
+    "winners": [
+      {
+        "name": "Dissanayake Thilina"
+      },
+      {
+        "name": "Maekawa Takuya"
+      },
+      {
+        "name": "Hara Takahiro"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-05",
+    "major_achievement": false
+  },
+  {
+    "id": "43170492",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "Few-shot弱教師あり学習を用いたウェアラブル加速度センサによる動作カウント手法",
+    "winners": [
+      {
+        "name": "西野 祐希"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-05",
+    "major_achievement": false
+  },
+  {
+    "id": "43170489",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 優秀論文賞",
+    "award_title": "工場・物流センタにおける作業順序を考慮した少量学習データでの作業行動認識手法の検討",
+    "winners": [
+      {
+        "name": "吉村 直也"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      },
+      {
+        "name": "和田 篤"
+      },
+      {
+        "name": "浪岡 保男"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-05",
+    "major_achievement": false
+  },
+  {
+    "id": "43556795",
+    "award_name": "令和５年度科学技術分野の文部科学大臣表彰 科学技術賞（研究部門）",
+    "award_title": "実世界とサイバー世界をつなぐビッグデータと人工知能の研究",
+    "winners": [
+      {
+        "name": "原 隆浩"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "天方 大地"
+      }
+    ],
+    "association": "",
+    "award_date": "2023-04",
+    "major_achievement": true
+  },
+  {
+    "id": "40102123",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 国際会議発表奨励賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "Naoya Yoshimura"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Takahiro Hara"
+      },
+      {
+        "name": "Atsushi Wada"
+      },
+      {
+        "name": "Yasuo Namioka"
+      }
+    ],
+    "association": "",
+    "award_date": "2022-12",
+    "major_achievement": false
+  },
+  {
+    "id": "40102126",
+    "award_name": "情報処理学会 第72回ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "谷垣 慶"
+      },
+      {
+        "name": "Teoh Tze Chuin"
+      },
+      {
+        "name": "吉村 直也"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "",
+    "award_date": "2022-06",
+    "major_achievement": false
+  },
+  {
+    "id": "40102125",
+    "award_name": "情報処理学会第73回ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "山田 蒼平"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      },
+      {
+        "name": "尾原 和也"
+      },
+      {
+        "name": "岸野 泰恵"
+      },
+      {
+        "name": "村上 友規"
+      },
+      {
+        "name": "アベセカラ ヒランタ"
+      }
+    ],
+    "association": "",
+    "award_date": "2022-06",
+    "major_achievement": false
+  },
+  {
+    "id": "40102121",
+    "award_name": "情報処理学会ユビキタスコンピューティングシステム研究会 令和３年度 研究会貢献賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "",
+    "award_date": "2022-06",
     "major_achievement": false
   },
   {
@@ -167,29 +617,311 @@
     "major_achievement": false
   },
   {
-    "id": "31359644",
-    "award_name": "Outstanding Reviewer",
+    "id": "33835937",
+    "award_name": "優秀論文賞",
+    "award_title": "A Supporting Technique for Comparative Analysis of Factory Work by Skilled and Unskilled Workers using Neural Network with Attention Mechanism",
+    "winners": [
+      {
+        "name": "Qingxin Xia"
+      },
+      {
+        "name": "Atsushi Wada"
+      },
+      {
+        "name": "Takanori Yoshii"
+      },
+      {
+        "name": "Yasuo Namioka"
+      },
+      {
+        "name": "Takuya Maekawa"
+      }
+    ],
+    "association": "情報処理学会 マルチメディア，分散，協調とモバイル（DICOMO）シンポジウム",
+    "award_date": "2021-09",
+    "major_achievement": false
+  },
+  {
+    "id": "33800361",
+    "award_name": "情報処理学会 マルチメディア，分散，協調とモバイル（DICOMO）シンポジウム 優秀プレゼンテーション賞",
     "award_title": "",
     "winners": [
       {
-        "name": "Fumio Okura"
+        "name": "Qingxin Xia"
+      },
+      {
+        "name": "Atsushi Wada"
+      },
+      {
+        "name": "Takanori Yoshii"
+      },
+      {
+        "name": "Yasuo Namioka"
+      },
+      {
+        "name": "Takuya Maekawa"
       }
     ],
-    "association": "15th Asian Conference on Computer Vision",
+    "association": "",
+    "award_date": "2021-07",
+    "major_achievement": false
+  },
+  {
+    "id": "33800366",
+    "award_name": "情報処理学会 第67回ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "KIM HENG"
+      },
+      {
+        "name": "尾原 和也"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      },
+      {
+        "name": "村上 友規"
+      },
+      {
+        "name": "アベセカラ ヒランタ"
+      }
+    ],
+    "association": "",
+    "award_date": "2021-06",
+    "major_achievement": false
+  },
+  {
+    "id": "33800365",
+    "award_name": "情報処理学会 第67回ユビキタスコンピューティングシステム研究会 優秀論文賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "藤原 真之"
+      },
+      {
+        "name": "中谷 友哉"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "",
+    "award_date": "2021-06",
+    "major_achievement": false
+  },
+  {
+    "id": "33800364",
+    "award_name": "情報処理学会 第68回ユビキタスコンピューティングシステム研究会 優秀論文賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "吉村 直也"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "",
+    "award_date": "2021-06",
+    "major_achievement": false
+  },
+  {
+    "id": "33800363",
+    "award_name": "船井学術賞",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "",
+    "award_date": "2021-05",
+    "major_achievement": true
+  },
+  {
+    "id": "33800362",
+    "award_name": "\"情報処理学会論文誌ジャーナル Vol. 62, No. 5 特選論文\"",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "吉村 直也"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "",
+    "award_date": "2021-05",
+    "major_achievement": false
+  },
+  {
+    "id": "31940681",
+    "award_name": "国際会議発表奨励賞",
+    "award_title": "Robust Unsupervised Factory Activity Recognition with Body-worn Accelerometer Using Temporal Structure of Multiple Sensor Data Motifs",
+    "winners": [
+      {
+        "name": "Qingxin Xia"
+      },
+      {
+        "name": "Joseph Korpela"
+      },
+      {
+        "name": "Yasuo Namioka"
+      },
+      {
+        "name": "Takuya Maekawa"
+      }
+    ],
+    "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2020-12",
     "major_achievement": false
   },
   {
-    "id": "29948650",
-    "award_name": "MIRU論文評価功労賞",
-    "award_title": "",
+    "id": "31940678",
+    "award_name": "優秀論文賞",
+    "award_title": "Preliminary Investigation of Unsupervised Factory Activity Recognition with Wearable Sensors via Temporal Structure of Multiple Motifs",
     "winners": [
       {
-        "name": "大倉 史生"
+        "name": "Qingxin Xia"
+      },
+      {
+        "name": "Joseph Korpela"
+      },
+      {
+        "name": "Yasuo Namioka"
+      },
+      {
+        "name": "Takuya Maekawa"
       }
     ],
-    "association": "",
-    "award_date": "2020-08",
+    "association": "情報処理学会 マルチメディア，分散，協調とモバイル（DICOMO）シンポジウム",
+    "award_date": "2020-09",
+    "major_achievement": false
+  },
+  {
+    "id": "30124282",
+    "award_name": "ユビキタスコンピューティングシステム研究会 学生奨励賞",
+    "award_title": "常行動のZero-shot Deep Learningに向けた基底的動作の自動抽出の検討",
+    "winners": [
+      {
+        "name": "竹下 昌志"
+      },
+      {
+        "name": "松木 萌"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "井上 創造"
+      }
+    ],
+    "association": "情報処理学会 ユビキタスコンピューティングシステム研究会",
+    "award_date": "2020-05",
+    "major_achievement": false
+  },
+  {
+    "id": "30125399",
+    "award_name": "国際会議発表奨励賞",
+    "award_title": "アクティブサウンドセンシングを用いた屋内日常物のイベント検知に関する検討",
+    "winners": [
+      {
+        "name": "Thilina Dissanayake"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "天方 大地"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
+    "award_date": "2019-12",
+    "major_achievement": false
+  },
+  {
+    "id": "30125392",
+    "award_name": "国際会議発表奨励賞",
+    "award_title": "Preliminary Investigation of Assembly Work Activity Recognition with Wearable Sensors via Unsupervised Learning",
+    "winners": [
+      {
+        "name": "Xia Qingxin"
+      },
+      {
+        "name": "Atsushi Wada"
+      },
+      {
+        "name": "Joseph Korpela"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Yasuo Namioka"
+      }
+    ],
+    "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
+    "award_date": "2019-12",
+    "major_achievement": false
+  },
+  {
+    "id": "30124281",
+    "award_name": "DPSWS2019 Best Paper Award",
+    "award_title": "Detecting Energy Depriving Malicious Nodes by Unsupervised Learning in Energy Harvesting Cooperative Wireless Sensor Networks",
+    "winners": [
+      {
+        "name": "Boqi Gao"
+      },
+      {
+        "name": "Daichi Amagata"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Takahiro Hara"
+      }
+    ],
+    "association": "第27回 マルチメディア通信と分散処理ワークショップ",
+    "award_date": "2019-11",
+    "major_achievement": false
+  },
+  {
+    "id": "30124278",
+    "award_name": "ICMU 2019 Best Poster Award",
+    "award_title": "Preliminary Investigation of Visualizing Human Activity Recognition Neural Network",
+    "winners": [
+      {
+        "name": "Boqi Gao"
+      },
+      {
+        "name": "Daichi Amagata"
+      },
+      {
+        "name": "Takuya Maekawa"
+      },
+      {
+        "name": "Takahiro Hara"
+      }
+    ],
+    "association": "The 12th International Conference on Mobile Computing and Ubiquitous Networking (ICMU 2019)",
+    "award_date": "2019-11",
     "major_achievement": false
   },
   {
@@ -209,17 +941,17 @@
     "major_achievement": false
   },
   {
-    "id": "3580341",
-    "award_name": "教育功労賞",
-    "award_title": "",
+    "id": "30124299",
+    "award_name": "IPSJ/IEEE Computer Society Young Computer Researcher Award",
+    "award_title": "Outstanding research on zero-shot and few-shot unobtrusive context recognition for pervasive computing",
     "winners": [
       {
-        "name": "大倉 史生"
+        "name": "Takuya Maekawa"
       }
     ],
-    "association": "電子情報通信学会",
-    "award_date": "2019-03",
-    "major_achievement": false
+    "association": "IPSJ/IEEE Computer Society",
+    "award_date": "2019-06",
+    "major_achievement": true
   },
   {
     "id": "36404024",
@@ -232,31 +964,6 @@
     ],
     "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
     "award_date": "2019-03",
-    "major_achievement": false
-  },
-  {
-    "id": "3244315",
-    "award_name": "バイオメトリクス研究会奨励賞",
-    "award_title": "",
-    "winners": [
-      {
-        "name": "繁木 結衣"
-      },
-      {
-        "name": "大倉 史生"
-      },
-      {
-        "name": "モハメド ハサン"
-      },
-      {
-        "name": "満上 育久"
-      },
-      {
-        "name": "八木 康史"
-      }
-    ],
-    "association": "電子情報通信学会バイオメトリクス研究会",
-    "award_date": "2018-07",
     "major_achievement": false
   },
   {
@@ -273,99 +980,29 @@
     "major_achievement": false
   },
   {
-    "id": "2227477",
-    "award_name": "MIRU2015 Outstanding Reviewers",
+    "id": "30125254",
+    "award_name": "上林奨励賞",
     "award_title": "",
     "winners": [
       {
-        "name": "大倉 史生"
+        "name": "前川卓也"
       }
     ],
-    "association": "",
-    "award_date": "2015-07",
-    "major_achievement": false
-  },
-  {
-    "id": "2227476",
-    "award_name": "SIG-MR賞",
-    "award_title": "事前レンダリング画像群を用いた自由視点画像生成に基づく写実的な拡張現実画像合成",
-    "winners": [
-      {
-        "name": "大倉 史生"
-      },
-      {
-        "name": "神原 誠之"
-      },
-      {
-        "name": "横矢 直和"
-      }
-    ],
-    "association": "日本バーチャルリアリティ学会 複合現実感研究委員会",
-    "award_date": "2014-10",
-    "major_achievement": false
-  },
-  {
-    "id": "2227475",
-    "award_name": "最優秀学生賞",
-    "award_title": "",
-    "winners": [
-      {
-        "name": "大倉 史生"
-      }
-    ],
-    "association": "奈良先端科学技術大学院大学",
+    "association": "日本データベース学会",
     "award_date": "2014-03",
-    "major_achievement": false
+    "major_achievement": true
   },
   {
-    "id": "2227474",
-    "award_name": "論文賞",
-    "award_title": "無人飛行船からの空撮全方位動画像を用いた蓄積再生型拡張テレプレゼンス",
+    "id": "30125262",
+    "award_name": "山下記念研究賞",
+    "award_title": "ウェアラブルセンサによるモノを用いた行動の認識について",
     "winners": [
       {
-        "name": "大倉 史生"
-      },
-      {
-        "name": "神原 誠之"
-      },
-      {
-        "name": "横矢 直和"
+        "name": "前川卓也"
       }
     ],
-    "association": "日本バーチャルリアリティ学会",
-    "award_date": "2012-09",
-    "major_achievement": false
-  },
-  {
-    "id": "2227473",
-    "award_name": "MVE賞",
-    "award_title": "無人飛行船に搭載された2台の全方位カメラを用いた不可視領域のない全天球HDR画像の生成",
-    "winners": [
-      {
-        "name": "大倉 史生"
-      },
-      {
-        "name": "神原 誠之"
-      },
-      {
-        "name": "横矢 直和"
-      }
-    ],
-    "association": "電子情報通信学会 マルチメディアと仮想環境基礎研究会",
-    "award_date": "2012-09",
-    "major_achievement": false
-  },
-  {
-    "id": "2227472",
-    "award_name": "第13回 パターン認識・メディア理解研究会（PRMU）アルゴリズムコンテスト 審査員特別賞",
-    "award_title": "",
-    "winners": [
-      {
-        "name": "大倉 史生"
-      }
-    ],
-    "association": "",
-    "award_date": "2009-09",
-    "major_achievement": false
+    "association": "情報処理学会",
+    "award_date": "2011-03",
+    "major_achievement": true
   }
 ]

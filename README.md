@@ -1,6 +1,6 @@
-# Osaka University Real-World AI Laboratory Portal
+# The University of Osaka Real-World AI Laboratory Portal
 
-This is the official portal website for the **Real-World AI Laboratory** (Maekawa Lab) at the Graduate School of Information Science and Technology, Osaka University.
+This is the official portal website for the **Real-World AI Laboratory** (Maekawa Lab) at the Graduate School of Information Science and Technology, The University of Osaka.
 
 The website serves as a hub to introduce our research, projects, and members to prospective students and the academic community.
 

@@ -1,450 +1,378 @@
 [
   {
-    "id": "29949906",
-    "media_coverage_title": "種子の形状 AIで測定",
-    "event": "",
-    "publication_date": "2020-06",
+    "id": "47537412",
+    "media_coverage_title": "野生動物の珍しい行動を記録するAIカメラ",
+    "event": "子供の科学",
+    "publication_date": "2024-04",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29949903",
-    "media_coverage_title": "[コカトピ！] 人工知能による種子選抜で品種改良を後押し",
-    "event": "",
-    "publication_date": "2020-06",
+    "id": "47537414",
+    "media_coverage_title": "野生動物の動きをAIで効率撮影",
+    "event": "日経新聞",
+    "publication_date": "2024-02",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29949899",
-    "media_coverage_title": "認知症、簡単に早期発見 医学的手法使わずに",
-    "event": "",
-    "publication_date": "2020-06",
+    "id": "33722308",
+    "media_coverage_title": "知られざる野生動物の行動が明らかに！",
+    "event": "子供の科学",
+    "publication_date": "2021-02",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29949911",
-    "media_coverage_title": "種子の形態評価 合成画像のAI学習で効率化",
-    "event": "",
-    "publication_date": "2020-05",
+    "id": "33722307",
+    "media_coverage_title": "動物たちは見た ＡＩカメラ一瞬を切り取る",
+    "event": "日本経済新聞",
+    "publication_date": "2021-02",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29949914",
-    "media_coverage_title": "ミチを開く -人工知能を農業に活用へ-",
-    "event": "",
-    "publication_date": "2018-06",
+    "id": "33722320",
+    "media_coverage_title": "ＡＩでトリ逃さない 野生動物調査 効率的に",
+    "event": "中日新聞",
+    "publication_date": "2020-11",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29949937",
-    "media_coverage_title": "「隠れた枝」推定 ３Ｄ画像で栽培効率化へ 阪大チーム ／大阪",
-    "event": "",
-    "publication_date": "2018-05",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29949931",
-    "media_coverage_title": "隠れた枝もAIで「丸見え」に…阪大チーム開発",
-    "event": "",
-    "publication_date": "2018-05",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29949928",
-    "media_coverage_title": "3D reconstruction of hidden branch structures made by using image analysis and AI tech",
-    "event": "",
-    "publication_date": "2018-05",
+    "id": "33722319",
+    "media_coverage_title": "AI Helps Observe Previously Unreported Animal Behaviors",
+    "event": "UNITE.AI",
+    "publication_date": "2020-11",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29949922",
-    "media_coverage_title": "Invisible Structures Exposed!",
-    "event": "",
-    "publication_date": "2018-05",
+    "id": "33722318",
+    "media_coverage_title": "Japanese eggheads strap AI-powered backpacks to seagulls",
+    "event": "The Register",
+    "publication_date": "2020-11",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29949919",
-    "media_coverage_title": "大阪大学、植物を複数方向から撮影した画像から、葉などに隠れた枝構造も正確に再現するDeep learningを用いた手法を発表",
-    "event": "",
-    "publication_date": "2018-05",
+    "id": "33722317",
+    "media_coverage_title": "ＡＩで野生動物調査が効率的に 名大など新装置開発、海鳥撮影に成功",
+    "event": "中日新聞",
+    "publication_date": "2020-11",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722316",
+    "media_coverage_title": "AI-enabled critter camera only records targeted behaviors",
+    "event": "NEW ATLAS",
+    "publication_date": "2020-11",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29949945",
-    "media_coverage_title": "AIで植物の枝ぶりを立体画像に 大阪大、葉に隠れた部分も",
-    "event": "",
-    "publication_date": "2018-04",
+    "id": "33722315",
+    "media_coverage_title": "動物特定行動だけ撮影 観察向け記録デバイス開発",
+    "event": "日刊工業新聞",
+    "publication_date": "2020-11",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29949939",
-    "media_coverage_title": "葉で隠れた部分の3D植物画像 阪大、AI活用で再現",
-    "event": "",
-    "publication_date": "2018-04",
-    "media_coverage_type": "paper",
+    "id": "33722314",
+    "media_coverage_title": "動物の特定?動だけＡＩ撮影、伝染病を媒介する?間との関わり解明へ",
+    "event": "ニュースイッチ",
+    "publication_date": "2020-11",
+    "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29949952",
-    "media_coverage_title": "本物か偽物か？真贋を見極める技術",
-    "event": "",
-    "publication_date": "2018-02",
+    "id": "33722313",
+    "media_coverage_title": "密着カメラで動物の生態が！",
+    "event": "チャント！",
+    "publication_date": "2020-11",
     "media_coverage_type": "media_report",
     "major_achievement": false
   },
   {
-    "id": "29949957",
-    "media_coverage_title": "[コカトピ！] 人工知能でウシの歩き方から病気がわかる",
-    "event": "",
-    "publication_date": "2017-08",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29949994",
-    "media_coverage_title": "乳牛の重大疾病の予兆をモニタリング、スマート酪農実現に期待",
-    "event": "",
-    "publication_date": "2017-07",
+    "id": "33722312",
+    "media_coverage_title": "AI-assisted camera system to monitor seabird behaviour",
+    "event": "AIhub",
+    "publication_date": "2020-11",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29949988",
-    "media_coverage_title": "Smart cow house will keep the dairy industry mooving",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949985",
-    "media_coverage_title": "Milking AI to Monitor Dairy Cow Health",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949978",
-    "media_coverage_title": "Cow Gait Images Allow Early Detection of Diseases",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949975",
-    "media_coverage_title": "AI-Powered Image Analysis Could Transform Dairy Farming",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949972",
-    "media_coverage_title": "Artificial intelligence is aiding dairy farming",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949966",
-    "media_coverage_title": "Artificial Intelligence for Better Lameness Control",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949965",
-    "media_coverage_title": "Αγελάδες γαλακτοπαραγωγής: Τεχνητή νοημοσύνη για την ανίχνευση ασθενειών",
-    "event": "",
-    "publication_date": "2017-07",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29950187",
-    "media_coverage_title": "人工知能が乳牛の病気発見",
-    "event": "",
-    "publication_date": "2017-06",
+    "id": "33722311",
+    "media_coverage_title": "野生動物の生態 ＡＩ装置で撮影",
+    "event": "野生動物の生態 ＡＩ装置で撮影",
+    "publication_date": "2020-11",
     "media_coverage_type": "media_report",
     "major_achievement": false
   },
   {
-    "id": "29950174",
-    "media_coverage_title": "牛の病気、歩行映像で発見 ＡＩ利用、大阪大開発",
-    "event": "",
-    "publication_date": "2017-06",
+    "id": "33722310",
+    "media_coverage_title": "生物にＡＩカメラ装着 大阪大など行動を撮影",
+    "event": "日本経済新聞",
+    "publication_date": "2020-11",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29950170",
-    "media_coverage_title": "人工知能（ＡＩ）乳牛の蹄病を早期発見 阪大、酪農の省力・高品質“スマート牛舎”に期待",
-    "event": "",
-    "publication_date": "2017-06",
+    "id": "33722309",
+    "media_coverage_title": "海鳥の餌捕獲-ＡＩとらえた",
+    "event": "読売新聞",
+    "publication_date": "2020-11",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29950130",
-    "media_coverage_title": "乳牛の歩行映像から人工知能が重大疾病の予兆を発見する手法を開発",
-    "event": "",
-    "publication_date": "2017-06",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29950083",
-    "media_coverage_title": "乳牛の病気、ＡＩで発見",
-    "event": "",
-    "publication_date": "2017-06",
+    "id": "33722321",
+    "media_coverage_title": "動物の行動をＡＩ分析 阪大など開発、病気・共生研究促す",
+    "event": "日刊工業新聞",
+    "publication_date": "2020-10",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29950011",
-    "media_coverage_title": "Image analysis and artificial intelligence will change dairy farming",
-    "event": "",
-    "publication_date": "2017-06",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29949995",
-    "media_coverage_title": "Image Analysis, Artificial Intelligence to Change Dairy Farming",
-    "event": "",
-    "publication_date": "2017-06",
-    "media_coverage_type": "internet",
-    "major_achievement": false
-  },
-  {
-    "id": "29950241",
-    "media_coverage_title": "［サイエンスＢＯＸ］足の運びや腕の振り 人それぞれ 歩き方の個性 映像解析",
-    "event": "",
-    "publication_date": "2016-09",
+    "id": "33722324",
+    "media_coverage_title": "生物の「空の羅針盤」探る",
+    "event": "読売新聞",
+    "publication_date": "2017-09",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29950270",
-    "media_coverage_title": "あなたの『歩き方年齢』は何歳？ 日本科学未来館の新展示を体験してきた科学捜査への活用もはじまっている",
-    "event": "",
+    "id": "33722323",
+    "media_coverage_title": "海鳥目線 AIで撮影",
+    "event": "読売新聞",
+    "publication_date": "2017-09",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722322",
+    "media_coverage_title": "世界初! AIを使った生き物目線の映像",
+    "event": "ちちんぷいぷい",
+    "publication_date": "2017-09",
+    "media_coverage_type": "media_report",
+    "major_achievement": false
+  },
+  {
+    "id": "33722326",
+    "media_coverage_title": "東北大、生物の移動の仕組みを情報科学的に解明する大型研究プロジェクト",
+    "event": "マイナビニュース",
     "publication_date": "2016-07",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29950254",
-    "media_coverage_title": "最新医学で若返り【歩行とデュアルタスクで若返り】高橋真麻＆デヴィ夫人",
-    "event": "",
-    "publication_date": "2015-10",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950306",
-    "media_coverage_title": "歩き方から年齢推定，大阪大 - コンテンツ開発",
-    "event": "",
-    "publication_date": "2015-07",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950290",
-    "media_coverage_title": "Osaka University team estimates a person's age from their gait",
-    "event": "",
-    "publication_date": "2015-07",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950287",
-    "media_coverage_title": "歩き方で年齢が分かる？阪大が体験型コンテンツ開発",
-    "event": "",
-    "publication_date": "2015-07",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950282",
-    "media_coverage_title": "癖から個人を特定する技術『捜査に活用』",
-    "event": "",
-    "publication_date": "2015-07",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950266",
-    "media_coverage_title": "歩き方で誰かがわかる時代が到来!? - 未来館、メディアラボ第15期『アルクダケ 一歩で進歩』の展示を開始",
-    "event": "",
-    "publication_date": "2015-07",
+    "id": "33722325",
+    "media_coverage_title": "東北大学、生物の移動の仕組みを科学する大型研究プロジェクトの発足～ヒトや動物の移動の予測と制御に期待～",
+    "event": "日経バイオテク",
+    "publication_date": "2016-07",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29950263",
-    "media_coverage_title": "歩き方を調べて犯人を見つける",
-    "event": "",
-    "publication_date": "2015-07",
+    "id": "33722327",
+    "media_coverage_title": "自発的に考えるロボット",
+    "event": "読売新聞",
+    "publication_date": "2016-05",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722328",
+    "media_coverage_title": "やさしい科学技術セミナー スマホの加速度センサー使った万歩計プログラムの作成など",
+    "event": "電波新聞",
+    "publication_date": "2014-11",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722329",
+    "media_coverage_title": "ヒト・センシング 日常行動をウエアラブル・センサで認識",
+    "event": "日経クロステック",
+    "publication_date": "2013-11",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29950260",
-    "media_coverage_title": "自分の“歩き方”は何歳？ どんな個性がある？ 科学的に調べてきた",
-    "event": "",
-    "publication_date": "2015-07",
+    "id": "33722334",
+    "media_coverage_title": "手首に着けたセンサだけで具体的な行動を推定、高齢者見守りへの応用も",
+    "event": "日経エレクトロニクス",
+    "publication_date": "2011-11",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722333",
+    "media_coverage_title": "【NTT研究公開】日常の行動を検知、NTT研が「ウェアラブルセンサ」を試作",
+    "event": "日経BPネット",
+    "publication_date": "2011-02",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29950309",
-    "media_coverage_title": "聖武天皇 未完の遷都計画～最新発掘が明かした大国家構想～",
-    "event": "",
-    "publication_date": "2015-05",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950359",
-    "media_coverage_title": "GLOBE メディアで動かす",
-    "event": "",
-    "publication_date": "2013-03",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950356",
-    "media_coverage_title": "東大寺体感アプリ開発",
-    "event": "",
-    "publication_date": "2013-03",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950351",
-    "media_coverage_title": "iPadで東大寺閲覧できます 奈良先端科技大など開発",
-    "event": "",
-    "publication_date": "2013-03",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950341",
-    "media_coverage_title": "東大寺の東塔ＣＧで再現 ｉＰａｄに儀礼の映像も",
-    "event": "",
-    "publication_date": "2013-03",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950340",
-    "media_coverage_title": "拡張現実技術:地図にかざして映像を見よう！ 奈良先端科技大学院大など、東大寺案内するコンテンツ制作",
-    "event": "",
-    "publication_date": "2013-03",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950337",
-    "media_coverage_title": "奈良先端大と慶応大、AR技術を活用した文化遺産のデモ展示",
-    "event": "",
-    "publication_date": "2013-03",
+    "id": "33722332",
+    "media_coverage_title": "Japan company developing sensors for seniors",
+    "event": "The Washington Post,?Yahoo! News,?abc NEWS,?Forbes,?Bloomberg,?The Boston Globe,?The Seattle Times,?THE AGE,?National Public Radio,?CBS NEWS?(Associated Press)",
+    "publication_date": "2011-02",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29950329",
-    "media_coverage_title": "東大寺東塔の威容CGでよみがえる - 先端大など風景と合成",
-    "event": "",
-    "publication_date": "2013-03",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950361",
-    "media_coverage_title": "マンガの世界がすぐそこに！？ 驚きの最新ロボット登場",
-    "event": "",
-    "publication_date": "2012-07",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950366",
-    "media_coverage_title": "正倉院宝物に科学の目 仮想空間いつでも鑑賞（第63回正倉院展特集記事）",
-    "event": "",
-    "publication_date": "2011-10",
-    "media_coverage_type": "paper",
-    "major_achievement": false
-  },
-  {
-    "id": "29950377",
-    "media_coverage_title": "スタジオに最先端カメラ登場!インパルスの堤下への突っこみをパノラマ映像で見ると!",
-    "event": "",
-    "publication_date": "2011-08",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950384",
-    "media_coverage_title": "拡張現実感とは何か？ARが拓く新しい世界",
-    "event": "",
-    "publication_date": "2011-05",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950388",
-    "media_coverage_title": "OLD&NEW こんなモノあったらしい! お花見",
-    "event": "",
-    "publication_date": "2011-03",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950413",
-    "media_coverage_title": "CEATEC JAPAN 2010で展示されたソフトウェア",
-    "event": "",
-    "publication_date": "2010-10",
+    "id": "33722331",
+    "media_coverage_title": "NTT、最先端の通信技術を公開",
+    "event": "日本経済新聞電子版",
+    "publication_date": "2011-02",
     "media_coverage_type": "internet",
     "major_achievement": false
   },
   {
-    "id": "29950409",
-    "media_coverage_title": "平城遷都1300年祭",
-    "event": "",
-    "publication_date": "2010-10",
-    "media_coverage_type": "media_report",
-    "major_achievement": false
-  },
-  {
-    "id": "29950405",
-    "media_coverage_title": "先端大の技術に熱い視線集まる",
-    "event": "",
-    "publication_date": "2010-10",
+    "id": "33722330",
+    "media_coverage_title": "NTT creating sensors for seniors",
+    "event": "The Japan Times",
+    "publication_date": "2011-02",
     "media_coverage_type": "paper",
     "major_achievement": false
   },
   {
-    "id": "29950403",
-    "media_coverage_title": "平城宮跡に先端ロボ?集結!",
-    "event": "",
-    "publication_date": "2010-10",
+    "id": "33722335",
+    "media_coverage_title": "手首センサーで行動判別",
+    "event": "日経産業新聞",
+    "publication_date": "2010-07",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722339",
+    "media_coverage_title": "センサでわかる人の日常行動",
+    "event": "CNET Japan",
+    "publication_date": "2009-06",
+    "media_coverage_type": "internet",
+    "major_achievement": false
+  },
+  {
+    "id": "33722338",
+    "media_coverage_title": "手首の動きで活動分析",
+    "event": "日経産業新聞",
+    "publication_date": "2009-06",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722337",
+    "media_coverage_title": "手首で行動分析",
+    "event": "ワールドビジネスサテライト?",
+    "publication_date": "2009-06",
     "media_coverage_type": "media_report",
+    "major_achievement": false
+  },
+  {
+    "id": "33722336",
+    "media_coverage_title": "人の行動を即時に検知",
+    "event": "日刊工業新聞",
+    "publication_date": "2009-06",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722340",
+    "media_coverage_title": "まっしぐらに世界一を目指したチーム・ジャパン Imagine Cup 2006 India",
+    "event": "日経ソフトウエア",
+    "publication_date": "2006-11",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722341",
+    "media_coverage_title": "Imagine Cup 2006インド大会レポート",
+    "event": "Software Design",
+    "publication_date": "2006-10",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722342",
+    "media_coverage_title": "Imagine Cup 2006 日本代表追っかけルポ：6人のIT侍、海を渡る",
+    "event": "ITメディア",
+    "publication_date": "2006-08",
+    "media_coverage_type": "internet",
+    "major_achievement": false
+  },
+  {
+    "id": "33722343",
+    "media_coverage_title": "Imagine Cup 2006 日本代表として世界とインドで戦うチームが決定！",
+    "event": "日経ソフトウエア",
+    "publication_date": "2006-06",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722344",
+    "media_coverage_title": "学生のIT大会イマジンカップ 日本代表に阪大大学院チーム",
+    "event": "読売新聞",
+    "publication_date": "2006-04",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722346",
+    "media_coverage_title": "MS主催の学生技術コンテスト「Imagine Cup」日本代表が決定",
+    "event": "ZDNet Japan",
+    "publication_date": "2006-03",
+    "media_coverage_type": "internet",
+    "major_achievement": false
+  },
+  {
+    "id": "33722345",
+    "media_coverage_title": "マイクロソフト、“The Imagine Cup 2006 日本大会”を開催――ソフトウェア部門の日本代表が決定",
+    "event": "ASCII.jp",
+    "publication_date": "2006-03",
+    "media_coverage_type": "internet",
+    "major_achievement": false
+  },
+  {
+    "id": "33722347",
+    "media_coverage_title": "頂点を極める熱き闘い Imagine Cup 2005世界大会",
+    "event": "日経ソフトウエア",
+    "publication_date": "2005-10",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722348",
+    "media_coverage_title": "Imagine Cup 2005は激アツだった――日本人も入賞",
+    "event": "ITメディア",
+    "publication_date": "2005-08",
+    "media_coverage_type": "internet",
+    "major_achievement": false
+  },
+  {
+    "id": "33722349",
+    "media_coverage_title": "世界IT大会 日本代表は\"\"GPS連動カメラ''\"",
+    "event": "FNN スーパーニュース",
+    "publication_date": "2005-07",
+    "media_coverage_type": "media_report",
+    "major_achievement": false
+  },
+  {
+    "id": "33722350",
+    "media_coverage_title": "学生たちの夢が詰まったImagine Cup 2005",
+    "event": "日経ソフトウエア",
+    "publication_date": "2005-06",
+    "media_coverage_type": "paper",
+    "major_achievement": false
+  },
+  {
+    "id": "33722351",
+    "media_coverage_title": "The Student Day 開催",
+    "event": "月刊アスキー",
+    "publication_date": "2005-05",
+    "media_coverage_type": "paper",
     "major_achievement": false
   }
 ]

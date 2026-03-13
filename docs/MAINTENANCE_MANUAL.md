@@ -21,7 +21,7 @@ All news updates, including research achievements (Awards) and lab events (Activ
     title: "Open Campus 2024"
     date: 2024-08-05
     type: "activity"  # Options: "award", "activity"
-    summary: "We exhibited our latest research demos at Osaka University Open Campus..."
+    summary: "We exhibited our latest research demos at The University of Osaka Open Campus..."
     ---
     ```
 

@@ -7,7 +7,7 @@
     "role_en": "Professor",
     "image": "https://researchmap.jp/takumae80/avatar.jpg",
     "links": {
-      "researchmap": "https://t-m-comp.github.io/maekawa/index.html"
+      "researchmap": "https://researchmap.jp/takumae80"
     }
   },
   {
@@ -60,17 +60,6 @@
     "image": "/assets/members/RyomaOtsuka.JPG",
     "links": {
       "researchmap": "https://researchmap.jp/ryoma_otsuka"
-    }
-  },
-  {
-    "id": "teerawat-kumrai",
-    "name_ja": "Teerawat Kumrai",
-    "name_en": "Teerawat Kumrai",
-    "role_ja": "特任助教",
-    "role_en": "Specially Appointed Assistant Professor",
-    "image": "/assets/members/placeholder.jpg",
-    "links": {
-      "researchmap": "https://researchmap.jp/teerawat_kumrai"
     }
   },
   {
@@ -210,7 +199,7 @@
     "name_en": "Yuqiao Wang",
     "role_ja": "博士3年 (10月入学)",
     "role_en": "D3 (October enrollment)",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/YuqiaoWang.jpg"
   },
   {
     "id": "yang-wang",
@@ -242,7 +231,7 @@
     "name_en": "Kei Tanigaki",
     "role_ja": "博士2年",
     "role_en": "D2",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/Tanigaki.png"
   },
   {
     "id": "siwei-zhou",
@@ -322,7 +311,7 @@
     "name_en": "Tsuneari Kuroiwa",
     "role_ja": "修士2年",
     "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/TsuneariKuroiwa.png"
   },
   {
     "id": "hongyin-qiao",

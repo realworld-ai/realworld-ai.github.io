@@ -1,7 +1,7 @@
-# Osaka University — Real-World Intelligence Infrastructure Lab — Design Specifications
+# The University of Osaka — Real-World Intelligence Infrastructure Lab — Design Specifications
 
 ## Project Overview
-This document provides the design specifications for the visual identity system of the Osaka University Real-World Intelligence Infrastructure Lab website.
+This document provides the design specifications for the visual identity system of the The University of Osaka Real-World Intelligence Infrastructure Lab website.
 
 ---
 
@@ -52,7 +52,7 @@ Please provide the following PNG exports with transparent backgrounds (PNG-32 wi
 
 **Banner text**:
 ```
-Osaka University
+The University of Osaka
 Real-World Intelligence Infrastructure Lab
 ```
 

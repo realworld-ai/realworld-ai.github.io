@@ -33,7 +33,14 @@ const fetch = global.fetch || ((url) => {
   });
 });
 
-// Helper to get researchmap IDs from members.json
+// Faculty roles and excluded IDs — must match src/pages/*/members.astro
+const FACULTY_ROLES = [
+  'Professor', 'Invited Professor', 'Associate Professor', 'Lecturer',
+  'Specially Appointed Assistant Professor', 'Specially Appointed Researcher'
+];
+const COLLABORATOR_IDS = ['yasuyuki-matsushita', 'fumio-okura', 'xinpeng-liu'];
+
+// Helper to get researchmap IDs from members.json (faculty only)
 async function getResearchMapIDs() {
   const membersPath = path.join(process.cwd(), 'src/data/members.json');
   try {
@@ -41,10 +48,16 @@ async function getResearchMapIDs() {
     const members = JSON.parse(raw);
     const ids = [];
     for (const m of members) {
+      // Only fetch from faculty members (matches members page 教員 section)
+      const isFaculty = FACULTY_ROLES.includes(m.role_en) && !COLLABORATOR_IDS.includes(m.id);
+      if (!isFaculty) continue;
       if (m.links && m.links.researchmap) {
         // Extract ID from URL: https://researchmap.jp/takumae80 -> takumae80
-        const id = m.links.researchmap.split('/').pop();
-        if (id) ids.push(id);
+        const url = m.links.researchmap;
+        const id = url.startsWith('https://researchmap.jp/')
+          ? url.replace('https://researchmap.jp/', '').replace(/\/$/, '')
+          : url.split('/').pop();
+        if (id && id !== 'index.html') ids.push(id);
       }
     }
     return [...new Set(ids)]; // Unique IDs

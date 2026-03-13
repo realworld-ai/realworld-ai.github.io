@@ -1,7 +1,7 @@
-# Requirements Document - Osaka University Lab Portal
+# Requirements Document - The University of Osaka Lab Portal
 
 ## 1. Project Overview
-**Goal:** Create a modern, attractive portal website for a research laboratory at Osaka University (Graduate School of Information Science and Technology) to showcase research works and attract talented undergraduate students.
+**Goal:** Create a modern, attractive portal website for a research laboratory at The University of Osaka (Graduate School of Information Science and Technology) to showcase research works and attract talented undergraduate students.
 
 **Target Audience:**
 - Undergraduate students (Primary)

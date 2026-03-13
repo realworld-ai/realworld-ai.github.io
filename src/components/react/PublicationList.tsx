@@ -344,9 +344,10 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
                         All Members
                      </button>
                      {membersData
-                        .filter(member => 
-                            member.role_en.includes('Professor') || 
-                            member.role_en.includes('Lecturer')
+                        .filter(member =>
+                            ['Professor', 'Invited Professor', 'Associate Professor', 'Lecturer',
+                             'Specially Appointed Assistant Professor', 'Specially Appointed Researcher'].includes(member.role_en) &&
+                            !['yasuyuki-matsushita', 'fumio-okura', 'xinpeng-liu'].includes(member.id)
                         )
                         .map(member => (
                          <button

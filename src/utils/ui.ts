@@ -14,7 +14,7 @@ export const ui = {
     'nav.members': 'メンバー',
     'nav.access': 'アクセス',
     'nav.news': 'ニュース',
-    'nav.joinus': '採用・見学',
+    'nav.joinus': '募集・見学',
     'hero.title': '大阪大学大学院情報科学研究科\n実世界知能基盤講座 前川研',
     'hero.subtitle': '未来を創る、知能を宿す。',
     'btn.learnMore': '詳しく見る',

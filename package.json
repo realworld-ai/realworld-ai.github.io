@@ -1,7 +1,7 @@
 {
   "name": "osaka-university-realworld-ai-lab-portal",
   "version": "0.1.0",
-  "description": "Official portal website for Real-World AI Laboratory at Osaka University",
+  "description": "Official portal website for Real-World AI Laboratory at The University of Osaka",
   "private": true,
   "type": "module",
   "scripts": {
