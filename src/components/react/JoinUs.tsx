@@ -653,8 +653,8 @@ function renderVisiting(c: ContentLang, formUrl: string) {
         <p className="text-lg text-gray-400 leading-relaxed">{v.intro}</p>
       </div>
 
-      {/* Schedule */}
-      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
+      {/* Schedule — temporarily hidden */}
+      {/* <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
         <h3 className="text-lg font-semibold text-white mb-6">{v.scheduleTitle}</h3>
         <ul className="space-y-3">
           {v.schedule.map((s, i) => (
@@ -680,7 +680,7 @@ function renderVisiting(c: ContentLang, formUrl: string) {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
 
       {/* Who should visit */}
       <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
