@@ -103,16 +103,17 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         }
 
         // For media, awards, presentations: match by owner_id (researchmap ID)
-        const rmUrl = selectedMember.links?.researchmap || '';
+        const rmUrl = (selectedMember as any).links?.researchmap || '';
         const rmId = rmUrl.startsWith('https://researchmap.jp/')
             ? rmUrl.replace('https://researchmap.jp/', '').replace(/\/$/, '')
             : rmUrl.split('/').pop() || '';
 
-        if (rmId && item.owner_id) {
+        if (rmId) {
+            // Member has researchmap ID — use strict owner_id match
             return item.owner_id === rmId;
         }
 
-        // Fallback: name matching for awards/presentations that have name fields
+        // Member has no researchmap link — name-based fallback for awards/presentations only
         const names = [selectedMember.name_en.toLowerCase(), selectedMember.name_ja.toLowerCase()];
         const check = (text: string) => {
             if (!text) return false;
@@ -127,7 +128,8 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         } else if (type.startsWith('presentations')) {
             return check(item.presenters);
         }
-        return true;
+        // Media (and anything else) with no researchmap link → show nothing
+        return false;
     };
 
     const filterItemBySearch = (item: any, type: Tab) => {
