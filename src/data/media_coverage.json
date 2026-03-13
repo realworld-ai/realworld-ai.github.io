@@ -5,7 +5,8 @@
     "event": "子供の科学",
     "publication_date": "2024-04",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "47537414",
@@ -13,7 +14,8 @@
     "event": "日経新聞",
     "publication_date": "2024-02",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722308",
@@ -21,7 +23,8 @@
     "event": "子供の科学",
     "publication_date": "2021-02",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722307",
@@ -29,7 +32,8 @@
     "event": "日本経済新聞",
     "publication_date": "2021-02",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722320",
@@ -37,7 +41,8 @@
     "event": "中日新聞",
     "publication_date": "2020-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722319",
@@ -45,7 +50,8 @@
     "event": "UNITE.AI",
     "publication_date": "2020-11",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722318",
@@ -53,7 +59,8 @@
     "event": "The Register",
     "publication_date": "2020-11",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722317",
@@ -61,7 +68,8 @@
     "event": "中日新聞",
     "publication_date": "2020-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722316",
@@ -69,7 +77,8 @@
     "event": "NEW ATLAS",
     "publication_date": "2020-11",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722315",
@@ -77,7 +86,8 @@
     "event": "日刊工業新聞",
     "publication_date": "2020-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722314",
@@ -85,7 +95,8 @@
     "event": "ニュースイッチ",
     "publication_date": "2020-11",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722313",
@@ -93,7 +104,8 @@
     "event": "チャント！",
     "publication_date": "2020-11",
     "media_coverage_type": "media_report",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722312",
@@ -101,7 +113,8 @@
     "event": "AIhub",
     "publication_date": "2020-11",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722311",
@@ -109,7 +122,8 @@
     "event": "野生動物の生態 ＡＩ装置で撮影",
     "publication_date": "2020-11",
     "media_coverage_type": "media_report",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722310",
@@ -117,7 +131,8 @@
     "event": "日本経済新聞",
     "publication_date": "2020-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722309",
@@ -125,7 +140,8 @@
     "event": "読売新聞",
     "publication_date": "2020-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722321",
@@ -133,7 +149,8 @@
     "event": "日刊工業新聞",
     "publication_date": "2020-10",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722324",
@@ -141,7 +158,8 @@
     "event": "読売新聞",
     "publication_date": "2017-09",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722323",
@@ -149,7 +167,8 @@
     "event": "読売新聞",
     "publication_date": "2017-09",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722322",
@@ -157,7 +176,8 @@
     "event": "ちちんぷいぷい",
     "publication_date": "2017-09",
     "media_coverage_type": "media_report",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722326",
@@ -165,7 +185,8 @@
     "event": "マイナビニュース",
     "publication_date": "2016-07",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722325",
@@ -173,7 +194,8 @@
     "event": "日経バイオテク",
     "publication_date": "2016-07",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722327",
@@ -181,7 +203,8 @@
     "event": "読売新聞",
     "publication_date": "2016-05",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722328",
@@ -189,7 +212,8 @@
     "event": "電波新聞",
     "publication_date": "2014-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722329",
@@ -197,7 +221,8 @@
     "event": "日経クロステック",
     "publication_date": "2013-11",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722334",
@@ -205,7 +230,8 @@
     "event": "日経エレクトロニクス",
     "publication_date": "2011-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722333",
@@ -213,7 +239,8 @@
     "event": "日経BPネット",
     "publication_date": "2011-02",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722332",
@@ -221,7 +248,8 @@
     "event": "The Washington Post,?Yahoo! News,?abc NEWS,?Forbes,?Bloomberg,?The Boston Globe,?The Seattle Times,?THE AGE,?National Public Radio,?CBS NEWS?(Associated Press)",
     "publication_date": "2011-02",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722331",
@@ -229,7 +257,8 @@
     "event": "日本経済新聞電子版",
     "publication_date": "2011-02",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722330",
@@ -237,7 +266,8 @@
     "event": "The Japan Times",
     "publication_date": "2011-02",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722335",
@@ -245,7 +275,8 @@
     "event": "日経産業新聞",
     "publication_date": "2010-07",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722339",
@@ -253,7 +284,8 @@
     "event": "CNET Japan",
     "publication_date": "2009-06",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722338",
@@ -261,7 +293,8 @@
     "event": "日経産業新聞",
     "publication_date": "2009-06",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722337",
@@ -269,7 +302,8 @@
     "event": "ワールドビジネスサテライト?",
     "publication_date": "2009-06",
     "media_coverage_type": "media_report",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722336",
@@ -277,7 +311,8 @@
     "event": "日刊工業新聞",
     "publication_date": "2009-06",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722340",
@@ -285,7 +320,8 @@
     "event": "日経ソフトウエア",
     "publication_date": "2006-11",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722341",
@@ -293,7 +329,8 @@
     "event": "Software Design",
     "publication_date": "2006-10",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722342",
@@ -301,7 +338,8 @@
     "event": "ITメディア",
     "publication_date": "2006-08",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722343",
@@ -309,7 +347,8 @@
     "event": "日経ソフトウエア",
     "publication_date": "2006-06",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722344",
@@ -317,7 +356,8 @@
     "event": "読売新聞",
     "publication_date": "2006-04",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722346",
@@ -325,7 +365,8 @@
     "event": "ZDNet Japan",
     "publication_date": "2006-03",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722345",
@@ -333,7 +374,8 @@
     "event": "ASCII.jp",
     "publication_date": "2006-03",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722347",
@@ -341,7 +383,8 @@
     "event": "日経ソフトウエア",
     "publication_date": "2005-10",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722348",
@@ -349,7 +392,8 @@
     "event": "ITメディア",
     "publication_date": "2005-08",
     "media_coverage_type": "internet",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722349",
@@ -357,7 +401,8 @@
     "event": "FNN スーパーニュース",
     "publication_date": "2005-07",
     "media_coverage_type": "media_report",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722350",
@@ -365,7 +410,8 @@
     "event": "日経ソフトウエア",
     "publication_date": "2005-06",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33722351",
@@ -373,6 +419,7 @@
     "event": "月刊アスキー",
     "publication_date": "2005-05",
     "media_coverage_type": "paper",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   }
 ]

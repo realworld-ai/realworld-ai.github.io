@@ -10,7 +10,8 @@
     ],
     "association": "日本バイオロギング研究会",
     "award_date": "2025-11",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "51279949",
@@ -32,7 +33,8 @@
     ],
     "association": "The 15th International Conference on Mobile Computing and Ubiquitous Networking",
     "award_date": "2025-09",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "49822573",
@@ -48,7 +50,8 @@
     ],
     "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2025-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "49822570",
@@ -61,7 +64,8 @@
     ],
     "association": "情報処理学会",
     "award_date": "2025-03",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "49822567",
@@ -83,7 +87,8 @@
     ],
     "association": "DICOMO2024",
     "award_date": "2024-10",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "49822561",
@@ -114,7 +119,8 @@
     ],
     "association": "IPSJ",
     "award_date": "2024-10",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "49822557",
@@ -136,7 +142,8 @@
     ],
     "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2024-09",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "49822544",
@@ -161,7 +168,8 @@
     ],
     "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2024-09",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "47255768",
@@ -186,7 +194,8 @@
     ],
     "association": "",
     "award_date": "2024-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466745",
@@ -217,7 +226,8 @@
     ],
     "association": "",
     "award_date": "2024-03",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "45921021",
@@ -230,7 +240,8 @@
     ],
     "association": "",
     "award_date": "2024-03",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466750",
@@ -255,7 +266,8 @@
     ],
     "association": "",
     "award_date": "2024-02",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466749",
@@ -277,7 +289,8 @@
     ],
     "association": "",
     "award_date": "2024-02",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466748",
@@ -302,7 +315,8 @@
     ],
     "association": "",
     "award_date": "2024-02",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466747",
@@ -324,7 +338,8 @@
     ],
     "association": "",
     "award_date": "2024-02",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466746",
@@ -340,7 +355,8 @@
     ],
     "association": "",
     "award_date": "2024-02",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46466751",
@@ -356,7 +372,8 @@
     ],
     "association": "",
     "award_date": "2023-11",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43170555",
@@ -381,7 +398,8 @@
     ],
     "association": "",
     "award_date": "2023-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43170498",
@@ -409,7 +427,8 @@
     ],
     "association": "",
     "award_date": "2023-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43170495",
@@ -425,7 +444,8 @@
     ],
     "association": "",
     "award_date": "2023-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43170494",
@@ -444,7 +464,8 @@
     ],
     "association": "",
     "award_date": "2023-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43170492",
@@ -463,7 +484,8 @@
     ],
     "association": "",
     "award_date": "2023-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43170489",
@@ -488,7 +510,8 @@
     ],
     "association": "",
     "award_date": "2023-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "43556795",
@@ -507,7 +530,8 @@
     ],
     "association": "",
     "award_date": "2023-04",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "40102123",
@@ -532,7 +556,8 @@
     ],
     "association": "",
     "award_date": "2022-12",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "40102126",
@@ -557,7 +582,8 @@
     ],
     "association": "",
     "award_date": "2022-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "40102125",
@@ -588,7 +614,8 @@
     ],
     "association": "",
     "award_date": "2022-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "40102121",
@@ -601,7 +628,8 @@
     ],
     "association": "",
     "award_date": "2022-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "41912768",
@@ -614,7 +642,8 @@
     ],
     "association": "International Behavioral Neuroscience Society (IBNS)",
     "award_date": "2022-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
   },
   {
     "id": "33835937",
@@ -639,7 +668,8 @@
     ],
     "association": "情報処理学会 マルチメディア，分散，協調とモバイル（DICOMO）シンポジウム",
     "award_date": "2021-09",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33800361",
@@ -664,7 +694,8 @@
     ],
     "association": "",
     "award_date": "2021-07",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33800366",
@@ -692,7 +723,8 @@
     ],
     "association": "",
     "award_date": "2021-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33800365",
@@ -714,7 +746,8 @@
     ],
     "association": "",
     "award_date": "2021-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33800364",
@@ -733,7 +766,8 @@
     ],
     "association": "",
     "award_date": "2021-06",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "33800363",
@@ -746,7 +780,8 @@
     ],
     "association": "",
     "award_date": "2021-05",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "33800362",
@@ -765,7 +800,8 @@
     ],
     "association": "",
     "award_date": "2021-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "31940681",
@@ -787,7 +823,8 @@
     ],
     "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2020-12",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "31940678",
@@ -809,7 +846,8 @@
     ],
     "association": "情報処理学会 マルチメディア，分散，協調とモバイル（DICOMO）シンポジウム",
     "award_date": "2020-09",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "30124282",
@@ -831,7 +869,8 @@
     ],
     "association": "情報処理学会 ユビキタスコンピューティングシステム研究会",
     "award_date": "2020-05",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "30125399",
@@ -853,7 +892,8 @@
     ],
     "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2019-12",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "30125392",
@@ -878,7 +918,8 @@
     ],
     "association": "情報処理学会ユビキタスコンピューティングシステム研究会",
     "award_date": "2019-12",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "30124281",
@@ -900,7 +941,8 @@
     ],
     "association": "第27回 マルチメディア通信と分散処理ワークショップ",
     "award_date": "2019-11",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "30124278",
@@ -922,7 +964,8 @@
     ],
     "association": "The 12th International Conference on Mobile Computing and Ubiquitous Networking (ICMU 2019)",
     "award_date": "2019-11",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36404011",
@@ -938,7 +981,8 @@
     ],
     "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
     "award_date": "2019-09",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30124299",
@@ -951,7 +995,8 @@
     ],
     "association": "IPSJ/IEEE Computer Society",
     "award_date": "2019-06",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "36404024",
@@ -964,7 +1009,8 @@
     ],
     "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
     "award_date": "2019-03",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "36404038",
@@ -977,7 +1023,8 @@
     ],
     "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
     "award_date": "2018-03",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30125254",
@@ -990,7 +1037,8 @@
     ],
     "association": "日本データベース学会",
     "award_date": "2014-03",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "30125262",
@@ -1003,6 +1051,7 @@
     ],
     "association": "情報処理学会",
     "award_date": "2011-03",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   }
 ]

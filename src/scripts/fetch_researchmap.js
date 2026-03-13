@@ -80,7 +80,9 @@ async function fetchItemsForUser(id, type) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    return data.items || [];
+    const items = data.items || [];
+    // Tag each item with the owner's researchmap ID for later member filtering
+    return items.map(item => ({ ...item, _owner_id: id }));
   } catch (error) {
     console.error(`Error fetching ${type} for ${id}:`, error);
     return [];
@@ -240,7 +242,8 @@ function processAwards(items) {
             winners,
             association,
             award_date: date,
-            major_achievement
+            major_achievement,
+            owner_id: item._owner_id || ''
         };
     });
 
@@ -270,7 +273,8 @@ function processMediaCoverage(items) {
             event,
             publication_date: date,
             media_coverage_type: type,
-            major_achievement
+            major_achievement,
+            owner_id: item._owner_id || ''
         };
     });
 
@@ -306,7 +310,8 @@ function processPresentations(items) {
             event,
             publication_date: date,
             presentation_type: type,
-            major_achievement
+            major_achievement,
+            owner_id: item._owner_id || ''
         };
     });
 

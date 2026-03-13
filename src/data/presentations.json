@@ -6,7 +6,8 @@
     "event": "The 20th International Conference on Green, Pervasive, and Cloud Computing (GPC 2025)",
     "publication_date": "2025-12-11",
     "presentation_type": "keynote_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "52924089",
@@ -15,7 +16,8 @@
     "event": "第20回日本バイオログング研究会シンポジウム",
     "publication_date": "2025-10-12",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "51280183",
@@ -24,7 +26,8 @@
     "event": "The 15th International Conference on Mobile Computing and Ubiquitous Networking",
     "publication_date": "2025-09-11",
     "presentation_type": "keynote_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "51280186",
@@ -33,7 +36,8 @@
     "event": "3rd International Conference on Artificial Intelligence of Things and Systems, AIoTSys 2025",
     "publication_date": "2025-08-17",
     "presentation_type": "keynote_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "47526424",
@@ -42,7 +46,8 @@
     "event": "20th International Conference on Intelligent Environments",
     "publication_date": "2024-06-18",
     "presentation_type": "public_discourse",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46459344",
@@ -51,7 +56,8 @@
     "event": "The 8th International Bio-Logging Science Symposium",
     "publication_date": "2024-03",
     "presentation_type": "oral_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "44110777",
@@ -60,7 +66,8 @@
     "event": "日本動物行動学会第42回大会 JES42",
     "publication_date": "2023-11-03",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "43169966",
@@ -69,7 +76,8 @@
     "event": "ACM MobiSys 2023, IoT Day",
     "publication_date": "2023-07",
     "presentation_type": "invited_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "40092738",
@@ -78,7 +86,8 @@
     "event": "電子情報通信学会 2022年ソサイエティ大会",
     "publication_date": "2022-09",
     "presentation_type": "invited_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "33709949",
@@ -87,7 +96,8 @@
     "event": "インタラクション2021",
     "publication_date": "2021-03",
     "presentation_type": "keynote_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "33709940",
@@ -96,7 +106,8 @@
     "event": "IJCAI2020 Workshop on AI4IoT,",
     "publication_date": "2021-01",
     "presentation_type": "keynote_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384296",
@@ -105,7 +116,8 @@
     "event": "第36回霊長類学会大会",
     "publication_date": "2020-12-04",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "33709922",
@@ -114,7 +126,8 @@
     "event": "第21回計測自動制御学会システムインテグレーション部門講演会",
     "publication_date": "2020-12",
     "presentation_type": "keynote_oral_presentation",
-    "major_achievement": true
+    "major_achievement": true,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384329",
@@ -123,7 +136,8 @@
     "event": "The 14th International Symposium on Primatology and Wildlife Science",
     "publication_date": "2020-09",
     "presentation_type": "oral_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "36384297",
@@ -132,7 +146,8 @@
     "event": "日本アフリカ学会第57回学術大会",
     "publication_date": "2020-05",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30123125",
@@ -141,7 +156,8 @@
     "event": "第12回データ工学と情報マネジメントに関するフォーラム（DEIMフォーラム2020）",
     "publication_date": "2020-03",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "30123126",
@@ -150,7 +166,8 @@
     "event": "マルチメディア通信と分散処理ワークショップ (DPSWS 2019)",
     "publication_date": "2019-11",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384325",
@@ -159,7 +176,8 @@
     "event": "The 12th International Symposium on Primatology and Wildlife Science",
     "publication_date": "2019-09",
     "presentation_type": "oral_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30123127",
@@ -168,7 +186,8 @@
     "event": "情報処理学会マルチメディア，分散，協調とモバイル(DICOMO2019)シンポジウム論文集",
     "publication_date": "2019-07",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "13113927",
@@ -177,7 +196,8 @@
     "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
     "publication_date": "2019-06-26",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "13113930",
@@ -186,7 +206,8 @@
     "event": "電気学会研究会資料. IS",
     "publication_date": "2019-05-27",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384320",
@@ -195,7 +216,8 @@
     "event": "Area Studies and Sustainable Development Goals (SDGs)",
     "publication_date": "2019-05",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "36384317",
@@ -204,7 +226,8 @@
     "event": "The 11th International Symposium on Primatology and Wildlife Science",
     "publication_date": "2019-03",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531050",
@@ -213,7 +236,8 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2018-11-27",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531049",
@@ -222,7 +246,8 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2018-11-27",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531051",
@@ -231,7 +256,8 @@
     "event": "日本哺乳類学会大会プログラム・講演要旨集",
     "publication_date": "2018-09-08",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384313",
@@ -240,7 +266,8 @@
     "event": "The 27th International Primatological Society Congress, Nairobi, Kenya",
     "publication_date": "2018-08",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531052",
@@ -249,7 +276,8 @@
     "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
     "publication_date": "2018-06-27",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531053",
@@ -258,7 +286,8 @@
     "event": "システム制御情報学会研究発表講演会講演論文集(CD-ROM)",
     "publication_date": "2018-05-16",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531054",
@@ -267,7 +296,8 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2018-05-11",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531055",
@@ -276,7 +306,8 @@
     "event": "情報処理学会全国大会講演論文集",
     "publication_date": "2018-03-13",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384306",
@@ -285,7 +316,8 @@
     "event": "The 9th International Symposium on Primatology and Wildlife Science",
     "publication_date": "2018-03",
     "presentation_type": "oral_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531056",
@@ -294,7 +326,8 @@
     "event": "電子情報通信学会技術研究報告",
     "publication_date": "2018-02-19",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531057",
@@ -303,7 +336,8 @@
     "event": "日本動物行動学会大会発表要旨集",
     "publication_date": "2018",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384300",
@@ -312,7 +346,8 @@
     "event": "International Symposium France-Japan Area Studies Forum",
     "publication_date": "2017-12",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531058",
@@ -321,7 +356,8 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2017-10-25",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531059",
@@ -330,7 +366,8 @@
     "event": "電気学会情報システム研究会資料",
     "publication_date": "2017-08-02",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531060",
@@ -339,7 +376,8 @@
     "event": "日本機械学会ロボティクス・メカトロニクス講演会講演論文集(CD-ROM)",
     "publication_date": "2017-05-09",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531061",
@@ -348,7 +386,8 @@
     "event": "電気学会情報システム研究会資料",
     "publication_date": "2017-03-23",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531062",
@@ -357,7 +396,8 @@
     "event": "電子情報通信学会大会講演論文集(CD-ROM)",
     "publication_date": "2017-03-07",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531063",
@@ -366,7 +406,8 @@
     "event": "電子情報通信学会技術研究報告",
     "publication_date": "2017-03-02",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "36384299",
@@ -375,7 +416,8 @@
     "event": "The 7th International Symposium on Primatology and Wildlife Science",
     "publication_date": "2017-03",
     "presentation_type": "oral_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531065",
@@ -384,7 +426,8 @@
     "event": "電子情報通信学会技術研究報告",
     "publication_date": "2016-08-29",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531064",
@@ -393,7 +436,8 @@
     "event": "電子情報通信学会技術研究報告",
     "publication_date": "2016-08-29",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531066",
@@ -402,7 +446,8 @@
     "event": "電気学会情報システム研究会資料",
     "publication_date": "2016-08-02",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "13113931",
@@ -411,7 +456,8 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2016-05-21",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "11531067",
@@ -420,7 +466,8 @@
     "event": "情報処理学会研究報告(Web)",
     "publication_date": "2016-05-21",
     "presentation_type": "",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "46459346",
@@ -429,6 +476,7 @@
     "event": "The 8th International Bio-Logging Science Symposium",
     "publication_date": "",
     "presentation_type": "poster_presentation",
-    "major_achievement": false
+    "major_achievement": false,
+    "owner_id": "takumae80"
   }
 ]

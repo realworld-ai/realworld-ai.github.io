@@ -17,6 +17,9 @@ interface Member {
     role_ja: string;
     role_en: string;
     image: string;
+    links?: {
+        researchmap?: string;
+    };
 }
 
 interface Publication {
@@ -87,24 +90,40 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
 
     const filterItemByMember = (item: any, type: Tab) => {
         if (!selectedMember) return true;
-        
+
+        // For publications, match by author name string
+        if (type.startsWith('all') || type.startsWith('selected')) {
+            const names = [selectedMember.name_en.toLowerCase(), selectedMember.name_ja.toLowerCase()];
+            const check = (text: string) => {
+                if (!text) return false;
+                const t = text.toLowerCase();
+                return names.some(n => t.includes(n));
+            };
+            return check(item.authors);
+        }
+
+        // For media, awards, presentations: match by owner_id (researchmap ID)
+        const rmUrl = selectedMember.links?.researchmap || '';
+        const rmId = rmUrl.startsWith('https://researchmap.jp/')
+            ? rmUrl.replace('https://researchmap.jp/', '').replace(/\/$/, '')
+            : rmUrl.split('/').pop() || '';
+
+        if (rmId && item.owner_id) {
+            return item.owner_id === rmId;
+        }
+
+        // Fallback: name matching for awards/presentations that have name fields
         const names = [selectedMember.name_en.toLowerCase(), selectedMember.name_ja.toLowerCase()];
         const check = (text: string) => {
             if (!text) return false;
             const t = text.toLowerCase();
             return names.some(n => t.includes(n));
         };
-
-        if (type.startsWith('all') || type.startsWith('selected')) { // Publication
-            return check(item.authors);
-        } else if (type.startsWith('awards')) {
-            // winners can be string or array
+        if (type.startsWith('awards')) {
             if (Array.isArray(item.winners)) {
                 return item.winners.some((w: any) => check(w.name || w));
             }
             return check(item.winners);
-        } else if (type === 'media') {
-            return check(item.media_coverage_title) || check(item.event);
         } else if (type.startsWith('presentations')) {
             return check(item.presenters);
         }
