@@ -6,24 +6,8 @@ const lang = "ja";
 ---
 
 <Layout title="採用情報・見学 | Real-world Intelligence Lab" lang={lang}>
-  <!-- Hero Section -->
-  <section class="relative w-full min-h-[50vh] bg-gradient-to-br from-lab-blue via-slate-900 to-black flex items-center justify-center overflow-hidden pt-32">
-    <div class="absolute inset-0 opacity-30">
-      <div class="absolute w-96 h-96 bg-lab-blue/20 rounded-full blur-3xl top-10 left-10"></div>
-      <div class="absolute w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl bottom-20 right-20"></div>
-    </div>
-    <div class="relative max-w-4xl mx-auto px-4 py-12 text-center">
-      <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
-        実世界を理解するAIへ。
-      </h1>
-      <p class="text-xl md:text-2xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
-        人間と動物の行動、複雑な環境現象をセンサとAIで可視化し、現実を変える研究に参加しませんか。
-      </p>
-    </div>
-  </section>
-
-  <!-- Main Content: Tabs + Sections (React component) -->
-  <div class="pb-20 max-w-7xl mx-auto px-4 py-16">
+  <main class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-4xl md:text-5xl font-heading font-bold text-white mb-8">募集・見学</h1>
     <JoinUs client:only="react" lang="ja" />
-  </div>
+  </main>
 </Layout>

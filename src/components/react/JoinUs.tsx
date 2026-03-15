@@ -24,58 +24,95 @@ const CONTENT = {
     students: {
       title: '学生募集',
       intro:
-        'Real-world Intelligence Lab では、センシング技術と機械学習を融合させ、人間行動認識・バイオロギング・屋内測位・実世界データマイニングの4領域で研究を推進しています。実世界のデータから知識を引き出し、社会に貢献できる研究者・エンジニアを育成しています。',
+        '実世界知能基盤講座では、センシング技術と機械学習を融合させ、人間行動認識・バイオロギング・屋内測位・実世界データマイニングの4領域で研究を推進しています。実世界のデータから知識を引き出し、社会に貢献できる研究者・エンジニアを育成しています。',
       masters: {
-        title: '修士課程',
+        title: '学部学生・修士学生',
         description:
-          '大阪大学大学院情報科学研究科 マルチメディア工学専攻に所属しています。修士課程への入学を希望する方は、夏季の一般入試をご検討ください。センシング技術からAI実装・フィールドデプロイメントまで、実世界AI開発の全工程を経験できます。',
+          '実世界知能基盤講座は、工学部電子情報工学科情報工学システムコースおよび大学院情報科学研究科マルチメディア工学専攻に属しています。センシング技術からAI実装・フィールドデプロイメントまで、実世界AI開発の全工程を習熟できます。',
         links: [
           { label: '学部生の方へ', url: 'http://school.eei.eng.osaka-u.ac.jp/course/course14' },
           { label: '大学院進学希望の方へ', url: 'https://www.ist.osaka-u.ac.jp/japanese/examinees/admission/' },
         ],
         highlights: [
           '人間行動認識・バイオロギング・屋内測位など実プロジェクトへの参加',
-          'ウェアラブルセンサシステムの開発とAI処理',
           '業界パートナー・フィールド研究者との共同研究',
+          '学部3、4回生からの国内・国際学会発表・表彰実績',
+          '研究成果の技術移転・ベンチャービジネス化に向けた事業仮説設定・チームフォーミング・潜在顧客ヒヤリング',
+          '事業化予算獲得',
         ],
-        note: '研究生は原則受け付けておりません。修士課程への入学希望者は夏季の一般受験をご検討ください。',
+        note: '当研究室では、研究生は原則受け付けていません。修士課程への入学希望者は夏季の一般受験をご検討ください。',
         ctaLabel: 'フォームで問い合わせる',
       },
       phd: {
-        title: '博士後期課程',
+        title: '博士学生',
         description:
-          '博士後期課程の学生を積極的に募集しています！新しい研究テーマの開拓と独立した研究を推進します。国内外の学会発表・論文投稿・社会への研究成果の発信が中心です。他大学からの進学も歓迎します。',
+          '実世界知能基盤講座は、大学院情報科学研究科マルチメディア工学専攻に属しています。国内外から博士後期課程の学生を積極的に募集しています！新しい研究テーマの開拓と独立した研究を推進します。',
         highlights: [
           '新規研究テーマの立案と推進',
-          '国内外学会での発表・論文投稿',
-          '業界との共同研究・技術移転プロジェクト',
+          '業界パートナー・フィールド研究者との共同研究',
+          '研究成果の技術移転・ベンチャービジネス化に向けた事業仮説設定・チームフォーミング・潜在顧客ヒヤリング・プロトタイピング',
+          '研究・事業化予算獲得',
         ],
         ctaLabel: 'フォームで問い合わせる',
       },
-      support: {
-        title: '経済的サポート（博士後期課程）',
-        description:
-          '当研究室では、研究費がある限り博士後期課程の学生をRA（リサーチアシスタント）として雇用し、経済的なサポートを行っています。大阪大学では以下の公的支援制度も積極的に活用しています。',
-        programs: [
+      reasons: {
+        sectionTitle: '実世界知能基盤講座で学ぶ理由',
+        featured: {
+          title: 'AI・IoTの世界的研究拠点',
+          body: '前川研は、実世界AI-IoT分野における世界的な研究グループであり、学生を主体として世界的にもトップレベルの研究業績を創出しています。研究室内の豊富な研究実績・ノウハウに基づき、修士学生からトップ国際会議での発表を目指すことも可能です。学部3、4回生から学会発表の機会を多く提供しており、学部生からの受賞実績も豊富です。',
+          card: {
+            title: 'PerCom本会議論文採択数（過去5年）',
+            subtitle: 'Core Conference Ranking A* / IoT分野トップ国際会議',
+            caption: '前川研は、PerCom本会議論文採択数において過去5年間で世界トップ水準の実績を有しています。',
+            headers: ['順位', '研究グループ', '本数'],
+            rows: [
+              { cells: ['1', '阪大・前川研', '7'], highlight: true },
+              { cells: ['2', 'Singapore Management Univ.グループ', '5'], highlight: false },
+              { cells: ['3', 'ケンブリッジ大グループ', '4'], highlight: false },
+              { cells: ['3', 'IIT（インド）グループ', '4'], highlight: false },
+              { cells: ['5', '中国科技大グループ', '3'], highlight: false },
+              { cells: ['6', 'メリーランド大グループ', '2'], highlight: false },
+              { cells: ['6', '日本・その他研究グループ', '2'], highlight: false },
+              { cells: ['6', 'ミラノ大グループ', '2'], highlight: false },
+              { cells: ['6', '香港科技大グループ', '2'], highlight: false },
+            ] as { cells: [string, string, string]; highlight: boolean }[],
+          },
+        },
+        more: [
           {
-            label: '情報人材育成フェローシップ（Boost学生）',
-            detail:
-              '情報科学研究科博士後期課程生を対象。月額16.6万円の研究専念支援金＋研究費年額50万円を支給。競争選考あり。',
-            url: 'https://www.ist.osaka-u.ac.jp/japanese/students/lecture/fellowship.php',
+            title: '実世界で役立つ革新的技術の研究開発',
+            body: '技術的革新性と実世界での有用性を両立した技術開発を目指し、様々な企業や異分野研究者と共同研究を行なっています。前川研で開発された技術は、世界中で販売されている著名な製品の製造や、マーケティング戦略の立案に活かされています。',
           },
           {
-            label: 'ヒューマンウェアイノベーション学位プログラム（HWIP）',
-            detail:
-              '5年一貫プログラムに採択された学生は、修士課程段階から給付奨学金・研究費助成・授業料免除等のサポートを受けられます。',
-            url: 'https://www.hwip.osaka-u.ac.jp/support/',
-          },
-          {
-            label: '次世代研究者挑戦的研究プログラム（JST）',
-            detail:
-              'JSTの公的支援事業。書類・面接審査により採択された博士課程学生に研究奨励費および研究費を支給します。',
-            url: 'https://itgp.osaka-u.ac.jp/jisedai/',
+            title: '激動のAI時代を生き抜く力',
+            body: 'AIの劇的な進化により、パソコンの上だけで完結するようなプログラミング・開発はAIに置き換えられることが確実です。実世界で動くデバイスの開発からAI手法の研究までを一貫して行う前川研で、激動のAI時代を生き抜く力を身につけましょう。',
           },
         ],
+      },
+      support: {
+        title: '経済的サポート（修士・博士課程）',
+        description:
+          '当研究室では、研究費がある限り博士後期課程の学生をRA（リサーチアシスタント）として雇用し、経済的なサポートを行っています。大阪大学では以下の公的支援制度も積極的に活用しています。',
+        // programs: [
+        //   {
+        //     label: '情報人材育成フェローシップ（Boost学生）',
+        //     detail:
+        //       '情報科学研究科博士後期課程生を対象。月額16.6万円の研究専念支援金＋研究費年額50万円を支給。競争選考あり。',
+        //     url: 'https://www.ist.osaka-u.ac.jp/japanese/students/lecture/fellowship.php',
+        //   },
+        //   {
+        //     label: 'ヒューマンウェアイノベーション学位プログラム（HWIP）',
+        //     detail:
+        //       '5年一貫プログラムに採択された学生は、修士課程段階から給付奨学金・研究費助成・授業料免除等のサポートを受けられます。',
+        //     url: 'https://www.hwip.osaka-u.ac.jp/support/',
+        //   },
+        //   {
+        //     label: '次世代研究者挑戦的研究プログラム（JST）',
+        //     detail:
+        //       'JSTの公的支援事業。書類・面接審査により採択された博士課程学生に研究奨励費および研究費を支給します。',
+        //     url: 'https://itgp.osaka-u.ac.jp/jisedai/',
+        //   },
+        // ],
         note: 'RAおよびフェローシップは研究費状況・選考結果によります。博士進学をご検討の方は、早めに個別にご相談ください。',
       },
       faq: {
@@ -102,49 +139,49 @@ const CONTENT = {
     },
 
     associates: {
-      title: '研究員・特任教員 募集',
+      title: '特任研究員・教員 募集',
       intro:
-        '当研究室では、科研費・JST・NEDO等の競争的外部資金を活用し、博士研究員（ポスドク）・特任研究員・特任助教を随時募集しています。実世界AIセンシング研究の最前線で活躍したい研究者のご応募をお待ちしています。',
+        '当研究室では、科研費・JST等の競争的外部資金を活用し、特任博士研究員（ポスドク）・特任助教を募集しています。実世界AIセンシング研究の最前線で活躍したい研究者のご応募をお待ちしています。',
       fundingNote:
-        '雇用は大阪大学の特任教員制度または博士研究員制度に基づきます。任期・給与・研究費支援の詳細はポジションおよびプロジェクトにより異なります。',
-      positions: [
-        {
-          title: '博士研究員（ポスドク）',
-          badge: '随時募集',
-          target: '博士号取得者、または着任時までに取得見込みの方',
-          description:
-            '実世界センシング・機械学習・IoT・バイオロギング等の研究テーマに関心のある方を募集します。独立した研究推進と国際論文発表を期待します。',
-          conditionsLabel: '雇用条件',
-          conditions:
-            '任期1年（更新可）・大阪大学博士研究員規程に基づく給与（目安：年収300〜450万円程度）',
-          supportLabel: '支援内容',
-          support: '研究費・学会発表旅費支援、共同研究推進サポート',
-        },
-        {
-          title: '特任研究員',
-          badge: 'プロジェクト採用',
-          target: '博士号取得者で、実世界センシング・AI・組込みシステム等の開発・研究経験を有する方',
-          description:
-            'JST・NEDO・科研費等のプロジェクトに従事し、センシングシステムの開発・データ解析・論文執筆を担当します。',
-          conditionsLabel: '雇用条件',
-          conditions:
-            'プロジェクト期間に応じた有期雇用（通常1〜3年）・大阪大学特任教員規程に基づく給与',
-          supportLabel: '支援内容',
-          support: '研究費・旅費支援、学会発表・論文投稿サポート',
-        },
-        {
-          title: '特任助教',
-          badge: '要相談',
-          target: '博士号取得後、独立した研究推進・学生指導に意欲のある方',
-          description:
-            '研究室の主要プロジェクトを牽引しながら、大学院生の研究指導と共同研究の推進を担います。将来的なテニュアポスト取得を目指す方を歓迎します。',
-          conditionsLabel: '雇用条件',
-          conditions:
-            '任期1年（更新可）・大阪大学特任教員規程に基づく給与（目安：年収400〜550万円程度）',
-          supportLabel: '支援内容',
-          support: '独立研究費・旅費支援、学生指導補助、共同研究機会の提供',
-        },
-      ],
+        '現在募集は行っていません。',
+      // positions: [
+      //   {
+      //     title: '博士研究員（ポスドク）',
+      //     badge: '随時募集',
+      //     target: '博士号取得者、または着任時までに取得見込みの方',
+      //     description:
+      //       '実世界センシング・機械学習・IoT・バイオロギング等の研究テーマに関心のある方を募集します。独立した研究推進と国際論文発表を期待します。',
+      //     conditionsLabel: '雇用条件',
+      //     conditions:
+      //       '任期1年（更新可）・大阪大学博士研究員規程に基づく給与（目安：年収300〜450万円程度）',
+      //     supportLabel: '支援内容',
+      //     support: '研究費・学会発表旅費支援、共同研究推進サポート',
+      //   },
+      //   {
+      //     title: '特任研究員',
+      //     badge: 'プロジェクト採用',
+      //     target: '博士号取得者で、実世界センシング・AI・組込みシステム等の開発・研究経験を有する方',
+      //     description:
+      //       'JST・NEDO・科研費等のプロジェクトに従事し、センシングシステムの開発・データ解析・論文執筆を担当します。',
+      //     conditionsLabel: '雇用条件',
+      //     conditions:
+      //       'プロジェクト期間に応じた有期雇用（通常1〜3年）・大阪大学特任教員規程に基づく給与',
+      //     supportLabel: '支援内容',
+      //     support: '研究費・旅費支援、学会発表・論文投稿サポート',
+      //   },
+      //   {
+      //     title: '特任助教',
+      //     badge: '要相談',
+      //     target: '博士号取得後、独立した研究推進・学生指導に意欲のある方',
+      //     description:
+      //       '研究室の主要プロジェクトを牽引しながら、大学院生の研究指導と共同研究の推進を担います。将来的なテニュアポスト取得を目指す方を歓迎します。',
+      //     conditionsLabel: '雇用条件',
+      //     conditions:
+      //       '任期1年（更新可）・大阪大学特任教員規程に基づく給与（目安：年収400〜550万円程度）',
+      //     supportLabel: '支援内容',
+      //     support: '独立研究費・旅費支援、学生指導補助、共同研究機会の提供',
+      //   },
+      // ],
       ctaLabel: 'フォームでお問い合わせ',
     },
 
@@ -225,56 +262,93 @@ const CONTENT = {
       intro:
         'At Real-world Intelligence Lab, we advance research across four areas—human activity recognition, bio-logging, indoor positioning, and real-world data mining—by fusing sensing technology and machine learning. We foster researchers and engineers who extract knowledge from real-world data and contribute to society.',
       masters: {
-        title: "Master's Program",
+        title: "Undergraduate & Master's Students",
         description:
-          "We belong to the Graduate School of Information Science and Technology, Multimedia Engineering, at The University of Osaka. Prospective Master's students are encouraged to apply through the general entrance examination held in summer. You will gain hands-on experience across the full cycle of real-world AI development—from sensing to AI implementation and field deployment.",
+          "Real-world Intelligence Lab belongs to the Department of Information Engineering Systems, School of Electronic and Information Engineering, as well as the Multimedia Engineering program in the Graduate School of Information Science and Technology at The University of Osaka. You will gain hands-on experience across the full cycle of real-world AI development—from sensing to AI implementation and field deployment.",
         links: [
           { label: 'For Undergraduates',              url: 'http://school.eei.eng.osaka-u.ac.jp/course/course14' },
           { label: 'For Prospective Graduate Students', url: 'https://www.ist.osaka-u.ac.jp/english/examinees/admission/' },
         ],
         highlights: [
           'Participation in active projects including human activity recognition, bio-logging, and indoor positioning',
-          'Development of wearable sensor systems and AI processing',
           'Joint research with industry partners and field researchers',
+          'Track record of conference presentations and awards from 3rd/4th-year undergraduates, both domestically and internationally',
+          'Business hypothesis setting, team formation, and customer interviews toward technology transfer and venture business development',
+          'Securing commercialization funding',
         ],
         note: 'We do not generally accept non-degree research students (kenkyusei). Prospective Master\'s students should apply through the official summer entrance examination.',
         ctaLabel: 'Contact Us via Form',
       },
       phd: {
-        title: 'Doctoral Program',
+        title: 'Doctoral Students',
         description:
-          'We actively recruit doctoral students. You will pioneer new research themes and pursue independent research. Key activities include presenting at domestic and international conferences, publishing papers, and disseminating results to society. Students from other universities are also welcome.',
+          'Real-world Intelligence Lab belongs to the Multimedia Engineering program in the Graduate School of Information Science and Technology at The University of Osaka. We actively recruit doctoral students from both Japan and abroad! You will pioneer new research themes and pursue independent research.',
         highlights: [
           'Proposing and leading new research themes',
-          'Presenting at domestic and international conferences and publishing papers',
-          'Joint research and technology transfer projects with industry',
+          'Joint research with industry partners and field researchers',
+          'Business hypothesis setting, team formation, customer interviews, and prototyping toward technology transfer and venture business development',
+          'Securing research and commercialization funding',
         ],
         ctaLabel: 'Contact Us via Form',
       },
-      support: {
-        title: 'Financial Support (Doctoral Program)',
-        description:
-          'Our lab employs doctoral students as Research Assistants (RA), subject to available funding. We also make active use of the following public support programs at The University of Osaka.',
-        programs: [
+      reasons: {
+        sectionTitle: 'Why Study at Real-world Intelligence Lab',
+        featured: {
+          title: 'A World-Class AI & IoT Research Group',
+          body: 'Real-world Intelligence Lab is a world-class research group in the field of real-world AI-IoT, producing top-tier research results globally with students at the center. Based on the lab\'s rich research track record and accumulated know-how, even Master\'s students can aim to present at top international conferences. We provide ample conference presentation opportunities from the 3rd and 4th undergraduate years, and have a strong track record of award-winning undergraduates.',
+          card: {
+            title: 'PerCom Full Paper Acceptances (Past 5 Years)',
+            subtitle: 'Core Conference Ranking A* / Top International IoT Conference',
+            caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years.',
+            headers: ['Rank', 'Research Group', '#'],
+            rows: [
+              { cells: ['1', 'Osaka Univ. — Real-world Intelligence Lab', '7'], highlight: true },
+              { cells: ['2', 'Singapore Management Univ. Group', '5'], highlight: false },
+              { cells: ['3', 'Univ. of Cambridge Group', '4'], highlight: false },
+              { cells: ['3', 'IIT (India) Group', '4'], highlight: false },
+              { cells: ['5', 'USTC Group', '3'], highlight: false },
+              { cells: ['6', 'Univ. of Maryland Group', '2'], highlight: false },
+              { cells: ['6', 'Other Labs in Japan', '2'], highlight: false },
+              { cells: ['6', 'Univ. of Milan Group', '2'], highlight: false },
+              { cells: ['6', 'HKUST Group', '2'], highlight: false },
+            ] as { cells: [string, string, string]; highlight: boolean }[],
+          },
+        },
+        more: [
           {
-            label: 'IST Fellowship (Boost Student)',
-            detail:
-              'For IST doctoral students: monthly stipend of ¥166,000 + annual research budget of ¥500,000. Competitive selection required.',
-            url: 'https://www.ist.osaka-u.ac.jp/japanese/students/lecture/fellowship.php',
+            title: 'R&D of Impactful Real-World Technologies',
+            body: 'We collaborate with a wide range of companies and interdisciplinary researchers to develop technologies that are both technically innovative and practically useful. Technologies from Maekawa Lab have been applied to the manufacturing of globally sold products and to marketing strategy formulation.',
           },
           {
-            label: 'Humanware Innovation Degree Program (HWIP)',
-            detail:
-              "Students enrolled in this 5-year integrated program may receive scholarship grants, research funding, and tuition waiver from the Master's stage onward.",
-            url: 'https://www.hwip.osaka-u.ac.jp/support/',
-          },
-          {
-            label: 'Next-Generation Researcher Program (JST)',
-            detail:
-              'A JST-funded program providing research grants and stipends to selected doctoral students through a competitive screening process.',
-            url: 'https://itgp.osaka-u.ac.jp/jisedai/',
+            title: 'Skills to Thrive in the Era of AI Disruption',
+            body: 'With the dramatic advances in AI, programming and development that can be completed entirely on a PC will certainly be replaced by AI. At Maekawa Lab—where we handle everything from developing real-world devices to researching AI methods—you will build the skills to thrive in this turbulent AI era.',
           },
         ],
+      },
+      support: {
+        title: "Financial Support (Master's & Doctoral Program)",
+        description:
+          'Our lab employs doctoral students as Research Assistants (RA), subject to available funding. We also make active use of the following public support programs at The University of Osaka.',
+        // programs: [
+        //   {
+        //     label: 'IST Fellowship (Boost Student)',
+        //     detail:
+        //       'For IST doctoral students: monthly stipend of ¥166,000 + annual research budget of ¥500,000. Competitive selection required.',
+        //     url: 'https://www.ist.osaka-u.ac.jp/japanese/students/lecture/fellowship.php',
+        //   },
+        //   {
+        //     label: 'Humanware Innovation Degree Program (HWIP)',
+        //     detail:
+        //       "Students enrolled in this 5-year integrated program may receive scholarship grants, research funding, and tuition waiver from the Master's stage onward.",
+        //     url: 'https://www.hwip.osaka-u.ac.jp/support/',
+        //   },
+        //   {
+        //     label: 'Next-Generation Researcher Program (JST)',
+        //     detail:
+        //       'A JST-funded program providing research grants and stipends to selected doctoral students through a competitive screening process.',
+        //     url: 'https://itgp.osaka-u.ac.jp/jisedai/',
+        //   },
+        // ],
         note: 'RA employment and fellowship availability depend on funding conditions and selection results. If you are considering advancing to the doctoral program, please contact us early.',
       },
       faq: {
@@ -303,47 +377,47 @@ const CONTENT = {
     associates: {
       title: 'Researcher / Specially Appointed Faculty Recruitment',
       intro:
-        'We recruit Postdoctoral Researchers, Specially Appointed Researchers, and Specially Appointed Assistant Professors on an ongoing basis, funded through competitive grants (KAKENHI, JST, NEDO, etc.). We welcome researchers who wish to work at the forefront of real-world AI sensing.',
+        'Our lab recruits Specially Appointed Postdoctoral Researchers and Specially Appointed Assistant Professors, funded through competitive external grants such as KAKENHI and JST. We welcome applications from researchers who wish to work at the forefront of real-world AI sensing research.',
       fundingNote:
-        'Employment is based on The University of Osaka\'s specially appointed faculty system or postdoctoral researcher system. Contract period, salary, and research support vary by position and project.',
-      positions: [
-        {
-          title: 'Postdoctoral Researcher',
-          badge: 'Open',
-          target: 'Applicants who hold a doctoral degree, or who are expected to obtain one by the start date',
-          description:
-            'We seek candidates interested in real-world sensing, machine learning, IoT, and bio-logging. Independent research and international publication are expected.',
-          conditionsLabel: 'Employment Conditions',
-          conditions:
-            '1-year contract (renewable); salary based on The University of Osaka Postdoctoral Researcher regulations (approx. JPY 3–4.5M/year)',
-          supportLabel: 'Support',
-          support: 'Research budget and conference travel funding; collaborative research support',
-        },
-        {
-          title: 'Specially Appointed Researcher',
-          badge: 'Project-based',
-          target: 'Doctoral degree holders with experience in real-world sensing, AI, or embedded systems R&D',
-          description:
-            'You will work on JST, NEDO, KAKENHI, or other funded projects, contributing to sensing system development, data analysis, and paper writing.',
-          conditionsLabel: 'Employment Conditions',
-          conditions:
-            'Fixed-term contract aligned with project duration (typically 1–3 years); salary based on The University of Osaka Specially Appointed Faculty regulations',
-          supportLabel: 'Support',
-          support: 'Research budget and travel funding; support for conference presentations and paper submissions',
-        },
-        {
-          title: 'Specially Appointed Assistant Professor',
-          badge: 'By Consultation',
-          target: 'Doctoral degree holders motivated to pursue independent research and supervise graduate students',
-          description:
-            'You will lead key lab projects while supervising graduate students and advancing collaborations. Candidates aiming for a future tenure-track position are especially welcome.',
-          conditionsLabel: 'Employment Conditions',
-          conditions:
-            '1-year contract (renewable); salary based on The University of Osaka Specially Appointed Faculty regulations (approx. JPY 4–5.5M/year)',
-          supportLabel: 'Support',
-          support: 'Independent research budget, travel funding, student supervision support, and collaborative research opportunities',
-        },
-      ],
+        'We are not currently recruiting.',
+      // positions: [
+      //   {
+      //     title: 'Postdoctoral Researcher',
+      //     badge: 'Open',
+      //     target: 'Applicants who hold a doctoral degree, or who are expected to obtain one by the start date',
+      //     description:
+      //       'We seek candidates interested in real-world sensing, machine learning, IoT, and bio-logging. Independent research and international publication are expected.',
+      //     conditionsLabel: 'Employment Conditions',
+      //     conditions:
+      //       '1-year contract (renewable); salary based on The University of Osaka Postdoctoral Researcher regulations (approx. JPY 3–4.5M/year)',
+      //     supportLabel: 'Support',
+      //     support: 'Research budget and conference travel funding; collaborative research support',
+      //   },
+      //   {
+      //     title: 'Specially Appointed Researcher',
+      //     badge: 'Project-based',
+      //     target: 'Doctoral degree holders with experience in real-world sensing, AI, or embedded systems R&D',
+      //     description:
+      //       'You will work on JST, NEDO, KAKENHI, or other funded projects, contributing to sensing system development, data analysis, and paper writing.',
+      //     conditionsLabel: 'Employment Conditions',
+      //     conditions:
+      //       'Fixed-term contract aligned with project duration (typically 1–3 years); salary based on The University of Osaka Specially Appointed Faculty regulations',
+      //     supportLabel: 'Support',
+      //     support: 'Research budget and travel funding; support for conference presentations and paper submissions',
+      //   },
+      //   {
+      //     title: 'Specially Appointed Assistant Professor',
+      //     badge: 'By Consultation',
+      //     target: 'Doctoral degree holders motivated to pursue independent research and supervise graduate students',
+      //     description:
+      //       'You will lead key lab projects while supervising graduate students and advancing collaborations. Candidates aiming for a future tenure-track position are especially welcome.',
+      //     conditionsLabel: 'Employment Conditions',
+      //     conditions:
+      //       '1-year contract (renewable); salary based on The University of Osaka Specially Appointed Faculty regulations (approx. JPY 4–5.5M/year)',
+      //     supportLabel: 'Support',
+      //     support: 'Independent research budget, travel funding, student supervision support, and collaborative research opportunities',
+      //   },
+      // ],
       ctaLabel: 'Contact Us via Form',
     },
 
@@ -486,10 +560,80 @@ function renderStudents(c: ContentLang, formUrl: string) {
         <p className="text-lg text-gray-400 leading-relaxed">{s.intro}</p>
       </div>
 
+      {/* Why Study Here */}
+      <div className="space-y-3">
+        <h3 className="text-2xl font-bold text-white border-l-4 border-lab-blue pl-4">{s.reasons.sectionTitle}</h3>
+
+        {/* Single integrated feature block */}
+        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border border-gray-700/50 overflow-hidden">
+          <div className="flex flex-col lg:flex-row">
+
+            {/* Left column: narrative + 2 feature mini-cards */}
+            <div className="flex-1 min-w-0 p-6 lg:p-8 flex flex-col gap-5 lg:border-r border-gray-700/40">
+              <div>
+                <h4 className="text-lg font-bold text-lab-blue mb-2 uppercase tracking-wide">{s.reasons.featured.title}</h4>
+                <p className="text-base text-gray-300 leading-relaxed">{s.reasons.featured.body}</p>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-auto">
+                {s.reasons.more.map((item, i) => (
+                  <div key={i} className="rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3">
+                    <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide">{item.title}</h5>
+                    <p className="text-sm text-gray-400 leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right column: ranking card */}
+            <div className="lg:w-[38%] shrink-0 p-6 lg:p-8 bg-black/20 flex flex-col">
+              <p className="text-sm font-semibold text-white mb-0.5">{s.reasons.featured.card.title}</p>
+              <p className="text-xs text-lab-blue mb-4 font-medium">{s.reasons.featured.card.subtitle}</p>
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="border-b border-gray-700">
+                    {s.reasons.featured.card.headers.map((h, i) => (
+                      <th
+                        key={i}
+                        className={`pb-1.5 text-xs font-semibold text-gray-500 uppercase tracking-wide ${
+                          i === 0 ? 'w-8 text-center' : i === 2 ? 'w-8 text-right' : 'text-left'
+                        }`}
+                      >{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {s.reasons.featured.card.rows.map((row, i) => (
+                    <tr
+                      key={i}
+                      className={`border-b border-gray-800/50 ${
+                        row.highlight ? 'bg-lab-blue/10' : 'hover:bg-white/[0.02]'
+                      } transition-colors`}
+                    >
+                      <td className={`py-1.5 text-center text-xs tabular-nums ${
+                        row.highlight ? 'text-lab-blue font-bold' : 'text-gray-500'
+                      }`}>{row.cells[0]}</td>
+                      <td className={`py-1.5 pl-1 text-xs leading-snug ${
+                        row.highlight ? 'text-white font-semibold' : 'text-gray-400'
+                      }`}>{row.cells[1]}</td>
+                      <td className={`py-1.5 text-right text-xs tabular-nums ${
+                        row.highlight ? 'text-white font-bold' : 'text-gray-400'
+                      }`}>{row.cells[2]}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <p className="text-xs text-gray-500 mt-3 leading-relaxed">{s.reasons.featured.card.caption}</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       {/* Financial Support — shown first */}
       <div className="bg-gradient-to-br from-cyan-900/20 to-lab-blue/10 rounded-xl p-8 border border-lab-blue/30">
         <h3 className="text-2xl font-bold text-lab-blue mb-4">{s.support.title}</h3>
         <p className="text-gray-300 leading-relaxed mb-6">{s.support.description}</p>
+        {/* programs list — temporarily hidden
         <div className="space-y-4 mb-4">
           {s.support.programs.map((prog, i) => (
             <div key={i} className="flex flex-col gap-1">
@@ -505,6 +649,7 @@ function renderStudents(c: ContentLang, formUrl: string) {
             </div>
           ))}
         </div>
+        */}
         {s.support.note && (
           <p className="text-gray-500 text-xs leading-relaxed border-t border-gray-700/50 pt-4">{s.support.note}</p>
         )}
@@ -524,6 +669,9 @@ function renderStudents(c: ContentLang, formUrl: string) {
         )}
         {s.masters.links?.[0] && (
           <CTAButton href={s.masters.links[0].url} label={s.masters.links[0].label} />
+        )}
+        {s.masters.links?.[1] && (
+          <CTAButton href={s.masters.links[1].url} label={s.masters.links[1].label} />
         )}
       </div>
 
@@ -558,8 +706,8 @@ function renderAssociates(c: ContentLang, formUrl: string) {
         <p className="text-gray-300 text-sm leading-relaxed">{a.fundingNote}</p>
       </div>
 
-      {/* Position cards */}
-      {a.positions.map((pos, i) => (
+      {/* Position cards — temporarily hidden */}
+      {/* {a.positions.map((pos, i) => (
         <div
           key={i}
           className="border-l-4 border-lab-blue p-6 bg-gray-50/5 border border-gray-700/30 rounded-r-lg hover:bg-gray-800/20 transition-colors"
@@ -583,7 +731,7 @@ function renderAssociates(c: ContentLang, formUrl: string) {
             </div>
           </div>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }
