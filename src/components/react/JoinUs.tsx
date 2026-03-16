@@ -541,7 +541,7 @@ const FAQAccordion: React.FC<{ title: string; items: { q: string; a: string }[] 
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </summary>
-          <div className="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-700/30 pt-4">
+          <div className="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-700/30 pt-4 text-justify">
             {item.a}
           </div>
         </details>
