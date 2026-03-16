@@ -69,8 +69,11 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
             return `/ja${basePath === '/' ? '' : basePath}`;
         }
     };
-    const hash = typeof window !== 'undefined' ? window.location.hash : '';
-    const alternateUrl = getAlternateUrl() + hash;
+
+    const buildAlternateUrl = () => {
+        const hash = typeof window !== 'undefined' ? window.location.hash : '';
+        return getAlternateUrl() + hash;
+    };
 
     return (
         <>
@@ -99,7 +102,11 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
 
             {/* Mobile Menu Button */}
             <div className="flex items-center gap-4 md:hidden">
-                <a href={alternateUrl} className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white">
+                <a
+                    href="#"
+                    onClick={(e) => { e.preventDefault(); window.location.href = buildAlternateUrl(); }}
+                    className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white"
+                >
                     {lang === 'ja' ? 'EN' : 'JP'}
                 </a>
                 <button 
@@ -113,7 +120,11 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
 
             {/* Desktop Language Switcher (kept outside of mobile menu for desktop layout consistency in parent) */}
             <div className="hidden md:flex items-center space-x-4">
-                <a href={alternateUrl} className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white">
+                <a
+                    href="#"
+                    onClick={(e) => { e.preventDefault(); window.location.href = buildAlternateUrl(); }}
+                    className="text-xs font-mono border border-white/20 px-2 py-1 rounded hover:bg-white/10 transition-colors text-white"
+                >
                     {lang === 'ja' ? 'EN' : 'JP'}
                 </a>
             </div>
