@@ -69,7 +69,8 @@ export const Navigation: React.FC<Props> = ({ navItems, lang, currentPath }) => 
             return `/ja${basePath === '/' ? '' : basePath}`;
         }
     };
-    const alternateUrl = getAlternateUrl();
+    const hash = typeof window !== 'undefined' ? window.location.hash : '';
+    const alternateUrl = getAlternateUrl() + hash;
 
     return (
         <>

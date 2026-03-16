@@ -72,7 +72,7 @@ const CONTENT = {
               { cells: ['3', 'IIT（インド）グループ', '4'], highlight: false },
               { cells: ['5', '中国科技大グループ', '3'], highlight: false },
               { cells: ['6', 'メリーランド大グループ', '2'], highlight: false },
-              { cells: ['6', '日本・その他研究グループ', '2'], highlight: false },
+              { cells: ['6', '阪大・他研究室', '2'], highlight: false },
               { cells: ['6', 'ミラノ大グループ', '2'], highlight: false },
               { cells: ['6', '香港科技大グループ', '2'], highlight: false },
             ] as { cells: [string, string, string]; highlight: boolean }[],
@@ -211,15 +211,16 @@ const CONTENT = {
       title: '見学・訪問',
       intro:
         '研究室の研究内容をより詳しく知りたい方、進学前に環境を確認したい方からのご連絡をお待ちしています。月に一度、学生向けの研究室説明会を開催しています。',
-      scheduleTitle: '説明会スケジュール（2026年度）',
-      schedule: [
-        { date: '4/21 (Tue.)',  time: '11:00−', note: '' },
-        { date: 'いちょう祭',   time: '',       note: '申し込み不要', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
-        { date: '5/19 (Mon.)',  time: '16:00−', note: '' },
-        { date: '6/16 (Tue.)', time: '11:00−', note: '' },
-        { date: '7/14 (Mon.)', time: '14:00−', note: '' },
-        { date: '8/19 (Tue.)', time: '11:00−', note: '' },
-      ],
+      scheduleTitle: '毎月の学生向け研究室説明会',
+      scheduleNote: '現在調整中',
+      // schedule: [
+      //   { date: '4/21 (Tue.)',  time: '11:00−', note: '' },
+      //   { date: 'いちょう祭',   time: '',       note: '申し込み不要', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
+      //   { date: '5/19 (Mon.)',  time: '16:00−', note: '' },
+      //   { date: '6/16 (Tue.)', time: '11:00−', note: '' },
+      //   { date: '7/14 (Mon.)', time: '14:00−', note: '' },
+      //   { date: '8/19 (Tue.)', time: '11:00−', note: '' },
+      // ],
       itemsTitle: '見学対象者',
       items: [
         '大学院進学を検討している学部生：研究内容・指導体制・学生生活についてご説明します',
@@ -302,13 +303,13 @@ const CONTENT = {
             caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years.',
             headers: ['Rank', 'Research Group', '#'],
             rows: [
-              { cells: ['1', 'Osaka Univ. — Real-world Intelligence Lab', '7'], highlight: true },
+              { cells: ['1', 'Osaka U — Real-world Intelligence Lab', '7'], highlight: true },
               { cells: ['2', 'Singapore Management Univ. Group', '5'], highlight: false },
               { cells: ['3', 'Univ. of Cambridge Group', '4'], highlight: false },
               { cells: ['3', 'IIT (India) Group', '4'], highlight: false },
               { cells: ['5', 'USTC Group', '3'], highlight: false },
               { cells: ['6', 'Univ. of Maryland Group', '2'], highlight: false },
-              { cells: ['6', 'Other Labs in Japan', '2'], highlight: false },
+              { cells: ['6', 'Other Labs in Osaka U', '2'], highlight: false },
               { cells: ['6', 'Univ. of Milan Group', '2'], highlight: false },
               { cells: ['6', 'HKUST Group', '2'], highlight: false },
             ] as { cells: [string, string, string]; highlight: boolean }[],
@@ -448,15 +449,16 @@ const CONTENT = {
       title: 'Lab Visit / Visiting',
       intro:
         'We welcome inquiries from those who wish to learn more about our research or check the environment before applying. We hold monthly lab information sessions for prospective students.',
-      scheduleTitle: 'Information Session Schedule (FY2026)',
-      schedule: [
-        { date: 'Apr. 21 (Tue.)',  time: '11:00−', note: '' },
-        { date: 'Icho-sai',        time: '',       note: 'No registration required', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
-        { date: 'May 19 (Mon.)',   time: '16:00−', note: '' },
-        { date: 'Jun. 16 (Tue.)',  time: '11:00−', note: '' },
-        { date: 'Jul. 14 (Mon.)',  time: '14:00−', note: '' },
-        { date: 'Aug. 19 (Tue.)', time: '11:00−', note: '' },
-      ],
+      scheduleTitle: 'Monthly Lab Info Sessions for Prospective Students',
+      scheduleNote: 'Currently being arranged',
+      // schedule: [
+      //   { date: 'Apr. 21 (Tue.)',  time: '11:00−', note: '' },
+      //   { date: 'Icho-sai',        time: '',       note: 'No registration required', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
+      //   { date: 'May 19 (Mon.)',   time: '16:00−', note: '' },
+      //   { date: 'Jun. 16 (Tue.)',  time: '11:00−', note: '' },
+      //   { date: 'Jul. 14 (Mon.)',  time: '14:00−', note: '' },
+      //   { date: 'Aug. 19 (Tue.)', time: '11:00−', note: '' },
+      // ],
       itemsTitle: 'Who Should Visit',
       items: [
         'Undergraduates considering graduate school: we will explain research content, supervision structure, and student life',
@@ -564,68 +566,63 @@ function renderStudents(c: ContentLang, formUrl: string) {
       <div className="space-y-3">
         <h3 className="text-2xl font-bold text-white border-l-4 border-lab-blue pl-4">{s.reasons.sectionTitle}</h3>
 
-        {/* Single integrated feature block */}
-        <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border border-gray-700/50 overflow-hidden">
-          <div className="flex flex-col lg:flex-row">
+        {/* Left + right columns, no outer wrapper */}
+        <div className="flex flex-col lg:flex-row items-stretch gap-3">
 
-            {/* Left column: narrative + 2 feature mini-cards */}
-            <div className="flex-1 min-w-0 p-6 lg:p-8 flex flex-col gap-5 lg:border-r border-gray-700/40">
-              <div>
-                <h4 className="text-lg font-bold text-lab-blue mb-2 uppercase tracking-wide">{s.reasons.featured.title}</h4>
-                <p className="text-base text-gray-300 leading-relaxed">{s.reasons.featured.body}</p>
+          {/* Left column: 3 equal mini-cards */}
+          <div className="flex-1 min-w-0 flex flex-col gap-3">
+            {[
+              { title: s.reasons.featured.title, body: s.reasons.featured.body },
+              ...s.reasons.more,
+            ].map((item, i) => (
+              <div key={i} className="rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3">
+                <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide">{item.title}</h5>
+                <p className="text-sm text-gray-400 leading-relaxed">{item.body}</p>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-auto">
-                {s.reasons.more.map((item, i) => (
-                  <div key={i} className="rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3">
-                    <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide">{item.title}</h5>
-                    <p className="text-sm text-gray-400 leading-relaxed">{item.body}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Right column: ranking card */}
-            <div className="lg:w-[38%] shrink-0 p-6 lg:p-8 bg-black/20 flex flex-col">
-              <p className="text-sm font-semibold text-white mb-0.5">{s.reasons.featured.card.title}</p>
-              <p className="text-xs text-lab-blue mb-4 font-medium">{s.reasons.featured.card.subtitle}</p>
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="border-b border-gray-700">
-                    {s.reasons.featured.card.headers.map((h, i) => (
-                      <th
-                        key={i}
-                        className={`pb-1.5 text-xs font-semibold text-gray-500 uppercase tracking-wide ${
-                          i === 0 ? 'w-8 text-center' : i === 2 ? 'w-8 text-right' : 'text-left'
-                        }`}
-                      >{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {s.reasons.featured.card.rows.map((row, i) => (
-                    <tr
-                      key={i}
-                      className={`border-b border-gray-800/50 ${
-                        row.highlight ? 'bg-lab-blue/10' : 'hover:bg-white/[0.02]'
-                      } transition-colors`}
-                    >
-                      <td className={`py-1.5 text-center text-xs tabular-nums ${
-                        row.highlight ? 'text-lab-blue font-bold' : 'text-gray-500'
-                      }`}>{row.cells[0]}</td>
-                      <td className={`py-1.5 pl-1 text-xs leading-snug ${
-                        row.highlight ? 'text-white font-semibold' : 'text-gray-400'
-                      }`}>{row.cells[1]}</td>
-                      <td className={`py-1.5 text-right text-xs tabular-nums ${
-                        row.highlight ? 'text-white font-bold' : 'text-gray-400'
-                      }`}>{row.cells[2]}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-              <p className="text-xs text-gray-500 mt-3 leading-relaxed">{s.reasons.featured.card.caption}</p>
-            </div>
-
+            ))}
           </div>
+
+          {/* Right column: ranking card */}
+          <div className="lg:w-[38%] shrink-0 p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border border-gray-700/50 flex flex-col">
+            <p className="text-sm font-semibold text-white mb-0.5">{s.reasons.featured.card.title}</p>
+            <p className="text-xs text-lab-blue mb-4 font-medium">{s.reasons.featured.card.subtitle}</p>
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b border-gray-700">
+                  {s.reasons.featured.card.headers.map((h, i) => (
+                    <th
+                      key={i}
+                      className={`pb-1.5 text-xs font-semibold text-gray-500 uppercase tracking-wide ${
+                        i === 0 ? 'w-8 text-center' : i === 2 ? 'w-8 text-right' : 'text-left'
+                      }`}
+                    >{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {s.reasons.featured.card.rows.map((row, i) => (
+                  <tr
+                    key={i}
+                    className={`border-b border-gray-800/50 ${
+                      row.highlight ? 'bg-lab-blue/10' : 'hover:bg-white/[0.02]'
+                    } transition-colors`}
+                  >
+                    <td className={`py-1.5 text-center text-xs tabular-nums ${
+                      row.highlight ? 'text-lab-blue font-bold' : 'text-gray-500'
+                    }`}>{row.cells[0]}</td>
+                    <td className={`py-1.5 pl-1 text-xs leading-snug ${
+                      row.highlight ? 'text-white font-semibold' : 'text-gray-400'
+                    }`}>{row.cells[1]}</td>
+                    <td className={`py-1.5 text-right text-xs tabular-nums ${
+                      row.highlight ? 'text-white font-bold' : 'text-gray-400'
+                    }`}>{row.cells[2]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p className="text-xs text-gray-500 mt-3 leading-relaxed">{s.reasons.featured.card.caption}</p>
+          </div>
+
         </div>
       </div>
 
@@ -801,34 +798,15 @@ function renderVisiting(c: ContentLang, formUrl: string) {
         <p className="text-lg text-gray-400 leading-relaxed">{v.intro}</p>
       </div>
 
-      {/* Schedule — temporarily hidden */}
-      {/* <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
-        <h3 className="text-lg font-semibold text-white mb-6">{v.scheduleTitle}</h3>
-        <ul className="space-y-3">
-          {v.schedule.map((s, i) => (
-            <li key={i} className="flex items-center gap-4 text-gray-300">
-              {s.url ? (
-                <a
-                  href={s.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-lab-blue hover:text-lab-blue/80 font-mono font-bold w-40 shrink-0 underline underline-offset-2 transition-colors"
-                >
-                  {s.date}
-                </a>
-              ) : (
-                <span className="text-lab-blue font-mono font-bold w-40 shrink-0">{s.date}</span>
-              )}
-              {s.time && <span>{s.time}</span>}
-              {s.note && (
-                <span className="px-2 py-0.5 rounded-full bg-lab-blue/10 text-lab-blue text-xs border border-lab-blue/20">
-                  {s.note}
-                </span>
-              )}
-            </li>
-          ))}
-        </ul>
-      </div> */}
+      {/* Schedule */}
+      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
+        <div className="flex items-center gap-3">
+          <h3 className="text-lg font-semibold text-white">{v.scheduleTitle}</h3>
+          <span className="px-2.5 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 text-xs font-medium border border-yellow-500/20">
+            {v.scheduleNote}
+          </span>
+        </div>
+      </div>
 
       {/* Who should visit */}
       <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
@@ -858,8 +836,25 @@ function renderVisiting(c: ContentLang, formUrl: string) {
 // ============================================================
 
 export const JoinUs: React.FC<Props> = ({ lang }) => {
-  const [activeTab, setActiveTab] = useState<TabId>('students');
+  const validTabs: TabId[] = ['students', 'associates', 'technical', 'visiting'];
+
+  const getInitialTab = (): TabId => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '') as TabId;
+      if (validTabs.includes(hash)) return hash;
+    }
+    return 'students';
+  };
+
+  const [activeTab, setActiveTab] = useState<TabId>(getInitialTab);
   const c = CONTENT[lang];
+
+  const handleTabChange = (tab: TabId) => {
+    setActiveTab(tab);
+    if (typeof window !== 'undefined') {
+      window.history.replaceState(null, '', `#${tab}`);
+    }
+  };
 
   const renderContent = () => {
     switch (activeTab) {
@@ -879,7 +874,7 @@ export const JoinUs: React.FC<Props> = ({ lang }) => {
           return (
             <button
               key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
+              onClick={() => handleTabChange(tab.id)}
               className={`flex items-center gap-2 px-6 py-3 rounded-t-lg font-medium transition-all relative top-[1px] ${
                 isActive
                   ? 'bg-lab-accent text-white border border-lab-accent/30 shadow-lg shadow-lab-accent/10 relative z-10'
