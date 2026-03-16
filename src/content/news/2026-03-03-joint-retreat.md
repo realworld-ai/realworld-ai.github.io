@@ -19,6 +19,10 @@ summary_en: "We held a joint research retreat with Nagoya University and industr
 
 ![合同合宿 ポスターセッション](/images/news/nagoyaRetreat2026-1.jpg)
 
+![合同合宿 ポスターセッション](/images/news/kuwana2026_poster1.png)
+
+![合同合宿 ポスターセッション](/images/news/kuwana2026_poster2.png)
+
 </div>
 
 <div class="lang-en">
