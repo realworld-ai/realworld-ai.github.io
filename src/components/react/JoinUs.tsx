@@ -300,7 +300,7 @@ const CONTENT = {
           card: {
             title: 'PerCom Full Paper Acceptances (Past 5 Years)',
             subtitle: 'Core Conference Ranking A*（top conference） / Top International IoT Conference',
-            caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years (starting from 2026).',
+            caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years, as of 2026.',
             headers: ['Rank', 'Research Group', '#'],
             rows: [
               { cells: ['1', 'Osaka U — Real-world Intelligence Lab', '7'], highlight: true },
