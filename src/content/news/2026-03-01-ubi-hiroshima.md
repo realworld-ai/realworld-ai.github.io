@@ -1,6 +1,6 @@
 ---
 title: "情報処理学会UBI研究会@広島で成果報告"
-date: 2025-03-02
+date: 2026-03-02
 type: "activity"
 coverImage: "/images/news/ubi89_hiroshima.png"
 lang: "ja"
