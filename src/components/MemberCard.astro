@@ -35,5 +35,11 @@ const primaryLink = links?.website || links?.researchmap || links?.github || lin
         )}
     </div>
     
-    <p class="text-sm text-gray-400 font-medium uppercase tracking-wide mt-2">{role}</p>
+    {role.startsWith('Specially Appointed ') ? (
+        <p class="text-sm text-gray-400 font-medium uppercase tracking-normal mt-2 text-center leading-snug" style="text-align:center">
+            Specially Appointed<br />{role.replace('Specially Appointed ', '')}
+        </p>
+    ) : (
+        <p class="text-sm text-gray-400 font-medium uppercase tracking-normal mt-2 text-center leading-snug" style="text-align:center">{role}</p>
+    )}
 </div>
