@@ -92,7 +92,7 @@ const CONTENT = {
       support: {
         title: '経済的サポート（修士・博士課程）',
         description:
-          '当研究室では、研究費がある限り博士後期課程の学生をRA（リサーチアシスタント）として雇用し、経済的なサポートを行っています。大阪大学では以下の公的支援制度も積極的に活用しています。',
+          '当講座では、博士後期課程進学予定の学生を修士・博士課程を通じてリサーチアシスタント（RA）・アルバイトとして雇用し、経済的なサポートを行っています。',
         // programs: [
         //   {
         //     label: '情報人材育成フェローシップ（Boost学生）',
@@ -329,8 +329,9 @@ const CONTENT = {
       support: {
         title: "Financial Support (Master's & Doctoral Program)",
         description:
-          'Our lab employs doctoral students as Research Assistants (RA), subject to available funding. We also make active use of the following public support programs at The University of Osaka.',
-        // programs: [
+          // 'Our lab employs doctoral students as Research Assistants (RA), subject to available funding. We also make active use of the following public support programs at The University of Osaka.',
+          'Our lab employs students planning to pursue doctoral studies as Research Assistants (RAs) or part-time workers throughout their master\'s and doctoral programs, providing them with financial support.',
+          // programs: [
         //   {
         //     label: 'IST Fellowship (Boost Student)',
         //     detail:
@@ -584,8 +585,8 @@ function renderStudents(c: ContentLang, formUrl: string) {
 
           {/* Right column: ranking card */}
           <div className="lg:w-[38%] shrink-0 p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border border-gray-700/50 flex flex-col">
-            <p className="text-sm font-semibold text-white mb-0.5">{s.reasons.featured.card.title}</p>
-            <p className="text-xs text-lab-blue mb-4 font-medium">{s.reasons.featured.card.subtitle}</p>
+            <div className="text-base text-white font-bold mb-1 whitespace-nowrap">{s.reasons.featured.card.title}</div>
+            <div className="text-xs text-lab-blue mb-4 font-medium">{s.reasons.featured.card.subtitle}</div>
             <table className="w-full border-collapse">
               <thead>
                 <tr className="border-b border-gray-700">
