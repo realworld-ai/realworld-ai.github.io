@@ -62,8 +62,8 @@ const CONTENT = {
           body: '前川研は、実世界AI-IoT分野における世界的な研究グループであり、学生を主体として世界的にもトップレベルの研究業績を創出しています。研究室内の豊富な研究実績・ノウハウに基づき、修士学生からトップ国際会議での発表を目指すことも可能です。学部3、4回生から学会発表の機会を多く提供しており、学部生からの受賞実績も豊富です。',
           card: {
             title: 'PerCom本会議論文採択数（過去5年）',
-            subtitle: 'Core Conference Ranking A* / IoT分野トップ国際会議',
-            caption: '前川研は、PerCom本会議論文採択数において過去5年間で世界トップ水準の実績を有しています。',
+            subtitle: 'Core Conference Ranking A*（最高ランク） / IoT分野トップ国際会議',
+            caption: '前川研は、PerCom本会議論文採択数において過去5年間（2026年から）で世界トップ水準の実績を有しています。',
             headers: ['順位', '研究グループ', '本数'],
             rows: [
               { cells: ['1', '阪大・前川研', '7'], highlight: true },
@@ -299,8 +299,8 @@ const CONTENT = {
           body: 'Real-world Intelligence Lab is a world-class research group in the field of real-world AI-IoT, producing top-tier research results globally with students at the center. Based on the lab\'s rich research track record and accumulated know-how, even Master\'s students can aim to present at top international conferences. We provide ample conference presentation opportunities from the 3rd and 4th undergraduate years, and have a strong track record of award-winning undergraduates.',
           card: {
             title: 'PerCom Full Paper Acceptances (Past 5 Years)',
-            subtitle: 'Core Conference Ranking A* / Top International IoT Conference',
-            caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years.',
+            subtitle: 'Core Conference Ranking A*（top conference） / Top International IoT Conference',
+            caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years (starting from 2026).',
             headers: ['Rank', 'Research Group', '#'],
             rows: [
               { cells: ['1', 'Osaka U — Real-world Intelligence Lab', '7'], highlight: true },
