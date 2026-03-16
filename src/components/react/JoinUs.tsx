@@ -255,17 +255,17 @@ const CONTENT = {
       { id: 'students' as TabId,   label: 'Student Recruitment' },
       { id: 'associates' as TabId, label: 'Researcher Recruitment' },
       { id: 'technical' as TabId,  label: 'Technical Staff' },
-      { id: 'visiting' as TabId,   label: 'Lab Visit / Visiting' },
+      { id: 'visiting' as TabId,   label: 'Visit the Lab' },
     ],
 
     students: {
       title: 'Student Recruitment',
       intro:
-        'At Real-world Intelligence Lab, we advance research across four areas—human activity recognition, bio-logging, indoor positioning, and real-world data mining—by fusing sensing technology and machine learning. We foster researchers and engineers who extract knowledge from real-world data and contribute to society.',
+        'At Real-world Intelligence Lab, we conduct research in four areas—human activity recognition, bio-logging, indoor positioning, and real-world data mining—by integrating sensing technologies with machine learning. We aim to foster researchers and engineers who can extract knowledge from real-world data and contribute to society.',
       masters: {
         title: "Undergraduate & Master's Students",
         description:
-          "Real-world Intelligence Lab belongs to the Department of Information Engineering Systems, School of Electronic and Information Engineering, as well as the Multimedia Engineering program in the Graduate School of Information Science and Technology at The University of Osaka. You will gain hands-on experience across the full cycle of real-world AI development—from sensing to AI implementation and field deployment.",
+          "Real-world Intelligence Lab is part of the Department of Information Engineering Systems, School of Electronic and Information Engineering, and the Multimedia Engineering Program in the Graduate School of Information Science and Technology at The University of Osaka. You will gain hands-on experience across the full cycle of real-world AI development, from sensing and AI implementation to field deployment.",
         links: [
           { label: 'For Undergraduates',              url: 'http://school.eei.eng.osaka-u.ac.jp/course/course14' },
           { label: 'For Prospective Graduate Students', url: 'https://www.ist.osaka-u.ac.jp/english/examinees/admission/' },
@@ -273,9 +273,9 @@ const CONTENT = {
         highlights: [
           'Participation in active projects including human activity recognition, bio-logging, and indoor positioning',
           'Joint research with industry partners and field researchers',
-          'Track record of conference presentations and awards from 3rd/4th-year undergraduates, both domestically and internationally',
-          'Business hypothesis setting, team formation, and customer interviews toward technology transfer and venture business development',
-          'Securing commercialization funding',
+          'A strong track record of conference presentations and awards by third- and fourth-year undergraduate students, both in Japan and internationally',
+          'Formulating business hypotheses, building teams, and conducting customer interviews for technology transfer and venture creation',
+          'Opportunities to secure funding for commercialization',
         ],
         note: 'We do not generally accept non-degree research students (kenkyusei). Prospective Master\'s students should apply through the official summer entrance examination.',
         ctaLabel: 'Contact Us via Form',
@@ -283,11 +283,11 @@ const CONTENT = {
       phd: {
         title: 'Doctoral Students',
         description:
-          'Real-world Intelligence Lab belongs to the Multimedia Engineering program in the Graduate School of Information Science and Technology at The University of Osaka. We actively recruit doctoral students from both Japan and abroad! You will pioneer new research themes and pursue independent research.',
+          'Real-world Intelligence Lab is part of the Multimedia Engineering Program in the Graduate School of Information Science and Technology at The University of Osaka. We actively welcome doctoral students from Japan and abroad. You will pioneer new research themes and pursue independent research.',
         highlights: [
           'Proposing and leading new research themes',
           'Joint research with industry partners and field researchers',
-          'Business hypothesis setting, team formation, customer interviews, and prototyping toward technology transfer and venture business development',
+          'Formulating business hypotheses, building teams, conducting customer interviews, and developing prototypes for technology transfer and venture creation',
           'Securing research and commercialization funding',
         ],
         ctaLabel: 'Contact Us via Form',
@@ -296,10 +296,10 @@ const CONTENT = {
         sectionTitle: 'Why Study at Real-world Intelligence Lab',
         featured: {
           title: 'A World-Class AI & IoT Research Group',
-          body: 'Real-world Intelligence Lab is a world-class research group in the field of real-world AI-IoT, producing top-tier research results globally with students at the center. Based on the lab\'s rich research track record and accumulated know-how, even Master\'s students can aim to present at top international conferences. We provide ample conference presentation opportunities from the 3rd and 4th undergraduate years, and have a strong track record of award-winning undergraduates.',
+          body: 'Real-world Intelligence Lab is a world-class research group in real-world AI and IoT, producing top-tier research with students playing a central role. Drawing on the lab\'s strong track record and accumulated expertise, even master\'s students can aim to present at leading international conferences. We also provide many opportunities for third- and fourth-year undergraduate students to present their work, and our undergraduates have received numerous awards.',
           card: {
             title: 'PerCom Full Paper Acceptances (Past 5 Years)',
-            subtitle: 'Core Conference Ranking A*（top conference） / Top International IoT Conference',
+            subtitle: 'CORE Conference Ranking: A* / A leading international conference in IoT',
             caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years, as of 2026.',
             headers: ['Rank', 'Research Group', '#'],
             rows: [
@@ -322,7 +322,7 @@ const CONTENT = {
           },
           {
             title: 'Skills to Thrive in the Era of AI Disruption',
-            body: 'With the dramatic advances in AI, programming and development that can be completed entirely on a PC will certainly be replaced by AI. At Maekawa Lab—where we handle everything from developing real-world devices to researching AI methods—you will build the skills to thrive in this turbulent AI era.',
+            body: 'As AI continues to advance rapidly, tasks limited to PC-based programming and development are increasingly being automated. At Maekawa Lab—where we work on everything from real-world device development to AI methodology research—you will build the skills needed to thrive in this rapidly changing era.',
           },
         ],
       },
@@ -330,7 +330,7 @@ const CONTENT = {
         title: "Financial Support (Master's & Doctoral Program)",
         description:
           // 'Our lab employs doctoral students as Research Assistants (RA), subject to available funding. We also make active use of the following public support programs at The University of Osaka.',
-          'Our lab employs students planning to pursue doctoral studies as Research Assistants (RAs) or part-time workers throughout their master\'s and doctoral programs, providing them with financial support.',
+          'Our lab provides financial support to students planning to pursue doctoral studies, including employment as Research Assistants (RAs) or part-time staff during their master\'s and doctoral studies.',
           // programs: [
         //   {
         //     label: 'IST Fellowship (Boost Student)',
@@ -357,8 +357,8 @@ const CONTENT = {
         title: 'Frequently Asked Questions',
         items: [
           {
-            q: 'Can I visit the lab before being assigned to it (as an undergraduate)?',
-            a: 'Yes, you can. Please check our monthly info sessions (see the "Lab Visit" tab) or contact us via the form.',
+            q: 'As an undergraduate, can I visit the lab before being officially assigned to it?',
+            a: 'Yes. Please check our monthly information sessions (see the "Visit the Lab" tab) or contact us via the form.',
           },
           {
             q: 'Can students from other universities apply for the graduate program?',
@@ -447,11 +447,11 @@ const CONTENT = {
     },
 
     visiting: {
-      title: 'Lab Visit / Visiting',
+      title: 'Visit the Lab',
       intro:
-        'We welcome inquiries from those who wish to learn more about our research or check the environment before applying. We hold monthly lab information sessions for prospective students.',
+        'We welcome inquiries from prospective students and visitors who would like to learn more about our research or get a sense of the lab environment before applying. We hold monthly information sessions for prospective students.',
       scheduleTitle: 'Monthly Lab Info Sessions for Prospective Students',
-      scheduleNote: 'Currently being arranged',
+      scheduleNote: 'Schedule to be announced',
       // schedule: [
       //   { date: 'Apr. 21 (Tue.)',  time: '11:00−', note: '' },
       //   { date: 'Icho-sai',        time: '',       note: 'No registration required', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
