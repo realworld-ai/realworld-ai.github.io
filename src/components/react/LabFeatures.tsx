@@ -18,6 +18,7 @@ const CONTENT = {
         title: 'AI・IoTの世界的研究拠点',
         body: '当講座は実世界AI-IoT分野において、世界的にもトップレベルの研究業績を創出しています。研究室内の豊富な研究実績・ノウハウに基づき、修士学生からでもトップ国際会議での口頭発表を多く行っています。',
         bullets: null as string[] | null,
+        footer: null as string | null,
       },
       {
         title: '実世界で役立つ革新的技術の研究開発',
@@ -27,8 +28,8 @@ const CONTENT = {
           '大規模言語モデルとモビリティデータを活用したマーケティング戦略立案',
           'AIバイオロギングデバイスを用いた動物生態の理解と獣害対策',
           '創薬などへの応用に向けたラボ動物の行動データマイニング研究',
-          'などの共同研究を行っています。',
         ] as string[],
+        footer: 'などの共同研究を行っています。',
       },
     ],
   },
@@ -39,6 +40,7 @@ const CONTENT = {
         title: 'A World-Class AI & IoT Research Hub',
         body: "Our lab is recognized internationally as a top-tier research group in real-world AI and IoT. Building on our extensive research track record and accumulated knowledge, even master's students frequently deliver oral presentations at leading international conferences.",
         bullets: null as string[] | null,
+        footer: null as string | null,
       },
       {
         title: 'R&D of Innovative Technologies for the Real World',
@@ -48,8 +50,8 @@ const CONTENT = {
           'Formulating marketing strategies using large language models and mobility data',
           'Understanding animal ecology and mitigating wildlife damage with AI bio-logging devices',
           'Mining behavioral data from laboratory animals for applications in drug discovery',
-          'and more collaborative research projects.',
         ] as string[],
+        footer: 'and more collaborative research projects.',
       },
     ],
   },
@@ -80,6 +82,9 @@ export const LabFeatures: React.FC<Props> = ({ lang }) => {
                     </li>
                   ))}
                 </ul>
+              )}
+              {feature.footer && (
+                <p className="text-base text-gray-400 leading-relaxed mt-2">{feature.footer}</p>
               )}
             </div>
           ))}
