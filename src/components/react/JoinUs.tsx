@@ -61,8 +61,24 @@ const CONTENT = {
         sectionTitle: '実世界知能基盤講座で学ぶ理由',
         featured: {
           title: 'AI・IoTの世界的研究拠点',
-          body: '前川研は、実世界AI-IoT分野における世界的な研究グループであり、学生を主体として世界的にもトップレベルの研究業績を創出しています。研究室内の豊富な研究実績・ノウハウに基づき、修士学生からトップ国際会議での発表を目指すことも可能です。学部3、4回生から学会発表の機会を多く提供しており、学部生からの受賞実績も豊富です。',
-          card: PERCOM_RANKING.ja,
+          body: '前川研は、実世界AI-IoT分野における世界的な研究グループであり、学生を主体として世界的にもトップレベルの研究業績を創出しています。研究室内の豊富な研究実績・ノウハウに基づき、修士学生からトップ国際会議での口頭発表を目指すことも可能です。学部3、4回生から学会発表の機会を多く提供しており、学部生からの受賞実績も豊富です。',
+          card: {
+            title: 'PerCom本会議論文採択数（過去5年）',
+            subtitle: 'Core Conference Ranking A*（最高ランク） / IoT分野トップ国際会議',
+            caption: '前川研は、PerCom本会議論文採択数において過去5年間（2026年から）で世界トップ水準の実績を有しています。',
+            headers: ['順位', '研究グループ', '本数'],
+            rows: [
+              { cells: ['1', '阪大・前川研', '7'], highlight: true },
+              { cells: ['2', 'Singapore Management Univ.グループ', '5'], highlight: false },
+              { cells: ['3', 'ケンブリッジ大グループ', '4'], highlight: false },
+              { cells: ['3', 'IIT（インド）グループ', '4'], highlight: false },
+              { cells: ['5', '中国科技大グループ', '3'], highlight: false },
+              { cells: ['6', 'メリーランド大グループ', '2'], highlight: false },
+              { cells: ['6', '阪大・他研究室', '2'], highlight: false },
+              { cells: ['6', 'ミラノ大グループ', '2'], highlight: false },
+              { cells: ['6', '香港科技大グループ', '2'], highlight: false },
+            ] as { cells: [string, string, string]; highlight: boolean }[],
+          },
         },
         more: [
           {
