@@ -2,7 +2,7 @@
 title: "合同研究合宿＠桑名"
 date: 2026-03-03
 type: "activity"
-coverImage: "/images/news/nagoyaRetreat2026-2.jpg"
+coverImage: "/images/news/kuwana2026_poster1.png"
 lang: "ja"
 tags: ['Activities']
 tags_ja: ['活動報告']
@@ -18,7 +18,7 @@ summary_en: "We held a joint research retreat with Nagoya University and industr
 各研究室のメンバーがポスター形式で研究成果を発表し、活発な議論・交流が行われました。
 
 
-![合同合宿 ポスターセッション](/images/news/kuwana2026_poster1.png)
+![合同合宿 ポスターセッション](/images/news/nagoyaRetreat2026-2.jpg)
 
 ![合同合宿 ポスターセッション](/images/news/kuwana2026_poster2.png)
 
@@ -30,7 +30,7 @@ On Tuesday, March 3, 2026, we held a joint research retreat with Nagoya Universi
 
 Members from both universities presented their research in a poster session format, fostering lively discussion and exchange between the two groups.
 
-![Joint Retreat Poster Session](/images/news/kuwana2026_poster1.png)
+![Joint Retreat Poster Session](/images/news/nagoyaRetreat2026-2.jpg)
 
 ![Joint Retreat Poster Session](/images/news/kuwana2026_poster2.png)
 </div>
