@@ -68,15 +68,15 @@ const CONTENT = {
 export const LabFeatures: React.FC<Props> = ({ lang }) => {
   const c = CONTENT[lang];
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h2 className="text-3xl font-heading font-bold border-l-4 border-lab-accent pl-4 mb-6">
         {c.sectionTitle}
       </h2>
 
-      <div className="flex flex-col lg:flex-row items-stretch gap-3">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_40%] gap-3">
 
         {/* Left column: feature cards */}
-        <div className="flex-1 min-w-0 flex flex-col gap-3">
+        <div className="flex flex-col gap-3 h-full">
           {c.features.map((feature, i) => (
             <div key={i} className="group rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3 flex-1 transition-all hover:-translate-y-0.5 hover:border-lab-blue/60 hover:bg-gray-800/70">
               <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide transition-colors group-hover:text-white">{feature.title}</h5>
@@ -95,10 +95,8 @@ export const LabFeatures: React.FC<Props> = ({ lang }) => {
           ))}
         </div>
 
-        {/* Right column: PerCom ranking card (shared with JoinUs page) */}
-        <div className="lg:w-[33%] shrink-0">
-          <PerComRankingCard {...PERCOM_RANKING[lang]} />
-        </div>
+        {/* Right column: PerCom ranking card — h-full resolves correctly in a grid cell */}
+        <PerComRankingCard {...PERCOM_RANKING[lang]} />
 
       </div>
     </section>

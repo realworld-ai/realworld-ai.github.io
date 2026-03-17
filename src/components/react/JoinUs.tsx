@@ -562,23 +562,23 @@ function renderStudents(c: ContentLang, formUrl: string) {
               { title: s.reasons.featured.title, body: s.reasons.featured.body },
               ...s.reasons.more,
             ].map((item, i) => (
-              <div key={i} className="rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3">
-                <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide">{item.title}</h5>
+              <div key={i} className="group rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3 transition-all hover:-translate-y-0.5 hover:border-lab-blue/60 hover:bg-gray-800/70">
+                <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide transition-colors group-hover:text-white">{item.title}</h5>
                 <p className="text-sm text-gray-400 leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
 
           {/* Right column: ranking card */}
-          <div className="lg:w-[38%] shrink-0">
-            <PerComRankingCard {...s.reasons.featured.card} />
+          <div className="lg:w-[38%] shrink-0 flex flex-col">
+            <PerComRankingCard {...s.reasons.featured.card} compact />
           </div>
 
         </div>
       </div>
 
       {/* Financial Support — shown first */}
-      <div className="bg-gradient-to-br from-cyan-900/20 to-lab-blue/10 rounded-xl p-8 border border-lab-blue/30">
+      <div className="bg-gradient-to-br from-cyan-900/20 to-lab-blue/10 rounded-xl p-8 border border-lab-blue/30 transition-all hover:border-lab-blue/60 hover:shadow-lg hover:shadow-lab-blue/5">
         <h3 className="text-2xl font-bold text-lab-blue mb-4">{s.support.title}</h3>
         <p className="text-gray-300 leading-relaxed mb-6">{s.support.description}</p>
         {/* programs list — temporarily hidden
@@ -604,8 +604,8 @@ function renderStudents(c: ContentLang, formUrl: string) {
       </div>
 
       {/* Master's */}
-      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
-        <h3 className="text-2xl font-bold text-lab-blue mb-4">{s.masters.title}</h3>
+      <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 transition-all hover:-translate-y-1 hover:border-lab-blue/40 hover:shadow-lg hover:shadow-black/30">
+        <h3 className="text-2xl font-bold text-lab-blue mb-4 transition-colors group-hover:text-white">{s.masters.title}</h3>
         <p className="text-gray-300 leading-relaxed mb-6">{s.masters.description}</p>
         <div className="mb-6">
           <HighlightList items={s.masters.highlights} />
@@ -624,8 +624,8 @@ function renderStudents(c: ContentLang, formUrl: string) {
       </div>
 
       {/* PhD */}
-      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
-        <h3 className="text-2xl font-bold text-lab-blue mb-4">{s.phd.title}</h3>
+      <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 transition-all hover:-translate-y-1 hover:border-lab-blue/40 hover:shadow-lg hover:shadow-black/30">
+        <h3 className="text-2xl font-bold text-lab-blue mb-4 transition-colors group-hover:text-white">{s.phd.title}</h3>
         <p className="text-gray-300 leading-relaxed mb-6">{s.phd.description}</p>
         <div className="mb-6">
           <HighlightList items={s.phd.highlights} />
@@ -696,10 +696,10 @@ function renderTechnical(c: ContentLang) {
       {t.positions.map((pos, i) => (
         <div
           key={i}
-          className="border-l-4 border-lab-blue p-6 bg-gray-50/5 border border-gray-700/30 rounded-r-lg hover:bg-gray-800/20 transition-colors"
+          className="group border-l-4 border-lab-blue p-6 bg-gray-50/5 border border-gray-700/30 rounded-r-lg transition-all hover:bg-gray-800/40 hover:border-gray-600/50 hover:shadow-lg hover:shadow-black/20"
         >
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
-            <h3 className="text-xl font-bold text-white">{pos.title}</h3>
+            <h3 className="text-xl font-bold text-white transition-colors group-hover:text-lab-blue">{pos.title}</h3>
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-lab-blue/10 text-lab-blue border border-lab-blue/20 shrink-0">
               {pos.openings}
             </span>
@@ -750,7 +750,7 @@ function renderVisiting(c: ContentLang, formUrl: string) {
       </div>
 
       {/* Schedule */}
-      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
+      <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 transition-all hover:border-gray-600/60 hover:shadow-lg hover:shadow-black/20">
         <div className="flex items-center gap-3">
           <h3 className="text-lg font-semibold text-white">{v.scheduleTitle}</h3>
           <span className="px-2.5 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 text-xs font-medium border border-yellow-500/20">
@@ -760,11 +760,11 @@ function renderVisiting(c: ContentLang, formUrl: string) {
       </div>
 
       {/* Who should visit */}
-      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50">
+      <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 transition-all hover:border-gray-600/60 hover:shadow-lg hover:shadow-black/20">
         <h3 className="text-lg font-semibold text-white mb-6">{v.itemsTitle}</h3>
         <ul className="space-y-4">
           {v.items.map((item, i) => (
-            <li key={i} className="flex gap-3 text-gray-300 leading-relaxed">
+            <li key={i} className="flex gap-3 text-gray-300 leading-relaxed transition-colors hover:text-white">
               <span className="text-lab-blue font-bold text-lg shrink-0">✓</span>
               <span>{item}</span>
             </li>
@@ -772,7 +772,7 @@ function renderVisiting(c: ContentLang, formUrl: string) {
         </ul>
       </div>
 
-      <div className="bg-gradient-to-br from-cyan-900/20 to-lab-blue/10 rounded-xl p-8 border border-lab-blue/30 flex flex-col items-center gap-4 text-center">
+      <div className="bg-gradient-to-br from-cyan-900/20 to-lab-blue/10 rounded-xl p-8 border border-lab-blue/30 flex flex-col items-center gap-4 text-center transition-all hover:border-lab-blue/60 hover:shadow-lg hover:shadow-lab-blue/5">
         <p className="text-lg font-semibold text-white">{v.applyNote}</p>
         <CTAButton href={formUrl} label={v.ctaLabel} />
       </div>

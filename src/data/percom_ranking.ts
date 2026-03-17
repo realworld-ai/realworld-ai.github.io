@@ -10,7 +10,7 @@ export interface RankingCardData {
   title: string;
   subtitle: string;
   caption: string;
-  headers: [string, string, string];
+  headers: string[];
   rows: RankingRow[];
 }
 
