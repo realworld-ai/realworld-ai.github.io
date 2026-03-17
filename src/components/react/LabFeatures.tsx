@@ -30,11 +30,6 @@ const CONTENT = {
           'などの共同研究を行っています。',
         ] as string[],
       },
-      {
-        title: '激動のAI時代を生き抜く力',
-        body: 'AIの急速な進化により、パソコン上だけで完結するプログラミングや開発の価値は相対的に低下しつつあります。これからの時代に求められるのは、実世界の課題を捉え、センサ・デバイスの開発からAI手法の研究・実装までを一貫して進められる力です。前川研では、そのような実践的かつ本質的な力を身につけることができます。',
-        bullets: null as string[] | null,
-      },
     ],
   },
   en: {
@@ -56,11 +51,6 @@ const CONTENT = {
           'and more collaborative research projects.',
         ] as string[],
       },
-      {
-        title: 'Skills to Thrive in the Age of AI',
-        body: 'With the rapid advancement of AI, the relative value of programming and development confined to a PC is gradually declining. The era ahead calls for the ability to identify real-world problems and work end-to-end—from sensor and device development to the research and implementation of AI methods. At Maekawa Lab, students cultivate precisely these practical and foundational skills.',
-        bullets: null as string[] | null,
-      },
     ],
   },
 };
@@ -78,13 +68,13 @@ export const LabFeatures: React.FC<Props> = ({ lang }) => {
         {/* Left column: feature cards */}
         <div className="flex flex-col gap-3 h-full">
           {c.features.map((feature, i) => (
-            <div key={i} className="group rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3 flex-1 transition-all hover:-translate-y-0.5 hover:border-lab-blue/60 hover:bg-gray-800/70">
-              <h5 className="text-sm font-bold text-lab-blue mb-1 uppercase tracking-wide transition-colors group-hover:text-white">{feature.title}</h5>
-              <p className="text-sm text-gray-400 leading-relaxed">{feature.body}</p>
+            <div key={i} className={`group rounded-lg border border-gray-700/60 bg-gray-900/50 px-4 py-3 ${i === 0 ? '[flex-grow:4]' : '[flex-grow:6]'} transition-all hover:-translate-y-0.5 hover:border-lab-blue/60 hover:bg-gray-800/70`}>
+              <h5 className="text-base font-bold text-lab-blue mb-1 uppercase tracking-wide transition-colors group-hover:text-white">{feature.title}</h5>
+              <p className="text-base text-gray-400 leading-relaxed">{feature.body}</p>
               {feature.bullets && (
                 <ul className="mt-2 space-y-1">
                   {feature.bullets.map((bullet, j) => (
-                    <li key={j} className="flex gap-2 text-sm text-gray-400">
+                    <li key={j} className="flex gap-2 text-base text-gray-400">
                       <span className="text-lab-blue font-bold shrink-0">•</span>
                       <span>{bullet}</span>
                     </li>
