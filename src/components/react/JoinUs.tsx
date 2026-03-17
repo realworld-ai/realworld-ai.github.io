@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import PerComRankingCard from './PerComRankingCard';
+import { PERCOM_RANKING } from '../../data/percom_ranking';
 
 type TabId = 'students' | 'associates' | 'technical' | 'visiting';
 type ContentLang = (typeof CONTENT)['ja'];
@@ -60,23 +62,7 @@ const CONTENT = {
         featured: {
           title: 'AI・IoTの世界的研究拠点',
           body: '前川研は、実世界AI-IoT分野における世界的な研究グループであり、学生を主体として世界的にもトップレベルの研究業績を創出しています。研究室内の豊富な研究実績・ノウハウに基づき、修士学生からトップ国際会議での発表を目指すことも可能です。学部3、4回生から学会発表の機会を多く提供しており、学部生からの受賞実績も豊富です。',
-          card: {
-            title: 'PerCom本会議論文採択数（過去5年）',
-            subtitle: 'Core Conference Ranking A*（最高ランク） / IoT分野トップ国際会議',
-            caption: '前川研は、PerCom本会議論文採択数において過去5年間（2026年から）で世界トップ水準の実績を有しています。',
-            headers: ['順位', '研究グループ', '本数'],
-            rows: [
-              { cells: ['1', '阪大・前川研', '7'], highlight: true },
-              { cells: ['2', 'Singapore Management Univ.グループ', '5'], highlight: false },
-              { cells: ['3', 'ケンブリッジ大グループ', '4'], highlight: false },
-              { cells: ['3', 'IIT（インド）グループ', '4'], highlight: false },
-              { cells: ['5', '中国科技大グループ', '3'], highlight: false },
-              { cells: ['6', 'メリーランド大グループ', '2'], highlight: false },
-              { cells: ['6', '阪大・他研究室', '2'], highlight: false },
-              { cells: ['6', 'ミラノ大グループ', '2'], highlight: false },
-              { cells: ['6', '香港科技大グループ', '2'], highlight: false },
-            ] as { cells: [string, string, string]; highlight: boolean }[],
-          },
+          card: PERCOM_RANKING.ja,
         },
         more: [
           {
@@ -297,23 +283,7 @@ const CONTENT = {
         featured: {
           title: 'A World-Class AI & IoT Research Group',
           body: 'Real-world Intelligence Lab is a world-class research group in real-world AI and IoT, producing top-tier research with students playing a central role. Drawing on the lab\'s strong track record and accumulated expertise, even master\'s students can aim to present at leading international conferences. We also provide many opportunities for third- and fourth-year undergraduate students to present their work, and our undergraduates have received numerous awards.',
-          card: {
-            title: 'PerCom Full Paper Acceptances (Past 5 Years)',
-            subtitle: 'CORE Conference Ranking: A* / A leading international conference in IoT',
-            caption: 'Real-world Intelligence Lab ranks #1 worldwide in PerCom full paper acceptances over the past five years, as of 2026.',
-            headers: ['Rank', 'Research Group', '#'],
-            rows: [
-              { cells: ['1', 'Osaka U — Real-world Intelligence Lab', '7'], highlight: true },
-              { cells: ['2', 'Singapore Management Univ. Group', '5'], highlight: false },
-              { cells: ['3', 'Univ. of Cambridge Group', '4'], highlight: false },
-              { cells: ['3', 'IIT (India) Group', '4'], highlight: false },
-              { cells: ['5', 'USTC Group', '3'], highlight: false },
-              { cells: ['6', 'Univ. of Maryland Group', '2'], highlight: false },
-              { cells: ['6', 'Other Labs in Osaka U', '2'], highlight: false },
-              { cells: ['6', 'Univ. of Milan Group', '2'], highlight: false },
-              { cells: ['6', 'HKUST Group', '2'], highlight: false },
-            ] as { cells: [string, string, string]; highlight: boolean }[],
-          },
+          card: PERCOM_RANKING.en,
         },
         more: [
           {
@@ -584,44 +554,8 @@ function renderStudents(c: ContentLang, formUrl: string) {
           </div>
 
           {/* Right column: ranking card */}
-          <div className="lg:w-[38%] shrink-0 p-6 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl border border-gray-700/50 flex flex-col">
-            <div className="text-base text-white font-bold mb-1 whitespace-nowrap">{s.reasons.featured.card.title}</div>
-            <div className="text-xs text-lab-blue mb-4 font-medium">{s.reasons.featured.card.subtitle}</div>
-            <table className="w-full border-collapse">
-              <thead>
-                <tr className="border-b border-gray-700">
-                  {s.reasons.featured.card.headers.map((h, i) => (
-                    <th
-                      key={i}
-                      className={`pb-1.5 text-xs font-semibold text-gray-500 uppercase tracking-wide ${
-                        i === 0 ? 'w-8 text-center' : i === 2 ? 'w-8 text-right' : 'text-left'
-                      }`}
-                    >{h}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {s.reasons.featured.card.rows.map((row, i) => (
-                  <tr
-                    key={i}
-                    className={`border-b border-gray-800/50 ${
-                      row.highlight ? 'bg-lab-blue/10' : 'hover:bg-white/[0.02]'
-                    } transition-colors`}
-                  >
-                    <td className={`py-1.5 text-center text-xs tabular-nums ${
-                      row.highlight ? 'text-lab-blue font-bold' : 'text-gray-500'
-                    }`}>{row.cells[0]}</td>
-                    <td className={`py-1.5 pl-1 text-xs leading-snug ${
-                      row.highlight ? 'text-white font-semibold' : 'text-gray-400'
-                    }`}>{row.cells[1]}</td>
-                    <td className={`py-1.5 text-right text-xs tabular-nums ${
-                      row.highlight ? 'text-white font-bold' : 'text-gray-400'
-                    }`}>{row.cells[2]}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <p className="text-xs text-gray-500 mt-3 leading-relaxed">{s.reasons.featured.card.caption}</p>
+          <div className="lg:w-[38%] shrink-0">
+            <PerComRankingCard {...s.reasons.featured.card} />
           </div>
 
         </div>

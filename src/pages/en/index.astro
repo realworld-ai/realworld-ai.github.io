@@ -6,6 +6,7 @@ import { getPublications } from '../../utils/bibtex';
 import { ArrowRight, Trophy, Calendar, Megaphone } from 'lucide-react';
 import Hero from '../../components/Hero.astro';
 import { NewsCarousel } from '../../components/react/NewsCarousel';
+import { LabFeatures } from '../../components/react/LabFeatures';
 
 const lang = 'en';
 const t = ui[lang];
@@ -254,6 +255,9 @@ const heroImages = [
                 </div>
             </div>
         </section>
+
+        <!-- Lab Highlights Section -->
+        <LabFeatures client:only="react" lang={lang} />
 	</main>
 </Layout>
 

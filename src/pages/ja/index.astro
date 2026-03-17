@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 import { getPublications } from '../../utils/bibtex';
 import { ArrowRight, Trophy, Calendar, Megaphone } from 'lucide-react';
 import { NewsCarousel } from '../../components/react/NewsCarousel';
+import { LabFeatures } from '../../components/react/LabFeatures';
 import Hero from '../../components/Hero.astro';
 
 const lang = 'ja';
@@ -265,6 +266,9 @@ const heroImages = [
                 </div>
             </div>
         </section>
+
+        <!-- 当講座の特徴 Section -->
+        <LabFeatures client:only="react" lang={lang} />
 	</main>
 </Layout>
 
