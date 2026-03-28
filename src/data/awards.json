@@ -1,5 +1,77 @@
 [
   {
+    "id": "52968790",
+    "award_name": "WiP奨励賞",
+    "award_title": "バイオ実験の映像における教師なしアクションセグメンテーション手法の検討",
+    "winners": [
+      {
+        "name": "岡 辰之輔"
+      },
+      {
+        "name": "助川 桃枝"
+      },
+      {
+        "name": "山崎 修平"
+      },
+      {
+        "name": "今田 辰海"
+      },
+      {
+        "name": "戸谷 吉博"
+      },
+      {
+        "name": "宮西 大樹"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "情報処理学会MBL研究会",
+    "award_date": "2025-11",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52957880",
+    "award_name": "WiP奨励賞",
+    "award_title": "生成動物動画を活用した仮想センサデータの構築と動物行動認識への適用に関する初期検討",
+    "winners": [
+      {
+        "name": "迫 泰樹"
+      },
+      {
+        "name": "大塚 亮真"
+      },
+      {
+        "name": "前川 卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "情報処理学会MBL研究会",
+    "award_date": "2025-11",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52957718",
+    "award_name": "International Conference Presentation Promotion Award",
+    "award_title": "Preliminary Investigation of Indoor Acoustic Landmark: Towards Landmark-based Opportunistic Indoor Positioning",
+    "winners": [
+      {
+        "name": "Wang Yang"
+      },
+      {
+        "name": "Maekawa Takuya"
+      }
+    ],
+    "association": "情報処理学会UBI研究会",
+    "award_date": "2025-11",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
     "id": "51602718",
     "award_name": "第20回日本バイオログング研究会シンポジウム 最優秀発表賞（ポスター）",
     "award_title": "リアルタイム行動認識機能を備えたAIバイオロガーによる 海鳥に対する自律型音声プレイバック実験の試み",
@@ -33,6 +105,69 @@
     ],
     "association": "The 15th International Conference on Mobile Computing and Ubiquitous Networking",
     "award_date": "2025-09",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "53082025",
+    "award_name": "IPSJ SIGUBI Young Researcher Award",
+    "award_title": "Preliminary Investigation of Packing Process Recognition Using Cross Knowledge Distillation",
+    "winners": [
+      {
+        "name": "Qiao Hongyin"
+      },
+      {
+        "name": "Rizk Hamada"
+      },
+      {
+        "name": "Maekawa Takuya"
+      }
+    ],
+    "association": "情報処理学会UBI研究会",
+    "award_date": "2025-05",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "53080596",
+    "award_name": "UBIヤングリサーチャー賞",
+    "award_title": "ChatGPTを用いたバイオ実験作業の教師なし認識に関する検討",
+    "winners": [
+      {
+        "name": "岡 辰之輔"
+      },
+      {
+        "name": "助川 桃枝"
+      },
+      {
+        "name": "今田 辰海"
+      },
+      {
+        "name": "戸谷 吉博"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "情報処理学会UBI研究会",
+    "award_date": "2025-05",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "53080298",
+    "award_name": "優秀論文賞",
+    "award_title": "菓子製造における長期時系列データに対するデータ拡張手法の探索",
+    "winners": [
+      {
+        "name": "山崎 修平"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "情報処理学会UBI研究会",
+    "award_date": "2025-05",
     "major_achievement": false,
     "owner_id": "takumae80"
   },
