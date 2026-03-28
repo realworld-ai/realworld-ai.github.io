@@ -16,8 +16,9 @@ const facultyRoles = [
 const staffRoles = [
     '技術補佐員', '事務補佐員'
 ];
-const studentGrades = ['D3', 'D2', 'D1', 'M2', 'M1', 'B4'];
+const studentGrades = ['D4', 'D3', 'D2', 'D1', 'M2', 'M1', 'B4'];
 const studentGradeLabels: Record<string, string> = {
+    'D4': '博士課程4年',
     'D3': '博士課程3年',
     'D2': '博士課程2年',
     'D1': '博士課程1年',
@@ -107,7 +108,24 @@ const alumni = alumniData.filter(a => graduateRoles.includes(a.role_en));
                 <h2 class="text-2xl font-bold text-white">学生</h2>
             </div>
             
-            {/* Doctorate Students */}
+            {/* Doctorate Students - D4 */}
+            {studentsByGrade.D4?.length > 0 && (
+                <div class="mb-12">
+                    <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">{studentGradeLabels.D4}</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        {studentsByGrade.D4.map(member => (
+                            <MemberCard 
+                                name={member.name_ja}
+                                role={member.role_ja}
+                                image={member.image}
+                                links={member.links}
+                            />
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {/* Doctorate Students - D3 */}
             {studentsByGrade.D3?.length > 0 && (
                 <div class="mb-12">
                     <h3 class="text-lg font-semibold text-gray-300 mb-4 pl-3 border-l border-lab-accent">{studentGradeLabels.D3}</h3>

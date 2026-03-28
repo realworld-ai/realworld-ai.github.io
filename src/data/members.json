@@ -106,14 +106,6 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
-    "id": "taisei-shigemoto",
-    "name_ja": "重留 大誠",
-    "name_en": "Taisei Shigemoto",
-    "role_ja": "技術補佐員",
-    "role_en": "Technical Assistant",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
     "id": "takara-miyazaki",
     "name_ja": "宮崎 貴羅",
     "name_en": "Takara Miyazaki",
@@ -138,59 +130,43 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
-    "id": "tomono-tokumori",
-    "name_ja": "徳森 知乃",
-    "name_en": "Tomono Tokumori",
-    "role_ja": "事務補佐員",
-    "role_en": "Administrative Assistant",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "kensuke-uchida",
-    "name_ja": "内田 健介",
-    "name_en": "Kensuke Uchida",
-    "role_ja": "博士3年",
-    "role_en": "D3",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
     "id": "lilika-makabe",
     "name_ja": "真壁 莉里花",
     "name_en": "Lilika Makabe",
-    "role_ja": "博士3年",
-    "role_en": "D3",
+    "role_ja": "博士4年",
+    "role_en": "D4",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "weng-ian-chan",
     "name_ja": "Weng Ian Chan",
     "name_en": "Weng Ian Chan",
-    "role_ja": "博士3年",
-    "role_en": "D3",
+    "role_ja": "博士4年",
+    "role_en": "D4",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "yang-yang",
     "name_ja": "Yang Yang",
     "name_en": "Yang Yang",
-    "role_ja": "博士3年",
-    "role_en": "D3",
+    "role_ja": "博士4年",
+    "role_en": "D4",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "zeyi-huang",
     "name_ja": "Zeyi Huang",
     "name_en": "Zeyi Huang",
-    "role_ja": "博士3年",
-    "role_en": "D3",
+    "role_ja": "博士4年",
+    "role_en": "D4",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "shuhei-yamazaki",
     "name_ja": "山崎 修平",
     "name_en": "Shuhei Yamazaki",
-    "role_ja": "博士3年",
-    "role_en": "D3",
+    "role_ja": "博士4年",
+    "role_en": "D4",
     "image": "/assets/members/ShuheiYamazaki.jpg"
   },
   {
@@ -210,36 +186,12 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
-    "id": "junhao-xing",
-    "name_ja": "Junhao Xing",
-    "name_en": "Junhao Xing",
-    "role_ja": "博士2年",
-    "role_en": "D2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "ryouta-fujii",
-    "name_ja": "藤井 亮太",
-    "name_en": "Ryouta Fujii",
-    "role_ja": "博士2年",
-    "role_en": "D2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
     "id": "kei-tanigaki",
     "name_ja": "谷垣 慶",
     "name_en": "Kei Tanigaki",
-    "role_ja": "博士2年",
-    "role_en": "D2",
+    "role_ja": "博士3年",
+    "role_en": "D3",
     "image": "/assets/members/Tanigaki.png"
-  },
-  {
-    "id": "siwei-zhou",
-    "name_ja": "周 思為",
-    "name_en": "Siwei Zhou",
-    "role_ja": "博士1年",
-    "role_en": "D1",
-    "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "yating-gao",
@@ -250,115 +202,59 @@
     "image": "/assets/members/YatingGao.jpg"
   },
   {
-    "id": "seinosuke-sakata",
-    "name_ja": "阪田 征之助",
-    "name_en": "Seinosuke Sakata",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "yuki-tsuino",
-    "name_ja": "對野 裕己",
-    "name_en": "Yuki Tsuino",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "taiga-hashida",
-    "name_ja": "橋田 大雅",
-    "name_en": "Taiga Hashida",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "koki-fukai",
-    "name_ja": "深井 高輝",
-    "name_en": "Koki Fukai",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "leyang-xu",
-    "name_ja": "Leyang Xu",
-    "name_en": "Leyang Xu",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "dongni-mao",
-    "name_ja": "Dongni Mao",
-    "name_en": "Dongni Mao",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "kanyu-xu",
-    "name_ja": "Kanyu Xu",
-    "name_en": "Kanyu Xu",
-    "role_ja": "修士2年",
-    "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
     "id": "tsuneari-kuroiwa",
     "name_ja": "黒岩 恒在",
     "name_en": "Tsuneari Kuroiwa",
-    "role_ja": "修士2年",
-    "role_en": "M2",
+    "role_ja": "博士1年",
+    "role_en": "D1",
     "image": "/assets/members/TsuneariKuroiwa.png"
   },
   {
     "id": "hongyin-qiao",
     "name_ja": "喬 紅銀",
     "name_en": "hongyin Qiao",
-    "role_ja": "修士2年",
-    "role_en": "M2",
+    "role_ja": "博士1年",
+    "role_en": "D1",
     "image": "/assets/members/HongyinQiao.jpg"
   },
   {
     "id": "fubuki-imai",
     "name_ja": "今井 吹樹",
     "name_en": "Fubuki Imai",
-    "role_ja": "修士1年",
-    "role_en": "M1",
+    "role_ja": "修士2年",
+    "role_en": "M2",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "keiichiro-iwamoto",
     "name_ja": "岩本 圭一郎",
     "name_en": "Keiichiro Iwamoto",
-    "role_ja": "修士1年",
-    "role_en": "M1",
+    "role_ja": "修士2年",
+    "role_en": "M2",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "kouki-nakahama",
     "name_ja": "中濱 洸希",
     "name_en": "Kouki Nakahama",
-    "role_ja": "修士1年",
-    "role_en": "M1",
+    "role_ja": "修士2年",
+    "role_en": "M2",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "ryoma-bando",
     "name_ja": "坂東 凌馬",
     "name_en": "Ryoma Bando",
-    "role_ja": "修士1年",
-    "role_en": "M1",
+    "role_ja": "修士2年",
+    "role_en": "M2",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "fumiya-mori",
     "name_ja": "森 文哉",
     "name_en": "Fumiya Mori",
-    "role_ja": "修士1年",
-    "role_en": "M1",
+    "role_ja": "修士2年",
+    "role_en": "M2",
     "image": "/assets/members/placeholder.jpg"
   },
   {
@@ -373,40 +269,16 @@
     "id": "jun-ikeda",
     "name_ja": "池田 純",
     "name_en": "Jun Ikeda",
-    "role_ja": "学部4年",
-    "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "taichi-oyama",
-    "name_ja": "尾山 太一",
-    "name_en": "Taichi Oyama",
-    "role_ja": "学部4年",
-    "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "natsuki-takebayashi",
-    "name_ja": "竹林 夏樹",
-    "name_en": "Natsuki Takebayashi",
-    "role_ja": "学部4年",
-    "role_en": "B4",
+    "role_ja": "修士1年",
+    "role_en": "M1",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "naoki-deguchi",
     "name_ja": "出口 直紀",
     "name_en": "Naoki Deguchi",
-    "role_ja": "学部4年",
-    "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "genki-yoshimura",
-    "name_ja": "吉村 元希",
-    "name_en": "Genki Yoshimura",
-    "role_ja": "学部4年",
-    "role_en": "B4",
+    "role_ja": "修士1年",
+    "role_en": "M1",
     "image": "/assets/members/placeholder.jpg"
   },
   {
@@ -415,6 +287,38 @@
     "name_en": "Yuki Kubota",
     "role_ja": "学部4年",
     "role_en": "B4",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "hayao-suzuki",
+    "name_ja": "鈴木 飛央",
+    "name_en": "Hayao Suzuki",
+    "role_ja": "修士2年",
+    "role_en": "M2",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "naoki-tadatsu",
+    "name_ja": "忠津 直樹",
+    "name_en": "Naoki Tadatsu",
+    "role_ja": "修士1年",
+    "role_en": "M1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "shintaro-tanaka",
+    "name_ja": "田中 伸汰朗",
+    "name_en": "Shintaro Tanaka",
+    "role_ja": "修士1年",
+    "role_en": "M1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "taiki-sako",
+    "name_ja": "廹 泰樹",
+    "name_en": "Taiki Sako",
+    "role_ja": "修士1年",
+    "role_en": "M1",
     "image": "/assets/members/placeholder.jpg"
   }
 ]
