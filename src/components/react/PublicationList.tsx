@@ -8,6 +8,7 @@ import publicationsData from '../../data/publications.json';
 import awardsData from '../../data/awards.json';
 import mediaData from '../../data/media_coverage.json';
 import presentationsData from '../../data/presentations.json';
+import miscData from '../../data/misc.json';
 
 // Types based on data structure
 interface Member {
@@ -169,12 +170,18 @@ export const PublicationList: React.FC<Props> = ({ lang }) => {
         } else if (activeTab === 'media') {
              data = mediaData;
         } else if (activeTab === 'presentations_invited') {
-             data = presentationsData.filter((item: any) => 
+             const invitedPresentations = presentationsData.filter((item: any) => 
                  item.presentation_type === 'keynote_oral_presentation' || 
                  item.presentation_type === 'invited_oral_presentation'
              );
+             const invitedMisc = (miscData as any[]).filter((item: any) => item.major_achievement === true);
+             data = [...invitedPresentations, ...invitedMisc].sort((a: any, b: any) =>
+                 (b.publication_date || '').localeCompare(a.publication_date || '')
+             );
         } else if (activeTab === 'presentations_all') {
-             data = presentationsData;
+             data = [...presentationsData, ...(miscData as any[])].sort((a: any, b: any) =>
+                 (b.publication_date || '').localeCompare(a.publication_date || '')
+             );
         }
 
         return data.filter(item => filterItemByMember(item, activeTab) && filterItemBySearch(item, activeTab));

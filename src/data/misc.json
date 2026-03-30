@@ -1,0 +1,2032 @@
+[
+  {
+    "id": "52968808",
+    "presentation_title": "低照度動体ブレ画像の補正に向けた Wi-Fi 由来形状情報利用のための初期検討",
+    "presenters": "田中 伸汰朗, 曹 冠宇, 尾原 和也, 前川 卓也",
+    "event": "第89 回UBI研究発表会",
+    "publication_date": "2026-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52969971",
+    "presentation_title": "バイオ実験の映像における教師なしアクションセグメンテーション手法の検討",
+    "presenters": "岡 辰之輔, 助川 桃枝, 山崎 修平, 今田 辰海, 戸谷 吉博, 宮西 大樹, 前川 卓也",
+    "event": "第117回IPSJ-MBL研究会・第103回IPSJ-ITS研究会合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52969962",
+    "presentation_title": "Text2Motionを用いた仮想IMU生成によるセンサ装着部位非依存PDR手法の初期検討",
+    "presenters": "忠津 直樹, 前川 卓也, 原 隆浩",
+    "event": "第117回IPSJ-MBL研究会・第103回IPSJ-ITS研究会合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52969938",
+    "presentation_title": "産業分野におけるスケルトンから IMU への知識転移に関する検討",
+    "presenters": "喬 紅銀, 夏 清心, Rizk Hamada, 前川 卓也",
+    "event": "第117回IPSJ-MBL研究会・第103回IPSJ-ITS研究会合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52969903",
+    "presentation_title": "Text-to-Videoモデルを利用した作業行動認識モデル構築に関する初期検討",
+    "presenters": "金 相旭, 前川 卓也, 原 隆浩",
+    "event": "第117回IPSJ-MBL研究会・第103回IPSJ-ITS研究会合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52969352",
+    "presentation_title": "バイオロガーにおける加速度データとカメラを利用した多様な行動パターンの自動撮影手法に関する検討",
+    "presenters": "岡 辰之輔, 助川 桃枝, 山崎 修平, 今田 辰海, 戸谷 吉博, 宮西 大樹, 前川 卓也",
+    "event": "第117回IPSJ-MBL研究会・第103回IPSJ-ITS研究会合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52969314",
+    "presentation_title": "生成動物動画を活用した仮想センサデータの構築と動物行動認識への適用に関する初期検討",
+    "presenters": "迫 泰樹, 大塚 亮真, 前川 卓也, 原 隆浩",
+    "event": "第117回IPSJ-MBL研究会・第103回IPSJ-ITS研究会合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52961042",
+    "presentation_title": "Preliminary Investigation of Indoor Acoustic Landmark: Towards Landmark-based Opportunistic Indoor Positioning",
+    "presenters": "Wang Yang, Maekawa Takuya",
+    "event": "The 116th SIGMBL · 87th SIGUBI · 44th SIGCDS · 33rd SIGASD Joint Meeting",
+    "publication_date": "2025-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "51280145",
+    "presentation_title": "人間行動認識基盤モデルのための効果的な自己教師あり学習手法の初期検討と課題分析",
+    "presenters": "谷垣 慶, 前川 卓也, 原 隆浩",
+    "event": "第43回コンシューマ・デバイス＆システム研究発表会",
+    "publication_date": "2025-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "49822521",
+    "presentation_title": "菓子製造における長期時系列データに対するデータ拡張手法の探索",
+    "presenters": "山崎 修平, 前川 卓也",
+    "event": "情報処理学会 第85回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2025-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "49822485",
+    "presentation_title": "複数種類の時系列作業データに基づく工程作業推定",
+    "presenters": "大島宏友, 新沼歩, 福田雅允, 前川卓也, 浪岡保男",
+    "event": "電気学会研究会資料(Web)",
+    "publication_date": "2024-12",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "49822507",
+    "presentation_title": "Preliminary Investigation of End-to-end Indoor Trajectory Prediction Based on 2D Floorplan Image and Graph Neural Network",
+    "presenters": "WANG Yuqiao, MAEKAWA Takuya",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2024-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "49822484",
+    "presentation_title": "ChatGPTを用いたバイオ実験作業の教師なし認識に関する検討",
+    "presenters": "岡辰之輔, 助川桃枝, 今田辰海, 戸谷吉博, 前川卓也, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2024-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "49822503",
+    "presentation_title": "Preliminary Investigation of Packing Process Recognition Using Cross Knowledge Distillation",
+    "presenters": "QIAO Hongyin, HAMADA Rizk, MAEKAWA Takuya",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2024-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "47569903",
+    "presentation_title": "慣性センサと磁気ランドマークを用いたマウスの3D軌跡推定に関する検討",
+    "presenters": "周 恒, 助川桃枝, 大塚亮真, 畦地裕統, 井出 薫, 高橋 晋, 前川卓也",
+    "event": "Neuro 2024, poster session",
+    "publication_date": "2024-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "47569904",
+    "presentation_title": "工程作業認識における時系列データの統合的活用検討",
+    "presenters": "大島 宏友, 福田 雅允, 前川 卓也, 浪岡 保男",
+    "event": "情報処理学会 マルチメディア, 分散, 協調とモバイル(DICOMO2024)シンポジウム論文",
+    "publication_date": "2024-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "47569906",
+    "presentation_title": "バイオロギングデバイスにおける加速度データとカメラを利用した行動目録の自動作成手法",
+    "presenters": "黒岩恒在, 大塚亮真, 谷垣 慶, 助川桃枝, 前川卓也, 原 隆浩",
+    "event": "情報処理学会 第82回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2024-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "47569905",
+    "presentation_title": "カメラ搭載型バイオロガーを活用した野生生物の希少行動の自動記録",
+    "presenters": "谷垣 慶, 大塚亮真, Li Aiyi, 波多野遥太, Wei Yuanzhou, 小山 偲歩, 依田 憲, 前川 卓也",
+    "event": "情報処理学会 第82回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2024-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462188",
+    "presentation_title": "Preliminary investigation on motif-guided multilevel knowledge transfer for logistic work activity recognition",
+    "presenters": "\"[Morales Jaime, Yoshimura Naoya, Xia Qinxin, Maekawa Takuya, Oshima Hirotomo, Fukuda Masamitsu, Namioka Yasuo]\"",
+    "event": "情報処理学会 第81回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2024-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462187",
+    "presentation_title": "産業分野における行動認識のためのOpenPackデータセットの構築とその運用",
+    "presenters": "前川 卓也, 吉村 直也, Molares Jaime, 原 隆浩",
+    "event": "情報処理学会 第81回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2024-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462186",
+    "presentation_title": "アクティビティダイアリーの記録ずれを考慮した行動予測に関する検討",
+    "presenters": "奥田 隆一郎, 夏 清心, 前川 卓也, 原 隆浩, 井上 創造",
+    "event": "情報処理学会 第81回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2024-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462190",
+    "presentation_title": "人間行動認識における汎用行動モデルの構築とその応用に関する検討",
+    "presenters": "谷垣 慶, 前川 卓也, 原 隆浩",
+    "event": "情報処理学会 第80回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462189",
+    "presentation_title": "Preliminary Investigation of Skeleton-based Hand-washing Recognition Using Interaction Graph Between Two Hands",
+    "presenters": "\"[Zhou Heng,Takuya Maekawa]\"",
+    "event": "情報処理学会 第80回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462193",
+    "presentation_title": "複数種類の時系列データを統合的に扱う工程作業認識",
+    "presenters": "大島 宏友, 吉井 崇哲, 福田 雅允, 前川 卓也, 浪岡 保男",
+    "event": "情報処理学会 第79回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462192",
+    "presentation_title": "Preliminary Investigation of Indoor GPS Satellite Reception Prediction via Neural Networks",
+    "presenters": "周 恒, 前川 卓也",
+    "event": "情報処理学会 第79回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "46462191",
+    "presentation_title": "Preliminary Investigation of Estimating Depth Images of Moving Objects from Wi-Fi Channel State Information",
+    "presenters": "\"[Cao Guanyu, Maekawa Takuya, Ohara Kazuya, Kishino Yasue]\"",
+    "event": "情報処理学会 第79回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43448714",
+    "presentation_title": "Unsupervised Human Activity Recognition through Two-stage Prompting with ChatGPT",
+    "presenters": "Qingxin Xia, Takuya Maekawa, Takahiro Hara",
+    "event": "CoRR",
+    "publication_date": "2023-06-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "xiaqing"
+  },
+  {
+    "id": "43194118",
+    "presentation_title": "Preliminary Investigation of Using SSL for Complex Work Activity Recognition in Industrial Settings",
+    "presenters": "\"[Xia Qingxin,Maekawa Takuya,Hara Takahiro,Oshima Hirotomo,Namioka Yasuo]\"",
+    "event": "情報処理学会 第78回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194117",
+    "presentation_title": "介護施設における介護記録の記録漏れを考慮した行動予測手法",
+    "presenters": "奥田 隆一郎, 夏 清心, 前川 卓也, 原 隆浩, 井上 創造",
+    "event": "情報処理学会 第78回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194116",
+    "presentation_title": "産業分野における誤認識を含む行動認識結果に基づく作業工程の異常検知に関する検討",
+    "presenters": "門野 航央, 吉村 直也, 前川 卓也, 原 隆浩",
+    "event": "情報処理学会 第78回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194119",
+    "presentation_title": "Preliminary Investigation of Estimating Distance between Devices via Wi-Fi Round Trip Time Using Positional Embedding of Access Points",
+    "presenters": "\"[Yuqiao Wang,Takuya Maekawa,Kazuya Ohara,Yasue Kishino,Tomoki Murakami,Hirantha Abeysekera]\"",
+    "event": "情報処理学会 第77回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2023-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43170588",
+    "presentation_title": "Preliminary Investigation of predicting GPS satellite’s signal strength in indoor environments",
+    "presenters": "ZHOU Heng, MAEKAWA Takuya",
+    "event": "Proceedings of the Annual Conference of JSAI",
+    "publication_date": "2023",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194124",
+    "presentation_title": "Preliminary Investigation of Employing Smartphone Active Sound Sensing to Predict Distance and Relative Velocity of Roadside Obstacles to Aid Distracted Pedestrians",
+    "presenters": "\"[Dissanayake Thilina,Maekawa Takuya,Hara Takahiro]\"",
+    "event": "情報処理学会 第76回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2022-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194123",
+    "presentation_title": "Preliminary Investigation of Distance Estimation between Devices via Wi-Fi Round Trip Time",
+    "presenters": "\"[Yuqiao Wang,Takuya Maekawa]\"",
+    "event": "情報処理学会 第76回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2022-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194122",
+    "presentation_title": "産業分野での行動認識における例外的行動が認識結果に及ぼす影響に関する分析",
+    "presenters": "門野 航央, 吉村 直也, 前川 卓也, 原 隆浩",
+    "event": "情報処理学会 第76回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2022-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194121",
+    "presentation_title": "介護記録の記録漏れを考慮した非周期性行動の予測に関する検討",
+    "presenters": "\"[奥田 隆一郎,夏 清心,前川 卓也,原 隆浩,井上 創造]\"",
+    "event": "情報処理学会 第76回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2022-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "43194120",
+    "presentation_title": "製品状態、作業箇所、作業者骨格情報に基づく工程作業認識, 情報処理学会",
+    "presenters": "大島 宏友, 吉井 崇哲, 蚊戸 健浩, 前川 卓也, 浪岡 保男",
+    "event": "情報処理学会 第76回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2022-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054430",
+    "presentation_title": "Human activity recognition in factory based on estimation of product state and human-object interaction area.",
+    "presenters": "吉井崇哲, 大島宏友, 白川悠太, 西村圭介, 蚊戸健浩, 前川卓也, 浪岡保男",
+    "event": "情報処理学会全国大会講演論文集",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054429",
+    "presentation_title": "Human-object interaction area estimation based on human pose and optical flow in factory operation video.",
+    "presenters": "白川悠太, 大島宏友, 吉井崇哲, 西村圭介, 蚊戸健浩, 前川卓也, 浪岡保男",
+    "event": "情報処理学会全国大会講演論文集",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054428",
+    "presentation_title": "Wi-Fi CSIの時系列情報を用いた少量学習データによる屋内位置推定手法",
+    "presenters": "村上健太, TEERAWAT Kumrai, 前川卓也, 原隆浩, 尾原和也, 岸野泰恵, 村上友規, アベセカラ ヒランタ",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054427",
+    "presentation_title": "Wi-Fi CSIを用いた行動認識のための強化学習を用いた環境非依存なサンプリングレート選択",
+    "presenters": "丹野友華, 前川卓也, 原隆浩, 尾原和也, 岸野泰恵, 村上友規, アベセカラ ヒランタ",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054426",
+    "presentation_title": "音波センサを用いた低消費電力な環境音認識に関する検討",
+    "presenters": "山田蒼平, 前川卓也, 原隆浩, 尾原和也, 岸野泰恵, 村上友規, アベセカラ ヒランタ",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054425",
+    "presentation_title": "異種ドメインのユーザ・アイテムクラスタ情報を用いたペアワイズ学習に基づく購買予測手法",
+    "presenters": "海保拓真, 原隆浩, 黒川茂莉, 米川慧, 天方大地, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054424",
+    "presentation_title": "Preliminary Investigation of Predicting the Distance and the Relative Velocirty of the Obstacles via Smartphone Active Sound Sensing for Pedestrian Safety",
+    "presenters": "DISSANAYAKE Thilina, 前川卓也, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054423",
+    "presentation_title": "工場・物流センタにおける作業順序を考慮した少量学習データでの作業行動認識手法の検討",
+    "presenters": "吉村直也, 前川卓也, 原隆浩, 和田篤, 浪岡保男",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40054422",
+    "presentation_title": "Few-shot弱教師あり学習を用いたウェアラブル加速度センサによる動作カウント手法",
+    "presenters": "西野祐希, 前川卓也, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2022",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800518",
+    "presentation_title": "A Supporting Technique for Comparative Analysis of Factory Work by Skilled and Unskilled Workers using Neural Network with Attention Mechanism",
+    "presenters": "Qingxin Xia, Atsushi Wada, Takanori Yoshii, Yasuo Namioka, Takuya Maekawa",
+    "event": "\"情報処理学会 マルチメディア, 分散, 協調とモバイル(DICOMO2021)シンポジウム論文集\"",
+    "publication_date": "2021-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800521",
+    "presentation_title": "Preliminary Investigation of Using GPS Information to Improve Indoor Pedestrian Dead Reckoning",
+    "presenters": "Zhou Heng, Takuya Maekawa",
+    "event": "情報処理学会 第70回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2021-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800520",
+    "presentation_title": "Preliminary investigation of obstacle recognition via smartphone active sound sensing for pedestrian safety",
+    "presenters": "Dissanayake Thilina, Maekawa Takuya, Hara Takahiro",
+    "event": "情報処理学会 第71回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2021-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940756",
+    "presentation_title": "Automatic Work Recognition Method for Repeated Operations at Sites toward Realization of Manufacturing CPS",
+    "presenters": "浪岡保男, 前川卓也",
+    "event": "東芝レビュー(Web)",
+    "publication_date": "2021-01",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800524",
+    "presentation_title": "Preliminary investigation on activity recognition for packaging tasks using motif-guided attention networks",
+    "presenters": "Morales Jaime, Yoshimura Naoya, Xia Qingxin, Maekawa Takuya, Wada Atsushi, Namioka Yasuo",
+    "event": "情報処理学会 第68回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2020-12",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800523",
+    "presentation_title": "スマートウォッチによるアクティブ・パッシブセンシングを用いた屋内位置ラベル推定",
+    "presenters": "Thilina Dissanayake, 前川 卓也, 原 隆浩, 宮西 大樹, 川鍋 一晃",
+    "event": "情報処理学会 第68回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2020-12",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800522",
+    "presentation_title": "行動認識ニューラルネットの理解に向けたActivation Maximizaionの活用に関する検討",
+    "presenters": "吉村 直也, 前川 卓也, 原 隆浩",
+    "event": "情報処理学会 第68回ユビキタスコンピューティングシステム研究会",
+    "publication_date": "2020-12",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33800519",
+    "presentation_title": "弱教師あり学習による加速度センサを用いた動作カウント手法の提案",
+    "presenters": "西野 祐希, 前川 卓也, 原 隆浩",
+    "event": "\"情報処理学会 マルチメディア, 分散, 協調とモバイル(DICOMO2020)シンポジウム論文集\"",
+    "publication_date": "2020-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "30123114",
+    "presentation_title": "Preliminary Investigation of Unsupervised Segmentation for Animal Locomotion Data using Deep Learning",
+    "presenters": "TSUJIMOTO Hiroki, TAKEUCHI Koh, KISHINO Yasue, SUZUKI Hirokazu, YODA Ken, KIMURA Koutarou D., MAEKAWA Takuya, HARA Takahiro",
+    "event": "Proceedings of the Annual Conference of JSAI",
+    "publication_date": "2020-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "30123113",
+    "presentation_title": "Multi-Step Spatio-Temporal Reasoning for Open-Ended Video Question Answering",
+    "presenters": "MIYANISHI Taiki, MAEKAWA Takuya, KAWANABE Motoaki",
+    "event": "Proceedings of the Annual Conference of JSAI",
+    "publication_date": "2020-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "26487429",
+    "presentation_title": "Trends Tracking Memory Recommender Networks for Product Recommendations in E-Commerce",
+    "presenters": "Zhi Li, Boqi Gao, Daichi Amagata, Takuya Maekawa, Takahiro Hara, Hao Niu, Kei Yonekawa, Mori Kurokawa",
+    "event": "第12回データ工学と情報マネジメントに関するフォーラム（DEIMフォーラム2020）",
+    "publication_date": "2020-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "33678332",
+    "presentation_title": "AI on Animals: Development of AI-enabled Biologging Device",
+    "presenters": "前川卓也",
+    "event": "計測自動制御学会システムインテグレーション部門講演会(CD-ROM)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940784",
+    "presentation_title": "Preliminary Investigation of Unsupervised Factory Activity Recognition with Wearable Sensors via Temporal Structure of Multiple Motifs",
+    "presenters": "XIA Qingxin, KORPELA Joseph, NAMIOKA Yasuo, MAEKAWA Takuya",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940783",
+    "presentation_title": "Preliminary investigation on activity recognition for packaging tasks using motif-guided attention networks",
+    "presenters": "MORALES Jaime, YOSHIMURA Naoya, XIA Qingxin, MAEKAWA Takuya, WADA Atsushi, NAMIOKA Yasuo",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940762",
+    "presentation_title": "GPS信号情報とBluetooth電波情報を用いたIoT機器の協調的屋内位置推定手法の検討",
+    "presenters": "藤原真之, 中谷友哉, 前川卓也, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940761",
+    "presentation_title": "Domain-Adversarial Training for Door Event Detection Using Wi-Fi Channel State Information",
+    "presenters": "KIM Heng, 尾原和也, 前川卓也, 原隆浩, 村上友規, アベセカラ ヒランタ",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940760",
+    "presentation_title": "Wi-Fiチャネル状態情報による行動認識における強化学習を用いたサンプリングレート自動選択の検討",
+    "presenters": "丹野友華, 前川卓也, 原隆浩",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940759",
+    "presentation_title": "頑健な屋内位置推定のための時間的・空間的特徴を利用したWi-Fi受信信号のノイズ除去と欠損値補間に関する検討",
+    "presenters": "村上健太, 前川卓也, 原隆浩",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940758",
+    "presentation_title": "スマートウォッチによるアクティブ・パッシブセンシングを用いた屋内位置ラベル推定",
+    "presenters": "DISSANAYAKE Thilina, 前川卓也, 原隆浩, 宮西大樹, 川鍋一晃",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "31940757",
+    "presentation_title": "行動認識ニューラルネットの理解に向けたActivation Maximizaionの活用に関する検討",
+    "presenters": "吉村直也, 前川卓也, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "47183311",
+    "presentation_title": "A preliminary report on the association between tourism and faecal glucocorticoid metabolites concentrations in mountain gorillas in Bwindi, Uganda",
+    "presenters": "大塚亮真, 山越言, 木下こづえ",
+    "event": "霊長類研究",
+    "publication_date": "2020",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
+    "id": "26487428",
+    "presentation_title": "Detecting Energy Depriving Malicious Nodes by Unsupervised Learning in Energy Harvesting Cooperative Wireless Sensor Networks",
+    "presenters": "高 博奇, 天方 大地, 前川 卓也, 原 隆浩",
+    "event": "マルチメディア通信と分散処理ワークショップ (DPSWS 2019)",
+    "publication_date": "2019-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "26487425",
+    "presentation_title": "行動認識モデルの転移学習に向けたニューラルネットワークによる特徴抽出の可視化と分析",
+    "presenters": "吉村 直也, 前川 卓也, 原 隆浩",
+    "event": "情報処理学会マルチメディア，分散，協調とモバイル(DICOMO2019)シンポジウム論文集",
+    "publication_date": "2019-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "17711347",
+    "presentation_title": "Preliminary Investigation on Recognizing Environment‐dependent Human Actions using a Fusion of Wi‐Fi Based Place Clustering and Motif Detection from Accelerometer Data",
+    "presenters": "DISSANAYAKE Thilina, MAEKAWA Takuya, HARA Takahiro",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2019-06-26",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "17711346",
+    "presentation_title": "Preliminary Investigation of Assembly Work Activity Recognition with Wearable Sensors via Unsupervised Learning",
+    "presenters": "XIA Qingxin, WADA Atsushi, KORPELA Joseph, MAEKAWA Takuya, NAMIOKA Yasuo",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2019-06-26",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "17711345",
+    "presentation_title": "Sim2RealQA:ニューラル質問応答モデルの仮想世界から現実世界への転移",
+    "presenters": "宮西大樹, 前川卓也, 川鍋一晃, 川鍋一晃",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2019-06-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "30435028",
+    "presentation_title": "Preliminary Investigation of an Accelerated Algorithm for Unsupervised Assembly-work Activity Recognition with Acceleration Sensors (情報システム研究会 知的情報システム,その他一般)",
+    "presenters": "Xia Qingxin, Korpela Joseph, 前川 卓也, 和田 篤, 浪岡 保男",
+    "event": "電気学会研究会資料. IS",
+    "publication_date": "2019-05-27",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "34623590",
+    "presentation_title": "無線LANのCSIを活用したセンシング技術",
+    "presenters": "村上友規, ABEYSEKERA Hirantha, 内山彰, 猿渡俊介, 前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2019",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "52063504",
+    "presentation_title": "RNA 化学修飾と精神疾患 ― 神経シナプスからの理解",
+    "presenters": "助川桃枝, 王丹",
+    "event": "医学のあゆみ",
+    "publication_date": "2019",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
+  },
+  {
+    "id": "26487424",
+    "presentation_title": "再帰型ニューラルネットワークによるアプリケーションの利用履歴を用いたユーザのコンテキスト推定モデルの構築",
+    "presenters": "神谷 俊充, 中村 達哉, 前川 卓也, 天方 大地, 原 隆浩",
+    "event": "情報処理学会マルチメディア，分散，協調とモバイル(DICOMO2018)シンポジウム論文集",
+    "publication_date": "2018-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "34575754",
+    "presentation_title": "Preliminary investigation of a method for supporting discovery of attribute-dependent differences in animal behavior for animal trajectory analysis",
+    "presenters": "東出 大輝, 前川 卓也, 天方 大地, 原 隆浩, 水谷 友一, 鈴木 宏和, 依田 憲",
+    "event": "システム制御情報学会研究発表講演会講演論文集",
+    "publication_date": "2018-05-16",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "21392673",
+    "presentation_title": "Unsupervised Method to Automatically Measure Lead Time of Repetitive Processes Using Acceleration Data from Wearable Sensor on Worker",
+    "presenters": "浪岡保男, 前川卓也",
+    "event": "東芝レビュー(Web)",
+    "publication_date": "2018-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "26490059",
+    "presentation_title": "動物移動行動データからの高速な頻出共起ルール抽出に関する検討",
+    "presenters": "田 一鳴, 前川 卓也, 天方 大地, 原 隆浩, 松本 祥子, 依田 憲, 藤岡 慧明, 濱井 郁弥, 福井 大, 飛龍 志津子",
+    "event": "第10回データ工学と情報マネジメントに関するフォーラム（DEIMフォーラム2018）",
+    "publication_date": "2018-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "26490050",
+    "presentation_title": "Preliminary Investigation of Co-Occurrence Rule Extraction from Multi-Modal Animal Locomotion Data",
+    "presenters": "田 一鳴, 前川 卓也, 天方 大地, 原 隆浩, 松本 祥子, 依田 憲, 藤岡 慧明, 濱井 郁弥, 福井 大, 飛龍 志津子",
+    "event": "情報処理学会第80回全国大会",
+    "publication_date": "2018-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "28402043",
+    "presentation_title": "Comparative Pattern Mining of Human Trajectory Data",
+    "presenters": "梶岡 慎輔, 佐久間 拓人, 西 和弥, 梅津 佑太, 烏山 昌幸, 玉木 徹, 前川 卓也, 打矢 隆弘, 松尾 啓志, 竹内 一郎",
+    "event": "電子情報通信学会技術研究報告 = IEICE technical report : 信学技報",
+    "publication_date": "2018-02-26",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40831384",
+    "presentation_title": "Wi-Fiチャネル状態情報を用いた教師無し学習によるドアの開閉検知手法",
+    "presenters": "尾原和也, 前川卓也, 村上友規, アベセカラ ヒランタ",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2018",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "40831381",
+    "presentation_title": "転移学習を用いたWi-Fi電波による屋内日常物の状態推定に関する検討",
+    "presenters": "キム ヘン, 尾原和也, 前川卓也, 村上友規, アベセカラ ヒランタ, 天方大地, 原隆浩",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2018",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "34914904",
+    "presentation_title": "ウミネコの意外な採餌行動と繁殖ステージ変遷による餌種,採餌頻度変化",
+    "presenters": "鶴谷未知, 水谷友一, 鈴木宏和, 前川卓也, KORPELA Joseph, 依田憲",
+    "event": "日本動物行動学会大会発表要旨集",
+    "publication_date": "2018",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35591510",
+    "presentation_title": "Scale Estimation for Structure from Motion by Indoor Localization using Wi-Fi Channel State Information",
+    "presenters": "尾原 和也, 林 大晟, 前川 卓也, 松下 康之",
+    "event": "電気学会研究会資料. IS",
+    "publication_date": "2017-08-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37272315",
+    "presentation_title": "Location Semantics Labeling of Wi-Fi Signal Information using Convolutional Neural Network and Camera Images",
+    "presenters": "Zhang Yizhe, 前川 卓也, 松下 康之",
+    "event": "電気学会研究会資料. IS",
+    "publication_date": "2017-03-23",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37274348",
+    "presentation_title": "ニューラルネットワークによるWi-Fi受信電波強度を用いた2地点間距離推定に関する検討 (モバイルネットワークとアプリケーション)",
+    "presenters": "中谷 友哉, 前川 卓也, 白川 真澄, 原 隆浩",
+    "event": "電子情報通信学会技術研究報告 = IEICE technical report : 信学技報",
+    "publication_date": "2017-03-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37273743",
+    "presentation_title": "ニューラルネットワークによるWi-Fi受信電波強度を用いた2地点間距離推定に関する検討 (知的環境とセンサネットワーク)",
+    "presenters": "中谷 友哉, 前川 卓也, 白川 真澄, 原 隆浩",
+    "event": "電子情報通信学会技術研究報告 = IEICE technical report : 信学技報",
+    "publication_date": "2017-03-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "26490046",
+    "presentation_title": "モバイルアドホックネットワークにおける機械学習を用いた攻撃端末特定手法",
+    "presenters": "高 博奇, 前川 卓也, 天方 大地, 原 隆浩",
+    "event": "第9回データ工学と情報マネジメントに関するフォーラム（DEIMフォーラム2017）",
+    "publication_date": "2017-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "25756267",
+    "presentation_title": "高度なコンテキスト情報を活用したユーザの利用アプリケーションの推定",
+    "presenters": "川上 慶士, 原 隆浩, 前川 卓也, 石塚 宏紀, Xing Xie",
+    "event": "データ工学と情報マネジメントに関するフォーラム(DEIM 2017)論文集",
+    "publication_date": "2017-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "34101931",
+    "presentation_title": "First-bird view video recognition",
+    "presenters": "玉木 徹, 竹内 一郎, 前川 卓也, 依田 憲",
+    "event": "電子情報通信学会技術研究報告 = IEICE technical report : 信学技報",
+    "publication_date": "2016-09-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "28402050",
+    "presentation_title": "Selective Inference for Time-series Change-Point Analysis",
+    "presenters": "梅津 佑太, 中川 和也, 井上 茂乗, 津田 宏治, 杉山 麿人, 前川 卓也, 玉木 徹, 依田 憲, 竹内 一郎",
+    "event": "電子情報通信学会技術研究報告 = IEICE technical report : 信学技報",
+    "publication_date": "2016-09-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35565879",
+    "presentation_title": "Preliminary Investigation of Unsupervised Analysis of Assembly Work by Using Wearable Sensor",
+    "presenters": "尾原 和也, 中井 大輔, 前川 卓也, 浪岡 保男",
+    "event": "電気学会研究会資料. IS",
+    "publication_date": "2016-08-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013017",
+    "presentation_title": "スマートフォンセンサを用いた学習環境への過剰適合を考慮した屋内位置セマンティクス推定手法",
+    "presenters": "立川雅也, 前川卓也, 前川卓也, 前川卓也, 松下康之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2016-05-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013016",
+    "presentation_title": "一人称視点映像を用いたWeb上の知識に基づく環境非依存な行動認識手法の提案",
+    "presenters": "久賀稜平, 前川卓也, 松下康之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2016-05-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013019",
+    "presentation_title": "Preliminary investigation of estimating indoorlocation semantics combining passive and active sensing",
+    "presenters": "立川雅也, 前川卓也, 松下康之",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2016-05-16",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013018",
+    "presentation_title": "Preliminary investigation of automatic breathing-method classification using headset microphone",
+    "presenters": "清水育, 前川卓也, 松下康之",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2016-05-16",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013020",
+    "presentation_title": "家庭環境コンテキスト認識の最新研究と今後の展開",
+    "presenters": "前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-05-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013021",
+    "presentation_title": "Multimodal Human Activity Recognition using Wearable and Smartphone Sensors",
+    "presenters": "前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-03-17",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37370006",
+    "presentation_title": "Toothbrushing Performance Evaluation Using Smartphone Audio Based on Hybrid HMM-recognition/SVM-regression Model",
+    "presenters": "Joseph Korpela, Ryosuke Miyaji, Takuya Maekawa, Kazunori Nozaki, Hiroo Tamagawa",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2016-03-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013022",
+    "presentation_title": "環境との相互作用を用いた一人称視点映像の検索",
+    "presenters": "宮西大樹, 平山淳一郎, 前川卓也, 孔全, 守谷大樹, 須山敬之",
+    "event": "情報処理学会全国大会講演論文集",
+    "publication_date": "2016-03-10",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37369997",
+    "presentation_title": "Sonic Home: Environmental Sound Collection Game for Human Activity Recognition",
+    "presenters": "Akira Masuda, Kun Zhang, Takuya Maekawa",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2016-02-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37369978",
+    "presentation_title": "Estimating Physical Characteristics with Body-worn Accelerometers Based on Activity Similarities",
+    "presenters": "Akira Masuda, Takuya Maekawa",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2016-02-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013025",
+    "presentation_title": "GPSシグナルを利用した疎なGoogle Street View画像列の時間軸補間",
+    "presenters": "伊藤晟, 鮫島正樹, 前川卓也, 松下康之",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-01-14",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013024",
+    "presentation_title": "赤外線カメラと再帰性反射マーカを用いたプライバシに配慮した屋内位置推定に関する検討",
+    "presenters": "山藤浩明, 前川卓也, 前川卓也, 前川卓也, 松下康之",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-01-14",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013023",
+    "presentation_title": "Web上の知識を用いた1人称視点映像におけるオブジェクトの利用を伴う行動の認識に関する検討",
+    "presenters": "久賀稜平, 前川卓也, 松下康之",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2016-01-14",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37368056",
+    "presentation_title": "Early Activity Recognition Method using Boosted Hidden Markov Models : Analysis of Sport Motion Data (情報システム研究会 知識抽出技術とその応用,その他一般)",
+    "presenters": "Zhang Yizhe, Kong Quan, 小林 啓太, 前川 卓也",
+    "event": "電気学会研究会資料. IS",
+    "publication_date": "2015-11-24",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013028",
+    "presentation_title": "電波強度変化に頑健なWiFi屋内位置推定のための他環境長期電波強度モデルの適応手法",
+    "presenters": "足立樹哉, 大野宇宙, KORPELA Joseph, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-11-22",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013027",
+    "presentation_title": "天井設置型深度カメラを用いたテーブルトップシステム利用者の個人認証手法の提案",
+    "presenters": "増田彬, 前川卓也, 浪岡保男",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-11-22",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013026",
+    "presentation_title": "赤外線カメラと再帰性反射材を用いたデバイスフリー屋内位置推定に関する検討",
+    "presenters": "山藤浩明, 前川卓也, 前川卓也, 前川卓也, 松下康之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-11-22",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013031",
+    "presentation_title": "Wi‐Fi電波を用いた低コストなデバイスフリーパッシブ位置推定のための電波強度分散モデルの転移手法",
+    "presenters": "尾原和也, 前川卓也, 岸野泰恵, 白井良成, 納谷太",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-07-20",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013030",
+    "presentation_title": "GoogleGlassを用いたコンテキスト情報に基づく屋内電化製品選択手法の提案",
+    "presenters": "孔全, 孔全, 前川卓也, 前川卓也, 宮西大樹, 須山敬之",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-07-20",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013029",
+    "presentation_title": "独居高齢者の遠隔介護における介護家族による情報取得の困難さについて",
+    "presenters": "中井大輔, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-07-20",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013033",
+    "presentation_title": "Robust Indoor Positioning against Changes of Signal Strength using Long-term Wi-Fi Signal Strength Data Collected at Other Environments",
+    "presenters": "足立樹哉, 大野宇宙, KORPLA Joseph, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2015-05-28",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013032",
+    "presentation_title": "Proposal of Indoor Positioning Method using Indoor Area Division by SpectralClustering",
+    "presenters": "林大晟, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2015-05-28",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013036",
+    "presentation_title": "顧客の身体的属性情報を用いた商品推薦システムのためのスマート買い物カゴの開発",
+    "presenters": "杉本広大, 高瀬和之, 増田彬, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-05-04",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013035",
+    "presentation_title": "Proposing a System for Unobtrusive Detection of Body Movements during Sleep Based on the Measurement of Wi-Fi RSSI",
+    "presenters": "庵前修, KORPELA Joseph, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-05-04",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013034",
+    "presentation_title": "Implementing Recognition Method for Eating Activity based on Machine Learning and Constructing A Labeling Environment for Food Image",
+    "presenters": "佐藤琢磨, 安田陽介, 中井大輔, 増田彬, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2015-05-04",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013038",
+    "presentation_title": "Joint Recognition of Gesture and Activity Recognition with Wrist-worn Sensor Device Considering Electricity Consumption",
+    "presenters": "平嶋崇大, KORPELA Joseph, 高瀬和之, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2014-11-13",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013037",
+    "presentation_title": "A Preliminary Investigation of Transferring Positioning Model for Device-free Positioning based on Wi-Fi Signals",
+    "presenters": "尾原和也, 前川卓也, 岸野泰恵, 白井良成, 納谷太",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2014-11-13",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013041",
+    "presentation_title": "スマートフォン慣性センサを用いた酩酊状態の歩行検出に関する検討",
+    "presenters": "杉本広大, 平嶋崇大, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2014-10-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013040",
+    "presentation_title": "RGB‐Dセンサを用いた皿および手の追跡による摂食行動記録システムの提案",
+    "presenters": "安田陽介, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2014-10-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013039",
+    "presentation_title": "身体に装着した加速度センサによる行動およびジェスチャの統合的認識手法の提案",
+    "presenters": "KORPELA Joseph, 前川卓也, EBERLE Julien, CHAKRABORTY Dipanjan, ABERER Karl",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2014-10-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013042",
+    "presentation_title": "ビッグデータ活用技術調査報告",
+    "presenters": "宇都木契, 前川卓也, 田中哲雄",
+    "event": "電気学会電子・情報・システム部門大会講演論文集(CD-ROM)",
+    "publication_date": "2014-09-03",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013044",
+    "presentation_title": "Proposing a Joint Recognition Method for Activities and Gestures by using Acceleration Sensor",
+    "presenters": "KORPELA Joseph, 前川卓也, EBERLE Julien, CHAKRABORTY Dipanjan, ABERER Karl",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2014-08-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013043",
+    "presentation_title": "A Method for Learning Daily Activity Recognition Models with Movement Similarity of Body Parts",
+    "presenters": "KONG Quan, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2014-08-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35379765",
+    "presentation_title": "Proposing A Method for Positioning Appliance Use in Indoor Environment based on Electrical Sensing",
+    "presenters": "Quan Kong, Takuya Maekawa",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2014-07-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35379752",
+    "presentation_title": "Robust Wi-Fi Fingerprinting based on Boosting Considering Signal Strength Stability of APs",
+    "presenters": "Daisuke Taniuchi, Takuya Maekawa",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2014-07-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013046",
+    "presentation_title": "Proposing A Method for Positioning Appliance Use in Indoor Environment based on Electrical Sensing",
+    "presenters": "KONG Quan, 前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2014-07-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013045",
+    "presentation_title": "Robust Wi-Fi Fingerprinting based on Boosting Considering Signal Strength Stability of APs",
+    "presenters": "谷内大祐, 前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2014-07-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013047",
+    "presentation_title": "Proposing A System for Automatic Recording of Meal Photographs with a Ceiling Light-attached Small Sensor Device",
+    "presenters": "佐藤琢磨, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2014-05-22",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013048",
+    "presentation_title": "Towards Developing Indoor Positioning System for Caring Single-living Elder Persons",
+    "presenters": "中井大輔, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2013-11-28",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35306631",
+    "presentation_title": "Gamification based Participatory Environmental Sound Collection Framework for Human Activity Recognition",
+    "presenters": "Kun Zhang, Takuya Maekawa",
+    "event": "IPSJ SIG technical reports",
+    "publication_date": "2013-10-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013050",
+    "presentation_title": "Low cost Wi-Fi Indoor Positioning Model for change of scan data",
+    "presenters": "大野宇宙, 前川卓也",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2013-10-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013049",
+    "presentation_title": "Robust Wi-Fi Indoor Positioning Method using Boosting",
+    "presenters": "谷内大祐, 前川卓也, 鈴木潤, 岸野泰恵",
+    "event": "情報処理学会研究報告(Web)",
+    "publication_date": "2013-10-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013052",
+    "presentation_title": "Inferring Physical Characteristics Information using Body-worn Acceleration Sensors",
+    "presenters": "増田彬, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2013-06-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013051",
+    "presentation_title": "Daily Activity Recognition Method with Adaptive Training Data Selection using Physical Characteristics Information",
+    "presenters": "安田陽介, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2013-06-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35348739",
+    "presentation_title": "Updating Indoor Positioning Model using Pedestrian Dead-Reckoning",
+    "presenters": "Daisuke Taniuchi, Takuya Maekawa",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2013-05-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013053",
+    "presentation_title": "Updating Indoor Positioning Model using Pedestrian Dead-Reckoning",
+    "presenters": "谷内大祐, 前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2013-05-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35422924",
+    "presentation_title": "Spring Model based Collaborative Indoor Position Estimation with Neighbor Mobile Terminals",
+    "presenters": "Liu XIAOPENG, MAEKAWA TAKUYA",
+    "event": "IEICE technical report",
+    "publication_date": "2013-03-14",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35345407",
+    "presentation_title": "Spring Model based Collaborative Indoor Position Estimation with Neighbor Mobile Terminals",
+    "presenters": "LIU XIAOPENG, MAEKAWA TAKUYA",
+    "event": "Ad hoc networks IEICE technical report",
+    "publication_date": "2013-03-14",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35229345",
+    "presentation_title": "Spring Model based Collaborative Indoor Position Estimation with Neighbor Mobile Terminals",
+    "presenters": "劉 暁鵬, 前川 卓也",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2013-03-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35229314",
+    "presentation_title": "Detection and Correction of Positioning Error for Wi-Fi based Localization",
+    "presenters": "津田 祐輝, 孔 全, 前川 卓也",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2013-03-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013054",
+    "presentation_title": "Detection and Correction of Positioning Error for Wi-Fi based Localization",
+    "presenters": "津田祐輝, QUAN Kong, 前川卓也",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2013-03-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013055",
+    "presentation_title": "ユビキタス・ウェアラブルセンサによる実世界現象の認識と理解",
+    "presenters": "前川卓也",
+    "event": "センサ・マイクロマシンと応用システムシンポジウム(CD-ROM)",
+    "publication_date": "2013",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013057",
+    "presentation_title": "A Low Computation Method for Acceleration-based Gesture and Activity Recognition",
+    "presenters": "田口明義, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2012-11-08",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013056",
+    "presentation_title": "Group Activity Recognition Method using Sensors on Smart Phones",
+    "presenters": "平野智哉, 津田祐輝, 前川卓也",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2012-11-08",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013058",
+    "presentation_title": "An Automatic Generation Method of Links from Web Pages to Manuals by Using Headwords",
+    "presenters": "作道勇樹, 前川卓也, 秋吉政徳, 岡宏憲",
+    "event": "電気学会情報システム研究会資料",
+    "publication_date": "2012-07-19",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "35486872",
+    "presentation_title": "Learning Activity Recognition Models with Physical Characteristics Data of Users",
+    "presenters": "前川 卓也, 渡部 晋治",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2012-07-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "38479548",
+    "presentation_title": "Recognizing Portable Electrical Device Usage by using Battery-shaped Sensor Nodes",
+    "presenters": "前川 卓也, 岸野 泰恵, 柳沢 豊, 櫻井 保志",
+    "event": "研究報告モバイルコンピューティングとユビキタス通信（MBL）",
+    "publication_date": "2012-03-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "38479510",
+    "presentation_title": "Recognizing Portable Electrical Device Usage by using Battery-shaped Sensor Nodes",
+    "presenters": "前川 卓也, 岸野 泰恵, 柳沢 豊, 櫻井 保志",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2012-03-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013059",
+    "presentation_title": "Recognizing Portable Electrical Device Usage by using Battery-shaped Sensor Nodes",
+    "presenters": "前川卓也, 岸野泰恵, 柳沢豊, 櫻井保志",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2012-03-05",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39407978",
+    "presentation_title": "Context Search Method with Use of Daily Objects",
+    "presenters": "前川 卓也, 柳沢 豊, 櫻井 保志, 岸野 泰恵, 亀井 剛次, 岡留 剛",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2011-12-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013060",
+    "presentation_title": "Data Gathering in Wireless Sensor Networks using Correlation of Sensor Data",
+    "presenters": "柳沢豊, 岸野泰恵, 前川卓也, 須山敬之",
+    "event": "情報処理学会研究報告(CD-ROM)",
+    "publication_date": "2011-12-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "38478811",
+    "presentation_title": "SVD-based data compression for Hierarchical Sensor Networks",
+    "presenters": "岸野 泰恵, 櫻井 保志, 前川 卓也, 須山 敬之",
+    "event": "研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2011-07-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013061",
+    "presentation_title": "SVD-based data compression for Hierarchical Sensor Networks",
+    "presenters": "岸野泰恵, 櫻井保志, 前川卓也, 須山敬之",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2011-07-07",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013062",
+    "presentation_title": "手に装着した磁気センサによる電化製品の利用の認識",
+    "presenters": "前川卓也, 岸野泰恵, 櫻井保志, 須山敬之",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2011-06-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39407981",
+    "presentation_title": "Efficient Data Gathering for Hierarchical Sensor Networks",
+    "presenters": "岸野 泰恵, 櫻井 保志, 亀井 剛次, 前川 卓也, 柳沢 豊, 岡留 剛",
+    "event": "情報処理学会論文誌データベース（TOD）",
+    "publication_date": "2010-12-21",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013063",
+    "presentation_title": "センサ情報を用いた映像探索技術",
+    "presenters": "須山敬之, 岸野泰恵, 前川卓也",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2010-06-30",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37247534",
+    "presentation_title": "Recognizing Object-related Activities with Wearable Sensors",
+    "presenters": "前川 卓也, 柳沢 豊, 岸野 泰恵",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2010-04",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37613756",
+    "presentation_title": "Recognizing Object-related Activities with Wearable Sensors",
+    "presenters": "MAEKAWA TAKUYA, YANAGISAWA YUTAKA, KISHINO YASUE, ISHIGURO KATSUHIKO, KAMEI KOJI, SAKURAI YASUSHI, OKADOME TAKESHI",
+    "event": "研究報告モバイルコンピューティングとユビキタス通信（MBL）",
+    "publication_date": "2010-03-19",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013064",
+    "presentation_title": "Recognizing Object-related Activities with Wearable Sensors",
+    "presenters": "前川卓也, 柳沢豊, 岸野泰恵, 石黒勝彦, 亀井剛次, 櫻井保志, 岡留剛",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2010-03-19",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013065",
+    "presentation_title": "センサ環境におけるSVDとGMMを用いた非日常イベント検出",
+    "presenters": "吉岡昇平, 前川卓也, 平野靖, 梶田将司, 間瀬健二",
+    "event": "電子情報通信学会大会講演論文集",
+    "publication_date": "2010-03-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39407984",
+    "presentation_title": "Locating Indoor Tools with Low-frequency Wave Propagation",
+    "presenters": "柳沢 豊, 前川 卓也, 岸野 泰恵, 亀井 剛次, 櫻井 保志, 岡留 剛",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2009-06-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013066",
+    "presentation_title": "Construction and Evaluation of Event Vocabularies for Real-world Event Understanding",
+    "presenters": "亀井剛次, 柳沢豊, 前川卓也, 岸野泰恵, 櫻井保志, 須山敬之, 岡留剛",
+    "event": "情報処理学会研究報告(CD-ROM)",
+    "publication_date": "2009-06-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39407987",
+    "presentation_title": "Construction and Evaluation of Event Vocabularies for Real-world Event Understanding",
+    "presenters": "KAMEI KOJI, YANAGISAWA YUTAKA, MAEKAWA TAKUYA, KISHINO YASUE, SAKURAI YASUSHI, SUYAMA TAKAYUKI, OKADOME TAKESHI",
+    "event": "情報処理学会研究報告. UBI, [ユビキタスコンピューティングシステム]",
+    "publication_date": "2009-05-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013067",
+    "presentation_title": "Gathering Data in Dynamic Change of Sensor Network Topology",
+    "presenters": "柳沢豊, 櫻井保志, 岸野泰恵, 前川卓也, 亀井剛次, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2009-02-25",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013068",
+    "presentation_title": "A Hierarchical Clustering Method for Data Gathering in High-Density Wireless Sensor Network",
+    "presenters": "岸野泰恵, 櫻井保志, 亀井剛次, 柳沢豊, 前川卓也, 岡留剛",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2009-01-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013069",
+    "presentation_title": "環境知能に共存する知能ロボットと人間の相互作用による出来事のストーリー化手法の提案",
+    "presenters": "吉岡昇平, 平野靖, 梶田将司, 間瀬健二, 前川卓也, 岡留剛",
+    "event": "人工知能学会全国大会論文集(CD-ROM)",
+    "publication_date": "2009",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013070",
+    "presentation_title": "Storing and Utilizing Lifelog by using Ubiquitous Sensors",
+    "presenters": "前川卓也, 柳沢豊, 岸野泰恵, 亀井剛次, 櫻井保志, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2008-11-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013071",
+    "presentation_title": "センサ情報からの実世界言語化・可視化・コンテンツ化",
+    "presenters": "岡留剛, 岸野泰恵, 前川卓也, 柳沢豊, 亀井剛次, 櫻井保志, 須山敬之",
+    "event": "電子情報通信学会大会講演論文集",
+    "publication_date": "2008-09-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39407991",
+    "presentation_title": "Detection of Contacting Objects using Low-frequency Wave Propagation",
+    "presenters": "YANAGISAWA Yutaka, MAEKAWA Takuya, KISHINO Yasue, KAMEI Koji, SAKURAI Yasushi, OKADOME Takeshi",
+    "event": "情報処理学会研究報告. UBI, [ユビキタスコンピューティングシステム]",
+    "publication_date": "2008-07-17",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013072",
+    "presentation_title": "Detection of Contacting Objects using Low-frequency Wave Propagation",
+    "presenters": "柳沢豊, 前川卓也, 岸野泰恵, 亀井剛次, 櫻井保志, 岡留剛",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2008-07-10",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "37257826",
+    "presentation_title": "Tag and Think: Inferring Object Type for Object Attached Sensor Nodes",
+    "presenters": "前川 卓也, 柳沢 豊, 岡留 剛",
+    "event": "情報処理学会論文誌",
+    "publication_date": "2008-06-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013073",
+    "presentation_title": "An extensible method of constructing real-world knowledge for interpreting sensor data",
+    "presenters": "亀井剛次, 柳沢豊, 前川卓也, 岸野泰恵, 櫻井保志, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2008-05-08",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013075",
+    "presentation_title": "Data Aggregation Method to Reduce Latency for Large-Scale Sensor Network",
+    "presenters": "岸野泰恵, 櫻井保志, 亀井剛次, 柳沢豊, 前川卓也, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2008-02-27",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013076",
+    "presentation_title": "環境メディア・インタラクション",
+    "presenters": "岡留剛, 岸野泰恵, 前川卓也, 柳沢豊, 亀井剛次, 櫻井保志",
+    "event": "情報処理学会関西支部支部大会講演論文集",
+    "publication_date": "2008",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013074",
+    "presentation_title": "Contact-based Notation for Describing Rules on Sensor Nodes",
+    "presenters": "Takeshi Kanda, Yutaka Yanagisawa, Michita Imai, Yasue Kishino, Takuya Maekawa, Takeshi Okadome",
+    "event": "2008 NINTH INTERNATIONAL CONFERENCE ON MOBILE DATA MANAGEMENT WORKSHOPS",
+    "publication_date": "2008",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013077",
+    "presentation_title": "Estimation of Relative Positions between Objects using Wireless Sensor Nodes",
+    "presenters": "柳沢豊, 前川卓也, 岸野泰恵, 亀井剛次, 櫻井保志, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2007-11-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39173346",
+    "presentation_title": "Implementing Object-participation-type Weblog in Sensor Network Environment",
+    "presenters": "MAEKAWA Takuya, YANAGISAWA Yutaka, OKADOME Takeshi",
+    "event": "情報処理学会研究報告ユビキタスコンピューティングシステム（UBI）",
+    "publication_date": "2007-07-20",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39218423",
+    "presentation_title": "Event Search System in Real-world Based on Sensor Networked Environments",
+    "presenters": "OKADOME TAKESHI, MAEKAWA TAKUYA, HATTORI TAKASHI, YANAGISAWA YUTAKA",
+    "event": "IPSJ journal",
+    "publication_date": "2007-07-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013078",
+    "presentation_title": "Implementing Object-participation-type Weblog in Sensor Network Environment",
+    "presenters": "前川卓也, 柳沢豊, 岡留剛",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2007-07-12",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013080",
+    "presentation_title": "A Visualization System for Small Sensor Nodes in Large Sensor Networks",
+    "presenters": "安西徹, 柳沢豊, 前川卓也, 岡留剛",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2007-06-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013079",
+    "presentation_title": "Event Detection based on Relative Positions between Objects",
+    "presenters": "柳沢豊, 前川卓也, 岡留剛",
+    "event": "情報処理学会シンポジウムシリーズ(CD-ROM)",
+    "publication_date": "2007-06-29",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013081",
+    "presentation_title": "neighborSense: Event Handling based on Relative Positioning",
+    "presenters": "柳沢豊, 前川卓也, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2007-05-23",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013082",
+    "presentation_title": "Project s-room: Real-time creation of content about physical objects and events",
+    "presenters": "岡留剛, 岸野泰恵, 前川卓也, 柳沢豊, 櫻井保志",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2007-05-17",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013083",
+    "presentation_title": "Tag and Think: Estimating type and state of object in sensor network",
+    "presenters": "前川卓也, 柳沢豊, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2007-02-22",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013084",
+    "presentation_title": "Tag and Think: Inferring Object Type in Sensor Network Environments",
+    "presenters": "前川卓也, 柳沢豊, 岡留剛",
+    "event": "人工知能学会全国大会論文集(CD-ROM)",
+    "publication_date": "2007",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "39139426",
+    "presentation_title": "An Adaptive Content Presentation System for Web Browsing Using Cellular Phones",
+    "presenters": "ARASE YUKI, MAEKAWA TAKUYA, HARA TAKAHIRO, UEMUKAI TOSHIAKI, NISHIO SHOJIRO",
+    "event": "IPSJ journal",
+    "publication_date": "2006-12-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013085",
+    "presentation_title": "Estimation of Object State using Sensor Data in Ubiquitous Computing Environment",
+    "presenters": "前川卓也, 柳沢豊, 服部正嗣, 岡留剛",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2006-07-13",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013086",
+    "presentation_title": "Estimation of Object State using Sensor Data in Ubiquitous Computing Environment",
+    "presenters": "前川卓也, 柳沢豊, 服部正嗣, 岡留剛",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2006-07-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013087",
+    "presentation_title": "A Query Routing Method in a Mobile Social Network Based on User Profile",
+    "presenters": "富安宏和, 前川卓也, 原隆浩, 西尾章治郎",
+    "event": "情報処理学会シンポジウム論文集",
+    "publication_date": "2005-11-30",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013088",
+    "presentation_title": "Web Image Classification for Automatic Web Page Browsing by Mobile Devices",
+    "presenters": "前川卓也, 原隆浩, 西尾章治郎",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2005-09-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "34763938",
+    "presentation_title": "モバイル端末のためのWebページ自動スクロール方式",
+    "presenters": "前川 卓也, 原 隆浩, 西尾 章治郎",
+    "event": "日本データベース学会letters",
+    "publication_date": "2005-09",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "38777352",
+    "presentation_title": "An Automatic Scrolling Method for Web Page Browsing on Small Screen Devices",
+    "presenters": "MAEKAWA TAKUYA, HARA TAKAHIRO, NISHIO SHOJIRO",
+    "event": "IPSJ SIG Notes",
+    "publication_date": "2005-07-13",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013089",
+    "presentation_title": "An Automatic Scrolling Method for Web Page Browsing on Small Screen Devices",
+    "presenters": "前川卓也, 原隆浩, 西尾章治郎",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2005-07-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "34763949",
+    "presentation_title": "携帯電話のメール機能を用いたソーシャルネットワークのためのアプリケーション",
+    "presenters": "富安 宏和, 前川 卓也, 原 隆浩",
+    "event": "日本データベース学会letters",
+    "publication_date": "2005-06",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013090",
+    "presentation_title": "A Collaborative Web Browsing System for Multiple Mobile Users by Using Web Page Splitting",
+    "presenters": "前川卓也, 原隆浩, 西尾章治郎",
+    "event": "情報処理学会研究報告",
+    "publication_date": "2004-11-11",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "38859212",
+    "presentation_title": "A WWW Browsing System with Functions of Collaborative Content Browsing by Multiple Mobile Users",
+    "presenters": "MAEKAWA Takuya, HARA Takahiro, NISHIO Shojiro",
+    "event": "IPSJ SIG Notes",
+    "publication_date": "2004-07-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013091",
+    "presentation_title": "A WWW Browsing System with Functions of Collaborative Content Browsing by Multiple Mobile Users",
+    "presenters": "前川卓也, 原隆浩, 西尾章治郎",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2004-07-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "38862337",
+    "presentation_title": "Tree Structured Content Description and Partitioning Methods for Collaborative Browsing by Multiple Mobile Users",
+    "presenters": "MAEKAWA TAKUYA, UEMUKAI TOSHIAKI, HARA TAKAHIRO, NISHIO SHOJIRO",
+    "event": "情報処理学会論文誌データベース（TOD）",
+    "publication_date": "2004-06-15",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013092",
+    "presentation_title": "Tree Structured Content Description and Partitioning Methods for Collaborative Browsing",
+    "presenters": "前川卓也, 上向俊晃, 原隆浩, 西尾章治郎",
+    "event": "情報処理学会シンポジウム論文集",
+    "publication_date": "2003-11-26",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "24013093",
+    "presentation_title": "An Information Browsing System on a Remote Display by Using a Java-Based Cellular Phone",
+    "presenters": "前川卓也, 上向俊晃, 原隆浩, 西尾章治郎",
+    "event": "電子情報通信学会技術研究報告",
+    "publication_date": "2003-06-02",
+    "presentation_type": "misc",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  }
+]

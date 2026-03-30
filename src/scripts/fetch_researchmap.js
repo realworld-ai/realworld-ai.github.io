@@ -325,6 +325,43 @@ function processPresentations(items) {
     return Array.from(unique.values()).sort((a, b) => b.publication_date.localeCompare(a.publication_date));
 }
 
+function processMisc(items) {
+    const processed = items.map(item => {
+        const title = item.paper_title?.en || item.paper_title?.ja || '';
+        // publication_name serves as event/venue for misc items
+        const event = item.publication_name?.en || item.publication_name?.ja || '';
+        const date = item.publication_date || '';
+        const major_achievement = item.major_achievement || false;
+
+        // authors as presenters
+        let presenters = '';
+        if (item.authors) {
+            if (item.authors.en) presenters = item.authors.en.map(a => a.name).join(', ');
+            else if (item.authors.ja) presenters = item.authors.ja.map(a => a.name).join(', ');
+        }
+
+        return {
+            id: item['rm:id'],
+            presentation_title: title,
+            presenters,
+            event,
+            publication_date: date,
+            presentation_type: 'misc',
+            major_achievement,
+            owner_id: item._owner_id || ''
+        };
+    });
+
+    // Deduplicate: event + title
+    const unique = new Map();
+    for (const p of processed) {
+        const key = `${p.event.toLowerCase()}|${p.presentation_title.toLowerCase()}`;
+        if (!unique.has(key)) unique.set(key, p);
+    }
+
+    return Array.from(unique.values()).sort((a, b) => b.publication_date.localeCompare(a.publication_date));
+}
+
 
 async function main() {
   const ids = await getResearchMapIDs();
@@ -357,6 +394,13 @@ async function main() {
   const presPath = path.join(process.cwd(), 'src/data/presentations.json');
   await fs.writeFile(presPath, JSON.stringify(processedPresentations, null, 2));
   console.log(`Saved ${processedPresentations.length} presentations to ${presPath}`);
+
+  // 5. Misc
+  const misc = await fetchAllItems(ids, 'misc');
+  const processedMisc = processMisc(misc);
+  const miscPath = path.join(process.cwd(), 'src/data/misc.json');
+  await fs.writeFile(miscPath, JSON.stringify(processedMisc, null, 2));
+  console.log(`Saved ${processedMisc.length} misc items to ${miscPath}`);
 }
 
 main();
