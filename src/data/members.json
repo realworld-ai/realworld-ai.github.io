@@ -130,43 +130,51 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
+    "id": "kanako-teramae",
+    "name_ja": "寺前 香子",
+    "name_en": "Kanako Teramae",
+    "role_ja": "事務補佐員",
+    "role_en": "Administrative Assistant",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
     "id": "lilika-makabe",
     "name_ja": "真壁 莉里花",
     "name_en": "Lilika Makabe",
-    "role_ja": "博士4年",
-    "role_en": "D4",
+    "role_ja": "博士3年",
+    "role_en": "D3",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "weng-ian-chan",
     "name_ja": "Weng Ian Chan",
     "name_en": "Weng Ian Chan",
-    "role_ja": "博士4年",
-    "role_en": "D4",
+    "role_ja": "博士3年",
+    "role_en": "D3",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "yang-yang",
     "name_ja": "Yang Yang",
     "name_en": "Yang Yang",
-    "role_ja": "博士4年",
-    "role_en": "D4",
+    "role_ja": "博士3年",
+    "role_en": "D3",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "zeyi-huang",
     "name_ja": "Zeyi Huang",
     "name_en": "Zeyi Huang",
-    "role_ja": "博士4年",
-    "role_en": "D4",
+    "role_ja": "博士3年 (10月入学)",
+    "role_en": "D3 (October enrollment)",
     "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "shuhei-yamazaki",
     "name_ja": "山崎 修平",
     "name_en": "Shuhei Yamazaki",
-    "role_ja": "博士4年",
-    "role_en": "D4",
+    "role_ja": "博士3年",
+    "role_en": "D3",
     "image": "/assets/members/ShuheiYamazaki.jpg"
   },
   {
