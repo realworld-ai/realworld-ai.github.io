@@ -5,7 +5,7 @@ type: "activity"
 coverImage: "/images/news/ubi89_hiroshima.png"
 lang: "ja"
 tags: ['Publications & Talks']
-tags_ja: ['研究発表', 'Awards']
+tags_ja: ['研究発表', '受賞']
 summary: "UBI研究会@広島で1件の成果報告を行いました"
 title_en: "Presentation & Award at IPSJ SIG UBI @ Hiroshima"
 summary_en: "We presented one paper at the SIG UBI."
