@@ -1,5 +1,5 @@
 ---
-title: "情報処理学会UBI研究会@広島で成果報告"
+title: "情報処理学会UBI研究会@広島で成果報告と受賞"
 date: 2026-03-02
 type: "activity"
 coverImage: "/images/news/ubi89_hiroshima.png"
