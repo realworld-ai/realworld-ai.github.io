@@ -12,10 +12,11 @@ const lang = 'ja';
 const t = ui[lang];
 
 // Fetch and filter news (awards + activities)
+const NEWS_LIMIT = 20;
 const allNews = await getCollection('news');
 const latestNews = allNews
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-    .slice(0, 10); // Take latest 10 items for the carousel
+    .slice(0, NEWS_LIMIT); // Take latest N items for the carousel
 
 const recentAnnouncements = allNews.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 5);
 

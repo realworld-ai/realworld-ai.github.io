@@ -11,17 +11,6 @@
     }
   },
   {
-    "id": "yasuyuki-matsushita",
-    "name_ja": "松下 康之",
-    "name_en": "Yasuyuki Matsushita",
-    "role_ja": "招聘教授",
-    "role_en": "Invited Professor",
-    "image": "https://researchmap.jp/yasumat/avatar.jpg",
-    "links": {
-      "researchmap": "https://researchmap.jp/yasumat"
-    }
-  },
-  {
     "id": "fumio-okura",
     "name_ja": "大倉 史生",
     "name_en": "Fumio Okura",
@@ -42,14 +31,6 @@
     "links": {
       "researchmap": "https://researchmap.jp/xiaqing"
     }
-  },
-  {
-    "id": "xinpeng-liu",
-    "name_ja": "劉 新鵬",
-    "name_en": "Xinpeng Liu",
-    "role_ja": "特任助教",
-    "role_en": "Specially Appointed Assistant Professor",
-    "image": "/assets/members/placeholder.jpg"
   },
   {
     "id": "ryoma-otsuka",
