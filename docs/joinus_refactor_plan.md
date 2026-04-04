@@ -1,43 +1,57 @@
 # Join Us Page Refactoring Plan
 
+## ✅ Status: COMPLETED
+
+This refactoring has been fully implemented. All goals below are achieved.
+
+---
+
 ## 目标 / Goals
-- 将 joinus 页面重构为类似 PublicationList 的 React 组件架构
-- Tab 设计与 publications 页面完全一致（rounded-t-lg 风格）
-- 文字内容集中管理（全部在 `JoinUs.tsx` 的 `CONTENT` 对象中）
-- 可复用的渲染函数（renderStudents, renderAssociates, renderTechnical, renderVisiting）
-- 保留 Hero 区块（「実世界を理解するAIへ」）不变，仅重构 tabs + 内容区域
+- ✅ 将 joinus 页面重构为类似 PublicationList 的 React 组件架构
+- ✅ Tab 设计与 publications 页面完全一致（rounded-t-lg 风格）
+- ✅ 文字内容集中管理（全部在 `JoinUs.tsx` 的 `CONTENT` 对象中）
+- ✅ 可复用的渲染函数（renderStudents, renderAssociates, renderTechnical, renderVisiting）
+- ✅ 保留 Hero 区块（「実世界を理解するAIへ」）不变，仅重构 tabs + 内容区域
 
 ---
 
-## 涉及文件变更 / Files to Change
+## 实施结果 / Implementation Summary
 
-| 文件 | 操作 | 说明 |
+| 文件 | 操作 | 状态 |
 |------|------|------|
-| `src/components/react/JoinUs.tsx` | **新建** | 主体 React 组件，含全部文字内容 |
-| `src/data/join.json` | **修改** | 仅更新 `formUrl` 为新 Google Form |
-| `src/pages/ja/joinus.astro` | **修改** | 简化为 Hero + `<JoinUs client:only="react" lang="ja" />` |
-| `src/pages/en/joinus.astro` | **修改** | 简化为 Hero + `<JoinUs client:only="react" lang="en" />` |
+| `src/components/react/JoinUs.tsx` | **新建** | ✅ 848行，含全部双语文字内容、4个Tab、FAQ accordion、PerCom排名表 |
+| `src/data/join.json` | **修改** | ✅ `formUrl` 已更新为 `https://forms.gle/eTXeKE44swMK1ZGMA` |
+| `src/pages/ja/joinus.astro` | **修改** | ✅ 简化为 Hero + `<JoinUs client:only="react" lang="ja" />` |
+| `src/pages/en/joinus.astro` | **修改** | ✅ 简化为 Hero + `<JoinUs client:only="react" lang="en" />` |
 
----
-
-## 1. `src/data/join.json` — 改动
-
-```diff
-- "formUrl": "https://forms.gle/rMxkmG2vhwUNb4y17",
-+ "formUrl": "https://forms.gle/eTXeKE44swMK1ZGMA",
-```
-> join.json 其余字段不再被 JoinUs.tsx 使用，但保留不删除（向后兼容）。
-
----
-
-## 2. `src/components/react/JoinUs.tsx` — 新建组件
-
-### 组件结构
+### JoinUs.tsx 组件架构（已实现）
 
 ```
-JoinUs.tsx
+JoinUs.tsx (848 lines)
 ├── Props: { lang: 'en' | 'ja' }
 ├── CONTENT 对象（所有文字内容，ja/en 双语）
+│   ├── tabs[] — 4个Tab标签
+│   ├── students { intro, masters, phd, support, faq }
+│   ├── associates { intro, roles }
+│   ├── technical { intro, positions[] }
+│   └── visiting { intro, items[], schedule[], faq[] }
+├── useState: activeTab ('students' | 'associates' | 'technical' | 'visiting')
+├── URL hash 同步 (#students, #associates, etc.)
+├── PerCom排名表（从 percom_ranking.ts 导入）
+└── 渲染函数
+    ├── renderStudents()   ← 含修士/博士/经济支援卡片 + FAQ accordion
+    ├── renderAssociates()  ← 含职种列表 + CTA
+    ├── renderTechnical()   ← 含招聘详情表 + 应聘链接
+    └── renderVisiting()    ← 含见学信息 + FAQ accordion
+```
+
+### 数据依赖
+- `src/data/join.json` → 仅使用 `formUrl`（Google Form链接）
+- `src/data/percom_ranking.ts` → PerCom排名表数据（与 LabFeatures 共享）
+
+### 备注
+- `join.json` 中的其余双语内容字段（hero, localNav, students, associates 等）已不再被 JoinUs.tsx 使用（内容已移至组件内联 CONTENT 对象），但保留文件以向后兼容。
+- 未来如需修改招聘页面文字，直接编辑 `JoinUs.tsx` 中的 `CONTENT` 对象即可。
 │   ├── tabs[]
 │   ├── students { intro, masters, phd, support, faq }
 │   ├── associates { intro, roles }
@@ -61,9 +75,9 @@ JoinUs.tsx
 
 ---
 
-## 3. 文字内容 / CONTENT 对象
+## Appendix: Original Content Specifications
 
-### 3.1 Tab 标签
+The following sections preserve the original text content specifications that were used during implementation. They serve as a reference for the bilingual content now embedded in `JoinUs.tsx`'s `CONTENT` object. To update any of this text, edit the `CONTENT` object directly in `src/components/react/JoinUs.tsx`.
 
 | ID | 日本語 | English |
 |----|--------|---------|
@@ -291,90 +305,7 @@ CTA（en）: Apply for a Visit
 
 ---
 
-## 4. `.astro` ページ構成（Hero は現状維持）
-
-### `ja/joinus.astro` after refactoring
-
-```astro
----
-import Layout from "../../layouts/Layout.astro";
-import { JoinUs } from "../../components/react/JoinUs";
-const lang = "ja";
----
-<Layout title="採用情報・見学 | Real-world Intelligence Lab" lang={lang}>
-  <!-- Hero Section — 現状のまま維持 -->
-  <section class="...gradient hero...">
-    <h1>実世界を理解するAIへ。</h1>
-    <p>...</p>
-  </section>
-
-  <!-- React Component: Tabs + Content -->
-  <div class="pb-20 max-w-7xl mx-auto px-4 py-16">
-    <JoinUs client:only="react" lang="ja" />
-  </div>
-</Layout>
-```
-
-### `en/joinus.astro` after refactoring
-
-```astro
----
-import Layout from "../../layouts/Layout.astro";
-import { JoinUs } from "../../components/react/JoinUs";
-const lang = "en";
----
-<Layout title="Join Us | Real-world Intelligence Lab" lang={lang}>
-  <!-- Hero Section — 現状のまま維持 -->
-  ...
-  <div class="pb-20 max-w-7xl mx-auto px-4 py-16">
-    <JoinUs client:only="react" lang="en" />
-  </div>
-</Layout>
-```
-
----
-
-## 5. `JoinUs.tsx` 组件内部架构
-
-```tsx
-// === ALL CONTENT DEFINED HERE ===
-const CONTENT = {
-  ja: {
-    tabs: [...],
-    students: { intro, seminar, masters, phd, support, faq },
-    associates: { intro, roles, ctaLabel },
-    technical: { intro, positions, applicationUrl },
-    visiting: { intro, items, applyNote, ctaLabel, faq },
-  },
-  en: { ... }
-};
-
-// === REUSABLE RENDER HELPERS ===
-const HighlightList = ({ items }) => ...      // bullet list
-const InfoCard = ({ title, children }) => ... // rounded card
-const FAQAccordion = ({ items }) => ...        // <details> accordion
-const CTAButton = ({ href, label }) => ...    // primary button
-
-// === TAB SECTIONS ===
-function renderStudents(c, formUrl) { ... }
-function renderAssociates(c, formUrl) { ... }
-function renderTechnical(c) { ... }
-function renderVisiting(c, formUrl) { ... }
-
-// === MAIN COMPONENT ===
-export const JoinUs: React.FC<Props> = ({ lang }) => {
-  const [activeTab, setActiveTab] = useState('students');
-  const c = CONTENT[lang];
-  // Tab nav + content render
-};
-```
-
----
-
-## 6. 样式说明 / Styling Notes
-
-- Tab 激活态：`bg-lab-blue text-white border border-lab-blue/30 shadow-lg` （与 PublicationList 的 `bg-lab-accent` 等价，joinus 使用 `lab-blue`）
-- Tab 未激活态：`text-gray-400 hover:text-white hover:bg-white/5 border border-transparent`
+*This plan was completed and all changes are live. For future content updates, edit `src/components/react/JoinUs.tsx` directly.*
 - FAQ：使用 `<details>/<summary>` + `group-open:rotate-180` chevron（与现状一致）
 - 卡片：`bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50`
 
