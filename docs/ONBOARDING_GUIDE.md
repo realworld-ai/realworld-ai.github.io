@@ -3,6 +3,7 @@
 
 > **Target audience / 対象者**: New lab members taking over website maintenance.  
 > 新しく Web サイトの管理を担当するラボメンバー向け。
+20260406
 
 ---
 
