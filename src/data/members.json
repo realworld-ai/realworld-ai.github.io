@@ -199,6 +199,14 @@
     "image": "/assets/members/TsuneariKuroiwa.png"
   },
   {
+    "id": "chatchamon-phoojaroenchanachai",
+    "name_ja": "Chatchamon Phoojaroenchanachai",
+    "name_en": "Chatchamon Phoojaroenchanachai",
+    "role_ja": "博士1年",
+    "role_en": "D1",
+    "image": "/assets/members/ChatchamonPhoojaroenchanachai.jpg"
+  },
+  {
     "id": "hongyin-qiao",
     "name_ja": "喬 紅銀",
     "name_en": "hongyin Qiao",
@@ -308,6 +316,6 @@
     "name_en": "Hiroki Sako",
     "role_ja": "修士1年",
     "role_en": "M1",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/HirokiSako.png"
   }
 ]
