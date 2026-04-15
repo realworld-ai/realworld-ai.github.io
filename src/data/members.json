@@ -255,14 +255,6 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
-    "id": "naoya-kanzaki",
-    "name_ja": "神崎 直哉",
-    "name_en": "Naoya Kanzaki",
-    "role_ja": "学部4年",
-    "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
     "id": "jun-ikeda",
     "name_ja": "池田 純",
     "name_en": "Jun Ikeda",
@@ -317,5 +309,54 @@
     "role_ja": "修士1年",
     "role_en": "M1",
     "image": "/assets/members/HirokiSako.png"
+  },
+  {
+    "id": "takaya-tsuji",
+    "name_ja": "辻 孝弥",
+    "name_en": "Takaya Tsuji",
+    "role_ja": "学部4年",
+    "role_en": "B4",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "keito-murayama",
+    "name_ja": "村山 慧斗",
+    "name_en": "Keito Murayama",
+    "role_ja": "学部4年",
+    "role_en": "B4",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "riku-morizono",
+    "name_ja": "森園 莉久",
+    "name_en": "Riku Morizono",
+    "role_ja": "学部4年",
+    "role_en": "B4",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "toshiki-matsushima",
+    "name_ja": "松島 世樹",
+    "name_en": "Toshiki Matsushima",
+    "role_ja": "学部4年",
+    "role_en": "B4",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "yuto-hosoda",
+    "name_ja": "細田 雄人",
+    "name_en": "Yuto Hosoda",
+    "role_ja": "学部4年",
+    "role_en": "B4",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "togo-ikegawa",
+    "name_ja": "池川 東吾",
+    "name_en": "Togo Ikegawa",
+    "role_ja": "学部3年",
+    "role_en": "B3",
+    "image": "/assets/members/placeholder.jpg"
   }
+
 ]
