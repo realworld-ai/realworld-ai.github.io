@@ -311,6 +311,14 @@
     "image": "/assets/members/HirokiSako.png"
   },
   {
+    "id": "jingyu-hu",
+    "name_ja": "胡 景誉",
+    "name_en": "Jingyu Hu",
+    "role_ja": "修士1年",
+    "role_en": "M1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
     "id": "takaya-tsuji",
     "name_ja": "辻 孝弥",
     "name_en": "Takaya Tsuji",
