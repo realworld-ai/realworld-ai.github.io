@@ -214,15 +214,14 @@ const CONTENT = {
       intro:
         '研究室の研究内容をより詳しく知りたい方、進学前に環境を確認したい方からのご連絡をお待ちしています。月に一度、学生向けの研究室説明会を開催しています。',
       scheduleTitle: '毎月の学生向け研究室説明会',
-      scheduleNote: '現在調整中',
-      // schedule: [
-      //   { date: '4/21 (Tue.)',  time: '11:00−', note: '' },
-      //   { date: 'いちょう祭',   time: '',       note: '申し込み不要', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
-      //   { date: '5/19 (Mon.)',  time: '16:00−', note: '' },
-      //   { date: '6/16 (Tue.)', time: '11:00−', note: '' },
-      //   { date: '7/14 (Mon.)', time: '14:00−', note: '' },
-      //   { date: '8/19 (Tue.)', time: '11:00−', note: '' },
-      // ],
+      schedule: [
+        { date: '5/7 (木)',   time: '13:00−', note: '' },
+        { date: '6/17 (水)',  time: '13:00−', note: '' },
+        { date: '7/15 (水)',  time: '13:00−', note: '' },
+        { date: '8/19 (水)',  time: '13:00−', note: '' },
+        { date: '2/24 (水)',  time: '13:00−', note: '' },
+        { date: '3/10 (水)',  time: '13:00−', note: '' },
+      ],
       itemsTitle: '見学対象者',
       items: [
         '大学院進学を検討している学部生：研究内容・指導体制・学生生活についてご説明します',
@@ -437,15 +436,14 @@ const CONTENT = {
       intro:
         'We welcome inquiries from prospective students and visitors who would like to learn more about our research or get a sense of the lab environment before applying. We hold monthly information sessions for prospective students.',
       scheduleTitle: 'Monthly Lab Info Sessions for Prospective Students',
-      scheduleNote: 'Schedule to be announced',
-      // schedule: [
-      //   { date: 'Apr. 21 (Tue.)',  time: '11:00−', note: '' },
-      //   { date: 'Icho-sai',        time: '',       note: 'No registration required', url: 'https://icho.daigakusai.osaka-u.ac.jp' },
-      //   { date: 'May 19 (Mon.)',   time: '16:00−', note: '' },
-      //   { date: 'Jun. 16 (Tue.)',  time: '11:00−', note: '' },
-      //   { date: 'Jul. 14 (Mon.)',  time: '14:00−', note: '' },
-      //   { date: 'Aug. 19 (Tue.)', time: '11:00−', note: '' },
-      // ],
+      schedule: [
+        { date: 'May 7 (Thu.)',   time: '13:00−', note: '' },
+        { date: 'Jun. 17 (Wed.)', time: '13:00−', note: '' },
+        { date: 'Jul. 15 (Wed.)', time: '13:00−', note: '' },
+        { date: 'Aug. 19 (Wed.)', time: '13:00−', note: '' },
+        { date: 'Feb. 24 (Wed.)', time: '13:00−', note: '' },
+        { date: 'Mar. 10 (Wed.)', time: '13:00−', note: '' },
+      ],
       itemsTitle: 'Who Should Visit',
       items: [
         'Undergraduates considering graduate school: we will explain research content, supervision structure, and student life',
@@ -751,12 +749,26 @@ function renderVisiting(c: ContentLang, formUrl: string) {
 
       {/* Schedule */}
       <div className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700/50 transition-all hover:border-gray-600/60 hover:shadow-lg hover:shadow-black/20">
-        <div className="flex items-center gap-3">
-          <h3 className="text-lg font-semibold text-white">{v.scheduleTitle}</h3>
-          <span className="px-2.5 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 text-xs font-medium border border-yellow-500/20">
-            {v.scheduleNote}
-          </span>
-        </div>
+        <h3 className="text-lg font-semibold text-white mb-4">{v.scheduleTitle}</h3>
+        <ul className="space-y-2">
+          {v.schedule.map((s, i) => (
+            <li key={i} className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-gray-300">
+              <span className="font-semibold text-lab-blue min-w-[9rem]">{s.date}</span>
+              <span>{s.time}</span>
+              {s.note && (
+                <span className="text-sm text-gray-500">
+                  {'url' in s && s.url ? (
+                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">
+                      {s.note}
+                    </a>
+                  ) : (
+                    s.note
+                  )}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
       </div>
 
       {/* Who should visit */}
