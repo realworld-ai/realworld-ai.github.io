@@ -10,6 +10,16 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "53757972",
+    "presentation_title": "HARBench: A Comprehensive Benchmark for Evaluating Foundation Models in Sensor-based Human Activity Recognition",
+    "presenters": "Kei Tanigaki, Takuya Maekawa, Takahiro Hara",
+    "event": "PerCom2026",
+    "publication_date": "2026-03-17",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
     "id": "53453747",
     "presentation_title": "低照度動体ブレ画像の補正に向けた Wi-Fi 由来形状情報利用のための初期検討",
     "presenters": "田中 伸汰朗, 曹 冠宇, 尾原 和也, 前川 卓也",
@@ -108,6 +118,16 @@
     "presentation_type": "",
     "major_achievement": false,
     "owner_id": "sukegawa_momoe"
+  },
+  {
+    "id": "53757807",
+    "presentation_title": "Preliminary Investigation of Knowledge Transfer from Skeleton to IMU for Robust Activity Recognition in Industrial Settings",
+    "presenters": "Hongyin Qiao, Hamada Rizk, Takuya Maekawa",
+    "event": "UbiComp Companion '25: Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "publication_date": "2025-10-14",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false,
+    "owner_id": "takumae80"
   },
   {
     "id": "52924089",
