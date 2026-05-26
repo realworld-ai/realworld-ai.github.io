@@ -1,5 +1,37 @@
 [
   {
+    "id": "53272936",
+    "award_name": "Top cited article 2025",
+    "award_title": "Exploring deep learning techniques for wild animal behaviour classification using animal-borne accelerometers, Methods in Ecology and Evolution",
+    "winners": [
+      {
+        "name": "Ryoma Otsuka"
+      },
+      {
+        "name": "Naoya Yoshimura"
+      },
+      {
+        "name": "Kei Tanigaki"
+      },
+      {
+        "name": "Shiho Koyama"
+      },
+      {
+        "name": "Yuichi Mizutani"
+      },
+      {
+        "name": "Ken Yoda"
+      },
+      {
+        "name": "Takuya Maekawa"
+      }
+    ],
+    "association": "WILEY",
+    "award_date": "2026-04",
+    "major_achievement": true,
+    "owner_id": "takumae80"
+  },
+  {
     "id": "52968790",
     "award_name": "WiP奨励賞",
     "award_title": "バイオ実験の映像における教師なしアクションセグメンテーション手法の検討",
@@ -86,6 +118,38 @@
     "owner_id": "ryoma_otsuka"
   },
   {
+    "id": "53635057",
+    "award_name": "WiP優秀発表賞",
+    "award_title": "バイオ実験の映像における教師なしアクションセグメンテーション手法の検討",
+    "winners": [
+      {
+        "name": "岡 辰之輔"
+      },
+      {
+        "name": "助川 桃枝"
+      },
+      {
+        "name": "山崎 修平"
+      },
+      {
+        "name": "今田 辰海"
+      },
+      {
+        "name": "戸谷 吉博"
+      },
+      {
+        "name": "宮西 大樹"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "情報処理学会 第117回モバイルコンピューティングと新社会システム・第103回高度交通システムとスマートコミュニティ合同研究発表会",
+    "award_date": "2025-11",
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
+  },
+  {
     "id": "51279949",
     "award_name": "Best Paper Award",
     "award_title": "Toward Cross-Modal Generalization: Learning Without Direct Supervision for Wi-Fi CSI-Based Depth Imaging",
@@ -105,6 +169,70 @@
     ],
     "association": "The 15th International Conference on Mobile Computing and Ubiquitous Networking",
     "award_date": "2025-09",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "53454747",
+    "award_name": "UBIヤングリサーチャー賞",
+    "award_title": "バイオロギングデバイスにおける加速度データとカメラを利用した行動目録の自動作成手法",
+    "winners": [
+      {
+        "name": "黒岩恒在"
+      },
+      {
+        "name": "大塚亮真"
+      },
+      {
+        "name": "谷垣 慶"
+      },
+      {
+        "name": "助川桃枝"
+      },
+      {
+        "name": "前川卓也"
+      },
+      {
+        "name": "原 隆浩"
+      }
+    ],
+    "association": "情報処理学会UBI研究会",
+    "award_date": "2025-05",
+    "major_achievement": false,
+    "owner_id": "takumae80"
+  },
+  {
+    "id": "53454709",
+    "award_name": "優秀論文賞",
+    "award_title": "カメラ搭載型バイオロガーを活用した野生生物の希少行動の自動記録",
+    "winners": [
+      {
+        "name": "谷垣 慶"
+      },
+      {
+        "name": "大塚亮真"
+      },
+      {
+        "name": "Li Aiyi"
+      },
+      {
+        "name": "波多野遥太"
+      },
+      {
+        "name": "Wei Yuanzhou"
+      },
+      {
+        "name": "小山 偲歩"
+      },
+      {
+        "name": "依田 憲"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "情報処理学会UBI研究会",
+    "award_date": "2025-05",
     "major_achievement": false,
     "owner_id": "takumae80"
   },
@@ -373,7 +501,7 @@
         "name": "前川卓也"
       }
     ],
-    "association": "",
+    "association": "日本学術振興会",
     "award_date": "2024-03",
     "major_achievement": true,
     "owner_id": "takumae80"
