@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://realworld-ai.github.io/sitemap-index.xml

@@ -15,6 +15,11 @@ interface Props {
 
 const { title, lang, description } = Astro.props;
 
+const metaDescription = description ?? "The University of Osaka Real-World AI Laboratory Portal";
+// Canonical / OG URL (strip trailing slash for consistency, keep root as-is)
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL('/logo.png', Astro.site);
+
 // Helper for translations
 function t(key: keyof typeof ui[typeof lang]) {
   return ui[lang][key] || key;
@@ -36,12 +41,29 @@ const navItems = [
 <html lang={lang} class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content={description ?? "The University of Osaka Real-World AI Laboratory Portal"} />
+		<meta name="description" content={metaDescription} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/logo.png" />
 		<meta name="generator" content={Astro.generator} />
         <meta name="author" content="maplor@163.com, qingxin-xia" />
 		<title>{title}</title>
+
+		<!-- Canonical & hreflang for multilingual SEO -->
+		<link rel="canonical" href={canonicalURL} />
+		<link rel="alternate" hreflang="ja" href={new URL(Astro.url.pathname.replace(/^\/en/, '/ja').replace(/^\/$/, '/ja'), Astro.site)} />
+		<link rel="alternate" hreflang="en" href={new URL(Astro.url.pathname.startsWith('/en') ? Astro.url.pathname : '/en' + Astro.url.pathname.replace(/^\/ja/, ''), Astro.site)} />
+
+		<!-- Open Graph -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={metaDescription} />
+		<meta property="og:url" content={canonicalURL} />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:locale" content={lang === 'ja' ? 'ja_JP' : 'en_US'} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={metaDescription} />
+		<meta name="twitter:image" content={ogImage} />
 	</head>
 	<body class="bg-lab-bg text-lab-text font-sans antialiased leading-relaxed sm:tracking-wide">
         <style is:global>

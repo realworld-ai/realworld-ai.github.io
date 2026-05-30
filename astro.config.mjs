@@ -2,15 +2,25 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://realworld-ai.github.io', // Update this with your actual domain later
-  base: '/', 
+  base: '/',
   integrations: [
-    react(), 
+    react(),
     tailwind(),
-    mdx()
+    mdx(),
+    sitemap({
+      i18n: {
+        defaultLocale: 'ja',
+        locales: {
+          ja: 'ja',
+          en: 'en',
+        },
+      },
+    })
   ],
   i18n: {
     defaultLocale: 'ja',
