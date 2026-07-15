@@ -20,7 +20,7 @@ summary_en: "Yang Wang from our laboratory received the Excellent Paper Award at
 
 受賞対象となった発表は以下の通りです。
 
-- Wang Yang・前川 卓也<br>
+- **Wang Yang・前川 卓也**<br>
 "Preliminary Investigation of Indoor Acoustic Landmark: Towards Landmark-based Opportunistic Indoor Positioning"<br>
 第87回 情報処理学会ユビキタスコンピューティングシステム研究会
 
@@ -34,7 +34,7 @@ The awarded work investigates the potential of indoor acoustic landmarks for lan
 
 The awarded presentation is listed below.
 
-- Yang Wang and Takuya Maekawa<br>
+- **Yang Wang and Takuya Maekawa**<br>
 "Preliminary Investigation of Indoor Acoustic Landmark: Towards Landmark-based Opportunistic Indoor Positioning"<br>
 The 87th IPSJ Special Interest Group on Ubiquitous Computing Systems, Japan
 

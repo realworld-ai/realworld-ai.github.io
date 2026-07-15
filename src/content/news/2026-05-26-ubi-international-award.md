@@ -20,9 +20,9 @@ summary_en: "Members of our laboratory received the International Presentation E
 
 受賞対象となった発表は以下の通りです。
 
-- 谷垣 慶、人間行動認識における汎用行動モデルの使用に関する検討<br>
+- **谷垣 慶**、人間行動認識における汎用行動モデルの使用に関する検討<br>
   国際会議発表：HARBench: A Comprehensive Benchmark for Evaluating Foundation Models in Sensor-based Human Activity Recognition
-- 喬 紅銀、産業分野におけるスケルトンからIMUへの知識転移に関する検討<br>
+- **喬 紅銀**、産業分野におけるスケルトンからIMUへの知識転移に関する検討<br>
   研究会発表：Preliminary Investigation of Packing Process Recognition Using Cross Knowledge Distillation<br>
   著者：Qiao Hongyin, Rizk Hamada, Takuya Maekawa<br>
   国際会議発表：Teaching Assistant for Teacher-Student Learning: Knowledge Transfer from Skeleton to IMU Inertial Sensing for Activity Recognition in Industrial Domains<br>
@@ -37,9 +37,9 @@ Members of our laboratory received the International Presentation Encouragement 
 
 The awarded presentations are listed below.
 
-- Kei Tanigaki, Preliminary Study on the Use of General-Purpose Action Models in Human Activity Recognition<br>
+- **Kei Tanigaki**, Preliminary Study on the Use of General-Purpose Action Models in Human Activity Recognition<br>
   International presentation: HARBench: A Comprehensive Benchmark for Evaluating Foundation Models in Sensor-based Human Activity Recognition
-- Hongyin Qiao, Study on Knowledge Transfer from Skeleton to IMU in Industrial Fields<br>
+- **Hongyin Qiao**, Study on Knowledge Transfer from Skeleton to IMU in Industrial Fields<br>
   UBI Study Group presentation: Preliminary Investigation of Packing Process Recognition Using Cross Knowledge Distillation<br>
   Authors: Hongyin Qiao, Rizk Hamada, Takuya Maekawa<br>
   International presentation: Teaching Assistant for Teacher-Student Learning: Knowledge Transfer from Skeleton to IMU Inertial Sensing for Activity Recognition in Industrial Domains<br>

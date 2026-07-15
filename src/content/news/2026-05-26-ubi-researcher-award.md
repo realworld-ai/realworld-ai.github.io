@@ -20,7 +20,7 @@ summary_en: "Shintaro Tanaka from our laboratory received the UBI Young Research
 
 受賞対象となった発表は以下の通りです。
 
-- 田中 伸汰朗・曹 冠宇（大阪大学）・尾原 和也（NTT株式会社）・前川 卓也（大阪大学）<br>
+- **田中 伸汰朗・曹 冠宇（大阪大学）・尾原 和也（NTT株式会社）・前川 卓也（大阪大学）**<br>
 「低照度動体ブレ画像の補正に向けた Wi-Fi 由来形状情報利用のための初期検討」<br>
 第89回 情報処理学会ユビキタスコンピューティングシステム研究会
 
@@ -34,7 +34,7 @@ The awarded presentation explored the use of Wi-Fi-derived shape information for
 
 The awarded presentation is listed below.
 
-- Shintaro Tanaka, Guanyu Cao, Kazuya Obara, and Takuya Maekawa<br>
+- **Shintaro Tanaka, Guanyu Cao, Kazuya Obara, and Takuya Maekawa**<br>
 “Preliminary Study on the Use of Wi-Fi-derived Shape Information for Correcting Low-light Motion-blurred Images”<br>
 The 89th IPSJ Special Interest Group on Ubiquitous Computing Systems, Japan.
 
