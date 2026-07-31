@@ -184,6 +184,52 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "51602718",
+    "award_name": "第20回日本バイオログング研究会シンポジウム 最優秀発表賞（ポスター）",
+    "award_title": "リアルタイム行動認識機能を備えたAIバイオロガーによる 海鳥に対する自律型音声プレイバック実験の試み",
+    "winners": [
+      {
+        "name": "大塚亮真"
+      }
+    ],
+    "association": "日本バイオロギング研究会",
+    "award_date": "2025-11",
+    "major_achievement": true,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
+    "id": "53635057",
+    "award_name": "WiP優秀発表賞",
+    "award_title": "バイオ実験の映像における教師なしアクションセグメンテーション手法の検討",
+    "winners": [
+      {
+        "name": "岡 辰之輔"
+      },
+      {
+        "name": "助川 桃枝"
+      },
+      {
+        "name": "山崎 修平"
+      },
+      {
+        "name": "今田 辰海"
+      },
+      {
+        "name": "戸谷 吉博"
+      },
+      {
+        "name": "宮西 大樹"
+      },
+      {
+        "name": "前川 卓也"
+      }
+    ],
+    "association": "情報処理学会 第117回モバイルコンピューティングと新社会システム・第103回高度交通システムとスマートコミュニティ合同研究発表会",
+    "award_date": "2025-11",
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
+  },
+  {
     "id": "51279949",
     "award_name": "Best Paper Award",
     "award_title": "Toward Cross-Modal Generalization: Learning Without Direct Supervision for Wi-Fi CSI-Based Depth Imaging",
@@ -929,6 +975,20 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "41912768",
+    "award_name": "IBNS Travel Award",
+    "award_title": "",
+    "winners": [
+      {
+        "name": "Momoe Sukegawa"
+      }
+    ],
+    "association": "International Behavioral Neuroscience Society (IBNS)",
+    "award_date": "2022-06",
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
+  },
+  {
     "id": "33835937",
     "award_name": "優秀論文賞",
     "award_title": "A Supporting Technique for Comparative Analysis of Factory Work by Skilled and Unskilled Workers using Neural Network with Attention Mechanism",
@@ -1251,6 +1311,23 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "36404011",
+    "award_name": "The 3rd prize for oral presentation",
+    "award_title": "Popularity of YouTube Contents that Violate the Tourism Regulations May Undermine Conservation of Mountain Gorillas",
+    "winners": [
+      {
+        "name": "Ryoma Otsuka"
+      },
+      {
+        "name": "Gen Yamakoshi"
+      }
+    ],
+    "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
+    "award_date": "2019-09",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
     "id": "30124299",
     "award_name": "IPSJ/IEEE Computer Society Young Computer Researcher Award",
     "award_title": "Outstanding research on zero-shot and few-shot unobtrusive context recognition for pervasive computing",
@@ -1263,6 +1340,34 @@
     "award_date": "2019-06",
     "major_achievement": true,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "36404024",
+    "award_name": "The 1st prize for poster presentation at the 11th International Symposium on Primatology and Wildlife Science",
+    "award_title": "Understanding Community People's Perception of Animals Living in Protected Areas: A Case of Bwindi Impenetrable National Park, Uganda",
+    "winners": [
+      {
+        "name": "Ryoma Otsuka"
+      }
+    ],
+    "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
+    "award_date": "2019-03",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
+    "id": "36404038",
+    "award_name": "The 2nd prize for oral presentation at the 9th International Symposium on Primatology and Wildlife Science",
+    "award_title": "How Can Community People Actively Participate in Community Conservation?: The Case of \"Human-Gorilla Conflict Resolution Program (HUGO)\" in Bwindi Impenetrable National Park, Uganda",
+    "winners": [
+      {
+        "name": "Ryoma Otsuka"
+      }
+    ],
+    "association": "Leading Graduate Program in Primatology and Wildlife Science, Kyoto University",
+    "award_date": "2018-03",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30125254",

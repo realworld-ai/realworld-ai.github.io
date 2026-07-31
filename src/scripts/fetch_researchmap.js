@@ -33,18 +33,33 @@ const fetch = global.fetch || ((url) => {
   });
 });
 
-// Members whose Researchmap accounts are the source of the publications page data.
-const PUBLICATION_SOURCE_MEMBER_IDS = ['takuya-maekawa', 'qingxin-xia'];
+// Faculty roles and excluded IDs — must match src/pages/*/members.astro
+const FACULTY_ROLES = [
+  'Professor', 'Invited Professor', 'Associate Professor', 'Lecturer',
+  'Specially Appointed Assistant Professor', 'Specially Appointed Researcher'
+];
+const COLLABORATOR_IDS = ['yasuyuki-matsushita', 'fumio-okura', 'xinpeng-liu'];
 
-// Helper to get researchmap IDs from members.json (publication source members only)
-async function getResearchMapIDs() {
+// Published papers only come from these members' Researchmap accounts.
+// Awards / media / presentations / misc still come from all faculty.
+const PAPER_SOURCE_MEMBER_IDS = ['takuya-maekawa', 'qingxin-xia'];
+
+// Helper to get researchmap IDs from members.json.
+// `memberIds`: optional allowlist of members.json ids; defaults to all faculty.
+async function getResearchMapIDs(memberIds = null) {
   const membersPath = path.join(process.cwd(), 'src/data/members.json');
   try {
     const raw = await fs.readFile(membersPath, 'utf8');
     const members = JSON.parse(raw);
     const ids = [];
     for (const m of members) {
-      if (!PUBLICATION_SOURCE_MEMBER_IDS.includes(m.id)) continue;
+      if (memberIds) {
+        if (!memberIds.includes(m.id)) continue;
+      } else {
+        // Only fetch from faculty members (matches members page 教員 section)
+        const isFaculty = FACULTY_ROLES.includes(m.role_en) && !COLLABORATOR_IDS.includes(m.id);
+        if (!isFaculty) continue;
+      }
       if (m.links && m.links.researchmap) {
         // Extract ID from URL: https://researchmap.jp/takumae80 -> takumae80
         const url = m.links.researchmap;
@@ -359,10 +374,12 @@ function processMisc(items) {
 
 async function main() {
   const ids = await getResearchMapIDs();
+  const paperIds = await getResearchMapIDs(PAPER_SOURCE_MEMBER_IDS);
   console.log(`Found IDs: ${ids.join(', ')}`);
+  console.log(`Paper source IDs: ${paperIds.join(', ')}`);
 
-  // 1. Published Papers
-  const papers = await fetchAllItems(ids, 'published_papers');
+  // 1. Published Papers (restricted source)
+  const papers = await fetchAllItems(paperIds, 'published_papers');
   const processedPapers = processPublications(papers);
   const pubPath = path.join(process.cwd(), 'src/data/publications.json');
   await fs.writeFile(pubPath, JSON.stringify(processedPapers, null, 2));

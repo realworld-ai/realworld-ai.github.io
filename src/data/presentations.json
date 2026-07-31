@@ -150,6 +150,26 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "53635035",
+    "presentation_title": "バイオ実験の映像における教師なしアクションセグメンテーション手法の検討",
+    "presenters": "岡 辰之輔, 助川 桃枝, 山崎 修平, 今田 辰海, 戸谷 吉博, 宮西 大樹, 前川 卓也",
+    "event": "情報処理学会 第117回モバイルコンピューティングと新社会システム・第103回高度交通システムとスマートコミュニティ合同研究発表会",
+    "publication_date": "2025-11",
+    "presentation_type": "",
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
+  },
+  {
+    "id": "52924089",
+    "presentation_title": "リアルタイム行動認識機能を備えたAIバイオロガーによる 海鳥に対する自律型音声プレイバック実験の試み",
+    "presenters": "大塚亮真, 杉山響己, 水谷友一, 依田憲, 前川卓也",
+    "event": "第20回日本バイオログング研究会シンポジウム",
+    "publication_date": "2025-10-12",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
     "id": "53452889",
     "presentation_title": "Preliminary Investigation of Indoor Acoustic Landmark: Towards Landmark-based Opportunistic Indoor Positioning",
     "presenters": "Wang Yang, Maekawa Takuya",
@@ -198,6 +218,16 @@
     "presentation_type": "oral_presentation",
     "major_achievement": false,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "53635028",
+    "presentation_title": "ChatGPTを用いたバイオ実験作業の教師なし認識に関する検討",
+    "presenters": "岡 辰之輔, 助川 桃枝, 今田 辰海, 戸谷 吉博, 前川 卓也",
+    "event": "情報処理学会 第84回ユビキタスコンピューティングシステム（UBI）研究発表会",
+    "publication_date": "2024-11",
+    "presentation_type": "",
+    "major_achievement": false,
+    "owner_id": "sukegawa_momoe"
   },
   {
     "id": "54459853",
@@ -250,6 +280,16 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "44110777",
+    "presentation_title": "時系列センサデータと人工知能を用いた動物の行動認識手法とその応用について（ラウンドテーブル 人工知能 × 動物行動研究）",
+    "presenters": "大塚 亮真",
+    "event": "日本動物行動学会第42回大会 JES42",
+    "publication_date": "2023-11-03",
+    "presentation_type": "",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
     "id": "43169966",
     "presentation_title": "IoT on Animals: Using On-device Activity Recognition Techniques to Unveil the Secrets of Animal Behavior",
     "presenters": "Takuya Maekawa",
@@ -290,6 +330,16 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "36384296",
+    "presentation_title": "ウガンダ共和国ブウィンディ原生国立公園におけるマウンテンゴリラの糞中グルココルチコイド濃度と観光の関係についての予備的な報告",
+    "presenters": "大塚亮真, 山越言, 木下こづえ",
+    "event": "第36回霊長類学会大会",
+    "publication_date": "2020-12-04",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
     "id": "33709922",
     "presentation_title": "AI on Animals: 人工知能を搭載したバイオロギングデバイスの開発と運用",
     "presenters": "前川卓也",
@@ -298,6 +348,26 @@
     "presentation_type": "keynote_oral_presentation",
     "major_achievement": true,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "36384329",
+    "presentation_title": "Tourist Expectation and Satisfaction in Mountain Gorilla Tourism in Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 14th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2020-09",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
+    "id": "36384297",
+    "presentation_title": "野生動物との近接は魅力的か？―マウンテンゴリラのエコツーリズムに関連するYouTube動画における人間とゴリラとの近接に着目して―",
+    "presenters": "大塚亮真, 山越言",
+    "event": "日本アフリカ学会第57回学術大会",
+    "publication_date": "2020-05",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30123125",
@@ -318,6 +388,16 @@
     "presentation_type": "",
     "major_achievement": false,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "36384325",
+    "presentation_title": "Popularity of YouTube Contents that Violate the Tourism Regulations May Undermine Conservation of Mountain Gorillas",
+    "presenters": "Ryoma Otsuka, Gen Yamakoshi",
+    "event": "The 12th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2019-09",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "30123127",
@@ -350,6 +430,26 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "36384320",
+    "presentation_title": "Community Participation in Human-Wildlife Conflict Mitigation Program: A Case of Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "Area Studies and Sustainable Development Goals (SDGs)",
+    "publication_date": "2019-05",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
+    "id": "36384317",
+    "presentation_title": "Understanding Community People's Perception of Animals Living in Protected Areas: A Case of Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 11th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2019-03",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
     "id": "11531050",
     "presentation_title": "転移学習を用いたWi‐Fi電波による屋内日常物の状態推定に関する検討",
     "presenters": "キム ヘン, 尾原和也, 前川卓也, 村上友規, アベセカラ ヒランタ, 天方大地, 原隆浩",
@@ -378,6 +478,16 @@
     "presentation_type": "",
     "major_achievement": false,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "36384313",
+    "presentation_title": "Current Status and Issues of Community Conservation in Bwindi Impenetrable National Park, Uganda: The Case of “Human-Gorilla Conflict Resolution Program (HUGO)",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 27th International Primatological Society Congress, Nairobi, Kenya",
+    "publication_date": "2018-08",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531052",
@@ -420,6 +530,16 @@
     "owner_id": "takumae80"
   },
   {
+    "id": "36384306",
+    "presentation_title": "How Can Community People Actively Participate in Community Conservation?: The Case of \"Human-Gorilla Conflict Resolution Program (HUGO)\" in Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 9th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2018-03",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
+  },
+  {
     "id": "11531056",
     "presentation_title": "Comparative Pattern Mining of Human Trajectory Data",
     "presenters": "梶岡慎輔, 佐久間拓人, 西和弥, 梅津佑太, 烏山昌幸, 玉木徹, 前川卓也, 打矢隆弘, 松尾啓志, 竹内一郎, 竹内一郎, 竹内一郎",
@@ -438,6 +558,16 @@
     "presentation_type": "",
     "major_achievement": false,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "36384300",
+    "presentation_title": "The Effectiveness and Challenges of Human-Gorilla Conflict Resolution Program (HUGO) In Bwindi Impenetrable National Park, Uganda",
+    "presenters": "Ryoma Otsuka",
+    "event": "International Symposium France-Japan Area Studies Forum",
+    "publication_date": "2017-12",
+    "presentation_type": "poster_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531058",
@@ -498,6 +628,16 @@
     "presentation_type": "",
     "major_achievement": false,
     "owner_id": "takumae80"
+  },
+  {
+    "id": "36384299",
+    "presentation_title": "Crop-raiding by mountain gorillas in Bwindi Impenetrable National Park and HUGO: local countermeasure and attitudes towards the crop-raiding in Buhoma area",
+    "presenters": "Ryoma Otsuka",
+    "event": "The 7th International Symposium on Primatology and Wildlife Science",
+    "publication_date": "2017-03",
+    "presentation_type": "oral_presentation",
+    "major_achievement": false,
+    "owner_id": "ryoma_otsuka"
   },
   {
     "id": "11531065",
