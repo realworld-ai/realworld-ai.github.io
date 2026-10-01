@@ -215,6 +215,22 @@
     "image": "/assets/members/HongyinQiao.jpg"
   },
   {
+    "id": "fabil-muhammad",
+    "name_ja": "Fadil Muhammad",
+    "name_en": "Fadil Muhammad",
+    "role_ja": "博士1年 (10月入学)",
+    "role_en": "D1 (October enrollment)",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "jiwei-fu",
+    "name_ja": "Fu Jiwei",
+    "name_en": "Fu Jiwei",
+    "role_ja": "博士1年 (10月入学)",
+    "role_en": "D1 (October enrollment)",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
     "id": "fubuki-imai",
     "name_ja": "今井 吹樹",
     "name_en": "Fubuki Imai",
@@ -252,22 +268,6 @@
     "name_en": "Fumiya Mori",
     "role_ja": "修士2年",
     "role_en": "M2",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "jun-ikeda",
-    "name_ja": "池田 純",
-    "name_en": "Jun Ikeda",
-    "role_ja": "修士1年",
-    "role_en": "M1",
-    "image": "/assets/members/placeholder.jpg"
-  },
-  {
-    "id": "naoki-deguchi",
-    "name_ja": "出口 直紀",
-    "name_en": "Naoki Deguchi",
-    "role_ja": "修士1年",
-    "role_en": "M1",
     "image": "/assets/members/placeholder.jpg"
   },
   {
@@ -314,6 +314,30 @@
     "id": "jingyu-hu",
     "name_ja": "胡 景誉",
     "name_en": "Jingyu Hu",
+    "role_ja": "修士1年",
+    "role_en": "M1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "narnnaphon-saraboon",
+    "name_ja": "Narnnaphon Saraboon",
+    "name_en": "Narnnaphon Saraboon",
+    "role_ja": "修士1年（10月入学）",
+    "role_en": "M1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "jun-ikeda",
+    "name_ja": "池田 純",
+    "name_en": "Jun Ikeda",
+    "role_ja": "修士1年",
+    "role_en": "M1",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
+    "id": "naoki-deguchi",
+    "name_ja": "出口 直紀",
+    "name_en": "Naoki Deguchi",
     "role_ja": "修士1年",
     "role_en": "M1",
     "image": "/assets/members/placeholder.jpg"
