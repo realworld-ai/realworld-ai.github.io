@@ -186,8 +186,8 @@
     "id": "yating-gao",
     "name_ja": "高 雅婷",
     "name_en": "Yating Gao",
-    "role_ja": "博士1年 (10月入学)",
-    "role_en": "D1 (October enrollment)",
+    "role_ja": "博士2年 (10月入学)",
+    "role_en": "D2 (October enrollment)",
     "image": "/assets/members/YatingGao.jpg"
   },
   {
@@ -220,7 +220,7 @@
     "name_en": "Fadil Muhammad",
     "role_ja": "博士1年 (10月入学)",
     "role_en": "D1 (October enrollment)",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/FadilMuhammad.jpg"
   },
   {
     "id": "jiwei-fu",
@@ -324,7 +324,7 @@
     "name_en": "Narnnaphon Saraboon",
     "role_ja": "修士1年（10月入学）",
     "role_en": "M1",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/NarnnaphonSaraboon.jpg"
   },
   {
     "id": "jun-ikeda",
@@ -356,7 +356,7 @@
     "name_en": "Keito Murayama",
     "role_ja": "学部4年",
     "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/KeitoMurayama.jpg"
   },
   {
     "id": "riku-morizono",
@@ -364,7 +364,7 @@
     "name_en": "Riku Morizono",
     "role_ja": "学部4年",
     "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/RikuMorizono.jpg"
   },
   {
     "id": "toshiki-matsushima",
@@ -380,7 +380,7 @@
     "name_en": "Yuto Hosoda",
     "role_ja": "学部4年",
     "role_en": "B4",
-    "image": "/assets/members/placeholder.jpg"
+    "image": "/assets/members/YutoHosoda.JPG"
   },
   {
     "id": "togo-ikegawa",
