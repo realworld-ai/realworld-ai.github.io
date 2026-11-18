@@ -6,7 +6,7 @@ coverImage: "/images/news/qiao_ubi_international_award.jpg"
 lang: "ja"
 tags: ['Awards']
 tags_ja: ['受賞']
-members: ["谷垣 慶", "喬 紅銀"]
+members: ["Kei Tanigaki", "Hongyin Qiao"]
 summary: "2026年5月に開催された情報処理学会ユビキタスコンピューティングシステム研究会において、当研究室の谷垣さん、喬さんが2025年度前期国際発表奨励賞を受賞しました。"
 title_en: "UBI Study Group Members Receive International Presentation Encouragement Awards"
 summary_en: "Members of our laboratory received the International Presentation Encouragement Award for the first half of FY2025 at the IPSJ Special Interest Group on Ubiquitous Computing Systems."

@@ -6,7 +6,7 @@ coverImage: "/images/news/tanaka_ubi_researcher_award.jpg"
 lang: "ja"
 tags: ['Awards']
 tags_ja: ['受賞']
-members: ["田中 伸汰朗"]
+members: ["Shintaro Tanaka"]
 summary: "2026年5月に開催された情報処理学会ユビキタスコンピューティングシステム研究会において、当研究室の田中伸太朗さんがUBIヤングリサーチャー賞を受賞しました。"
 title_en: "Shintaro Tanaka Receives the UBI Young Researcher Award"
 summary_en: "Shintaro Tanaka from our laboratory received the UBI Young Researcher Award at the IPSJ Special Interest Group on Ubiquitous Computing Systems, held in May 2026."
