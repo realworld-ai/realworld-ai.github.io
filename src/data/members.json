@@ -71,6 +71,14 @@
     "image": "/assets/members/placeholder.jpg"
   },
   {
+    "id": "sayaka-kitamura",
+    "name_ja": "北村 さや香",
+    "name_en": "Sayaka Kitamura",
+    "role_ja": "特任研究員",
+    "role_en": "Specially Appointed Researcher",
+    "image": "/assets/members/placeholder.jpg"
+  },
+  {
     "id": "kana-yasuda",
     "name_ja": "安田 佳奈",
     "name_en": "Kana Yasuda",
